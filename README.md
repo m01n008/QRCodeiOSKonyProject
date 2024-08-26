@@ -1,2 +1,1 @@
-# QRCodeiOSKonyProject-
-# QRCodeiOSKonyProject-
+# QRCodeiOSKonyProject
