@@ -1,0 +1,6 @@
+framework module NFISDKCommons {
+  umbrella header "NFISDKCommons.h"
+
+  export *
+  module * { export * }
+}

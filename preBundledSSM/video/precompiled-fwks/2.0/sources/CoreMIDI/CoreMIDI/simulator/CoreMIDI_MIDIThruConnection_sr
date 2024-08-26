@@ -1,0 +1,13 @@
+if (strcmp(type, @encode(MIDITransform)) == 0) {
+		MIDITransform returnValue = value.toMIDITransform;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MIDIControlTransform)) == 0) {
+		MIDIControlTransform returnValue = value.toMIDIControlTransform;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MIDIThruConnectionEndpoint)) == 0) {
+		MIDIThruConnectionEndpoint returnValue = value.toMIDIThruConnectionEndpoint;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

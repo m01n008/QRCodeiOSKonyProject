@@ -1,0 +1,13 @@
+if (strcmp(type, @encode(MIDITransform)) == 0) {
+		MIDITransform argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMIDITransform: argument inContext: context];
+	} else if (strcmp(type, @encode(MIDIControlTransform)) == 0) {
+		MIDIControlTransform argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMIDIControlTransform: argument inContext: context];
+	} else if (strcmp(type, @encode(MIDIThruConnectionEndpoint)) == 0) {
+		MIDIThruConnectionEndpoint argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMIDIThruConnectionEndpoint: argument inContext: context];
+	}

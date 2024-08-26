@@ -1,0 +1,42 @@
+{
+  "TP": [
+    "nativebinding/TP/Task.xcframework",
+    "nativebinding/TP/Binary.xcframework",
+    "nativebinding/TP/FMDB.xcframework",
+    "nativebinding/TP/SQLCipher.xcframework",
+    "nativebinding/TP/SDKCommons.xcframework",
+    "nativebinding/TP/Task.xcframework",
+    "nativebinding/TP/KonySyncV2.xcframework"
+  ],
+  "NFIs": [
+    {
+      "NFI_NAME": "NFICFNetwork.xcframework",
+      "PATH": "nativebinding/FWKS/NFICFNetwork.xcframework"
+    },
+    {
+      "NFI_NAME": "NFIFoundation.xcframework",
+      "PATH": "nativebinding/FWKS/NFIFoundation.xcframework"
+    },
+    {
+      "NFI_NAME": "NFISecurity.xcframework",
+      "PATH": "nativebinding/FWKS/NFISecurity.xcframework"
+    },
+    {
+      "NFI_NAME": "NFICoreFoundation.xcframework",
+      "PATH": "nativebinding/FWKS/NFICoreFoundation.xcframework"
+    },
+    {
+      "NFI_NAME": "NFIBinary.xcframework",
+      "PATH": "nativebinding/FWKS/NFIBinary.xcframework"
+    },
+    {
+      "NFI_NAME": "NFISDKCommons.xcframework",
+      "PATH": "nativebinding/FWKS/NFISDKCommons.xcframework"
+    },
+    {
+      "NFI_NAME": "NFIKonySyncV2.xcframework",
+      "PATH": "nativebinding/FWKS/NFIKonySyncV2.xcframework"
+    }
+  ],
+  "SOURCEs": []
+}

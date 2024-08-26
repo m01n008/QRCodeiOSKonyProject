@@ -1,0 +1,174 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name Button
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import APIComponent
+import APM
+import AVFoundation
+@_exported import Button
+import CoreComponent
+import Image
+import NetworkComponent
+import Swift
+import UIKit
+import WidgetKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(ButtonModel) open class ButtonModel : CoreComponent.WidgetModel {
+  @objc open var text: Swift.String?
+  @objc open var displayText: Swift.Bool
+  @objc open var normalImage: Swift.String?
+  @objc open var focusImage: Swift.String?
+  @objc open var highlightedImage: Swift.String?
+  @objc open var nativeButtonNormalImage: Any?
+  @objc open var nativeButtonFocusImage: Any?
+  @objc open var onClick: CoreComponent.CallBack?
+  @objc open var focusSkinID: Swift.String?
+  @objc open var highlightedSkinID: Swift.String?
+  @objc open var showProgressIndicator: Swift.Bool
+  @objc open var progressIndicatorColor: Swift.String?
+  @objc open var glowEffect: Swift.Bool
+  @objc open var rawData: CoreComponent.RawBytes?
+  @objc open var contentAlignment: CoreComponent.KonyWidgetContentAlignment
+  @objc open var rawBytesImage: UIKit.UIImage?
+  @objc open var wrapping: CoreComponent.KonyTextWrap
+  @objc open var konyImage: Image.KonyImage?
+  @objc open var buttonType: CoreComponent.KonyButtonType
+  @objc open var cacheConfig: [Swift.AnyHashable : Any]?
+  @objc open var contentSizeOfText: CoreFoundation.CGSize
+  @objc override dynamic open func createWidget() -> CoreComponent.Widget!
+  @objc override dynamic open func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc override dynamic open func updateLayoutDefaults(for aLayoutModel: CoreComponent.LayoutModel?)
+  @objc deinit
+}
+@objc(ButtonWidget) public class ButtonWidget : CoreComponent.Widget, CoreComponent.ViewDrawingDelegate, CoreComponent.KonyHighlightProtocol, NetworkComponent.KonyHttpRequestDelegate {
+  @objc override dynamic public init!(model: CoreComponent.WidgetModel)
+  @objc deinit
+  @objc override dynamic public func setupWidget()
+  @objc override dynamic public var view: UIKit.UIView! {
+    @objc get
+    @objc set(newView)
+  }
+  @objc override dynamic public func setWidgetViewFrame(_ frame: CoreFoundation.CGRect)
+  @objc public func getPreferredSizeForGivenSize(_ givenSize: CoreFoundation.CGSize) -> CoreFoundation.CGSize
+  @objc public func progressIndicatorColorUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func textUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func displayTextUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func normalImageUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func focusImageUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func rawDataUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func konyImageUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func skinIdentifierUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func nativeButtonNormalImageUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func nativeButtonFocusImageUpdated(withNewValue newValue: Swift.AnyObject, oldValue: Swift.AnyObject)
+  @objc public func focusSkinIDUpdated(withNewValue newValue: Swift.AnyObject, oldValue: Swift.AnyObject)
+  @objc public func contentAlignmentUpdated(withNewValue newValue: Swift.AnyObject, oldValue: Swift.AnyObject)
+  @objc public func wrappingUpdated(withNewValue newValue: Swift.AnyObject, oldValue: Swift.AnyObject)
+  @objc override dynamic public func isDefaultAccessibilityElement() -> Swift.Bool
+  @objc override dynamic public func isAccessibilitySupported() -> Swift.Bool
+  @objc override dynamic public func updateAccessibilityConfiguration()
+  @objc public func action()
+  @objc override dynamic public func updateHighlight(_ value: Swift.Bool, recursive isRecursive: Swift.Bool)
+  @objc public func draw(_ view: UIKit.UIView, with context: CoreGraphics.CGContext, in rect: CoreFoundation.CGRect)
+  @objc override dynamic public func getNormalSkin() -> CoreComponent.Skin?
+  @objc public func fontColorUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func fontSizeUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func fontFamilyUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func textShadowColorUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func textShadowRadiusUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func textShadowOffsetUpdated(withNewValue newValue: Any?, oldValue: Any?)
+  @objc public func setHighlighted(_ shouldHighlight: Swift.Bool)
+  @objc public func dataTaskReceivedData(_ data: Foundation.Data)
+  @objc public func getCacheStoragePolicy() -> Foundation.URLCache.StoragePolicy
+  @objc public func dataTaskStartedReceivingReponse(_ response_: Foundation.URLResponse, withCompletionHandler completionHandler: ((Foundation.URLSession.ResponseDisposition) -> Swift.Void)? = nil)
+  @objc public func dataTaskcompletedWithError(_ error: (any Swift.Error)?)
+  @objc override dynamic public func willExecute(_ aCallBack: CoreComponent.CallBack!)
+  @objc override dynamic public func didExecute(_ aCallBack: CoreComponent.CallBack)
+  @objc override dynamic public func reloadSkins()
+  @objc override dynamic public func reloadWidget()
+  @objc override dynamic public func updateFontAndLayoutSubWidgets()
+  @objc override dynamic public func updateAccessibilityTrait()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(KonyCustomButtonWithDrawing) @_Concurrency.MainActor(unsafe) public class KonyCustomButtonWithDrawing : Button.KonyCustomButtonBase {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(KonyCustomButtonWithLayer) @_Concurrency.MainActor(unsafe) public class KonyCustomButtonWithLayer : Button.KonyCustomButtonBase {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override public func applySkin(_ aSkin: Button.ButtonSkin!)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(JSLink) public class JSLink : CoreComponent.JSWidget {
+  @objc override dynamic public init(value: Any)
+  @objc override dynamic public class func className() -> Swift.String
+  @objc override dynamic public class func methods() -> Swift.Set<Swift.AnyHashable>?
+  @objc override dynamic public class func supportedWidgetType() -> CoreComponent.KonyWidgetType
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(JSButton) public class JSButton : CoreComponent.JSWidget {
+  @objc override dynamic public init(value: Any)
+  @objc override dynamic public class func className() -> Swift.String
+  @objc override dynamic public class func methods() -> Swift.Set<Swift.AnyHashable>?
+  @objc override dynamic public class func supportedWidgetType() -> CoreComponent.KonyWidgetType
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(LinkModel) open class LinkModel : Button.ButtonModel {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(KonyCustomButtonBase) @_Concurrency.MainActor(unsafe) open class KonyCustomButtonBase : UIKit.UIButton {
+  @objc @_Concurrency.MainActor(unsafe) weak public var drawingDelegate: (any CoreComponent.ViewDrawingDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func titleRect(forContentRect contentRect: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesMoved(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc @_Concurrency.MainActor(unsafe) public class func suggestSize(forText text: Swift.String, with font: UIKit.UIFont, forWidth width: Swift.Float, lineBreakMode: CoreComponent.KonyTextWrap) -> CoreFoundation.CGSize
+  @objc @_Concurrency.MainActor(unsafe) public func applySkin(_ aSkin: Button.ButtonSkin?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(ButtonSkin) public class ButtonSkin : CoreComponent.Skin {
+  @objc public var useNative: Swift.Bool
+  @objc public var shadowColor: UIKit.UIColor?
+  @objc public var shadowXOffset: Swift.Int
+  @objc public var shadowYOffset: Swift.Int
+  @objc public var textShadow: CoreComponent.Shadows?
+  @objc public var tintConfig: [Swift.AnyHashable : Any]?
+  @objc override dynamic public class func defaultSkin() -> CoreComponent.Skin!
+  @objc override dynamic public class func registerFactory(_ aClass: Any?, for aWidgetType: CoreComponent.KonyWidgetType)
+  @objc override dynamic public class func skinmodelRegistration() -> Swift.Bool
+  @objc override dynamic public class func defaultSkin(ofType aSkinType: Swift.String!) -> CoreComponent.Skin!
+  @objc public func updateTextShadowForSkin(_ textShadow: [Swift.AnyHashable : Any])
+  @objc override dynamic public init()
+  @objc override dynamic public init!(model aSkinModel: CoreComponent.SkinModel!)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(ButtonSkinModel) public class ButtonSkinModel : CoreComponent.SkinModel {
+  @objc public var useNative: Swift.Bool
+  @objc public var shadowColor: Swift.Int
+  @objc public var shadowXOffset: Swift.Int
+  @objc public var shadowYOffset: Swift.Int
+  @objc public var textShadow: CoreComponent.ShadowsModel?
+  @objc public var tintConfig: [Swift.AnyHashable : Any]?
+  @objc override dynamic public class func defaultModel() -> CoreComponent.SkinModel!
+  @objc override dynamic public class func registerFactory(_ aClass: Any!, for aWidgetType: CoreComponent.KonyWidgetType)
+  @objc override dynamic public class func widgetRegistration()
+  @objc override dynamic public class func propertyRegistration()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(ButtonProxy) open class ButtonProxy : CoreComponent.BaseProxy {
+  @objc override dynamic open class func createWidget(_ config: [Swift.AnyHashable : Any]?) -> Any?
+  @objc override dynamic open func setValue(_ value: Any?, forUndefinedKey key: Swift.String)
+  @objc override dynamic public init!(model: CoreComponent.WidgetModel!)
+  @objc override dynamic public init!(model aModel: CoreComponent.WidgetModel!, andConfig config: [Swift.AnyHashable : Any]!)
+  @objc override dynamic public init()
+  @objc deinit
+}

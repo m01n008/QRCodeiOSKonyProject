@@ -1,0 +1,6 @@
+framework module NFICoreGraphics {
+  umbrella header "NFICoreGraphics.h"
+
+  export *
+  module * { export * }
+}

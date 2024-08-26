@@ -1,0 +1,928 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "WidgetKit",
+        "printedName": "WidgetKit",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StaticTimelineEntry",
+        "printedName": "StaticTimelineEntry",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16KonyWidgetSource19StaticTimelineEntryV4date10Foundation4DateVvp",
+            "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV4date10Foundation4DateVvp",
+            "moduleName": "KonyWidgetSource",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16KonyWidgetSource19StaticTimelineEntryV4date10Foundation4DateVvg",
+                "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV4date10Foundation4DateVvg",
+                "moduleName": "KonyWidgetSource",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16KonyWidgetSource19StaticTimelineEntryV4date10Foundation4DateVvs",
+                "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV4date10Foundation4DateVvs",
+                "moduleName": "KonyWidgetSource",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16KonyWidgetSource19StaticTimelineEntryV4date10Foundation4DateVvM",
+                "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV4date10Foundation4DateVvM",
+                "moduleName": "KonyWidgetSource",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16KonyWidgetSource19StaticTimelineEntryV5modelSDySSypGvp",
+            "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV5modelSDySSypGvp",
+            "moduleName": "KonyWidgetSource",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16KonyWidgetSource19StaticTimelineEntryV5modelSDySSypGvg",
+                "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV5modelSDySSypGvg",
+                "moduleName": "KonyWidgetSource",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16KonyWidgetSource19StaticTimelineEntryV5modelSDySSypGvs",
+                "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV5modelSDySSypGvs",
+                "moduleName": "KonyWidgetSource",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16KonyWidgetSource19StaticTimelineEntryV5modelSDySSypGvM",
+                "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV5modelSDySSypGvM",
+                "moduleName": "KonyWidgetSource",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(date:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StaticTimelineEntry",
+                "printedName": "KonyWidgetSource.StaticTimelineEntry",
+                "usr": "s:16KonyWidgetSource19StaticTimelineEntryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16KonyWidgetSource19StaticTimelineEntryV4dateAC10Foundation4DateV_tcfc",
+            "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV4dateAC10Foundation4DateV_tcfc",
+            "moduleName": "KonyWidgetSource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(date:model:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StaticTimelineEntry",
+                "printedName": "KonyWidgetSource.StaticTimelineEntry",
+                "usr": "s:16KonyWidgetSource19StaticTimelineEntryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16KonyWidgetSource19StaticTimelineEntryV4date5modelAC10Foundation4DateV_SDySSypGtcfc",
+            "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV4date5modelAC10Foundation4DateV_SDySSypGtcfc",
+            "moduleName": "KonyWidgetSource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16KonyWidgetSource19StaticTimelineEntryV",
+        "mangledName": "$s16KonyWidgetSource19StaticTimelineEntryV",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TimelineEntry",
+            "printedName": "TimelineEntry",
+            "usr": "s:9WidgetKit13TimelineEntryP",
+            "mangledName": "$s9WidgetKit13TimelineEntryP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkComponent",
+        "printedName": "NetworkComponent",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreComponent",
+        "printedName": "CoreComponent",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "APIComponent",
+        "printedName": "APIComponent",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "WidgetKit",
+        "printedName": "WidgetKit",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "WidgetKit",
+        "printedName": "WidgetKit",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WidgetKit",
+        "printedName": "WidgetKit",
+        "declKind": "Import",
+        "moduleName": "KonyWidgetSource"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StaticTimelineProvider",
+        "printedName": "StaticTimelineProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(widgetKind:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StaticTimelineProvider",
+                "printedName": "KonyWidgetSource.StaticTimelineProvider",
+                "usr": "s:16KonyWidgetSource22StaticTimelineProviderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16KonyWidgetSource22StaticTimelineProviderV10widgetKindACSS_tcfc",
+            "mangledName": "$s16KonyWidgetSource22StaticTimelineProviderV10widgetKindACSS_tcfc",
+            "moduleName": "KonyWidgetSource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "placeholder",
+            "printedName": "placeholder(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StaticTimelineEntry",
+                "printedName": "KonyWidgetSource.StaticTimelineEntry",
+                "usr": "s:16KonyWidgetSource19StaticTimelineEntryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TimelineProviderContext",
+                "printedName": "WidgetKit.TimelineProviderContext",
+                "usr": "s:9WidgetKit23TimelineProviderContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KonyWidgetSource22StaticTimelineProviderV11placeholder2inAA0dE5EntryV0B3Kit0eF7ContextV_tF",
+            "mangledName": "$s16KonyWidgetSource22StaticTimelineProviderV11placeholder2inAA0dE5EntryV0B3Kit0eF7ContextV_tF",
+            "moduleName": "KonyWidgetSource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSnapshot",
+            "printedName": "getSnapshot(in:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TimelineProviderContext",
+                "printedName": "WidgetKit.TimelineProviderContext",
+                "usr": "s:9WidgetKit23TimelineProviderContextV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonyWidgetSource.StaticTimelineEntry) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StaticTimelineEntry",
+                    "printedName": "KonyWidgetSource.StaticTimelineEntry",
+                    "usr": "s:16KonyWidgetSource19StaticTimelineEntryV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KonyWidgetSource22StaticTimelineProviderV11getSnapshot2in10completiony0B3Kit0eF7ContextV_yAA0dE5EntryVctF",
+            "mangledName": "$s16KonyWidgetSource22StaticTimelineProviderV11getSnapshot2in10completiony0B3Kit0eF7ContextV_yAA0dE5EntryVctF",
+            "moduleName": "KonyWidgetSource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTimeline",
+            "printedName": "getTimeline(in:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TimelineProviderContext",
+                "printedName": "WidgetKit.TimelineProviderContext",
+                "usr": "s:9WidgetKit23TimelineProviderContextV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WidgetKit.Timeline<KonyWidgetSource.StaticTimelineEntry>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Timeline",
+                    "printedName": "WidgetKit.Timeline<KonyWidgetSource.StaticTimelineEntry>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StaticTimelineEntry",
+                        "printedName": "KonyWidgetSource.StaticTimelineEntry",
+                        "usr": "s:16KonyWidgetSource19StaticTimelineEntryV"
+                      }
+                    ],
+                    "usr": "s:9WidgetKit8TimelineV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KonyWidgetSource22StaticTimelineProviderV03getE02in10completiony0B3Kit0eF7ContextV_yAG0E0VyAA0dE5EntryVGctF",
+            "mangledName": "$s16KonyWidgetSource22StaticTimelineProviderV03getE02in10completiony0B3Kit0eF7ContextV_yAG0E0VyAA0dE5EntryVGctF",
+            "moduleName": "KonyWidgetSource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16KonyWidgetSource22StaticTimelineProviderV",
+        "mangledName": "$s16KonyWidgetSource22StaticTimelineProviderV",
+        "moduleName": "KonyWidgetSource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TimelineProvider",
+            "printedName": "TimelineProvider",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Entry",
+                "printedName": "Entry",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StaticTimelineEntry",
+                    "printedName": "KonyWidgetSource.StaticTimelineEntry",
+                    "usr": "s:16KonyWidgetSource19StaticTimelineEntryV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:9WidgetKit16TimelineProviderP",
+            "mangledName": "$s9WidgetKit16TimelineProviderP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntimeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 55,
+      "value": "\"WidgetRuntimeManager getWidgetRuntime : \""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntimeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntimeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 49,
+      "value": "\"WidgetRuntimeManager New Widget : \""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntimeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntimeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 54,
+      "value": "\"WidgetRuntimeManager Existing Widget : \""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntimeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 711,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntimeBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 19,
+      "value": "\"KonyWidgetSource.WidgetRuntimeBridge\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/Entries\/StaticTimelineEntry.swift",
+      "kind": "Dictionary",
+      "offset": 319,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 36,
+      "value": "\"WidgetRuntime INIT : \""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 33,
+      "value": "\"KonyWidgetContext-\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 1286,
+      "length": 8,
+      "value": "\"widget\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 1372,
+      "length": 7,
+      "value": "\"Entry\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 16,
+      "value": "\"TimelinePolicy\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1555,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1612,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 1942,
+      "length": 12,
+      "value": "\"\/JSScripts\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 2304,
+      "length": 14,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 2317,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 2754,
+      "length": 21,
+      "value": "\"\/JSScripts\/CommonJS\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 3270,
+      "length": 14,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetRuntime\/WidgetRuntime.swift",
+      "kind": "StringLiteral",
+      "offset": 3283,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 19,
+      "value": "\"snapshotExecution\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 13,
+      "value": "\"getSnapshot\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1162,
+      "length": 7,
+      "value": "\"small\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1231,
+      "length": 8,
+      "value": "\"medium\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1300,
+      "length": 7,
+      "value": "\"large\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1997,
+      "length": 19,
+      "value": "\"timelineExecution\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2254,
+      "length": 14,
+      "value": "\"getTimelines\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3166,
+      "length": 7,
+      "value": "\"small\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3235,
+      "length": 8,
+      "value": "\"medium\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3304,
+      "length": 7,
+      "value": "\"large\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/WidgetExtensionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3371,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonyWidget\/KonyWidgetSource\/Providers\/StaticTimelineProvider.swift",
+      "kind": "Dictionary",
+      "offset": 496,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BFE125855F5E3D4B09923B95 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C1E33EE0CE69CE2A1E7BF85A /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				7E13621736B1C8ADDAF10706 /* PBXTargetDependency */,
+				6683DE1102DF1887E285BF3C /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03D57DC80074007B5917DB7D /* AudioToolbox_AudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CF4DF39CA01532F18C1E7C /* AudioToolbox_AudioConverter.m */; };
+		0646CFC45C5FF29929E7012F /* AudioToolbox_AudioServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D7965ECE42DEEB5007862 /* AudioToolbox_AudioServices.m */; };
+		09646DB1DB260C8C7CB7D642 /* PointerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A761855A8FC3C6BADED07EEA /* PointerSupport.m */; };
+		453641F2C7E90BA9F2E36EA8 /* AudioToolbox_AudioFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C782F3B652AE186FB4B5F0D /* AudioToolbox_AudioFileStream.m */; };
+		45BC7F9A8AF7D6043C9F9CE9 /* AudioToolbox_MusicDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BEE677984F87C897C5C8D0 /* AudioToolbox_MusicDevice.m */; };
+		5181F4342980B1F81EF47A29 /* AudioToolbox_CAFFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A40B97E08E200601B296C35 /* AudioToolbox_CAFFile.m */; };
+		5901183E9596D1799B20D163 /* CallbackSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 00332D41D163AA58D64A5AD6 /* CallbackSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FD4C767C6EEE558CB17BB52 /* AudioToolbox_AUComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 725239E4859DD8189CEE4AFC /* AudioToolbox_AUComponent.m */; };
+		71202DA8B4208E9DAAF03889 /* PointerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		728748AD6F5181D209BC3048 /* AudioToolbox_AudioFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F0E8ED471B1A29BC06D43D /* AudioToolbox_AudioFormat.m */; };
+		73BD99AD511826F595F3BD50 /* NFIAudioToolboxLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB4F81A436214667F0002D2 /* NFIAudioToolboxLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75FFAF7E465DED0CCB8B151E /* AudioToolbox_AUAudioUnitImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8151D8DB36377B12DA9382 /* AudioToolbox_AUAudioUnitImplementation.m */; };
+		7E18EBC2A76C8238749D2D66 /* AudioToolbox_AudioOutputUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB286B2D8327A9458DE21D /* AudioToolbox_AudioOutputUnit.m */; };
+		91C2EC89A3C53E2B47D30B56 /* AudioToolbox_ExtendedAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 305FB659AC8436C7F0E7C679 /* AudioToolbox_ExtendedAudioFile.m */; };
+		956A955C7A71600482EE38CC /* AudioToolbox_AUAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D805A17A92AFB13E27C2B /* AudioToolbox_AUAudioUnit.m */; };
+		99A9141B926EA515B3858A4B /* AudioToolbox_AudioComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 72000A5A2F8E0A2687A39579 /* AudioToolbox_AudioComponent.m */; };
+		9F212DAE7A30FC039D14AD7F /* AudioToolbox_AudioQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A47104BBCF87C0332C1072B /* AudioToolbox_AudioQueue.m */; };
+		A4C41CD53458CBE3BC45212B /* AudioToolbox_AudioUnitParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18DCAC1804CF57200E5502 /* AudioToolbox_AudioUnitParameters.m */; };
+		A677A00B458261E3BF5F2633 /* AudioToolbox_AudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C854212A89CD4F2090885D02 /* AudioToolbox_AudioFile.m */; };
+		A84C83215B5C6F83437D92D3 /* AudioToolbox_AudioToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091FF724046875563C2810C /* AudioToolbox_AudioToolbox.m */; };
+		AE4B2C685A037AA4FAD863EF /* AudioToolbox_AudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FDB569E1D692B548821A /* AudioToolbox_AudioSession.m */; };
+		BFD0EF08EB96677D7F1335C1 /* AudioToolbox_MusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D8F98CF16916A848C9B5A3 /* AudioToolbox_MusicPlayer.m */; };
+		C74CB8F0696D65942A47A2AD /* NFIAudioToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = F622DA1B5AF5F999CC6F2634 /* NFIAudioToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B4FE6EA64DCD926D18EB81 /* AudioToolbox_AUGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 925001BA8C212AD3C49F191C /* AudioToolbox_AUGraph.m */; };
+		E727335BA988F09A21CE8B7E /* NFIUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9842BE6505547806A3F5C6 /* NFIUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFC76082DF5C7AAF420CC2C1 /* CallbackSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = ED195B0E26581E4056DC1120 /* CallbackSupport.m */; };
+		F047F52C6381B43AA000BE5F /* NFIUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCEF422C6EF086D09899952 /* NFIUtility.framework */; };
+		F2D6942C9DBFAAD882F46C9A /* AudioToolbox_AudioUnitProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F0AD9B7DBC0CFBC4E2020 /* AudioToolbox_AudioUnitProperties.m */; };
+		F8100EC750018AB1ED91AD0E /* AudioToolbox_AUParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B38EA6E1FDE260A1B8A63BE /* AudioToolbox_AUParameters.m */; };
+		FDE853950FECF125BFEB3DFB /* NFIAudioToolboxLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BFC8A76444D2B56AE53ED /* NFIAudioToolboxLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4A9B3E7F9DB5FB158A62C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AEA414D62D4241754C1E7E;
+			remoteInfo = NFIAudioToolbox;
+		};
+		556611171CB05AE80D81595B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE806A700A0157FA9952D415;
+			remoteInfo = NFIUtility;
+		};
+		9517C95CDC073A97B506E0E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE806A700A0157FA9952D415;
+			remoteInfo = NFIUtility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00332D41D163AA58D64A5AD6 /* CallbackSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackSupport.h; sourceTree = "<group>"; };
+		0148A5EE6CA0C72A94191EA7 /* Security_SecItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecItem.h; sourceTree = "<group>"; };
+		02721784B8BE2EF3CA4D52E9 /* Foundation_NSPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPredicate.h; sourceTree = "<group>"; };
+		02ACC99973574AFDA9DBE447 /* CoreFoundation_CFCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCharacterSet.h; sourceTree = "<group>"; };
+		02D7843A9FB1B0B1C875ED7E /* AudioToolbox_AudioConverter_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioConverter_sa; sourceTree = "<group>"; };
+		051997CE00F53F2954EEEF32 /* Foundation_NSFileWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileWrapper.h; sourceTree = "<group>"; };
+		0525E37FB3744D63BC433383 /* CoreFoundation_CFBinaryHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBinaryHeap.h; sourceTree = "<group>"; };
+		08D6B3EDADDCE1AAB5282B63 /* Foundation_NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSString.h; sourceTree = "<group>"; };
+		09816729310DCDAEF273F38E /* protocols */ = {isa = PBXFileReference; lastKnownFileType = text; path = protocols; sourceTree = "<group>"; };
+		09C9BC4D3660287306D9439A /* CoreFoundation_CFMessagePort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMessagePort.h; sourceTree = "<group>"; };
+		0A3A66DE2BA2A326C41D33C3 /* Foundation_NSURLResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLResponse.h; sourceTree = "<group>"; };
+		0B61EB2C116EE1378833E805 /* CoreFoundation_CFTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTree.h; sourceTree = "<group>"; };
+		0C6E84CD3248DEC234F874E9 /* Foundation_NSNotificationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNotificationQueue.h; sourceTree = "<group>"; };
+		0E0DF6A30BE01CC3323B8D0E /* AudioToolbox_AudioFile_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioFile_sr; sourceTree = "<group>"; };
+		0E9842BE6505547806A3F5C6 /* NFIUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIUtility.h; sourceTree = "<group>"; };
+		0FE0A8A53FE47E25DF87F8B7 /* CFNetwork_CFHTTPStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPStream.h; sourceTree = "<group>"; };
+		1032F4BF36AEE53524A60C46 /* AudioToolbox_AudioToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioToolbox.h; sourceTree = "<group>"; };
+		10840290C9963E03B6A767AE /* CoreFoundation_CFDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDictionary.h; sourceTree = "<group>"; };
+		115AB636E33E46F2C75EE08F /* Foundation_NSAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSAttributedString.h; sourceTree = "<group>"; };
+		133BFF02ADDF5722379EE376 /* CoreFoundation_CFSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSocket.h; sourceTree = "<group>"; };
+		163A09F4EA0BDD9635024920 /* Foundation_NSRegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRegularExpression.h; sourceTree = "<group>"; };
+		1BB59DC1005941E2318600BE /* Foundation_NSURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLSession.h; sourceTree = "<group>"; };
+		1CCEF422C6EF086D09899952 /* NFIUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2053ACB98D41FC4741CB1DF4 /* CFNetwork_CFSocketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFSocketStream.h; sourceTree = "<group>"; };
+		231C0F136E6DA346254F356B /* Foundation_NSURLCredentialStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCredentialStorage.h; sourceTree = "<group>"; };
+		24A71D4CCC412D16168900E8 /* Foundation_NSURLCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCredential.h; sourceTree = "<group>"; };
+		2550E3F6A367E34D4F2F9CA9 /* parts_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sr; sourceTree = "<group>"; };
+		260D5B98565D9E84CCCD87A6 /* Foundation_NSJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSJSONSerialization.h; sourceTree = "<group>"; };
+		2647D7D89422F984EB464724 /* Foundation_NSProcessInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProcessInfo.h; sourceTree = "<group>"; };
+		26B8867BC1BC4E3FAB0829E1 /* Foundation_NSCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCoder.h; sourceTree = "<group>"; };
+		283F9939DDB52EF9FDEC05B1 /* Foundation_NSDateIntervalFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateIntervalFormatter.h; sourceTree = "<group>"; };
+		287C9E57AF53644AF996BF04 /* AudioToolbox_AudioQueue_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioQueue_sr; sourceTree = "<group>"; };
+		2883CC3C5CA43BBF3343660D /* AudioToolbox_AudioUnitProperties_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioUnitProperties_sr; sourceTree = "<group>"; };
+		28F706AC83A8DAD9B38F4A0A /* Foundation_NSFileVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileVersion.h; sourceTree = "<group>"; };
+		29579F5F10B068E480027FF6 /* Foundation_NSDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDictionary.h; sourceTree = "<group>"; };
+		2AB2E16AE7EDB4D34BAD9D1F /* Foundation_NSCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCharacterSet.h; sourceTree = "<group>"; };
+		2BAB1CEDF0129BDABC8B4BC4 /* Security_SecTrust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecTrust.h; sourceTree = "<group>"; };
+		2BE3FEB45B5A915A01639973 /* CoreFoundation_CFStringTokenizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringTokenizer.h; sourceTree = "<group>"; };
+		2C51842CFFBF8621CE62F7AC /* Foundation_NSLengthFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLengthFormatter.h; sourceTree = "<group>"; };
+		2DB774113D201DB564670819 /* CoreFoundation_CFByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFByteOrder.h; sourceTree = "<group>"; };
+		2FC21BB3E1E0BE133F4AC81E /* Foundation_NSFilePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFilePresenter.h; sourceTree = "<group>"; };
+		305FB659AC8436C7F0E7C679 /* AudioToolbox_ExtendedAudioFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_ExtendedAudioFile.m; sourceTree = "<group>"; };
+		31C004BDC0538D969F7A6DF4 /* CoreFoundation_CFTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTimeZone.h; sourceTree = "<group>"; };
+		31F0A82BB7B2323712AF8CC9 /* Foundation_NSLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLock.h; sourceTree = "<group>"; };
+		34462A0EE608479C0C179630 /* Foundation_NSOrderedSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrderedSet.h; sourceTree = "<group>"; };
+		35F5F732AF7D0EEF06D40F09 /* Foundation_NSDateComponentsFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateComponentsFormatter.h; sourceTree = "<group>"; };
+		36BF401D1AD2EE6706701271 /* Foundation_NSHTTPCookieStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHTTPCookieStorage.h; sourceTree = "<group>"; };
+		370F2F979FE42EF9CEB79FB0 /* Foundation_NSSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSSet.h; sourceTree = "<group>"; };
+		37C520DB4523A8E1291A8F76 /* AudioToolbox_AUComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUComponent.h; sourceTree = "<group>"; };
+		385AF6BD1B4D9F8C2C24F10B /* CoreFoundation_CFDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDateFormatter.h; sourceTree = "<group>"; };
+		3A40B97E08E200601B296C35 /* AudioToolbox_CAFFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_CAFFile.m; sourceTree = "<group>"; };
+		3B38EA6E1FDE260A1B8A63BE /* AudioToolbox_AUParameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AUParameters.m; sourceTree = "<group>"; };
+		3ECDBBCAA16C1DEBF14FB513 /* Foundation_NSByteCountFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSByteCountFormatter.h; sourceTree = "<group>"; };
+		42CEC8E8366579D5F6641DAD /* CoreFoundation_CFError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFError.h; sourceTree = "<group>"; };
+		43AEE748F19F835BEE20ECEC /* Foundation_NSURLProtectionSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLProtectionSpace.h; sourceTree = "<group>"; };
+		4413CCD5A2C3FABC926832CA /* CoreFoundation_CFSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSet.h; sourceTree = "<group>"; };
+		46125B0B75EA5706C33CD1C4 /* AudioToolbox_MusicDevice_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_MusicDevice_sa; sourceTree = "<group>"; };
+		499C69AADD9D678827C00E1C /* Foundation_NSDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateFormatter.h; sourceTree = "<group>"; };
+		4AC47EB071833B70E1958339 /* AudioToolbox_AudioFileStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFileStream.h; sourceTree = "<group>"; };
+		4BAAE2681D7A8B67FD0ED272 /* Foundation_NSCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCalendar.h; sourceTree = "<group>"; };
+		505495F05D4DFE5E3B8345B9 /* Foundation_NSItemProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSItemProvider.h; sourceTree = "<group>"; };
+		5091FF724046875563C2810C /* AudioToolbox_AudioToolbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioToolbox.m; sourceTree = "<group>"; };
+		5117268F2D7F931DF366BBB0 /* CoreFoundation_CFURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURL.h; sourceTree = "<group>"; };
+		5200B2246B9AA42DBB497329 /* Foundation_NSMeasurementFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMeasurementFormatter.h; sourceTree = "<group>"; };
+		5472CF12EAB5FA80157C2113 /* CoreFoundation_CFPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPlugIn.h; sourceTree = "<group>"; };
+		548CCDEE5D95F2A1146CF24F /* Foundation_NSInvocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSInvocation.h; sourceTree = "<group>"; };
+		5753375AFB5EE29D11FF61D0 /* AudioToolbox_AudioServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioServices.h; sourceTree = "<group>"; };
+		5A47104BBCF87C0332C1072B /* AudioToolbox_AudioQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioQueue.m; sourceTree = "<group>"; };
+		5C0D7965ECE42DEEB5007862 /* AudioToolbox_AudioServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioServices.m; sourceTree = "<group>"; };
+		5D36E5A666868742F5D19424 /* CFNetwork_CFNetworkErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetworkErrors.h; sourceTree = "<group>"; };
+		5E5586F2C8BDA4EE35B1476B /* Security_CipherSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_CipherSuite.h; sourceTree = "<group>"; };
+		5E6DAC1CA7B415BDE2C2BBA1 /* Foundation_NSMassFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMassFormatter.h; sourceTree = "<group>"; };
+		609E528281A0E0AD47826CAD /* Foundation_NSFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileManager.h; sourceTree = "<group>"; };
+		60CF4DF39CA01532F18C1E7C /* AudioToolbox_AudioConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioConverter.m; sourceTree = "<group>"; };
+		635362C87687F3D1A04D99F8 /* AudioToolbox_MusicPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_MusicPlayer.h; sourceTree = "<group>"; };
+		643DE4B50A7C6A5595E1883E /* Foundation_NSISO8601DateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSISO8601DateFormatter.h; sourceTree = "<group>"; };
+		64E1C12471C40504D553598A /* Security_SecRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecRandom.h; sourceTree = "<group>"; };
+		64FCF4BD3E44988BFFE535F7 /* Foundation_NSDecimalNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDecimalNumber.h; sourceTree = "<group>"; };
+		6507EE994235FFC859352870 /* CoreFoundation_CFPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPreferences.h; sourceTree = "<group>"; };
+		6536D2BB00C45C4F5E72881D /* AudioToolbox_MusicPlayer_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_MusicPlayer_sr; sourceTree = "<group>"; };
+		6549CB04BCB1BC3CE3593765 /* Foundation_NSURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLProtocol.h; sourceTree = "<group>"; };
+		65ED5DF3FC4682228B3E2E19 /* Foundation_NSComparisonPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSComparisonPredicate.h; sourceTree = "<group>"; };
+		665BC78FF2524F014B05D5F7 /* allincludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allincludes.h; sourceTree = "<group>"; };
+		6AA2DE639025767BCAC861B3 /* Foundation_NSExtensionRequestHandling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionRequestHandling.h; sourceTree = "<group>"; };
+		6BB4F81A436214667F0002D2 /* NFIAudioToolboxLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIAudioToolboxLoader.h; sourceTree = "<group>"; };
+		6BFA2F6F4619DFBC30F2543E /* Foundation_NSAutoreleasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSAutoreleasePool.h; sourceTree = "<group>"; };
+		6D0ACAB3C128687B9C1A03FF /* Security_SecPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecPolicy.h; sourceTree = "<group>"; };
+		6D47AB446C6333D0F4C6C278 /* AudioToolbox_AudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFile.h; sourceTree = "<group>"; };
+		6E14FDB569E1D692B548821A /* AudioToolbox_AudioSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioSession.m; sourceTree = "<group>"; };
+		6EE1E3881C263F71A3A8E865 /* Foundation_NSOrthography.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrthography.h; sourceTree = "<group>"; };
+		6FDB1FB7849882C6C42421A2 /* CoreFoundation_CFUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUUID.h; sourceTree = "<group>"; };
+		7032BDB2EE99EAB081A975B9 /* CoreFoundation_CFURLEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLEnumerator.h; sourceTree = "<group>"; };
+		70450517FB1C681D0319E75B /* Foundation_NSExtensionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionItem.h; sourceTree = "<group>"; };
+		70FB286B2D8327A9458DE21D /* AudioToolbox_AudioOutputUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioOutputUnit.m; sourceTree = "<group>"; };
+		72000A5A2F8E0A2687A39579 /* AudioToolbox_AudioComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioComponent.m; sourceTree = "<group>"; };
+		725239E4859DD8189CEE4AFC /* AudioToolbox_AUComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AUComponent.m; sourceTree = "<group>"; };
+		735272A1846F14665B3026C0 /* Foundation_NSStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSStream.h; sourceTree = "<group>"; };
+		735B81731C02336B6D760FFB /* CoreFoundation_CFBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBase.h; sourceTree = "<group>"; };
+		73C671BB8172EC40A8905BE2 /* Foundation_NSKeyValueObserving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyValueObserving.h; sourceTree = "<group>"; };
+		741B0E9D4E0178C7108CBA15 /* classes */ = {isa = PBXFileReference; lastKnownFileType = text; path = classes; sourceTree = "<group>"; };
+		775946CC42865C75ABECDF26 /* AudioToolbox_AudioSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioSession.h; sourceTree = "<group>"; };
+		7845EB6044E5906C44AEB2E2 /* Foundation_NSRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRunLoop.h; sourceTree = "<group>"; };
+		7850AD59BCA97563592A333E /* Security_SecIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecIdentity.h; sourceTree = "<group>"; };
+		78DCE83E799DE5F61579C40A /* AudioToolbox_AudioUnitProperties_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioUnitProperties_sa; sourceTree = "<group>"; };
+		79586D02B4AC6DDA36829882 /* CoreFoundation_CFString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFString.h; sourceTree = "<group>"; };
+		7A0E2CDCF40E8EA59C15B132 /* Foundation_NSFileCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileCoordinator.h; sourceTree = "<group>"; };
+		7A84795870C56B21D8FC48A1 /* Foundation_NSEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSEnumerator.h; sourceTree = "<group>"; };
+		7A8D805A17A92AFB13E27C2B /* AudioToolbox_AUAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AUAudioUnit.m; sourceTree = "<group>"; };
+		7B98D8292F14508B2B273516 /* Foundation_NSSortDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSSortDescriptor.h; sourceTree = "<group>"; };
+		7BDC5969C7548FA5F7BF53EC /* Foundation_NSEnergyFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSEnergyFormatter.h; sourceTree = "<group>"; };
+		7C5CC54EFF58A28F1AED14AA /* Foundation_NSPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPropertyList.h; sourceTree = "<group>"; };
+		7E7DC87E02C244DD9BC32CCD /* Foundation_NSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSArray.h; sourceTree = "<group>"; };
+		7EC8D12CC06A5BF63BD017A6 /* Foundation_NSData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSData.h; sourceTree = "<group>"; };
+		806227F449A4F9392705A19E /* Security_SecAccessControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecAccessControl.h; sourceTree = "<group>"; };
+		80A90834588262669CCE4E44 /* AudioToolbox_AudioFormat_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioFormat_sa; sourceTree = "<group>"; };
+		82AEF56CDB1013C2D8AD0A60 /* Foundation_NSPersonNameComponentsFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPersonNameComponentsFormatter.h; sourceTree = "<group>"; };
+		83199BA03217503CEE0C6A87 /* Foundation_NSXPCConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSXPCConnection.h; sourceTree = "<group>"; };
+		844BF22FFB84C7016F2E73E5 /* Foundation_NSUserActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUserActivity.h; sourceTree = "<group>"; };
+		8AD4079BC37AA7458E6FFF55 /* CoreFoundation_CFAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFAttributedString.h; sourceTree = "<group>"; };
+		8C0B2A7FD63AB97291092E3B /* CoreFoundation_CFFileSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileSecurity.h; sourceTree = "<group>"; };
+		8C782F3B652AE186FB4B5F0D /* AudioToolbox_AudioFileStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioFileStream.m; sourceTree = "<group>"; };
+		8D37B5312D8D69851F23B23A /* Foundation_NSPointerFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPointerFunctions.h; sourceTree = "<group>"; };
+		8D5412A593EEE9E5A144D2DF /* CoreFoundation_CFRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFRunLoop.h; sourceTree = "<group>"; };
+		8E18DCAC1804CF57200E5502 /* AudioToolbox_AudioUnitParameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioUnitParameters.m; sourceTree = "<group>"; };
+		8E82969BCC70C8F9B236A04A /* Foundation_NSIndexSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSIndexSet.h; sourceTree = "<group>"; };
+		8F78E033340E22C4752A9802 /* Foundation_NSNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNotification.h; sourceTree = "<group>"; };
+		90ACF72755AB70AF2E778099 /* CoreFoundation_CFNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumberFormatter.h; sourceTree = "<group>"; };
+		91897BC3C834DA8F12FBDC3F /* Foundation_NSURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURL.h; sourceTree = "<group>"; };
+		91AE59BAE74D6509AB86384E /* Foundation_NSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOperation.h; sourceTree = "<group>"; };
+		9236FCD37562D9068504C5CA /* AudioToolbox_AUGraph_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AUGraph_sa; sourceTree = "<group>"; };
+		925001BA8C212AD3C49F191C /* AudioToolbox_AUGraph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AUGraph.m; sourceTree = "<group>"; };
+		9299B3BFE45CB1C276A46781 /* CoreFoundation_CFUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUtilities.h; sourceTree = "<group>"; };
+		9398EC6146CBA794F7867737 /* Foundation_NSUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUserDefaults.h; sourceTree = "<group>"; };
+		940145FFABB5414E18E049B8 /* AudioToolbox_AUAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUAudioUnit.h; sourceTree = "<group>"; };
+		9581AB5D20CCA5369DEA31F2 /* AudioToolbox_AUAudioUnitImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUAudioUnitImplementation.h; sourceTree = "<group>"; };
+		95BD303B0A9F51F4AEC4F7EE /* CoreFoundation_CFBitVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBitVector.h; sourceTree = "<group>"; };
+		960BA0153EFA839150300BEB /* AudioToolbox_AUParameters_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AUParameters_sa; sourceTree = "<group>"; };
+		96C551AC5E5F31B52822D71B /* Foundation_NSDateInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateInterval.h; sourceTree = "<group>"; };
+		988B635878FC647D2EAD05A4 /* AudioToolbox_CAFFile_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_CAFFile_sr; sourceTree = "<group>"; };
+		99514375A12067BFD05BE315 /* AudioToolbox_AudioComponent_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioComponent_sr; sourceTree = "<group>"; };
+		998D08B05148F90B375A0E19 /* Foundation_NSProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProgress.h; sourceTree = "<group>"; };
+		9BBC8A14E2DCDA0118228F44 /* AudioToolbox_CAFFile_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_CAFFile_sa; sourceTree = "<group>"; };
+		9BBEE38CE2BAE3CB71184A45 /* Foundation_NSURLCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCache.h; sourceTree = "<group>"; };
+		9C5AD9B98927EA775FF3636B /* AudioToolbox_AudioQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioQueue.h; sourceTree = "<group>"; };
+		9C8BD2D5FC313A4EB161B70E /* Foundation_NSFileHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileHandle.h; sourceTree = "<group>"; };
+		9D46450422E9ECA8251D1751 /* Foundation_NSUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUnit.h; sourceTree = "<group>"; };
+		9D6DB54C4904CB01CAFDF3AE /* Foundation_NSBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSBundle.h; sourceTree = "<group>"; };
+		9F17E060D1AF1565FE60D0C1 /* Foundation_NSLinguisticTagger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLinguisticTagger.h; sourceTree = "<group>"; };
+		A0B8EE4AACA75011413677E4 /* parts */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts; sourceTree = "<group>"; };
+		A104498BD3732C14F291363A /* Foundation_NSNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNumberFormatter.h; sourceTree = "<group>"; };
+		A10869356C8EA431B0623813 /* Security_SecImportExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecImportExport.h; sourceTree = "<group>"; };
+		A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerSupport.h; sourceTree = "<group>"; };
+		A19D94EDCF1C53CADF0403C4 /* Foundation_NSKeyValueCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyValueCoding.h; sourceTree = "<group>"; };
+		A22E67915E67D2CD6D9C4D14 /* Foundation_NSCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCache.h; sourceTree = "<group>"; };
+		A391F31D3B97BF53C661E559 /* parts_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sa; sourceTree = "<group>"; };
+		A3921C6B79EE2C7B6A1D62C9 /* Security_SecCertificate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecCertificate.h; sourceTree = "<group>"; };
+		A49C2D9DFE56B240A9FE93B2 /* Foundation_NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObject.h; sourceTree = "<group>"; };
+		A54DF9BBC084B473F05E6E95 /* AudioToolbox_AudioUnitParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioUnitParameters.h; sourceTree = "<group>"; };
+		A579D6463F4E2CC46CB9B05B /* Foundation_NSFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFormatter.h; sourceTree = "<group>"; };
+		A5BC0DFD31FB2F821FBE3457 /* AudioToolbox_AudioConverter_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioConverter_sr; sourceTree = "<group>"; };
+		A5E0D622C097E163E63CB5EC /* CoreFoundation_CFMachPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMachPort.h; sourceTree = "<group>"; };
+		A5FC3CE2C6E4B021F59A4838 /* NFIAudioToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIAudioToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A673A6BFF4512406A34CFBD3 /* AudioToolbox_CAFFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_CAFFile.h; sourceTree = "<group>"; };
+		A71573A73C7745D46770F59D /* CoreFoundation_CFNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumber.h; sourceTree = "<group>"; };
+		A761855A8FC3C6BADED07EEA /* PointerSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointerSupport.m; sourceTree = "<group>"; };
+		AA2A5CC5CDFE61ED70509DAD /* CoreFoundation_CFBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBundle.h; sourceTree = "<group>"; };
+		AA6A0B5F7DC611FEE62E09D3 /* AudioToolbox_AUGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUGraph.h; sourceTree = "<group>"; };
+		AAEEB230A4DF600D7EBF8224 /* AudioToolbox_AudioUnitProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioUnitProperties.h; sourceTree = "<group>"; };
+		ACFF210A6BEF1A66836A25EB /* CoreFoundation_CFBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBag.h; sourceTree = "<group>"; };
+		ADD041D10AD1DF24F3A742C4 /* CoreFoundation_CFCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCalendar.h; sourceTree = "<group>"; };
+		AE8871F80FF5847055947CEB /* Foundation_NSByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSByteOrder.h; sourceTree = "<group>"; };
+		B0DC0FE1D85064D75D4C688F /* Foundation_NSUbiquitousKeyValueStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUbiquitousKeyValueStore.h; sourceTree = "<group>"; };
+		B3BEE677984F87C897C5C8D0 /* AudioToolbox_MusicDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_MusicDevice.m; sourceTree = "<group>"; };
+		B4AF32925414C806AA712278 /* Foundation_NSTextCheckingResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTextCheckingResult.h; sourceTree = "<group>"; };
+		B72CA38AAD0EDF11CA58444D /* Foundation_NSError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSError.h; sourceTree = "<group>"; };
+		BADE6C191FACE77D2262C32A /* Foundation_NSValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSValue.h; sourceTree = "<group>"; };
+		BDDEEF085ED9557FDF8A7678 /* AudioToolbox_MusicDevice_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_MusicDevice_sr; sourceTree = "<group>"; };
+		BE75132FE5FEFC6526BE2C3D /* Foundation_NSMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMeasurement.h; sourceTree = "<group>"; };
+		BF81D1BAF52EA68989A0ECAD /* Foundation_FoundationErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_FoundationErrors.h; sourceTree = "<group>"; };
+		C01A2E9FFCAB9CFB7D5DCF54 /* CFNetwork_CFHTTPMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPMessage.h; sourceTree = "<group>"; };
+		C04A0F9B0A881B7D0C830859 /* CoreFoundation_CFStringEncodingExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringEncodingExt.h; sourceTree = "<group>"; };
+		C0A907A2C5AFA971E4916DDF /* Security_SecKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecKey.h; sourceTree = "<group>"; };
+		C120C10DAE17AF043627D56D /* CoreMIDI_MIDIServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMIDI_MIDIServices.h; sourceTree = "<group>"; };
+		C15816CD47813CC70202803E /* CoreFoundation_CFFileDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileDescriptor.h; sourceTree = "<group>"; };
+		C1CF2667A4CEF2F2504B3349 /* CoreFoundation_CFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStream.h; sourceTree = "<group>"; };
+		C2241D144B568044BA656C62 /* Foundation_NSPersonNameComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPersonNameComponents.h; sourceTree = "<group>"; };
+		C25896F3E118B46A9F895C59 /* Foundation_NSMapTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMapTable.h; sourceTree = "<group>"; };
+		C458F2A6A04EB51F80D08AB7 /* Foundation_NSScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSScanner.h; sourceTree = "<group>"; };
+		C4CD2EDFDF072E60619987CD /* Foundation_NSKeyedArchiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyedArchiver.h; sourceTree = "<group>"; };
+		C5F0E8ED471B1A29BC06D43D /* AudioToolbox_AudioFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioFormat.m; sourceTree = "<group>"; };
+		C675ECA5FE4380299AFFBB1B /* CFNetwork_CFHost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHost.h; sourceTree = "<group>"; };
+		C6A120853D1AAB0B45B62E14 /* CoreFoundation_CFData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFData.h; sourceTree = "<group>"; };
+		C73FBC69C062C33FD180D931 /* Foundation_NSMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMetadata.h; sourceTree = "<group>"; };
+		C83245117020BF2CEF881293 /* CoreFoundation_CFPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPropertyList.h; sourceTree = "<group>"; };
+		C854212A89CD4F2090885D02 /* AudioToolbox_AudioFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioFile.m; sourceTree = "<group>"; };
+		C8EABB15C5FE6DFC02BCDDB0 /* Foundation_NSMethodSignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMethodSignature.h; sourceTree = "<group>"; };
+		C99DD47E1F14DED58CD5E537 /* Foundation_NSIndexPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSIndexPath.h; sourceTree = "<group>"; };
+		CA84272D688BC1ACAB3E0EB7 /* Foundation_NSNull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNull.h; sourceTree = "<group>"; };
+		CAA3AD7A9D81ADC04154CA19 /* Foundation_NSDecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDecimal.h; sourceTree = "<group>"; };
+		CAD36289475E64892B891750 /* CFNetwork_CFNetServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetServices.h; sourceTree = "<group>"; };
+		CB46BC1427AB2B814CE6F7BB /* Foundation_NSUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUUID.h; sourceTree = "<group>"; };
+		CBAEA96843D121693BBD15A4 /* Foundation_NSValueTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSValueTransformer.h; sourceTree = "<group>"; };
+		CD8151D8DB36377B12DA9382 /* AudioToolbox_AUAudioUnitImplementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AUAudioUnitImplementation.m; sourceTree = "<group>"; };
+		CD8535ACFCD847F25D742815 /* Foundation_NSURLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLConnection.h; sourceTree = "<group>"; };
+		CF39D75FA338B808F4D5439A /* AudioToolbox_ExtendedAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_ExtendedAudioFile.h; sourceTree = "<group>"; };
+		CF784CE0639B56E0FA2662C9 /* Foundation_NSPointerArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPointerArray.h; sourceTree = "<group>"; };
+		D023174D40FD293F49DB031D /* AudioToolbox_AudioOutputUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioOutputUnit.h; sourceTree = "<group>"; };
+		D100ED1A809C5AEF02314627 /* Foundation_NSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTimer.h; sourceTree = "<group>"; };
+		D1E98D93E4D0710E1C3F76AD /* Foundation_NSExtensionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionContext.h; sourceTree = "<group>"; };
+		D216C6492478A31EC7723E30 /* AudioToolbox_AudioComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioComponent.h; sourceTree = "<group>"; };
+		D250758DFB895DAF04921AFB /* Foundation_NSProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProxy.h; sourceTree = "<group>"; };
+		D39741C72C064145F6E74742 /* Foundation_NSURLAuthenticationChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLAuthenticationChallenge.h; sourceTree = "<group>"; };
+		D551B9DF946AD8C55D56060F /* Foundation_NSPathUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPathUtilities.h; sourceTree = "<group>"; };
+		D67F0AD9B7DBC0CFBC4E2020 /* AudioToolbox_AudioUnitProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_AudioUnitProperties.m; sourceTree = "<group>"; };
+		D71C11441221F044AB438CE7 /* AudioToolbox_AudioFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFormat.h; sourceTree = "<group>"; };
+		D765A332E65F492F2AA2473A /* CFNetwork_CFProxySupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFProxySupport.h; sourceTree = "<group>"; };
+		D85228EEF05A63F464FC6444 /* AudioToolbox_AudioConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioConverter.h; sourceTree = "<group>"; };
+		D8F408692A0E3D59585E227F /* Foundation_NSDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDate.h; sourceTree = "<group>"; };
+		D9FBAA363C4EC1FBBB715365 /* Foundation_NSHashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHashTable.h; sourceTree = "<group>"; };
+		DA1BFC8A76444D2B56AE53ED /* NFIAudioToolboxLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFIAudioToolboxLoader.m; sourceTree = "<group>"; };
+		DA78132243A647B006383C73 /* CFNetwork_CFNetDiagnostics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetDiagnostics.h; sourceTree = "<group>"; };
+		DC0BB8E17EC396397E89B86A /* Foundation_NSUndoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUndoManager.h; sourceTree = "<group>"; };
+		DD3A442A5EC9AB7DCD147A60 /* Foundation_NSURLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLRequest.h; sourceTree = "<group>"; };
+		DE021C83252B9DE006EA0EA7 /* AudioToolbox_AUParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUParameters.h; sourceTree = "<group>"; };
+		DE393EE842B7B921CF5405E6 /* Foundation_NSObjCRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObjCRuntime.h; sourceTree = "<group>"; };
+		DEDF1D0DB8CA750258601DEC /* Foundation_NSURLError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLError.h; sourceTree = "<group>"; };
+		DFAAF80BFF48679B6C4B0D55 /* allheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		E05720C0A859363D6BB894AA /* CoreFoundation_CFLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFLocale.h; sourceTree = "<group>"; };
+		E10FF89C05100B37043AB485 /* Foundation_NSHTTPCookie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHTTPCookie.h; sourceTree = "<group>"; };
+		E3A2260291A31FEB02A80F82 /* CoreAudio_CoreAudioTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudio_CoreAudioTypes.h; sourceTree = "<group>"; };
+		E4B70A232BAA43EBEC1697EB /* NFIDevice.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = NFIDevice.gyp; sourceTree = "<group>"; };
+		E51B3A767DD0196893550291 /* Foundation_NSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSThread.h; sourceTree = "<group>"; };
+		E5A0CB5FDEAFAB0DA695BA4D /* CoreFoundation_CFDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDate.h; sourceTree = "<group>"; };
+		E5FF64FC768C48D0B864C42E /* Security_SecureTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecureTransport.h; sourceTree = "<group>"; };
+		E64656B7E260A3590BEE3D62 /* Security_SecBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecBase.h; sourceTree = "<group>"; };
+		E72A60B318E7B88730D07FA1 /* CoreFoundation_CFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFArray.h; sourceTree = "<group>"; };
+		E9337320D7EC21FF86C777DB /* AudioToolbox_AudioFormat_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioFormat_sr; sourceTree = "<group>"; };
+		EA98B48281297F355FA0DE4F /* AudioToolbox_MusicDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_MusicDevice.h; sourceTree = "<group>"; };
+		EAF6DC9692B198B8BCB29109 /* CoreFoundation_CFURLAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLAccess.h; sourceTree = "<group>"; };
+		EB3DCD724B1711583E22BFC6 /* Foundation_NSPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPort.h; sourceTree = "<group>"; };
+		ED195B0E26581E4056DC1120 /* CallbackSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackSupport.m; sourceTree = "<group>"; };
+		ED3255DD52790C4D5F8ED402 /* AudioToolbox_AudioComponent_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioComponent_sa; sourceTree = "<group>"; };
+		ED5CE3D94C0C033F4C32BA5F /* Foundation_NSExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExpression.h; sourceTree = "<group>"; };
+		EDE167051E7F9C3E6EF736AB /* Foundation_NSXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSXMLParser.h; sourceTree = "<group>"; };
+		EEA99EDBE3A532DB0D1FE95E /* allprotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allprotos.h; sourceTree = "<group>"; };
+		EF1AF471957A254167885952 /* Foundation_NSMetadataAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMetadataAttributes.h; sourceTree = "<group>"; };
+		F015961DEE4D4F3A33F2A64C /* Foundation_NSRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRange.h; sourceTree = "<group>"; };
+		F0E1BE996415D7444F733729 /* CoreFoundation_CFNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNotificationCenter.h; sourceTree = "<group>"; };
+		F1A62D228997BF8F1A707AA4 /* AudioToolbox_MusicPlayer_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_MusicPlayer_sa; sourceTree = "<group>"; };
+		F396DB8B23ACD091D7F7441C /* Foundation_NSLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLocale.h; sourceTree = "<group>"; };
+		F3E440A314B40B6805D1229A /* Foundation_NSTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTimeZone.h; sourceTree = "<group>"; };
+		F4CC76FBB0938F9D681D9904 /* Foundation_NSZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSZone.h; sourceTree = "<group>"; };
+		F4D7C80B45CD0B97E1C7F5D4 /* AudioToolbox_AudioFile_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioFile_sa; sourceTree = "<group>"; };
+		F4D818ECD0450F598B0300AE /* Security_SecSharedCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecSharedCredential.h; sourceTree = "<group>"; };
+		F5F7F86B6123507F8FEF01A0 /* Foundation_NSNetServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNetServices.h; sourceTree = "<group>"; };
+		F622DA1B5AF5F999CC6F2634 /* NFIAudioToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIAudioToolbox.h; sourceTree = "<group>"; };
+		F6BDE2E86450D9F1F7BB3B60 /* AudioToolbox_AUGraph_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AUGraph_sr; sourceTree = "<group>"; };
+		F7D93A72BE35E7818D6E79E8 /* AudioToolbox_AudioQueue_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AudioQueue_sa; sourceTree = "<group>"; };
+		F9D8F98CF16916A848C9B5A3 /* AudioToolbox_MusicPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_MusicPlayer.m; sourceTree = "<group>"; };
+		FB5D273D335E4727BED12F87 /* Foundation_NSCompoundPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCompoundPredicate.h; sourceTree = "<group>"; };
+		FE4ABB1E679DF551E7D74863 /* Foundation_NSException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSException.h; sourceTree = "<group>"; };
+		FE5999934FF7B17EEE3E0AF3 /* CFNetwork_CFHTTPAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPAuthentication.h; sourceTree = "<group>"; };
+		FF29151A01CC0DACEB64C5E0 /* AudioToolbox_AUParameters_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioToolbox_AUParameters_sr; sourceTree = "<group>"; };
+		FFCC6D74613FF3DC4C74E288 /* CFNetwork_CFFTPStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFFTPStream.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889F3D01629FBA3868708A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA1399351A6AAD1381E2F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F047F52C6381B43AA000BE5F /* NFIUtility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B46C276DD85B0ED1C17C77E /* ../src/NFIUtility */ = {
+			isa = PBXGroup;
+			children = (
+				00332D41D163AA58D64A5AD6 /* CallbackSupport.h */,
+				ED195B0E26581E4056DC1120 /* CallbackSupport.m */,
+				0E9842BE6505547806A3F5C6 /* NFIUtility.h */,
+				A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */,
+				A761855A8FC3C6BADED07EEA /* PointerSupport.m */,
+			);
+			path = ../src/NFIUtility;
+			sourceTree = "<group>";
+		};
+		3B364F5F39DD873E04E8C788 = {
+			isa = PBXGroup;
+			children = (
+				9441D0EC6CAE8E73E16CCA01 /* Source */,
+				530EA4A972340A68EB714413 /* Products */,
+				420E4108158F6B50F0058685 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		420E4108158F6B50F0058685 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				E4B70A232BAA43EBEC1697EB /* NFIDevice.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		530EA4A972340A68EB714413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CCEF422C6EF086D09899952 /* NFIUtility.framework */,
+				A5FC3CE2C6E4B021F59A4838 /* NFIAudioToolbox.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9441D0EC6CAE8E73E16CCA01 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0B46C276DD85B0ED1C17C77E /* ../src/NFIUtility */,
+				BDEE0FE20C4CD180F5456F8A /* AudioToolbox/device */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		BDEE0FE20C4CD180F5456F8A /* AudioToolbox/device */ = {
+			isa = PBXGroup;
+			children = (
+				940145FFABB5414E18E049B8 /* AudioToolbox_AUAudioUnit.h */,
+				7A8D805A17A92AFB13E27C2B /* AudioToolbox_AUAudioUnit.m */,
+				9581AB5D20CCA5369DEA31F2 /* AudioToolbox_AUAudioUnitImplementation.h */,
+				CD8151D8DB36377B12DA9382 /* AudioToolbox_AUAudioUnitImplementation.m */,
+				37C520DB4523A8E1291A8F76 /* AudioToolbox_AUComponent.h */,
+				725239E4859DD8189CEE4AFC /* AudioToolbox_AUComponent.m */,
+				AA6A0B5F7DC611FEE62E09D3 /* AudioToolbox_AUGraph.h */,
+				925001BA8C212AD3C49F191C /* AudioToolbox_AUGraph.m */,
+				9236FCD37562D9068504C5CA /* AudioToolbox_AUGraph_sa */,
+				F6BDE2E86450D9F1F7BB3B60 /* AudioToolbox_AUGraph_sr */,
+				DE021C83252B9DE006EA0EA7 /* AudioToolbox_AUParameters.h */,
+				3B38EA6E1FDE260A1B8A63BE /* AudioToolbox_AUParameters.m */,
+				960BA0153EFA839150300BEB /* AudioToolbox_AUParameters_sa */,
+				FF29151A01CC0DACEB64C5E0 /* AudioToolbox_AUParameters_sr */,
+				D216C6492478A31EC7723E30 /* AudioToolbox_AudioComponent.h */,
+				72000A5A2F8E0A2687A39579 /* AudioToolbox_AudioComponent.m */,
+				ED3255DD52790C4D5F8ED402 /* AudioToolbox_AudioComponent_sa */,
+				99514375A12067BFD05BE315 /* AudioToolbox_AudioComponent_sr */,
+				D85228EEF05A63F464FC6444 /* AudioToolbox_AudioConverter.h */,
+				60CF4DF39CA01532F18C1E7C /* AudioToolbox_AudioConverter.m */,
+				02D7843A9FB1B0B1C875ED7E /* AudioToolbox_AudioConverter_sa */,
+				A5BC0DFD31FB2F821FBE3457 /* AudioToolbox_AudioConverter_sr */,
+				6D47AB446C6333D0F4C6C278 /* AudioToolbox_AudioFile.h */,
+				C854212A89CD4F2090885D02 /* AudioToolbox_AudioFile.m */,
+				4AC47EB071833B70E1958339 /* AudioToolbox_AudioFileStream.h */,
+				8C782F3B652AE186FB4B5F0D /* AudioToolbox_AudioFileStream.m */,
+				F4D7C80B45CD0B97E1C7F5D4 /* AudioToolbox_AudioFile_sa */,
+				0E0DF6A30BE01CC3323B8D0E /* AudioToolbox_AudioFile_sr */,
+				D71C11441221F044AB438CE7 /* AudioToolbox_AudioFormat.h */,
+				C5F0E8ED471B1A29BC06D43D /* AudioToolbox_AudioFormat.m */,
+				80A90834588262669CCE4E44 /* AudioToolbox_AudioFormat_sa */,
+				E9337320D7EC21FF86C777DB /* AudioToolbox_AudioFormat_sr */,
+				D023174D40FD293F49DB031D /* AudioToolbox_AudioOutputUnit.h */,
+				70FB286B2D8327A9458DE21D /* AudioToolbox_AudioOutputUnit.m */,
+				9C5AD9B98927EA775FF3636B /* AudioToolbox_AudioQueue.h */,
+				5A47104BBCF87C0332C1072B /* AudioToolbox_AudioQueue.m */,
+				F7D93A72BE35E7818D6E79E8 /* AudioToolbox_AudioQueue_sa */,
+				287C9E57AF53644AF996BF04 /* AudioToolbox_AudioQueue_sr */,
+				5753375AFB5EE29D11FF61D0 /* AudioToolbox_AudioServices.h */,
+				5C0D7965ECE42DEEB5007862 /* AudioToolbox_AudioServices.m */,
+				775946CC42865C75ABECDF26 /* AudioToolbox_AudioSession.h */,
+				6E14FDB569E1D692B548821A /* AudioToolbox_AudioSession.m */,
+				1032F4BF36AEE53524A60C46 /* AudioToolbox_AudioToolbox.h */,
+				5091FF724046875563C2810C /* AudioToolbox_AudioToolbox.m */,
+				A54DF9BBC084B473F05E6E95 /* AudioToolbox_AudioUnitParameters.h */,
+				8E18DCAC1804CF57200E5502 /* AudioToolbox_AudioUnitParameters.m */,
+				AAEEB230A4DF600D7EBF8224 /* AudioToolbox_AudioUnitProperties.h */,
+				D67F0AD9B7DBC0CFBC4E2020 /* AudioToolbox_AudioUnitProperties.m */,
+				78DCE83E799DE5F61579C40A /* AudioToolbox_AudioUnitProperties_sa */,
+				2883CC3C5CA43BBF3343660D /* AudioToolbox_AudioUnitProperties_sr */,
+				A673A6BFF4512406A34CFBD3 /* AudioToolbox_CAFFile.h */,
+				3A40B97E08E200601B296C35 /* AudioToolbox_CAFFile.m */,
+				9BBC8A14E2DCDA0118228F44 /* AudioToolbox_CAFFile_sa */,
+				988B635878FC647D2EAD05A4 /* AudioToolbox_CAFFile_sr */,
+				CF39D75FA338B808F4D5439A /* AudioToolbox_ExtendedAudioFile.h */,
+				305FB659AC8436C7F0E7C679 /* AudioToolbox_ExtendedAudioFile.m */,
+				EA98B48281297F355FA0DE4F /* AudioToolbox_MusicDevice.h */,
+				B3BEE677984F87C897C5C8D0 /* AudioToolbox_MusicDevice.m */,
+				46125B0B75EA5706C33CD1C4 /* AudioToolbox_MusicDevice_sa */,
+				BDDEEF085ED9557FDF8A7678 /* AudioToolbox_MusicDevice_sr */,
+				635362C87687F3D1A04D99F8 /* AudioToolbox_MusicPlayer.h */,
+				F9D8F98CF16916A848C9B5A3 /* AudioToolbox_MusicPlayer.m */,
+				F1A62D228997BF8F1A707AA4 /* AudioToolbox_MusicPlayer_sa */,
+				6536D2BB00C45C4F5E72881D /* AudioToolbox_MusicPlayer_sr */,
+				FFCC6D74613FF3DC4C74E288 /* CFNetwork_CFFTPStream.h */,
+				FE5999934FF7B17EEE3E0AF3 /* CFNetwork_CFHTTPAuthentication.h */,
+				C01A2E9FFCAB9CFB7D5DCF54 /* CFNetwork_CFHTTPMessage.h */,
+				0FE0A8A53FE47E25DF87F8B7 /* CFNetwork_CFHTTPStream.h */,
+				C675ECA5FE4380299AFFBB1B /* CFNetwork_CFHost.h */,
+				DA78132243A647B006383C73 /* CFNetwork_CFNetDiagnostics.h */,
+				CAD36289475E64892B891750 /* CFNetwork_CFNetServices.h */,
+				5D36E5A666868742F5D19424 /* CFNetwork_CFNetworkErrors.h */,
+				D765A332E65F492F2AA2473A /* CFNetwork_CFProxySupport.h */,
+				2053ACB98D41FC4741CB1DF4 /* CFNetwork_CFSocketStream.h */,
+				E3A2260291A31FEB02A80F82 /* CoreAudio_CoreAudioTypes.h */,
+				E72A60B318E7B88730D07FA1 /* CoreFoundation_CFArray.h */,
+				8AD4079BC37AA7458E6FFF55 /* CoreFoundation_CFAttributedString.h */,
+				ACFF210A6BEF1A66836A25EB /* CoreFoundation_CFBag.h */,
+				735B81731C02336B6D760FFB /* CoreFoundation_CFBase.h */,
+				0525E37FB3744D63BC433383 /* CoreFoundation_CFBinaryHeap.h */,
+				95BD303B0A9F51F4AEC4F7EE /* CoreFoundation_CFBitVector.h */,
+				AA2A5CC5CDFE61ED70509DAD /* CoreFoundation_CFBundle.h */,
+				2DB774113D201DB564670819 /* CoreFoundation_CFByteOrder.h */,
+				ADD041D10AD1DF24F3A742C4 /* CoreFoundation_CFCalendar.h */,
+				02ACC99973574AFDA9DBE447 /* CoreFoundation_CFCharacterSet.h */,
+				C6A120853D1AAB0B45B62E14 /* CoreFoundation_CFData.h */,
+				E5A0CB5FDEAFAB0DA695BA4D /* CoreFoundation_CFDate.h */,
+				385AF6BD1B4D9F8C2C24F10B /* CoreFoundation_CFDateFormatter.h */,
+				10840290C9963E03B6A767AE /* CoreFoundation_CFDictionary.h */,
+				42CEC8E8366579D5F6641DAD /* CoreFoundation_CFError.h */,
+				C15816CD47813CC70202803E /* CoreFoundation_CFFileDescriptor.h */,
+				8C0B2A7FD63AB97291092E3B /* CoreFoundation_CFFileSecurity.h */,
+				E05720C0A859363D6BB894AA /* CoreFoundation_CFLocale.h */,
+				A5E0D622C097E163E63CB5EC /* CoreFoundation_CFMachPort.h */,
+				09C9BC4D3660287306D9439A /* CoreFoundation_CFMessagePort.h */,
+				F0E1BE996415D7444F733729 /* CoreFoundation_CFNotificationCenter.h */,
+				A71573A73C7745D46770F59D /* CoreFoundation_CFNumber.h */,
+				90ACF72755AB70AF2E778099 /* CoreFoundation_CFNumberFormatter.h */,
+				5472CF12EAB5FA80157C2113 /* CoreFoundation_CFPlugIn.h */,
+				6507EE994235FFC859352870 /* CoreFoundation_CFPreferences.h */,
+				C83245117020BF2CEF881293 /* CoreFoundation_CFPropertyList.h */,
+				8D5412A593EEE9E5A144D2DF /* CoreFoundation_CFRunLoop.h */,
+				4413CCD5A2C3FABC926832CA /* CoreFoundation_CFSet.h */,
+				133BFF02ADDF5722379EE376 /* CoreFoundation_CFSocket.h */,
+				C1CF2667A4CEF2F2504B3349 /* CoreFoundation_CFStream.h */,
+				79586D02B4AC6DDA36829882 /* CoreFoundation_CFString.h */,
+				C04A0F9B0A881B7D0C830859 /* CoreFoundation_CFStringEncodingExt.h */,
+				2BE3FEB45B5A915A01639973 /* CoreFoundation_CFStringTokenizer.h */,
+				31C004BDC0538D969F7A6DF4 /* CoreFoundation_CFTimeZone.h */,
+				0B61EB2C116EE1378833E805 /* CoreFoundation_CFTree.h */,
+				5117268F2D7F931DF366BBB0 /* CoreFoundation_CFURL.h */,
+				EAF6DC9692B198B8BCB29109 /* CoreFoundation_CFURLAccess.h */,
+				7032BDB2EE99EAB081A975B9 /* CoreFoundation_CFURLEnumerator.h */,
+				6FDB1FB7849882C6C42421A2 /* CoreFoundation_CFUUID.h */,
+				9299B3BFE45CB1C276A46781 /* CoreFoundation_CFUtilities.h */,
+				C120C10DAE17AF043627D56D /* CoreMIDI_MIDIServices.h */,
+				BF81D1BAF52EA68989A0ECAD /* Foundation_FoundationErrors.h */,
+				7E7DC87E02C244DD9BC32CCD /* Foundation_NSArray.h */,
+				115AB636E33E46F2C75EE08F /* Foundation_NSAttributedString.h */,
+				6BFA2F6F4619DFBC30F2543E /* Foundation_NSAutoreleasePool.h */,
+				9D6DB54C4904CB01CAFDF3AE /* Foundation_NSBundle.h */,
+				3ECDBBCAA16C1DEBF14FB513 /* Foundation_NSByteCountFormatter.h */,
+				AE8871F80FF5847055947CEB /* Foundation_NSByteOrder.h */,
+				A22E67915E67D2CD6D9C4D14 /* Foundation_NSCache.h */,
+				4BAAE2681D7A8B67FD0ED272 /* Foundation_NSCalendar.h */,
+				2AB2E16AE7EDB4D34BAD9D1F /* Foundation_NSCharacterSet.h */,
+				26B8867BC1BC4E3FAB0829E1 /* Foundation_NSCoder.h */,
+				65ED5DF3FC4682228B3E2E19 /* Foundation_NSComparisonPredicate.h */,
+				FB5D273D335E4727BED12F87 /* Foundation_NSCompoundPredicate.h */,
+				7EC8D12CC06A5BF63BD017A6 /* Foundation_NSData.h */,
+				D8F408692A0E3D59585E227F /* Foundation_NSDate.h */,
+				35F5F732AF7D0EEF06D40F09 /* Foundation_NSDateComponentsFormatter.h */,
+				499C69AADD9D678827C00E1C /* Foundation_NSDateFormatter.h */,
+				96C551AC5E5F31B52822D71B /* Foundation_NSDateInterval.h */,
+				283F9939DDB52EF9FDEC05B1 /* Foundation_NSDateIntervalFormatter.h */,
+				CAA3AD7A9D81ADC04154CA19 /* Foundation_NSDecimal.h */,
+				64FCF4BD3E44988BFFE535F7 /* Foundation_NSDecimalNumber.h */,
+				29579F5F10B068E480027FF6 /* Foundation_NSDictionary.h */,
+				7BDC5969C7548FA5F7BF53EC /* Foundation_NSEnergyFormatter.h */,
+				7A84795870C56B21D8FC48A1 /* Foundation_NSEnumerator.h */,
+				B72CA38AAD0EDF11CA58444D /* Foundation_NSError.h */,
+				FE4ABB1E679DF551E7D74863 /* Foundation_NSException.h */,
+				ED5CE3D94C0C033F4C32BA5F /* Foundation_NSExpression.h */,
+				D1E98D93E4D0710E1C3F76AD /* Foundation_NSExtensionContext.h */,
+				70450517FB1C681D0319E75B /* Foundation_NSExtensionItem.h */,
+				6AA2DE639025767BCAC861B3 /* Foundation_NSExtensionRequestHandling.h */,
+				7A0E2CDCF40E8EA59C15B132 /* Foundation_NSFileCoordinator.h */,
+				9C8BD2D5FC313A4EB161B70E /* Foundation_NSFileHandle.h */,
+				609E528281A0E0AD47826CAD /* Foundation_NSFileManager.h */,
+				2FC21BB3E1E0BE133F4AC81E /* Foundation_NSFilePresenter.h */,
+				28F706AC83A8DAD9B38F4A0A /* Foundation_NSFileVersion.h */,
+				051997CE00F53F2954EEEF32 /* Foundation_NSFileWrapper.h */,
+				A579D6463F4E2CC46CB9B05B /* Foundation_NSFormatter.h */,
+				E10FF89C05100B37043AB485 /* Foundation_NSHTTPCookie.h */,
+				36BF401D1AD2EE6706701271 /* Foundation_NSHTTPCookieStorage.h */,
+				D9FBAA363C4EC1FBBB715365 /* Foundation_NSHashTable.h */,
+				643DE4B50A7C6A5595E1883E /* Foundation_NSISO8601DateFormatter.h */,
+				C99DD47E1F14DED58CD5E537 /* Foundation_NSIndexPath.h */,
+				8E82969BCC70C8F9B236A04A /* Foundation_NSIndexSet.h */,
+				548CCDEE5D95F2A1146CF24F /* Foundation_NSInvocation.h */,
+				505495F05D4DFE5E3B8345B9 /* Foundation_NSItemProvider.h */,
+				260D5B98565D9E84CCCD87A6 /* Foundation_NSJSONSerialization.h */,
+				A19D94EDCF1C53CADF0403C4 /* Foundation_NSKeyValueCoding.h */,
+				73C671BB8172EC40A8905BE2 /* Foundation_NSKeyValueObserving.h */,
+				C4CD2EDFDF072E60619987CD /* Foundation_NSKeyedArchiver.h */,
+				2C51842CFFBF8621CE62F7AC /* Foundation_NSLengthFormatter.h */,
+				9F17E060D1AF1565FE60D0C1 /* Foundation_NSLinguisticTagger.h */,
+				F396DB8B23ACD091D7F7441C /* Foundation_NSLocale.h */,
+				31F0A82BB7B2323712AF8CC9 /* Foundation_NSLock.h */,
+				C25896F3E118B46A9F895C59 /* Foundation_NSMapTable.h */,
+				5E6DAC1CA7B415BDE2C2BBA1 /* Foundation_NSMassFormatter.h */,
+				BE75132FE5FEFC6526BE2C3D /* Foundation_NSMeasurement.h */,
+				5200B2246B9AA42DBB497329 /* Foundation_NSMeasurementFormatter.h */,
+				C73FBC69C062C33FD180D931 /* Foundation_NSMetadata.h */,
+				EF1AF471957A254167885952 /* Foundation_NSMetadataAttributes.h */,
+				C8EABB15C5FE6DFC02BCDDB0 /* Foundation_NSMethodSignature.h */,
+				F5F7F86B6123507F8FEF01A0 /* Foundation_NSNetServices.h */,
+				8F78E033340E22C4752A9802 /* Foundation_NSNotification.h */,
+				0C6E84CD3248DEC234F874E9 /* Foundation_NSNotificationQueue.h */,
+				CA84272D688BC1ACAB3E0EB7 /* Foundation_NSNull.h */,
+				A104498BD3732C14F291363A /* Foundation_NSNumberFormatter.h */,
+				DE393EE842B7B921CF5405E6 /* Foundation_NSObjCRuntime.h */,
+				A49C2D9DFE56B240A9FE93B2 /* Foundation_NSObject.h */,
+				91AE59BAE74D6509AB86384E /* Foundation_NSOperation.h */,
+				34462A0EE608479C0C179630 /* Foundation_NSOrderedSet.h */,
+				6EE1E3881C263F71A3A8E865 /* Foundation_NSOrthography.h */,
+				D551B9DF946AD8C55D56060F /* Foundation_NSPathUtilities.h */,
+				C2241D144B568044BA656C62 /* Foundation_NSPersonNameComponents.h */,
+				82AEF56CDB1013C2D8AD0A60 /* Foundation_NSPersonNameComponentsFormatter.h */,
+				CF784CE0639B56E0FA2662C9 /* Foundation_NSPointerArray.h */,
+				8D37B5312D8D69851F23B23A /* Foundation_NSPointerFunctions.h */,
+				EB3DCD724B1711583E22BFC6 /* Foundation_NSPort.h */,
+				02721784B8BE2EF3CA4D52E9 /* Foundation_NSPredicate.h */,
+				2647D7D89422F984EB464724 /* Foundation_NSProcessInfo.h */,
+				998D08B05148F90B375A0E19 /* Foundation_NSProgress.h */,
+				7C5CC54EFF58A28F1AED14AA /* Foundation_NSPropertyList.h */,
+				D250758DFB895DAF04921AFB /* Foundation_NSProxy.h */,
+				F015961DEE4D4F3A33F2A64C /* Foundation_NSRange.h */,
+				163A09F4EA0BDD9635024920 /* Foundation_NSRegularExpression.h */,
+				7845EB6044E5906C44AEB2E2 /* Foundation_NSRunLoop.h */,
+				C458F2A6A04EB51F80D08AB7 /* Foundation_NSScanner.h */,
+				370F2F979FE42EF9CEB79FB0 /* Foundation_NSSet.h */,
+				7B98D8292F14508B2B273516 /* Foundation_NSSortDescriptor.h */,
+				735272A1846F14665B3026C0 /* Foundation_NSStream.h */,
+				08D6B3EDADDCE1AAB5282B63 /* Foundation_NSString.h */,
+				B4AF32925414C806AA712278 /* Foundation_NSTextCheckingResult.h */,
+				E51B3A767DD0196893550291 /* Foundation_NSThread.h */,
+				F3E440A314B40B6805D1229A /* Foundation_NSTimeZone.h */,
+				D100ED1A809C5AEF02314627 /* Foundation_NSTimer.h */,
+				91897BC3C834DA8F12FBDC3F /* Foundation_NSURL.h */,
+				D39741C72C064145F6E74742 /* Foundation_NSURLAuthenticationChallenge.h */,
+				9BBEE38CE2BAE3CB71184A45 /* Foundation_NSURLCache.h */,
+				CD8535ACFCD847F25D742815 /* Foundation_NSURLConnection.h */,
+				24A71D4CCC412D16168900E8 /* Foundation_NSURLCredential.h */,
+				231C0F136E6DA346254F356B /* Foundation_NSURLCredentialStorage.h */,
+				DEDF1D0DB8CA750258601DEC /* Foundation_NSURLError.h */,
+				43AEE748F19F835BEE20ECEC /* Foundation_NSURLProtectionSpace.h */,
+				6549CB04BCB1BC3CE3593765 /* Foundation_NSURLProtocol.h */,
+				DD3A442A5EC9AB7DCD147A60 /* Foundation_NSURLRequest.h */,
+				0A3A66DE2BA2A326C41D33C3 /* Foundation_NSURLResponse.h */,
+				1BB59DC1005941E2318600BE /* Foundation_NSURLSession.h */,
+				CB46BC1427AB2B814CE6F7BB /* Foundation_NSUUID.h */,
+				B0DC0FE1D85064D75D4C688F /* Foundation_NSUbiquitousKeyValueStore.h */,
+				DC0BB8E17EC396397E89B86A /* Foundation_NSUndoManager.h */,
+				9D46450422E9ECA8251D1751 /* Foundation_NSUnit.h */,
+				844BF22FFB84C7016F2E73E5 /* Foundation_NSUserActivity.h */,
+				9398EC6146CBA794F7867737 /* Foundation_NSUserDefaults.h */,
+				BADE6C191FACE77D2262C32A /* Foundation_NSValue.h */,
+				CBAEA96843D121693BBD15A4 /* Foundation_NSValueTransformer.h */,
+				EDE167051E7F9C3E6EF736AB /* Foundation_NSXMLParser.h */,
+				83199BA03217503CEE0C6A87 /* Foundation_NSXPCConnection.h */,
+				F4CC76FBB0938F9D681D9904 /* Foundation_NSZone.h */,
+				F622DA1B5AF5F999CC6F2634 /* NFIAudioToolbox.h */,
+				6BB4F81A436214667F0002D2 /* NFIAudioToolboxLoader.h */,
+				DA1BFC8A76444D2B56AE53ED /* NFIAudioToolboxLoader.m */,
+				5E5586F2C8BDA4EE35B1476B /* Security_CipherSuite.h */,
+				806227F449A4F9392705A19E /* Security_SecAccessControl.h */,
+				E64656B7E260A3590BEE3D62 /* Security_SecBase.h */,
+				A3921C6B79EE2C7B6A1D62C9 /* Security_SecCertificate.h */,
+				7850AD59BCA97563592A333E /* Security_SecIdentity.h */,
+				A10869356C8EA431B0623813 /* Security_SecImportExport.h */,
+				0148A5EE6CA0C72A94191EA7 /* Security_SecItem.h */,
+				C0A907A2C5AFA971E4916DDF /* Security_SecKey.h */,
+				6D0ACAB3C128687B9C1A03FF /* Security_SecPolicy.h */,
+				64E1C12471C40504D553598A /* Security_SecRandom.h */,
+				F4D818ECD0450F598B0300AE /* Security_SecSharedCredential.h */,
+				2BAB1CEDF0129BDABC8B4BC4 /* Security_SecTrust.h */,
+				E5FF64FC768C48D0B864C42E /* Security_SecureTransport.h */,
+				DFAAF80BFF48679B6C4B0D55 /* allheaders.h */,
+				665BC78FF2524F014B05D5F7 /* allincludes.h */,
+				EEA99EDBE3A532DB0D1FE95E /* allprotos.h */,
+				741B0E9D4E0178C7108CBA15 /* classes */,
+				A0B8EE4AACA75011413677E4 /* parts */,
+				A391F31D3B97BF53C661E559 /* parts_sa */,
+				2550E3F6A367E34D4F2F9CA9 /* parts_sr */,
+				09816729310DCDAEF273F38E /* protocols */,
+			);
+			path = AudioToolbox/device;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6F8D832631F44AA63261652 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BD99AD511826F595F3BD50 /* NFIAudioToolboxLoader.h in Headers */,
+				C74CB8F0696D65942A47A2AD /* NFIAudioToolbox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F7D03F0B387FF39A730411 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5901183E9596D1799B20D163 /* CallbackSupport.h in Headers */,
+				E727335BA988F09A21CE8B7E /* NFIUtility.h in Headers */,
+				71202DA8B4208E9DAAF03889 /* PointerSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43AEA414D62D4241754C1E7E /* NFIAudioToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2A355105F47151C3C79D82 /* Build configuration list for PBXNativeTarget "NFIAudioToolbox" */;
+			buildPhases = (
+				A6F8D832631F44AA63261652 /* Headers */,
+				2DC259841B271C06881D7F63 /* Sources */,
+				ADA1399351A6AAD1381E2F59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BAB3AFB21AE103C4C447232 /* PBXTargetDependency */,
+			);
+			name = NFIAudioToolbox;
+			productName = NFIAudioToolbox;
+			productReference = A5FC3CE2C6E4B021F59A4838 /* NFIAudioToolbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE806A700A0157FA9952D415 /* NFIUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6A72A4307AB7D23D3F5691 /* Build configuration list for PBXNativeTarget "NFIUtility" */;
+			buildPhases = (
+				F1F7D03F0B387FF39A730411 /* Headers */,
+				FA333A036DFC20DE9F5D03ED /* Sources */,
+				889F3D01629FBA3868708A1F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFIUtility;
+			productName = NFIUtility;
+			productReference = 1CCEF422C6EF086D09899952 /* NFIUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8BCA38932B16ACDBB00B655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 26E19333D590B828614467CB /* Build configuration list for PBXProject "NFIDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 3B364F5F39DD873E04E8C788;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE125855F5E3D4B09923B95 /* All */,
+				CE806A700A0157FA9952D415 /* NFIUtility */,
+				43AEA414D62D4241754C1E7E /* NFIAudioToolbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DC259841B271C06881D7F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956A955C7A71600482EE38CC /* AudioToolbox_AUAudioUnit.m in Sources */,
+				75FFAF7E465DED0CCB8B151E /* AudioToolbox_AUAudioUnitImplementation.m in Sources */,
+				5FD4C767C6EEE558CB17BB52 /* AudioToolbox_AUComponent.m in Sources */,
+				D2B4FE6EA64DCD926D18EB81 /* AudioToolbox_AUGraph.m in Sources */,
+				F8100EC750018AB1ED91AD0E /* AudioToolbox_AUParameters.m in Sources */,
+				99A9141B926EA515B3858A4B /* AudioToolbox_AudioComponent.m in Sources */,
+				03D57DC80074007B5917DB7D /* AudioToolbox_AudioConverter.m in Sources */,
+				A677A00B458261E3BF5F2633 /* AudioToolbox_AudioFile.m in Sources */,
+				453641F2C7E90BA9F2E36EA8 /* AudioToolbox_AudioFileStream.m in Sources */,
+				728748AD6F5181D209BC3048 /* AudioToolbox_AudioFormat.m in Sources */,
+				7E18EBC2A76C8238749D2D66 /* AudioToolbox_AudioOutputUnit.m in Sources */,
+				9F212DAE7A30FC039D14AD7F /* AudioToolbox_AudioQueue.m in Sources */,
+				0646CFC45C5FF29929E7012F /* AudioToolbox_AudioServices.m in Sources */,
+				AE4B2C685A037AA4FAD863EF /* AudioToolbox_AudioSession.m in Sources */,
+				A84C83215B5C6F83437D92D3 /* AudioToolbox_AudioToolbox.m in Sources */,
+				A4C41CD53458CBE3BC45212B /* AudioToolbox_AudioUnitParameters.m in Sources */,
+				F2D6942C9DBFAAD882F46C9A /* AudioToolbox_AudioUnitProperties.m in Sources */,
+				5181F4342980B1F81EF47A29 /* AudioToolbox_CAFFile.m in Sources */,
+				91C2EC89A3C53E2B47D30B56 /* AudioToolbox_ExtendedAudioFile.m in Sources */,
+				45BC7F9A8AF7D6043C9F9CE9 /* AudioToolbox_MusicDevice.m in Sources */,
+				BFD0EF08EB96677D7F1335C1 /* AudioToolbox_MusicPlayer.m in Sources */,
+				FDE853950FECF125BFEB3DFB /* NFIAudioToolboxLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA333A036DFC20DE9F5D03ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC76082DF5C7AAF420CC2C1 /* CallbackSupport.m in Sources */,
+				09646DB1DB260C8C7CB7D642 /* PointerSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6683DE1102DF1887E285BF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AEA414D62D4241754C1E7E /* NFIAudioToolbox */;
+			targetProxy = 2D4A9B3E7F9DB5FB158A62C2 /* PBXContainerItemProxy */;
+		};
+		7E13621736B1C8ADDAF10706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE806A700A0157FA9952D415 /* NFIUtility */;
+			targetProxy = 9517C95CDC073A97B506E0E9 /* PBXContainerItemProxy */;
+		};
+		9BAB3AFB21AE103C4C447232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE806A700A0157FA9952D415 /* NFIUtility */;
+			targetProxy = 556611171CB05AE80D81595B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33C0C418E4CF2EE83BB75CEE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		555A98CBC0536E3EF96C0524 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = ../src/NFIUtility/Info.plist;
+				OTHER_LDFLAGS = "-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIUtility;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		767A24C4862B008E0F944000 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = AudioToolbox/Info.plist;
+				OTHER_LDFLAGS = (
+					"-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork",
+					"-weak_framework AudioToolbox",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIAudioToolbox;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		BAB0CC95DF8F6A3106F36518 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2A355105F47151C3C79D82 /* Build configuration list for PBXNativeTarget "NFIAudioToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767A24C4862B008E0F944000 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		26E19333D590B828614467CB /* Build configuration list for PBXProject "NFIDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C0C418E4CF2EE83BB75CEE /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		C1E33EE0CE69CE2A1E7BF85A /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB0CC95DF8F6A3106F36518 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		FD6A72A4307AB7D23D3F5691 /* Build configuration list for PBXNativeTarget "NFIUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555A98CBC0536E3EF96C0524 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8BCA38932B16ACDBB00B655 /* Project object */;
+}

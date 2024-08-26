@@ -1,0 +1,5 @@
+if (strcmp(type, @encode(MTLIndirectCommandBufferExecutionRange)) == 0) {
+		MTLIndirectCommandBufferExecutionRange argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLIndirectCommandBufferExecutionRange: argument inContext: context];
+	}

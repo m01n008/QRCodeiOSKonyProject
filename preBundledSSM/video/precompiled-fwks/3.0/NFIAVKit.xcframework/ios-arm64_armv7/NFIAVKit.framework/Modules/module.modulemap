@@ -1,0 +1,6 @@
+framework module NFIAVKit {
+  umbrella header "NFIAVKit.h"
+
+  export *
+  module * { export * }
+}

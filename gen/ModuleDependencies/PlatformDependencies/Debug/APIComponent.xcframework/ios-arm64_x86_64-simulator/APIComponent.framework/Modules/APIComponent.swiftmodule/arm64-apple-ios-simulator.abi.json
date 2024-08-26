@@ -1,0 +1,181 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APIComponent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WidgetKit",
+        "printedName": "WidgetKit",
+        "declKind": "Import",
+        "moduleName": "APIComponent"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KonyWidgetCenter",
+        "printedName": "KonyWidgetCenter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "reloadWidget",
+            "printedName": "reloadWidget(of:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@APIComponent@objc(cs)KonyWidgetCenter(cm)reloadWidgetOf:",
+            "mangledName": "$s12APIComponent16KonyWidgetCenterC06reloadC02ofySS_tFZ",
+            "moduleName": "APIComponent",
+            "static": true,
+            "objc_name": "reloadWidgetOf:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reloadAllWidgets",
+            "printedName": "reloadAllWidgets()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@APIComponent@objc(cs)KonyWidgetCenter(cm)reloadAllWidgets",
+            "mangledName": "$s12APIComponent16KonyWidgetCenterC16reloadAllWidgetsyyFZ",
+            "moduleName": "APIComponent",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KonyWidgetCenter",
+                "printedName": "APIComponent.KonyWidgetCenter",
+                "usr": "c:@M@APIComponent@objc(cs)KonyWidgetCenter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@APIComponent@objc(cs)KonyWidgetCenter(im)init",
+            "mangledName": "$s12APIComponent16KonyWidgetCenterCACycfc",
+            "moduleName": "APIComponent",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@APIComponent@objc(cs)KonyWidgetCenter",
+        "mangledName": "$s12APIComponent16KonyWidgetCenterC",
+        "moduleName": "APIComponent",
+        "isOpen": true,
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "Available"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,6 @@
+framework module NFIMediaToolbox {
+  umbrella header "NFIMediaToolbox.h"
+
+  export *
+  module * { export * }
+}

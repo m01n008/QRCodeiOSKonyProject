@@ -1,0 +1,13 @@
+if (strcmp(type, @encode(MIDIMessage_96)) == 0) {
+		MIDIMessage_96 argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMIDIMessage_96: argument inContext: context];
+	} else if (strcmp(type, @encode(MIDIMessage_128)) == 0) {
+		MIDIMessage_128 argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMIDIMessage_128: argument inContext: context];
+	} else if (strcmp(type, @encode(MIDIMessage_64)) == 0) {
+		MIDIMessage_64 argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMIDIMessage_64: argument inContext: context];
+	}

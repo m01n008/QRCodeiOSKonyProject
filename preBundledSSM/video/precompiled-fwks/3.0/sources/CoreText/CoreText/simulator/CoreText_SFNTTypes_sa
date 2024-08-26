@@ -1,0 +1,45 @@
+if (strcmp(type, @encode(sfntFontDescriptor)) == 0) {
+		sfntFontDescriptor argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntFontDescriptor: argument inContext: context];
+	} else if (strcmp(type, @encode(sfntNameRecord)) == 0) {
+		sfntNameRecord argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntNameRecord: argument inContext: context];
+	} else if (strcmp(type, @encode(sfntFontRunFeature)) == 0) {
+		sfntFontRunFeature argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntFontRunFeature: argument inContext: context];
+	} else if (strcmp(type, @encode(sfntCMapExtendedSubHeader)) == 0) {
+		sfntCMapExtendedSubHeader argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntCMapExtendedSubHeader: argument inContext: context];
+	} else if (strcmp(type, @encode(sfntCMapEncoding)) == 0) {
+		sfntCMapEncoding argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntCMapEncoding: argument inContext: context];
+	} else if (strcmp(type, @encode(sfntCMapSubHeader)) == 0) {
+		sfntCMapSubHeader argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntCMapSubHeader: argument inContext: context];
+	} else if (strcmp(type, @encode(sfntFontFeatureSetting)) == 0) {
+		sfntFontFeatureSetting argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntFontFeatureSetting: argument inContext: context];
+	} else if (strcmp(type, @encode(sfntDirectoryEntry)) == 0) {
+		sfntDirectoryEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntDirectoryEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(sfntVariationAxis)) == 0) {
+		sfntVariationAxis argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntVariationAxis: argument inContext: context];
+	} else if (strcmp(type, @encode(sfntFeatureName)) == 0) {
+		sfntFeatureName argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithsfntFeatureName: argument inContext: context];
+	} else if (strcmp(type, @encode(FontVariation)) == 0) {
+		FontVariation argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithFontVariation: argument inContext: context];
+	}

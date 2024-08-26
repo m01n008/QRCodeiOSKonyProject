@@ -1,0 +1,6 @@
+framework module NFIMetal {
+  umbrella header "NFIMetal.h"
+
+  export *
+  module * { export * }
+}

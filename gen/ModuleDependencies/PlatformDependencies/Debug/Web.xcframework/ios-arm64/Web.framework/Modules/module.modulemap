@@ -1,0 +1,6 @@
+framework module Web {
+  umbrella header "Web.h"
+  export *
+
+  module * { export * }
+}

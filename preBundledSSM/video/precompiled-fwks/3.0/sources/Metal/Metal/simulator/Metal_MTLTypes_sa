@@ -1,0 +1,17 @@
+if (strcmp(type, @encode(MTLSize)) == 0) {
+		MTLSize argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLSize: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLOrigin)) == 0) {
+		MTLOrigin argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLOrigin: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLCoordinate2D)) == 0) {
+		MTLCoordinate2D argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLCoordinate2D: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLRegion)) == 0) {
+		MTLRegion argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLRegion: argument inContext: context];
+	}

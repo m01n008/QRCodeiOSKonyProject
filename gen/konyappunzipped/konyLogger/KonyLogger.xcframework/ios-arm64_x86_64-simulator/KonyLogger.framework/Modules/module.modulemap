@@ -1,0 +1,6 @@
+framework module KonyLogger {
+  umbrella header "KonyLogger.h"
+
+  export *
+  module * { export * }
+}

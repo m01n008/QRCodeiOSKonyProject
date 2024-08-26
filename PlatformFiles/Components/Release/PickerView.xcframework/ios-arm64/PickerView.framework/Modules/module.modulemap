@@ -1,0 +1,6 @@
+framework module PickerView {
+  umbrella header "PickerView.h"
+  export *
+
+  module * { export * }
+}

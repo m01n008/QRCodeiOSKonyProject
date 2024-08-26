@@ -1,0 +1,6 @@
+framework module NetworkComponent {
+  umbrella header "NetworkComponent.h"
+  export *
+
+  module * { export * }
+}

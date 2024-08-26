@@ -1,0 +1,8 @@
+Metal_MTLDevice_sa
+Metal_MTLIndirectCommandBuffer_sa
+Metal_MTLTexture_sa
+Metal_MTLRenderCommandEncoder_sa
+Metal_MTLRenderPass_sa
+Metal_MTLTypes_sa
+Metal_MTLCounters_sa
+Metal_MTLResourceStateCommandEncoder_sa

@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C764A808488C77627CCC822E /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 95DB00CE994EC607C5F2F4A5 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F17BCB2155F862E69F9125FE /* PBXTargetDependency */,
+				B32FC5CC6CB98B500B78A58A /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0CCE64ABF11674E010465847 /* PointerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9002AE8A95B090064245AC /* PointerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		132C009BC973DA8164C89B68 /* CoreMedia_CMAudioClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E8DCBB600291471D924E0 /* CoreMedia_CMAudioClock.m */; };
+		23C20F5AF2344D86191173DE /* NFIUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */; };
+		2ED2930526A29F88D457C7CD /* NFICoreMediaLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F5535BB76C711E6DEE3AE8 /* NFICoreMediaLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310FD648B6EC0BA5C5F6D08F /* CoreMedia_CMFormatDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C9F61BC1C5C1F51724099 /* CoreMedia_CMFormatDescription.m */; };
+		47F378CD501C87FE85B127D3 /* CoreMedia_CMFormatDescriptionBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A08329E613A1B5C500F570A /* CoreMedia_CMFormatDescriptionBridge.m */; };
+		4CBEA9E9D5DC1DAC88B996C0 /* CoreMedia_CMMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1AC8EEF5991930A1EC7FD8 /* CoreMedia_CMMetadata.m */; };
+		5DC53A3762B7CF233D0295C8 /* CoreMedia_CMBlockBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECACAD63C4D508686DB41B85 /* CoreMedia_CMBlockBuffer.m */; };
+		62E79C4B670D72CC1D19E26B /* NFICoreMediaLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D231A8CF9175256D398C00AF /* NFICoreMediaLoader.m */; };
+		6F423440D4DE5B40E6F68BB7 /* CallbackSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D38231D0DE33EAFD8C574891 /* CallbackSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7455952E0A1E8B10A762E641 /* CoreMedia_CMSimpleQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 14313E781B995895178A2A7E /* CoreMedia_CMSimpleQueue.m */; };
+		7DC41F28A3C917AB187EEC6A /* CoreMedia_CMTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4383FD3879BD095BDB40A95B /* CoreMedia_CMTime.m */; };
+		7E7626ECB9241A54AB42F47D /* CoreMedia_CMMemoryPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C575CC2B0089A055ABC31B /* CoreMedia_CMMemoryPool.m */; };
+		8836F375DE0C4CFC5C186968 /* NFICoreMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D11B33397A9C5D2DA34B0B /* NFICoreMedia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF95AD6DE9CF1AD576E573F /* CoreMedia_CMAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 025C5684C740D7D27AD35058 /* CoreMedia_CMAttachment.m */; };
+		A36619742305DAA515B9E29B /* CallbackSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F39AD2D3ADECCFD10225AC /* CallbackSupport.m */; };
+		AD521C7CBE477092253ACC53 /* CoreMedia_CMTimeRange.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54E7B2C14454F3BFAF339B /* CoreMedia_CMTimeRange.m */; };
+		AFB3A69F832274FE736FAD9D /* CoreMedia_CMTextMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA1A9D31B17A28D9D2180D /* CoreMedia_CMTextMarkup.m */; };
+		D05F13A9C2E785E630A75B22 /* CoreMedia_CMSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A1B50CBDB33D82069FBF6 /* CoreMedia_CMSync.m */; };
+		D2DC299C8330953840ED5130 /* PointerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B10BB9C033D4338C717B2A0 /* PointerSupport.m */; };
+		D84F3349FC3BBEE5855E7F6E /* CoreMedia_CMBufferQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A6B5B475EA28AA16FE4B4 /* CoreMedia_CMBufferQueue.m */; };
+		F08DC8E1D2B29683392839D6 /* NFIUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F9597E92125B418E78B2316A /* NFIUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62ABFA6F51A9B1889804056 /* CoreMedia_CMSampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 673148DB66B1AC682B701249 /* CoreMedia_CMSampleBuffer.m */; };
+		FF9E6BDABFEB218EE6C7E703 /* CoreMedia_CMBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A83565B5A47A7850DD7DDE4A /* CoreMedia_CMBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3308388E460D9187C96B0622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CF65CBBBB125367E89804F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C478656A382488D1EB6BD2F;
+			remoteInfo = NFIUtility;
+		};
+		352329C83658BCA328DBB566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CF65CBBBB125367E89804F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C478656A382488D1EB6BD2F;
+			remoteInfo = NFIUtility;
+		};
+		8CE7B579B454E177411F7D9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CF65CBBBB125367E89804F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52331480EBD49EAA94A5457A;
+			remoteInfo = NFICoreMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D159E2E0908662404ED2D8 /* parts_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sr; sourceTree = "<group>"; };
+		025C5684C740D7D27AD35058 /* CoreMedia_CMAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMAttachment.m; sourceTree = "<group>"; };
+		02DD3A1C915BF9D6E30A0778 /* CoreVideo_CVOpenGLESTextureCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVOpenGLESTextureCache.h; sourceTree = "<group>"; };
+		0359EE8471710AA57D66EF8C /* CoreGraphics_CGPDFContentStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFContentStream.h; sourceTree = "<group>"; };
+		0432041F0E706ED538BA90A7 /* CoreFoundation_CFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStream.h; sourceTree = "<group>"; };
+		08F8F58519C053789D4980DF /* CoreGraphics_CGGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGGradient.h; sourceTree = "<group>"; };
+		0BBED8227510AC9A2A1EB973 /* CoreGraphics_CGPDFPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFPage.h; sourceTree = "<group>"; };
+		0C211390AA26B2D205C9C501 /* CoreGraphics_CGPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPath.h; sourceTree = "<group>"; };
+		0D7A1B50CBDB33D82069FBF6 /* CoreMedia_CMSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMSync.m; sourceTree = "<group>"; };
+		0DDB5A5C2B2B1DB892F9B0E9 /* CoreGraphics_CGPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPattern.h; sourceTree = "<group>"; };
+		10764248D0DA3044CF76129D /* CoreFoundation_CFMachPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMachPort.h; sourceTree = "<group>"; };
+		12E044F485C1A20290ECD117 /* CoreFoundation_CFPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPreferences.h; sourceTree = "<group>"; };
+		12E5B69F18C7947E8A8E5007 /* CoreGraphics_CGPDFContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFContext.h; sourceTree = "<group>"; };
+		13B7DFBFAC3F775E27A0BC91 /* CoreFoundation_CFAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFAttributedString.h; sourceTree = "<group>"; };
+		14313E781B995895178A2A7E /* CoreMedia_CMSimpleQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMSimpleQueue.m; sourceTree = "<group>"; };
+		1639A853A2DDA118007227DE /* CoreVideo_CVPixelBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelBuffer.h; sourceTree = "<group>"; };
+		1A08329E613A1B5C500F570A /* CoreMedia_CMFormatDescriptionBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMFormatDescriptionBridge.m; sourceTree = "<group>"; };
+		1B29C06EEB9EBD9A92342B55 /* CoreFoundation_CFBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBase.h; sourceTree = "<group>"; };
+		1B48750745B67AD91BA78B89 /* CoreFoundation_CFMessagePort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMessagePort.h; sourceTree = "<group>"; };
+		1C8A6B5B475EA28AA16FE4B4 /* CoreMedia_CMBufferQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMBufferQueue.m; sourceTree = "<group>"; };
+		1C9946B55C1CF18FAB3D7769 /* CoreMedia_CMSampleBuffer_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreMedia_CMSampleBuffer_sr; sourceTree = "<group>"; };
+		1F196E09358D7560646D734A /* CoreMedia_CMTime_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreMedia_CMTime_sr; sourceTree = "<group>"; };
+		1FE313EAF773DC417ABD9773 /* CoreFoundation_CFSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSocket.h; sourceTree = "<group>"; };
+		20FA5D170378B9F264927F6F /* CoreFoundation_CFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFArray.h; sourceTree = "<group>"; };
+		21223CB5B34B993764E77049 /* CoreMedia_CMMemoryPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMMemoryPool.h; sourceTree = "<group>"; };
+		243E3BF6B403E3DA98EAF077 /* CoreFoundation_CFBitVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBitVector.h; sourceTree = "<group>"; };
+		2A355E3746DC6CFF4224F0D9 /* classes */ = {isa = PBXFileReference; lastKnownFileType = text; path = classes; sourceTree = "<group>"; };
+		2CBD1A5570B1359D84A8675E /* Foundation_NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObject.h; sourceTree = "<group>"; };
+		30CA1A9D31B17A28D9D2180D /* CoreMedia_CMTextMarkup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMTextMarkup.m; sourceTree = "<group>"; };
+		31B4E97BEFBA80682ECBC12E /* CoreMedia_CMTimeRange_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreMedia_CMTimeRange_sr; sourceTree = "<group>"; };
+		353302632BE500839CC4585D /* CoreGraphics_CGColorConversionInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGColorConversionInfo.h; sourceTree = "<group>"; };
+		4383FD3879BD095BDB40A95B /* CoreMedia_CMTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMTime.m; sourceTree = "<group>"; };
+		443178E931E564D269604974 /* CoreFoundation_CFBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBundle.h; sourceTree = "<group>"; };
+		47C3062E7AE1D3CF04354E48 /* CoreMedia_CMFormatDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMFormatDescription.h; sourceTree = "<group>"; };
+		4828FFC2EB8BA40AC4380656 /* CoreFoundation_CFLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFLocale.h; sourceTree = "<group>"; };
+		4AFB4B3FC51F7E61F6A7FDF2 /* CoreMedia_CMTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMTime.h; sourceTree = "<group>"; };
+		4C2B7E729C532FF3AF36B23A /* CoreGraphics_CGFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGFunction.h; sourceTree = "<group>"; };
+		4C322201BE96E10286779216 /* CoreGraphics_CGPDFOperatorTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFOperatorTable.h; sourceTree = "<group>"; };
+		4C90D12849836829C073B507 /* CoreMedia_CMSimpleQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMSimpleQueue.h; sourceTree = "<group>"; };
+		4D990B3DD3D7E58B35115047 /* AudioToolbox_AudioFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFormat.h; sourceTree = "<group>"; };
+		4DA35F61996B319655C8B596 /* CoreFoundation_CFFileSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileSecurity.h; sourceTree = "<group>"; };
+		4ECA3F86105382C88AA62704 /* CoreFoundation_CFStringTokenizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringTokenizer.h; sourceTree = "<group>"; };
+		51036C4CAACB429CB522CAD4 /* CoreFoundation_CFFileDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileDescriptor.h; sourceTree = "<group>"; };
+		57455266EC6E4F237B57C680 /* CoreMedia_CMMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMMetadata.h; sourceTree = "<group>"; };
+		576C10526E0910D974B29132 /* CoreFoundation_CFData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFData.h; sourceTree = "<group>"; };
+		583D35F0CA844155D353622C /* CoreGraphics_CGError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGError.h; sourceTree = "<group>"; };
+		58607F08024B68F93AA6DF8D /* CoreVideo_CVMetalTextureCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVMetalTextureCache.h; sourceTree = "<group>"; };
+		59D11B33397A9C5D2DA34B0B /* NFICoreMedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFICoreMedia.h; sourceTree = "<group>"; };
+		5A74DFEDFE64A4AA2CEE60DA /* CoreAudio_CoreAudioTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudio_CoreAudioTypes.h; sourceTree = "<group>"; };
+		5B10BB9C033D4338C717B2A0 /* PointerSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointerSupport.m; sourceTree = "<group>"; };
+		5DF25BFE59AE373CE407DB7D /* CoreGraphics_CGShading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGShading.h; sourceTree = "<group>"; };
+		5F52FCD9C119FC8EB895750F /* CoreVideo_CVBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVBuffer.h; sourceTree = "<group>"; };
+		62A9C78EC11EA80BE4487C36 /* CoreGraphics_CGAffineTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGAffineTransform.h; sourceTree = "<group>"; };
+		632E497226A971201D11CE8B /* CoreVideo_CVReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVReturn.h; sourceTree = "<group>"; };
+		665A78923E59DEAB4DE8ABBD /* CoreGraphics_CGPDFScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFScanner.h; sourceTree = "<group>"; };
+		673148DB66B1AC682B701249 /* CoreMedia_CMSampleBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMSampleBuffer.m; sourceTree = "<group>"; };
+		68C575CC2B0089A055ABC31B /* CoreMedia_CMMemoryPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMMemoryPool.m; sourceTree = "<group>"; };
+		6A6F0B672E3D9D3C2DC8D383 /* CoreFoundation_CFTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTree.h; sourceTree = "<group>"; };
+		6F175DC20D6C86C3325EBD2F /* CoreMedia_CMTime_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreMedia_CMTime_sa; sourceTree = "<group>"; };
+		70C311E134C15A94517F2671 /* CoreFoundation_CFStringEncodingExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringEncodingExt.h; sourceTree = "<group>"; };
+		713E8DCBB600291471D924E0 /* CoreMedia_CMAudioClock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMAudioClock.m; sourceTree = "<group>"; };
+		71C91ED135481CDAE59C9CBB /* CoreFoundation_CFDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDateFormatter.h; sourceTree = "<group>"; };
+		7266BFFED1F3D4DD2B56F21E /* CoreMedia_CMSampleBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMSampleBuffer.h; sourceTree = "<group>"; };
+		796C9F61BC1C5C1F51724099 /* CoreMedia_CMFormatDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMFormatDescription.m; sourceTree = "<group>"; };
+		7C042F8D85959078D21A3045 /* CoreFoundation_CFNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNotificationCenter.h; sourceTree = "<group>"; };
+		7DE4E656B1526B7EF2449B65 /* protocols */ = {isa = PBXFileReference; lastKnownFileType = text; path = protocols; sourceTree = "<group>"; };
+		84F39AD2D3ADECCFD10225AC /* CallbackSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackSupport.m; sourceTree = "<group>"; };
+		891BBF5067378E1DDFCF92F6 /* parts_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sa; sourceTree = "<group>"; };
+		8A1AC8EEF5991930A1EC7FD8 /* CoreMedia_CMMetadata.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMMetadata.m; sourceTree = "<group>"; };
+		8B10CD4FB7055CF9247E1944 /* allprotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allprotos.h; sourceTree = "<group>"; };
+		8B70D8B7DEFD72F03F1244DB /* CoreFoundation_CFBinaryHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBinaryHeap.h; sourceTree = "<group>"; };
+		90D78F8FFC9C40F60335C98A /* CoreMedia_CMSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMSync.h; sourceTree = "<group>"; };
+		911E3FE41ADF212FE48E5941 /* CoreMedia_CMAudioClock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMAudioClock.h; sourceTree = "<group>"; };
+		94F305A1A59B165677EF6D9B /* CoreGraphics_CGGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGGeometry.h; sourceTree = "<group>"; };
+		9803716AE7592DE3630ABAA1 /* CoreVideo_CVOpenGLESTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVOpenGLESTexture.h; sourceTree = "<group>"; };
+		98FA5BA9A599DC878D12A014 /* CoreFoundation_CFRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFRunLoop.h; sourceTree = "<group>"; };
+		99612ABE584E9D0C28E39763 /* CoreMedia_CMBufferQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMBufferQueue.h; sourceTree = "<group>"; };
+		A181ACA06FA297082821A81C /* CoreFoundation_CFError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFError.h; sourceTree = "<group>"; };
+		A3090FCAB0B0C861B159087F /* parts */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts; sourceTree = "<group>"; };
+		A459C09DBA5315CADC086724 /* CoreMedia_CMFormatDescription_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreMedia_CMFormatDescription_sr; sourceTree = "<group>"; };
+		A4AED2D40C4086C8DDC349E6 /* CoreMedia_CMTimeRange_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreMedia_CMTimeRange_sa; sourceTree = "<group>"; };
+		A4B0447F54033A48FFD31424 /* CoreGraphics_CGImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGImage.h; sourceTree = "<group>"; };
+		A6BC3E758FC7FA5F57AEBBAC /* CoreMedia_CMSampleBuffer_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreMedia_CMSampleBuffer_sa; sourceTree = "<group>"; };
+		A83565B5A47A7850DD7DDE4A /* CoreMedia_CMBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMBase.m; sourceTree = "<group>"; };
+		AB9002AE8A95B090064245AC /* PointerSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerSupport.h; sourceTree = "<group>"; };
+		AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37043D731D5E284AE5FF6E8 /* CoreMedia_CMTextMarkup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMTextMarkup.h; sourceTree = "<group>"; };
+		B504762AE6F57A6E1C940EDC /* CoreFoundation_CFCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCharacterSet.h; sourceTree = "<group>"; };
+		B5F3A6590CEA94A994472275 /* CoreGraphics_CGDataConsumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGDataConsumer.h; sourceTree = "<group>"; };
+		B7E69CA2B2EE2D06EA782A65 /* CoreMedia_CMFormatDescriptionBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMFormatDescriptionBridge.h; sourceTree = "<group>"; };
+		B8CE2C1DEDC1F286A61A881C /* CoreMedia_CMBlockBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMBlockBuffer.h; sourceTree = "<group>"; };
+		B9217CA4F8C266E758AB051A /* CoreVideo_CVImageBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVImageBuffer.h; sourceTree = "<group>"; };
+		BBB397839085F340AA3D60A6 /* CoreFoundation_CFURLAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLAccess.h; sourceTree = "<group>"; };
+		BC4A776A9BD7C9BDF47B3089 /* CoreFoundation_CFBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBag.h; sourceTree = "<group>"; };
+		BDDA04190DFF67A0AB39260F /* CoreGraphics_CGColorSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGColorSpace.h; sourceTree = "<group>"; };
+		BF0AE07E9283C90A282A0C2F /* CoreGraphics_CGPDFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFStream.h; sourceTree = "<group>"; };
+		C03C2B497FF063653D7AFBFA /* CoreGraphics_CGFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGFont.h; sourceTree = "<group>"; };
+		C3AC931DCCCA052CE68C0B79 /* CoreGraphics_CGPDFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFArray.h; sourceTree = "<group>"; };
+		C515D0D9EC1CBD4E65075E27 /* CoreFoundation_CFURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURL.h; sourceTree = "<group>"; };
+		C8CF2CE37C79154BE53E4F47 /* CoreGraphics_CGPDFString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFString.h; sourceTree = "<group>"; };
+		C91E3903028988F97721C751 /* allincludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allincludes.h; sourceTree = "<group>"; };
+		C965708303C0A5A6F403B6D9 /* CoreFoundation_CFNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumberFormatter.h; sourceTree = "<group>"; };
+		C9A78D06DB2DC00A2924A8BD /* CoreGraphics_CGPDFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFDocument.h; sourceTree = "<group>"; };
+		C9F5535BB76C711E6DEE3AE8 /* NFICoreMediaLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFICoreMediaLoader.h; sourceTree = "<group>"; };
+		CB411B0CF16AF479C9B009F2 /* NFISimulator.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = NFISimulator.gyp; sourceTree = "<group>"; };
+		CF8F5024E035E7221B1DF939 /* CoreGraphics_CGDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGDataProvider.h; sourceTree = "<group>"; };
+		D231A8CF9175256D398C00AF /* NFICoreMediaLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFICoreMediaLoader.m; sourceTree = "<group>"; };
+		D365A12FCAFD819EEAA39A4C /* CoreFoundation_CFURLEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLEnumerator.h; sourceTree = "<group>"; };
+		D38231D0DE33EAFD8C574891 /* CallbackSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackSupport.h; sourceTree = "<group>"; };
+		D5701ADE3D6F53E30B5DC0C6 /* CoreGraphics_CGBitmapContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGBitmapContext.h; sourceTree = "<group>"; };
+		D6F8AF2E2987FD024D3BC49D /* CoreFoundation_CFTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTimeZone.h; sourceTree = "<group>"; };
+		D99F94BB6C15CD45D4993716 /* CoreVideo_CVPixelFormatDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelFormatDescription.h; sourceTree = "<group>"; };
+		DBAC9B01384FABDA7BA0808F /* CoreFoundation_CFUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUtilities.h; sourceTree = "<group>"; };
+		DD5A26D63FFED60E51ADFC89 /* CoreVideo_CVBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVBase.h; sourceTree = "<group>"; };
+		DE7257EA9B09292B6B7A4971 /* CoreFoundation_CFString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFString.h; sourceTree = "<group>"; };
+		DE8DB2DA1C1758B3D2713DA7 /* CoreVideo_CVPixelBufferPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelBufferPool.h; sourceTree = "<group>"; };
+		DEEB3452EBF1DFF0537DCD4A /* CoreFoundation_CFNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumber.h; sourceTree = "<group>"; };
+		DFF4CDD0A1D17EBC667ED64B /* CoreFoundation_CFCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCalendar.h; sourceTree = "<group>"; };
+		E71C215F16BD410C03312865 /* CoreMedia_CMAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMAttachment.h; sourceTree = "<group>"; };
+		EA501979AA6F955B4980CC33 /* CoreMedia_CMFormatDescription_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreMedia_CMFormatDescription_sa; sourceTree = "<group>"; };
+		EB3353A4CACDF11192BABF37 /* CoreGraphics_CGLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGLayer.h; sourceTree = "<group>"; };
+		EB54E7B2C14454F3BFAF339B /* CoreMedia_CMTimeRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMTimeRange.m; sourceTree = "<group>"; };
+		ECACAD63C4D508686DB41B85 /* CoreMedia_CMBlockBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMedia_CMBlockBuffer.m; sourceTree = "<group>"; };
+		EDECF7614C7DCC61C92C6498 /* CoreFoundation_CFByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFByteOrder.h; sourceTree = "<group>"; };
+		EE2AB9A37318367611275B64 /* CoreGraphics_CGColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGColor.h; sourceTree = "<group>"; };
+		EF2F0734C3A40C4F2E69B9C0 /* CoreFoundation_CFDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDictionary.h; sourceTree = "<group>"; };
+		EFEEC407DC8ACA6411A7B447 /* NFICoreMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFICoreMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11E458AF3B19926F30A7EA9 /* CoreFoundation_CFPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPropertyList.h; sourceTree = "<group>"; };
+		F527418575AEA5185B20BC86 /* CoreMedia_CMTimeRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMTimeRange.h; sourceTree = "<group>"; };
+		F7735EA7C6055E46E8D84072 /* CoreGraphics_CGPDFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFObject.h; sourceTree = "<group>"; };
+		F8CDE758B16649D574B053B1 /* CoreMedia_CMBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMBase.h; sourceTree = "<group>"; };
+		F9560A96738722104CF870FD /* CoreGraphics_CGPDFDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFDictionary.h; sourceTree = "<group>"; };
+		F9597E92125B418E78B2316A /* NFIUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIUtility.h; sourceTree = "<group>"; };
+		FAFE04FBDEDF4CA092BBD500 /* CoreFoundation_CFUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUUID.h; sourceTree = "<group>"; };
+		FB5B0F0E5E50E6A4BFED6865 /* CoreGraphics_CGContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGContext.h; sourceTree = "<group>"; };
+		FC1F5001DE51ACF322985119 /* allheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		FD6B88523A91BE2CB597AD85 /* CoreFoundation_CFSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSet.h; sourceTree = "<group>"; };
+		FD7CA41772AC6B8F44D7A19A /* CoreFoundation_CFDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDate.h; sourceTree = "<group>"; };
+		FE7F4E190B4BD1A012255658 /* CoreFoundation_CFPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPlugIn.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD57A533763DFA1B0D4B878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1B42948549D3AC8186477D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C20F5AF2344D86191173DE /* NFIUtility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184E53332F8B7AC0FF38AE56 = {
+			isa = PBXGroup;
+			children = (
+				A8DFED5E8E895778E4D86E48 /* Source */,
+				292AF4CCD89D8344DF08CDF6 /* Products */,
+				A161E65C41EEBF05DB6A2874 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		292AF4CCD89D8344DF08CDF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */,
+				EFEEC407DC8ACA6411A7B447 /* NFICoreMedia.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A161E65C41EEBF05DB6A2874 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				CB411B0CF16AF479C9B009F2 /* NFISimulator.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		A8DFED5E8E895778E4D86E48 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DFF48FC583D3EA802FDD6893 /* ../src/NFIUtility */,
+				CF02CFAA31DAFE80AB540555 /* CoreMedia/simulator */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		CF02CFAA31DAFE80AB540555 /* CoreMedia/simulator */ = {
+			isa = PBXGroup;
+			children = (
+				4D990B3DD3D7E58B35115047 /* AudioToolbox_AudioFormat.h */,
+				5A74DFEDFE64A4AA2CEE60DA /* CoreAudio_CoreAudioTypes.h */,
+				20FA5D170378B9F264927F6F /* CoreFoundation_CFArray.h */,
+				13B7DFBFAC3F775E27A0BC91 /* CoreFoundation_CFAttributedString.h */,
+				BC4A776A9BD7C9BDF47B3089 /* CoreFoundation_CFBag.h */,
+				1B29C06EEB9EBD9A92342B55 /* CoreFoundation_CFBase.h */,
+				8B70D8B7DEFD72F03F1244DB /* CoreFoundation_CFBinaryHeap.h */,
+				243E3BF6B403E3DA98EAF077 /* CoreFoundation_CFBitVector.h */,
+				443178E931E564D269604974 /* CoreFoundation_CFBundle.h */,
+				EDECF7614C7DCC61C92C6498 /* CoreFoundation_CFByteOrder.h */,
+				DFF4CDD0A1D17EBC667ED64B /* CoreFoundation_CFCalendar.h */,
+				B504762AE6F57A6E1C940EDC /* CoreFoundation_CFCharacterSet.h */,
+				576C10526E0910D974B29132 /* CoreFoundation_CFData.h */,
+				FD7CA41772AC6B8F44D7A19A /* CoreFoundation_CFDate.h */,
+				71C91ED135481CDAE59C9CBB /* CoreFoundation_CFDateFormatter.h */,
+				EF2F0734C3A40C4F2E69B9C0 /* CoreFoundation_CFDictionary.h */,
+				A181ACA06FA297082821A81C /* CoreFoundation_CFError.h */,
+				51036C4CAACB429CB522CAD4 /* CoreFoundation_CFFileDescriptor.h */,
+				4DA35F61996B319655C8B596 /* CoreFoundation_CFFileSecurity.h */,
+				4828FFC2EB8BA40AC4380656 /* CoreFoundation_CFLocale.h */,
+				10764248D0DA3044CF76129D /* CoreFoundation_CFMachPort.h */,
+				1B48750745B67AD91BA78B89 /* CoreFoundation_CFMessagePort.h */,
+				7C042F8D85959078D21A3045 /* CoreFoundation_CFNotificationCenter.h */,
+				DEEB3452EBF1DFF0537DCD4A /* CoreFoundation_CFNumber.h */,
+				C965708303C0A5A6F403B6D9 /* CoreFoundation_CFNumberFormatter.h */,
+				FE7F4E190B4BD1A012255658 /* CoreFoundation_CFPlugIn.h */,
+				12E044F485C1A20290ECD117 /* CoreFoundation_CFPreferences.h */,
+				F11E458AF3B19926F30A7EA9 /* CoreFoundation_CFPropertyList.h */,
+				98FA5BA9A599DC878D12A014 /* CoreFoundation_CFRunLoop.h */,
+				FD6B88523A91BE2CB597AD85 /* CoreFoundation_CFSet.h */,
+				1FE313EAF773DC417ABD9773 /* CoreFoundation_CFSocket.h */,
+				0432041F0E706ED538BA90A7 /* CoreFoundation_CFStream.h */,
+				DE7257EA9B09292B6B7A4971 /* CoreFoundation_CFString.h */,
+				70C311E134C15A94517F2671 /* CoreFoundation_CFStringEncodingExt.h */,
+				4ECA3F86105382C88AA62704 /* CoreFoundation_CFStringTokenizer.h */,
+				D6F8AF2E2987FD024D3BC49D /* CoreFoundation_CFTimeZone.h */,
+				6A6F0B672E3D9D3C2DC8D383 /* CoreFoundation_CFTree.h */,
+				C515D0D9EC1CBD4E65075E27 /* CoreFoundation_CFURL.h */,
+				BBB397839085F340AA3D60A6 /* CoreFoundation_CFURLAccess.h */,
+				D365A12FCAFD819EEAA39A4C /* CoreFoundation_CFURLEnumerator.h */,
+				FAFE04FBDEDF4CA092BBD500 /* CoreFoundation_CFUUID.h */,
+				DBAC9B01384FABDA7BA0808F /* CoreFoundation_CFUtilities.h */,
+				62A9C78EC11EA80BE4487C36 /* CoreGraphics_CGAffineTransform.h */,
+				D5701ADE3D6F53E30B5DC0C6 /* CoreGraphics_CGBitmapContext.h */,
+				EE2AB9A37318367611275B64 /* CoreGraphics_CGColor.h */,
+				353302632BE500839CC4585D /* CoreGraphics_CGColorConversionInfo.h */,
+				BDDA04190DFF67A0AB39260F /* CoreGraphics_CGColorSpace.h */,
+				FB5B0F0E5E50E6A4BFED6865 /* CoreGraphics_CGContext.h */,
+				B5F3A6590CEA94A994472275 /* CoreGraphics_CGDataConsumer.h */,
+				CF8F5024E035E7221B1DF939 /* CoreGraphics_CGDataProvider.h */,
+				583D35F0CA844155D353622C /* CoreGraphics_CGError.h */,
+				C03C2B497FF063653D7AFBFA /* CoreGraphics_CGFont.h */,
+				4C2B7E729C532FF3AF36B23A /* CoreGraphics_CGFunction.h */,
+				94F305A1A59B165677EF6D9B /* CoreGraphics_CGGeometry.h */,
+				08F8F58519C053789D4980DF /* CoreGraphics_CGGradient.h */,
+				A4B0447F54033A48FFD31424 /* CoreGraphics_CGImage.h */,
+				EB3353A4CACDF11192BABF37 /* CoreGraphics_CGLayer.h */,
+				C3AC931DCCCA052CE68C0B79 /* CoreGraphics_CGPDFArray.h */,
+				0359EE8471710AA57D66EF8C /* CoreGraphics_CGPDFContentStream.h */,
+				12E5B69F18C7947E8A8E5007 /* CoreGraphics_CGPDFContext.h */,
+				F9560A96738722104CF870FD /* CoreGraphics_CGPDFDictionary.h */,
+				C9A78D06DB2DC00A2924A8BD /* CoreGraphics_CGPDFDocument.h */,
+				F7735EA7C6055E46E8D84072 /* CoreGraphics_CGPDFObject.h */,
+				4C322201BE96E10286779216 /* CoreGraphics_CGPDFOperatorTable.h */,
+				0BBED8227510AC9A2A1EB973 /* CoreGraphics_CGPDFPage.h */,
+				665A78923E59DEAB4DE8ABBD /* CoreGraphics_CGPDFScanner.h */,
+				BF0AE07E9283C90A282A0C2F /* CoreGraphics_CGPDFStream.h */,
+				C8CF2CE37C79154BE53E4F47 /* CoreGraphics_CGPDFString.h */,
+				0C211390AA26B2D205C9C501 /* CoreGraphics_CGPath.h */,
+				0DDB5A5C2B2B1DB892F9B0E9 /* CoreGraphics_CGPattern.h */,
+				5DF25BFE59AE373CE407DB7D /* CoreGraphics_CGShading.h */,
+				E71C215F16BD410C03312865 /* CoreMedia_CMAttachment.h */,
+				025C5684C740D7D27AD35058 /* CoreMedia_CMAttachment.m */,
+				911E3FE41ADF212FE48E5941 /* CoreMedia_CMAudioClock.h */,
+				713E8DCBB600291471D924E0 /* CoreMedia_CMAudioClock.m */,
+				F8CDE758B16649D574B053B1 /* CoreMedia_CMBase.h */,
+				A83565B5A47A7850DD7DDE4A /* CoreMedia_CMBase.m */,
+				B8CE2C1DEDC1F286A61A881C /* CoreMedia_CMBlockBuffer.h */,
+				ECACAD63C4D508686DB41B85 /* CoreMedia_CMBlockBuffer.m */,
+				99612ABE584E9D0C28E39763 /* CoreMedia_CMBufferQueue.h */,
+				1C8A6B5B475EA28AA16FE4B4 /* CoreMedia_CMBufferQueue.m */,
+				47C3062E7AE1D3CF04354E48 /* CoreMedia_CMFormatDescription.h */,
+				796C9F61BC1C5C1F51724099 /* CoreMedia_CMFormatDescription.m */,
+				B7E69CA2B2EE2D06EA782A65 /* CoreMedia_CMFormatDescriptionBridge.h */,
+				1A08329E613A1B5C500F570A /* CoreMedia_CMFormatDescriptionBridge.m */,
+				EA501979AA6F955B4980CC33 /* CoreMedia_CMFormatDescription_sa */,
+				A459C09DBA5315CADC086724 /* CoreMedia_CMFormatDescription_sr */,
+				21223CB5B34B993764E77049 /* CoreMedia_CMMemoryPool.h */,
+				68C575CC2B0089A055ABC31B /* CoreMedia_CMMemoryPool.m */,
+				57455266EC6E4F237B57C680 /* CoreMedia_CMMetadata.h */,
+				8A1AC8EEF5991930A1EC7FD8 /* CoreMedia_CMMetadata.m */,
+				7266BFFED1F3D4DD2B56F21E /* CoreMedia_CMSampleBuffer.h */,
+				673148DB66B1AC682B701249 /* CoreMedia_CMSampleBuffer.m */,
+				A6BC3E758FC7FA5F57AEBBAC /* CoreMedia_CMSampleBuffer_sa */,
+				1C9946B55C1CF18FAB3D7769 /* CoreMedia_CMSampleBuffer_sr */,
+				4C90D12849836829C073B507 /* CoreMedia_CMSimpleQueue.h */,
+				14313E781B995895178A2A7E /* CoreMedia_CMSimpleQueue.m */,
+				90D78F8FFC9C40F60335C98A /* CoreMedia_CMSync.h */,
+				0D7A1B50CBDB33D82069FBF6 /* CoreMedia_CMSync.m */,
+				B37043D731D5E284AE5FF6E8 /* CoreMedia_CMTextMarkup.h */,
+				30CA1A9D31B17A28D9D2180D /* CoreMedia_CMTextMarkup.m */,
+				4AFB4B3FC51F7E61F6A7FDF2 /* CoreMedia_CMTime.h */,
+				4383FD3879BD095BDB40A95B /* CoreMedia_CMTime.m */,
+				F527418575AEA5185B20BC86 /* CoreMedia_CMTimeRange.h */,
+				EB54E7B2C14454F3BFAF339B /* CoreMedia_CMTimeRange.m */,
+				A4AED2D40C4086C8DDC349E6 /* CoreMedia_CMTimeRange_sa */,
+				31B4E97BEFBA80682ECBC12E /* CoreMedia_CMTimeRange_sr */,
+				6F175DC20D6C86C3325EBD2F /* CoreMedia_CMTime_sa */,
+				1F196E09358D7560646D734A /* CoreMedia_CMTime_sr */,
+				DD5A26D63FFED60E51ADFC89 /* CoreVideo_CVBase.h */,
+				5F52FCD9C119FC8EB895750F /* CoreVideo_CVBuffer.h */,
+				B9217CA4F8C266E758AB051A /* CoreVideo_CVImageBuffer.h */,
+				58607F08024B68F93AA6DF8D /* CoreVideo_CVMetalTextureCache.h */,
+				9803716AE7592DE3630ABAA1 /* CoreVideo_CVOpenGLESTexture.h */,
+				02DD3A1C915BF9D6E30A0778 /* CoreVideo_CVOpenGLESTextureCache.h */,
+				1639A853A2DDA118007227DE /* CoreVideo_CVPixelBuffer.h */,
+				DE8DB2DA1C1758B3D2713DA7 /* CoreVideo_CVPixelBufferPool.h */,
+				D99F94BB6C15CD45D4993716 /* CoreVideo_CVPixelFormatDescription.h */,
+				632E497226A971201D11CE8B /* CoreVideo_CVReturn.h */,
+				2CBD1A5570B1359D84A8675E /* Foundation_NSObject.h */,
+				59D11B33397A9C5D2DA34B0B /* NFICoreMedia.h */,
+				C9F5535BB76C711E6DEE3AE8 /* NFICoreMediaLoader.h */,
+				D231A8CF9175256D398C00AF /* NFICoreMediaLoader.m */,
+				FC1F5001DE51ACF322985119 /* allheaders.h */,
+				C91E3903028988F97721C751 /* allincludes.h */,
+				8B10CD4FB7055CF9247E1944 /* allprotos.h */,
+				2A355E3746DC6CFF4224F0D9 /* classes */,
+				A3090FCAB0B0C861B159087F /* parts */,
+				891BBF5067378E1DDFCF92F6 /* parts_sa */,
+				01D159E2E0908662404ED2D8 /* parts_sr */,
+				7DE4E656B1526B7EF2449B65 /* protocols */,
+			);
+			path = CoreMedia/simulator;
+			sourceTree = "<group>";
+		};
+		DFF48FC583D3EA802FDD6893 /* ../src/NFIUtility */ = {
+			isa = PBXGroup;
+			children = (
+				D38231D0DE33EAFD8C574891 /* CallbackSupport.h */,
+				84F39AD2D3ADECCFD10225AC /* CallbackSupport.m */,
+				F9597E92125B418E78B2316A /* NFIUtility.h */,
+				AB9002AE8A95B090064245AC /* PointerSupport.h */,
+				5B10BB9C033D4338C717B2A0 /* PointerSupport.m */,
+			);
+			path = ../src/NFIUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28DB18D2B7B8BA8983EE4863 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F423440D4DE5B40E6F68BB7 /* CallbackSupport.h in Headers */,
+				F08DC8E1D2B29683392839D6 /* NFIUtility.h in Headers */,
+				0CCE64ABF11674E010465847 /* PointerSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F459FEDC65E0AE63ACB51B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED2930526A29F88D457C7CD /* NFICoreMediaLoader.h in Headers */,
+				8836F375DE0C4CFC5C186968 /* NFICoreMedia.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52331480EBD49EAA94A5457A /* NFICoreMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54512A260BA2FBBB07DB6F3 /* Build configuration list for PBXNativeTarget "NFICoreMedia" */;
+			buildPhases = (
+				2F459FEDC65E0AE63ACB51B2 /* Headers */,
+				923C0B48A5FAEBD88AE2DA9B /* Sources */,
+				FC1B42948549D3AC8186477D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB71670CAB9EB91AA069998 /* PBXTargetDependency */,
+			);
+			name = NFICoreMedia;
+			productName = NFICoreMedia;
+			productReference = EFEEC407DC8ACA6411A7B447 /* NFICoreMedia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C478656A382488D1EB6BD2F /* NFIUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C334771F0ADD50B757FAB8B /* Build configuration list for PBXNativeTarget "NFIUtility" */;
+			buildPhases = (
+				28DB18D2B7B8BA8983EE4863 /* Headers */,
+				1C841735A99CAE009CBE1BA9 /* Sources */,
+				BAD57A533763DFA1B0D4B878 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFIUtility;
+			productName = NFIUtility;
+			productReference = AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78CF65CBBBB125367E89804F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 9F5564CAE6B92DD64C95FD91 /* Build configuration list for PBXProject "NFISimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 184E53332F8B7AC0FF38AE56;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C764A808488C77627CCC822E /* All */,
+				7C478656A382488D1EB6BD2F /* NFIUtility */,
+				52331480EBD49EAA94A5457A /* NFICoreMedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C841735A99CAE009CBE1BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36619742305DAA515B9E29B /* CallbackSupport.m in Sources */,
+				D2DC299C8330953840ED5130 /* PointerSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923C0B48A5FAEBD88AE2DA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF95AD6DE9CF1AD576E573F /* CoreMedia_CMAttachment.m in Sources */,
+				132C009BC973DA8164C89B68 /* CoreMedia_CMAudioClock.m in Sources */,
+				FF9E6BDABFEB218EE6C7E703 /* CoreMedia_CMBase.m in Sources */,
+				5DC53A3762B7CF233D0295C8 /* CoreMedia_CMBlockBuffer.m in Sources */,
+				D84F3349FC3BBEE5855E7F6E /* CoreMedia_CMBufferQueue.m in Sources */,
+				310FD648B6EC0BA5C5F6D08F /* CoreMedia_CMFormatDescription.m in Sources */,
+				47F378CD501C87FE85B127D3 /* CoreMedia_CMFormatDescriptionBridge.m in Sources */,
+				7E7626ECB9241A54AB42F47D /* CoreMedia_CMMemoryPool.m in Sources */,
+				4CBEA9E9D5DC1DAC88B996C0 /* CoreMedia_CMMetadata.m in Sources */,
+				F62ABFA6F51A9B1889804056 /* CoreMedia_CMSampleBuffer.m in Sources */,
+				7455952E0A1E8B10A762E641 /* CoreMedia_CMSimpleQueue.m in Sources */,
+				D05F13A9C2E785E630A75B22 /* CoreMedia_CMSync.m in Sources */,
+				AFB3A69F832274FE736FAD9D /* CoreMedia_CMTextMarkup.m in Sources */,
+				7DC41F28A3C917AB187EEC6A /* CoreMedia_CMTime.m in Sources */,
+				AD521C7CBE477092253ACC53 /* CoreMedia_CMTimeRange.m in Sources */,
+				62E79C4B670D72CC1D19E26B /* NFICoreMediaLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32FC5CC6CB98B500B78A58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52331480EBD49EAA94A5457A /* NFICoreMedia */;
+			targetProxy = 8CE7B579B454E177411F7D9F /* PBXContainerItemProxy */;
+		};
+		CCB71670CAB9EB91AA069998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C478656A382488D1EB6BD2F /* NFIUtility */;
+			targetProxy = 352329C83658BCA328DBB566 /* PBXContainerItemProxy */;
+		};
+		F17BCB2155F862E69F9125FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C478656A382488D1EB6BD2F /* NFIUtility */;
+			targetProxy = 3308388E460D9187C96B0622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		401EAB3DA3F11FC40896D06F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		B2B90B89403B3513D44E4284 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Default;
+		};
+		C063BCF634847F4A2168AAEF /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = ../src/NFIUtility/Info.plist;
+				OTHER_LDFLAGS = "-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIUtility;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		E3E32AB7E368936F84A375DC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = CoreMedia/Info.plist;
+				OTHER_LDFLAGS = (
+					"-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork",
+					"-weak_framework CoreMedia",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFICoreMedia;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C334771F0ADD50B757FAB8B /* Build configuration list for PBXNativeTarget "NFIUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C063BCF634847F4A2168AAEF /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		95DB00CE994EC607C5F2F4A5 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B90B89403B3513D44E4284 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		9F5564CAE6B92DD64C95FD91 /* Build configuration list for PBXProject "NFISimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401EAB3DA3F11FC40896D06F /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		D54512A260BA2FBBB07DB6F3 /* Build configuration list for PBXNativeTarget "NFICoreMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E32AB7E368936F84A375DC /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78CF65CBBBB125367E89804F /* Project object */;
+}

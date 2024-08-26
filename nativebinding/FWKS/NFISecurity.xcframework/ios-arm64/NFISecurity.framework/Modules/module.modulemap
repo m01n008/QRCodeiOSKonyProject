@@ -1,0 +1,6 @@
+framework module NFISecurity {
+  umbrella header "NFISecurity.h"
+
+  export *
+  module * { export * }
+}

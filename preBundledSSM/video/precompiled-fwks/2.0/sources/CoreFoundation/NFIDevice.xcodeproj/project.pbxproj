@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BFE125855F5E3D4B09923B95 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C1E33EE0CE69CE2A1E7BF85A /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				7E13621736B1C8ADDAF10706 /* PBXTargetDependency */,
+				1ECA2C5F09E12D5B460FAC3E /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03C6C54E573A623A1A4DF12E /* CoreFoundation_CFNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E97AB9B060A0CE662BB88C /* CoreFoundation_CFNumberFormatter.m */; };
+		05A661D00B5D92FBE195F94D /* CoreFoundation_CFBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E6074FC96E2DC95205A6B5 /* CoreFoundation_CFBundle.m */; };
+		07EF53CB22245AB2BEBF7ABF /* CoreFoundation_CFURLAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E99A390974961EC00265E49 /* CoreFoundation_CFURLAccess.m */; };
+		09E46E5C80F4DB63E14EE33C /* CoreFoundation_CFTimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F7040A9E971E8A82B2486 /* CoreFoundation_CFTimeZone.m */; };
+		0E2B25CD36EE61930FA72B32 /* CoreFoundation_CFDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B850F4AE0AF21E5D187FA243 /* CoreFoundation_CFDictionary.m */; };
+		0F0B2CCFB247F2FD45189A53 /* CoreFoundation_CFData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE470B724C51711B86E3AC67 /* CoreFoundation_CFData.m */; };
+		0FCA0C49C1F44CAD36EBCDC5 /* CoreFoundation_CFByteOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A075EDFFF0D2E15068415C0 /* CoreFoundation_CFByteOrder.m */; };
+		1244A721E667F1C0D850C3CB /* CoreFoundation_CFSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59EF0043D0017231FEC177 /* CoreFoundation_CFSocket.m */; };
+		13F2955325E8E545EE11555C /* CoreFoundation_CFCharacterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C36C94B7B1639E15A6EED197 /* CoreFoundation_CFCharacterSet.m */; };
+		1736D501CEDD0DE6B2457FAC /* CoreFoundation_CFMessagePort.m in Sources */ = {isa = PBXBuildFile; fileRef = C229A868476A652F5123DA49 /* CoreFoundation_CFMessagePort.m */; };
+		179E8EDFAA586C08BEE4AF9B /* CoreFoundation_CFStringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB040C9C90024128EB0F750 /* CoreFoundation_CFStringTokenizer.m */; };
+		1A86EB38D7C1ACEBD09E1919 /* NFIUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9842BE6505547806A3F5C6 /* NFIUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A58A6FDBEA565EDED4EC66 /* CoreFoundation_CFTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 437FA6387C7D61000C1C74DE /* CoreFoundation_CFTree.m */; };
+		2DB637B77FFB9B7D9518EB7E /* CoreFoundation_CFArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D46C76FE76120649D5C4F8D8 /* CoreFoundation_CFArray.m */; };
+		31320E9532CF0052E7C7AAB9 /* CoreFoundation_CFDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E0559F5DBDF6F1B70CAAC /* CoreFoundation_CFDateFormatter.m */; };
+		31EAB347C6B518F43EE8C6B7 /* CoreFoundation_CFFileDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = B35102474C34573707A8A9AD /* CoreFoundation_CFFileDescriptor.m */; };
+		361E236489CAD4081B1B9AE8 /* CoreFoundation_CFLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4148AEBD18347D98E07369AF /* CoreFoundation_CFLocale.m */; };
+		379A5761D48EB593B4576A70 /* CoreFoundation_CFString.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B969B810096CBA3DA160CF /* CoreFoundation_CFString.m */; };
+		37FF8306CF743824FE128A29 /* CoreFoundation_CFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B824C6B2EE38CD19A546178 /* CoreFoundation_CFURL.m */; };
+		3AED0806294C1B944AB0AF0A /* CoreFoundation_CFPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0BE5E54471EE465EB5AA5 /* CoreFoundation_CFPreferences.m */; };
+		44ED751496E29B4FCC4FD5C0 /* CoreFoundation_CFFileSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = A962958F9558FE29435AA628 /* CoreFoundation_CFFileSecurity.m */; };
+		44FB0A6B4087A4D743B707C4 /* CoreFoundation_CFUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF742A7FF7CAAF09D2FAE38 /* CoreFoundation_CFUUID.m */; };
+		474E88D284221A1F7CA5C890 /* CoreFoundation_CFStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C64F77AFA8BB271DCA825E5A /* CoreFoundation_CFStream.m */; };
+		502088F5B5080746DFC07D9D /* CoreFoundation_CFBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15276739EFDF1AD691D11B /* CoreFoundation_CFBag.m */; };
+		5E714DE7F42EFE6F921EFD49 /* CoreFoundation_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDFE9A39ECA7794900A99DA /* CoreFoundation_CFUtilities.m */; };
+		63804485B98CBD8C3B41B719 /* NFICoreFoundationLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B206C0210844ABDCF5A5FDCB /* NFICoreFoundationLoader.m */; };
+		6F4CA4507E32E5AF782D5197 /* CoreFoundation_CFStringEncodingExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C156989977A4DB8F85E4EBF2 /* CoreFoundation_CFStringEncodingExt.m */; };
+		734CC9F25D67865AA461B146 /* CoreFoundation_CFPropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 054C929DB7E4614557312CCA /* CoreFoundation_CFPropertyList.m */; };
+		8A3B8DF68BBF74CA29F13C32 /* CoreFoundation_CFRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 64851C81CA7635814125EA74 /* CoreFoundation_CFRunLoop.m */; };
+		9DEFED7BD858AE4CB6C7FD32 /* CoreFoundation_CFSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A9B4ADCE038DC16DD4C8C /* CoreFoundation_CFSet.m */; };
+		9F63D8BEC7B0E69156265319 /* PointerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A761855A8FC3C6BADED07EEA /* PointerSupport.m */; };
+		A4D6AE97965EEDBEC4ECCA74 /* CoreFoundation_CFNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B744006F178C5246A1AFECE /* CoreFoundation_CFNumber.m */; };
+		A54387AEA4006C32F227BBBB /* CoreFoundation_CFAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B8E3229E8C3A9FF5560845 /* CoreFoundation_CFAttributedString.m */; };
+		AB145324F833B01E496C5645 /* CoreFoundation_CFURLEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 842633F713E913E5665FB254 /* CoreFoundation_CFURLEnumerator.m */; };
+		AB8BBB666BC9B8B60F2A497B /* CoreFoundation_CFBitVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F4C5B936475DD5A698AC1B /* CoreFoundation_CFBitVector.m */; };
+		B4692938E971B712B71618A7 /* CoreFoundation_CFMachPort.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1CC16FE298F90F8E0F5CA2 /* CoreFoundation_CFMachPort.m */; };
+		B8BF68CCD21AF6D7C30988BB /* NFICoreFoundationLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B97A0A1BDADD9A8127F121 /* NFICoreFoundationLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C53F285627428038CBBDAC /* PointerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7E8340D3882140F2868D6BB /* CoreFoundation_CFBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D37F24D471FB318706ED087F /* CoreFoundation_CFBase.m */; };
+		C85672BA9C4A805D5B4BA3B1 /* CallbackSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 00332D41D163AA58D64A5AD6 /* CallbackSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCF21FA02964DE5B9AD91698 /* CoreFoundation_CFDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039A25E05C512D99C5FE82C /* CoreFoundation_CFDate.m */; };
+		CD703307A4B913A3423EF5E5 /* CallbackSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = ED195B0E26581E4056DC1120 /* CallbackSupport.m */; };
+		CDCCD1FEB4E2A9BF5312B016 /* NFIUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCEF422C6EF086D09899952 /* NFIUtility.framework */; };
+		DE1A3F5F5B4D15965860AB22 /* CoreFoundation_CFNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 424AD6B3C335D1AD403FF1F1 /* CoreFoundation_CFNotificationCenter.m */; };
+		DF3E22F54F21D38CD1E64793 /* NFICoreFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A115A87856BEFD2A288501C /* NFICoreFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E38466A09AF4958300C67FD9 /* CoreFoundation_CFBinaryHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = E53708E38944FD2C88516AA2 /* CoreFoundation_CFBinaryHeap.m */; };
+		F562C866D500A7042C3AA8A9 /* CoreFoundation_CFPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5C91AB6CE747E1C6A5EDCB /* CoreFoundation_CFPlugIn.m */; };
+		FDCDD589644C6B73B6422AF7 /* CoreFoundation_CFCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0D97FCEE50098948737206 /* CoreFoundation_CFCalendar.m */; };
+		FDEF9B70BD8776AF2EEF0B20 /* CoreFoundation_CFError.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0FD22C457B73358119F5DB /* CoreFoundation_CFError.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DB0DE4CB344420269FE7062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE806A700A0157FA9952D415;
+			remoteInfo = NFIUtility;
+		};
+		8F7EAB5A7E7DB14EC7B0E7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063DD58E530D5A7202F527C2;
+			remoteInfo = NFICoreFoundation;
+		};
+		9517C95CDC073A97B506E0E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE806A700A0157FA9952D415;
+			remoteInfo = NFIUtility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00332D41D163AA58D64A5AD6 /* CallbackSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackSupport.h; sourceTree = "<group>"; };
+		054C929DB7E4614557312CCA /* CoreFoundation_CFPropertyList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFPropertyList.m; sourceTree = "<group>"; };
+		05FB396FF6A92E0162F8D722 /* Foundation_NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObject.h; sourceTree = "<group>"; };
+		0BB040C9C90024128EB0F750 /* CoreFoundation_CFStringTokenizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFStringTokenizer.m; sourceTree = "<group>"; };
+		0E9842BE6505547806A3F5C6 /* NFIUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIUtility.h; sourceTree = "<group>"; };
+		0EF0BE5E54471EE465EB5AA5 /* CoreFoundation_CFPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFPreferences.m; sourceTree = "<group>"; };
+		0F9D1CEF36EF421359ECBE33 /* CoreFoundation_CFData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFData.h; sourceTree = "<group>"; };
+		17BA4F4C44F9DD66E2F2CCDF /* CoreFoundation_CFPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPreferences.h; sourceTree = "<group>"; };
+		182AD203A9BB6D2E9B500E25 /* CoreFoundation_CFBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBase.h; sourceTree = "<group>"; };
+		1B4AF10CA15BBB50482FF112 /* parts_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sa; sourceTree = "<group>"; };
+		1B824C6B2EE38CD19A546178 /* CoreFoundation_CFURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFURL.m; sourceTree = "<group>"; };
+		1C7E2F89970AB74E8D44B553 /* CoreFoundation_CFUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUUID.h; sourceTree = "<group>"; };
+		1CCEF422C6EF086D09899952 /* NFIUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4B565F659F96779399FF0B /* CoreFoundation_CFByteOrder_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFByteOrder_sr; sourceTree = "<group>"; };
+		24EE3614DA33045249EAE71D /* CoreFoundation_CFURLEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLEnumerator.h; sourceTree = "<group>"; };
+		251EDE271AC11DE12B9EC480 /* CoreFoundation_CFCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCharacterSet.h; sourceTree = "<group>"; };
+		279982BF7F9F86FB1EE9CAE6 /* CoreFoundation_CFCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCalendar.h; sourceTree = "<group>"; };
+		29B3078ECA704BB2308EEA54 /* NFICoreFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFICoreFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C15276739EFDF1AD691D11B /* CoreFoundation_CFBag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFBag.m; sourceTree = "<group>"; };
+		2DBC9A52412F0CF3C722CC2E /* CoreFoundation_CFNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumber.h; sourceTree = "<group>"; };
+		31229B5C98E42DDBA71CBFD6 /* CoreFoundation_CFLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFLocale.h; sourceTree = "<group>"; };
+		331A090E007FAE40FB8D809E /* CoreFoundation_CFBinaryHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBinaryHeap.h; sourceTree = "<group>"; };
+		39B97A0A1BDADD9A8127F121 /* NFICoreFoundationLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFICoreFoundationLoader.h; sourceTree = "<group>"; };
+		4148AEBD18347D98E07369AF /* CoreFoundation_CFLocale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFLocale.m; sourceTree = "<group>"; };
+		424AD6B3C335D1AD403FF1F1 /* CoreFoundation_CFNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFNotificationCenter.m; sourceTree = "<group>"; };
+		437FA6387C7D61000C1C74DE /* CoreFoundation_CFTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFTree.m; sourceTree = "<group>"; };
+		43D52C272E7BF7E96F953DDF /* CoreFoundation_CFDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDate.h; sourceTree = "<group>"; };
+		49AD3AE06E6415DC4FCC7D27 /* CoreFoundation_CFTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTree.h; sourceTree = "<group>"; };
+		4A115A87856BEFD2A288501C /* NFICoreFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFICoreFoundation.h; sourceTree = "<group>"; };
+		4BD2002F6BE8E3C24A9D94B3 /* CoreFoundation_CFMachPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMachPort.h; sourceTree = "<group>"; };
+		4CF742A7FF7CAAF09D2FAE38 /* CoreFoundation_CFUUID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFUUID.m; sourceTree = "<group>"; };
+		4D59EF0043D0017231FEC177 /* CoreFoundation_CFSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFSocket.m; sourceTree = "<group>"; };
+		5077EF3AD5C4C61F3544DCF3 /* CoreFoundation_CFDate_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFDate_sa; sourceTree = "<group>"; };
+		5A4C999C3C33E08EE9DA081B /* CoreFoundation_CFPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPropertyList.h; sourceTree = "<group>"; };
+		5A78D6C90D6A8CF06749CAAA /* allincludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allincludes.h; sourceTree = "<group>"; };
+		5BE634F0DFE7E979724265B1 /* CoreFoundation_CFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFArray.h; sourceTree = "<group>"; };
+		5F5DA8203AD6A4F4D6B327B8 /* CoreFoundation_CFFileSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileSecurity.h; sourceTree = "<group>"; };
+		5F9E0559F5DBDF6F1B70CAAC /* CoreFoundation_CFDateFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFDateFormatter.m; sourceTree = "<group>"; };
+		6039A25E05C512D99C5FE82C /* CoreFoundation_CFDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFDate.m; sourceTree = "<group>"; };
+		63E97AB9B060A0CE662BB88C /* CoreFoundation_CFNumberFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFNumberFormatter.m; sourceTree = "<group>"; };
+		64851C81CA7635814125EA74 /* CoreFoundation_CFRunLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFRunLoop.m; sourceTree = "<group>"; };
+		654C2B1F94E42F078F3C9CDB /* CoreFoundation_CFUUID_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFUUID_sr; sourceTree = "<group>"; };
+		6B66A2B7E7023C232B4E08F5 /* protocols */ = {isa = PBXFileReference; lastKnownFileType = text; path = protocols; sourceTree = "<group>"; };
+		6B744006F178C5246A1AFECE /* CoreFoundation_CFNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFNumber.m; sourceTree = "<group>"; };
+		6D9CAC14274F7630CD7343A2 /* CoreFoundation_CFFileDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileDescriptor.h; sourceTree = "<group>"; };
+		6E99A390974961EC00265E49 /* CoreFoundation_CFURLAccess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFURLAccess.m; sourceTree = "<group>"; };
+		6FDFE9A39ECA7794900A99DA /* CoreFoundation_CFUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFUtilities.m; sourceTree = "<group>"; };
+		702D87935EF35599D9419743 /* CoreFoundation_CFByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFByteOrder.h; sourceTree = "<group>"; };
+		7418B221606AF04AE7D84ED2 /* parts */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts; sourceTree = "<group>"; };
+		7A075EDFFF0D2E15068415C0 /* CoreFoundation_CFByteOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFByteOrder.m; sourceTree = "<group>"; };
+		7EECC73D8C5FC8D8880E93C0 /* CoreFoundation_CFString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFString.h; sourceTree = "<group>"; };
+		831C51C03E0A83B37484DCEE /* CoreFoundation_CFDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDateFormatter.h; sourceTree = "<group>"; };
+		842633F713E913E5665FB254 /* CoreFoundation_CFURLEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFURLEnumerator.m; sourceTree = "<group>"; };
+		85AA69810C44DA60992D1354 /* CoreFoundation_CFBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBag.h; sourceTree = "<group>"; };
+		862A74882BDE3CD24F6F8A26 /* allheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		866AD8E532AC92D92D14E17F /* CoreFoundation_CFUUID_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFUUID_sa; sourceTree = "<group>"; };
+		8935C32CB6650568B204C1A8 /* allprotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allprotos.h; sourceTree = "<group>"; };
+		894743C4F3AA41E7FEFCF26D /* CoreFoundation_CFBitVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBitVector.h; sourceTree = "<group>"; };
+		89618C98487E13CB79C66F4F /* CoreFoundation_CFSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSet.h; sourceTree = "<group>"; };
+		8E1F7040A9E971E8A82B2486 /* CoreFoundation_CFTimeZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFTimeZone.m; sourceTree = "<group>"; };
+		91B969B810096CBA3DA160CF /* CoreFoundation_CFString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFString.m; sourceTree = "<group>"; };
+		92F4C5B936475DD5A698AC1B /* CoreFoundation_CFBitVector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFBitVector.m; sourceTree = "<group>"; };
+		943B464A30A2DF0C222C3D93 /* CoreFoundation_CFDate_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFDate_sr; sourceTree = "<group>"; };
+		9507E54B81488A635E9C4919 /* CoreFoundation_CFStringTokenizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringTokenizer.h; sourceTree = "<group>"; };
+		98F9D88ABB4866CA4F8CF01C /* CoreFoundation_CFMessagePort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMessagePort.h; sourceTree = "<group>"; };
+		999570645912C723AB5764EC /* CoreFoundation_CFByteOrder_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFByteOrder_sa; sourceTree = "<group>"; };
+		A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerSupport.h; sourceTree = "<group>"; };
+		A761855A8FC3C6BADED07EEA /* PointerSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointerSupport.m; sourceTree = "<group>"; };
+		A962958F9558FE29435AA628 /* CoreFoundation_CFFileSecurity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFFileSecurity.m; sourceTree = "<group>"; };
+		ACEC919FFE6FA3AC10972ABB /* CoreFoundation_CFBase_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFBase_sr; sourceTree = "<group>"; };
+		B1B8E3229E8C3A9FF5560845 /* CoreFoundation_CFAttributedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFAttributedString.m; sourceTree = "<group>"; };
+		B206C0210844ABDCF5A5FDCB /* NFICoreFoundationLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFICoreFoundationLoader.m; sourceTree = "<group>"; };
+		B2C53FFB4915A277F8C7CC13 /* CoreFoundation_CFStream_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFStream_sa; sourceTree = "<group>"; };
+		B35102474C34573707A8A9AD /* CoreFoundation_CFFileDescriptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFFileDescriptor.m; sourceTree = "<group>"; };
+		B7AFD5697DECDB97941FC814 /* CoreFoundation_CFURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURL.h; sourceTree = "<group>"; };
+		B850F4AE0AF21E5D187FA243 /* CoreFoundation_CFDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFDictionary.m; sourceTree = "<group>"; };
+		BA7A9B4ADCE038DC16DD4C8C /* CoreFoundation_CFSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFSet.m; sourceTree = "<group>"; };
+		BE5C91AB6CE747E1C6A5EDCB /* CoreFoundation_CFPlugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFPlugIn.m; sourceTree = "<group>"; };
+		BEFE677898E145A6E1FD1BE5 /* CoreFoundation_CFNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumberFormatter.h; sourceTree = "<group>"; };
+		BF0D97FCEE50098948737206 /* CoreFoundation_CFCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFCalendar.m; sourceTree = "<group>"; };
+		C008F6C94692EF7B22571C2E /* classes */ = {isa = PBXFileReference; lastKnownFileType = text; path = classes; sourceTree = "<group>"; };
+		C156989977A4DB8F85E4EBF2 /* CoreFoundation_CFStringEncodingExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFStringEncodingExt.m; sourceTree = "<group>"; };
+		C229A868476A652F5123DA49 /* CoreFoundation_CFMessagePort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFMessagePort.m; sourceTree = "<group>"; };
+		C36C94B7B1639E15A6EED197 /* CoreFoundation_CFCharacterSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFCharacterSet.m; sourceTree = "<group>"; };
+		C4EF58AE74B5B90329B353F5 /* CoreFoundation_CFTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTimeZone.h; sourceTree = "<group>"; };
+		C64F77AFA8BB271DCA825E5A /* CoreFoundation_CFStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFStream.m; sourceTree = "<group>"; };
+		C6E6074FC96E2DC95205A6B5 /* CoreFoundation_CFBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFBundle.m; sourceTree = "<group>"; };
+		CA05D14ACF99E86CFCE1DD9D /* CoreFoundation_CFURLAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLAccess.h; sourceTree = "<group>"; };
+		CD4E18C8610E563AA2F0E901 /* CoreFoundation_CFPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPlugIn.h; sourceTree = "<group>"; };
+		CD7EF227091AD3F78B1E7D7C /* CoreFoundation_CFSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSocket.h; sourceTree = "<group>"; };
+		CE252949817582FA195FD3C7 /* CoreFoundation_CFBase_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFBase_sa; sourceTree = "<group>"; };
+		CF7750C69FCE9F394E50339D /* CoreFoundation_CFDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDictionary.h; sourceTree = "<group>"; };
+		CF79DF05DC3BD7645ACC5DFD /* CoreFoundation_CFStream_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreFoundation_CFStream_sr; sourceTree = "<group>"; };
+		D33D9BFA7D715C8B4EF14B27 /* CoreFoundation_CFUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUtilities.h; sourceTree = "<group>"; };
+		D37F24D471FB318706ED087F /* CoreFoundation_CFBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFBase.m; sourceTree = "<group>"; };
+		D46C76FE76120649D5C4F8D8 /* CoreFoundation_CFArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFArray.m; sourceTree = "<group>"; };
+		DE0FD22C457B73358119F5DB /* CoreFoundation_CFError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFError.m; sourceTree = "<group>"; };
+		DEC7559B9205AA9B56F9522F /* CoreFoundation_CFBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBundle.h; sourceTree = "<group>"; };
+		E03BA9FCDB2AB0B6AE8E553A /* CoreFoundation_CFStringEncodingExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringEncodingExt.h; sourceTree = "<group>"; };
+		E4B70A232BAA43EBEC1697EB /* NFIDevice.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = NFIDevice.gyp; sourceTree = "<group>"; };
+		E53708E38944FD2C88516AA2 /* CoreFoundation_CFBinaryHeap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFBinaryHeap.m; sourceTree = "<group>"; };
+		E72D39F1D586DED7C51716B6 /* CoreFoundation_CFNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNotificationCenter.h; sourceTree = "<group>"; };
+		EAD8DDD5232510D1F622E01B /* CoreFoundation_CFAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFAttributedString.h; sourceTree = "<group>"; };
+		EB3583404A40C7E9B6BB22F0 /* CoreFoundation_CFError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFError.h; sourceTree = "<group>"; };
+		EC1CC16FE298F90F8E0F5CA2 /* CoreFoundation_CFMachPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFMachPort.m; sourceTree = "<group>"; };
+		EC534407E204B741CB05C724 /* parts_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sr; sourceTree = "<group>"; };
+		ED195B0E26581E4056DC1120 /* CallbackSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackSupport.m; sourceTree = "<group>"; };
+		EE470B724C51711B86E3AC67 /* CoreFoundation_CFData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFoundation_CFData.m; sourceTree = "<group>"; };
+		F0B2E47C1F3641591FE269CA /* CoreFoundation_CFRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFRunLoop.h; sourceTree = "<group>"; };
+		FE735D491032A648A7467426 /* CoreFoundation_CFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStream.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BD290E7C9D33D68F238E260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCCD1FEB4E2A9BF5312B016 /* NFIUtility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889F3D01629FBA3868708A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B46C276DD85B0ED1C17C77E /* ../src/NFIUtility */ = {
+			isa = PBXGroup;
+			children = (
+				00332D41D163AA58D64A5AD6 /* CallbackSupport.h */,
+				ED195B0E26581E4056DC1120 /* CallbackSupport.m */,
+				0E9842BE6505547806A3F5C6 /* NFIUtility.h */,
+				A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */,
+				A761855A8FC3C6BADED07EEA /* PointerSupport.m */,
+			);
+			path = ../src/NFIUtility;
+			sourceTree = "<group>";
+		};
+		3B364F5F39DD873E04E8C788 = {
+			isa = PBXGroup;
+			children = (
+				526F18DFC9E049690A428B5A /* Source */,
+				7FF5CB8321217436C85FC232 /* Products */,
+				420E4108158F6B50F0058685 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		420E4108158F6B50F0058685 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				E4B70A232BAA43EBEC1697EB /* NFIDevice.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		526F18DFC9E049690A428B5A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0B46C276DD85B0ED1C17C77E /* ../src/NFIUtility */,
+				F7FE4D47220B2DDD48B9E621 /* CoreFoundation/device */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		7FF5CB8321217436C85FC232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CCEF422C6EF086D09899952 /* NFIUtility.framework */,
+				29B3078ECA704BB2308EEA54 /* NFICoreFoundation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7FE4D47220B2DDD48B9E621 /* CoreFoundation/device */ = {
+			isa = PBXGroup;
+			children = (
+				5BE634F0DFE7E979724265B1 /* CoreFoundation_CFArray.h */,
+				D46C76FE76120649D5C4F8D8 /* CoreFoundation_CFArray.m */,
+				EAD8DDD5232510D1F622E01B /* CoreFoundation_CFAttributedString.h */,
+				B1B8E3229E8C3A9FF5560845 /* CoreFoundation_CFAttributedString.m */,
+				85AA69810C44DA60992D1354 /* CoreFoundation_CFBag.h */,
+				2C15276739EFDF1AD691D11B /* CoreFoundation_CFBag.m */,
+				182AD203A9BB6D2E9B500E25 /* CoreFoundation_CFBase.h */,
+				D37F24D471FB318706ED087F /* CoreFoundation_CFBase.m */,
+				CE252949817582FA195FD3C7 /* CoreFoundation_CFBase_sa */,
+				ACEC919FFE6FA3AC10972ABB /* CoreFoundation_CFBase_sr */,
+				331A090E007FAE40FB8D809E /* CoreFoundation_CFBinaryHeap.h */,
+				E53708E38944FD2C88516AA2 /* CoreFoundation_CFBinaryHeap.m */,
+				894743C4F3AA41E7FEFCF26D /* CoreFoundation_CFBitVector.h */,
+				92F4C5B936475DD5A698AC1B /* CoreFoundation_CFBitVector.m */,
+				DEC7559B9205AA9B56F9522F /* CoreFoundation_CFBundle.h */,
+				C6E6074FC96E2DC95205A6B5 /* CoreFoundation_CFBundle.m */,
+				702D87935EF35599D9419743 /* CoreFoundation_CFByteOrder.h */,
+				7A075EDFFF0D2E15068415C0 /* CoreFoundation_CFByteOrder.m */,
+				999570645912C723AB5764EC /* CoreFoundation_CFByteOrder_sa */,
+				1F4B565F659F96779399FF0B /* CoreFoundation_CFByteOrder_sr */,
+				279982BF7F9F86FB1EE9CAE6 /* CoreFoundation_CFCalendar.h */,
+				BF0D97FCEE50098948737206 /* CoreFoundation_CFCalendar.m */,
+				251EDE271AC11DE12B9EC480 /* CoreFoundation_CFCharacterSet.h */,
+				C36C94B7B1639E15A6EED197 /* CoreFoundation_CFCharacterSet.m */,
+				0F9D1CEF36EF421359ECBE33 /* CoreFoundation_CFData.h */,
+				EE470B724C51711B86E3AC67 /* CoreFoundation_CFData.m */,
+				43D52C272E7BF7E96F953DDF /* CoreFoundation_CFDate.h */,
+				6039A25E05C512D99C5FE82C /* CoreFoundation_CFDate.m */,
+				831C51C03E0A83B37484DCEE /* CoreFoundation_CFDateFormatter.h */,
+				5F9E0559F5DBDF6F1B70CAAC /* CoreFoundation_CFDateFormatter.m */,
+				5077EF3AD5C4C61F3544DCF3 /* CoreFoundation_CFDate_sa */,
+				943B464A30A2DF0C222C3D93 /* CoreFoundation_CFDate_sr */,
+				CF7750C69FCE9F394E50339D /* CoreFoundation_CFDictionary.h */,
+				B850F4AE0AF21E5D187FA243 /* CoreFoundation_CFDictionary.m */,
+				EB3583404A40C7E9B6BB22F0 /* CoreFoundation_CFError.h */,
+				DE0FD22C457B73358119F5DB /* CoreFoundation_CFError.m */,
+				6D9CAC14274F7630CD7343A2 /* CoreFoundation_CFFileDescriptor.h */,
+				B35102474C34573707A8A9AD /* CoreFoundation_CFFileDescriptor.m */,
+				5F5DA8203AD6A4F4D6B327B8 /* CoreFoundation_CFFileSecurity.h */,
+				A962958F9558FE29435AA628 /* CoreFoundation_CFFileSecurity.m */,
+				31229B5C98E42DDBA71CBFD6 /* CoreFoundation_CFLocale.h */,
+				4148AEBD18347D98E07369AF /* CoreFoundation_CFLocale.m */,
+				4BD2002F6BE8E3C24A9D94B3 /* CoreFoundation_CFMachPort.h */,
+				EC1CC16FE298F90F8E0F5CA2 /* CoreFoundation_CFMachPort.m */,
+				98F9D88ABB4866CA4F8CF01C /* CoreFoundation_CFMessagePort.h */,
+				C229A868476A652F5123DA49 /* CoreFoundation_CFMessagePort.m */,
+				E72D39F1D586DED7C51716B6 /* CoreFoundation_CFNotificationCenter.h */,
+				424AD6B3C335D1AD403FF1F1 /* CoreFoundation_CFNotificationCenter.m */,
+				2DBC9A52412F0CF3C722CC2E /* CoreFoundation_CFNumber.h */,
+				6B744006F178C5246A1AFECE /* CoreFoundation_CFNumber.m */,
+				BEFE677898E145A6E1FD1BE5 /* CoreFoundation_CFNumberFormatter.h */,
+				63E97AB9B060A0CE662BB88C /* CoreFoundation_CFNumberFormatter.m */,
+				CD4E18C8610E563AA2F0E901 /* CoreFoundation_CFPlugIn.h */,
+				BE5C91AB6CE747E1C6A5EDCB /* CoreFoundation_CFPlugIn.m */,
+				17BA4F4C44F9DD66E2F2CCDF /* CoreFoundation_CFPreferences.h */,
+				0EF0BE5E54471EE465EB5AA5 /* CoreFoundation_CFPreferences.m */,
+				5A4C999C3C33E08EE9DA081B /* CoreFoundation_CFPropertyList.h */,
+				054C929DB7E4614557312CCA /* CoreFoundation_CFPropertyList.m */,
+				F0B2E47C1F3641591FE269CA /* CoreFoundation_CFRunLoop.h */,
+				64851C81CA7635814125EA74 /* CoreFoundation_CFRunLoop.m */,
+				89618C98487E13CB79C66F4F /* CoreFoundation_CFSet.h */,
+				BA7A9B4ADCE038DC16DD4C8C /* CoreFoundation_CFSet.m */,
+				CD7EF227091AD3F78B1E7D7C /* CoreFoundation_CFSocket.h */,
+				4D59EF0043D0017231FEC177 /* CoreFoundation_CFSocket.m */,
+				FE735D491032A648A7467426 /* CoreFoundation_CFStream.h */,
+				C64F77AFA8BB271DCA825E5A /* CoreFoundation_CFStream.m */,
+				B2C53FFB4915A277F8C7CC13 /* CoreFoundation_CFStream_sa */,
+				CF79DF05DC3BD7645ACC5DFD /* CoreFoundation_CFStream_sr */,
+				7EECC73D8C5FC8D8880E93C0 /* CoreFoundation_CFString.h */,
+				91B969B810096CBA3DA160CF /* CoreFoundation_CFString.m */,
+				E03BA9FCDB2AB0B6AE8E553A /* CoreFoundation_CFStringEncodingExt.h */,
+				C156989977A4DB8F85E4EBF2 /* CoreFoundation_CFStringEncodingExt.m */,
+				9507E54B81488A635E9C4919 /* CoreFoundation_CFStringTokenizer.h */,
+				0BB040C9C90024128EB0F750 /* CoreFoundation_CFStringTokenizer.m */,
+				C4EF58AE74B5B90329B353F5 /* CoreFoundation_CFTimeZone.h */,
+				8E1F7040A9E971E8A82B2486 /* CoreFoundation_CFTimeZone.m */,
+				49AD3AE06E6415DC4FCC7D27 /* CoreFoundation_CFTree.h */,
+				437FA6387C7D61000C1C74DE /* CoreFoundation_CFTree.m */,
+				B7AFD5697DECDB97941FC814 /* CoreFoundation_CFURL.h */,
+				1B824C6B2EE38CD19A546178 /* CoreFoundation_CFURL.m */,
+				CA05D14ACF99E86CFCE1DD9D /* CoreFoundation_CFURLAccess.h */,
+				6E99A390974961EC00265E49 /* CoreFoundation_CFURLAccess.m */,
+				24EE3614DA33045249EAE71D /* CoreFoundation_CFURLEnumerator.h */,
+				842633F713E913E5665FB254 /* CoreFoundation_CFURLEnumerator.m */,
+				1C7E2F89970AB74E8D44B553 /* CoreFoundation_CFUUID.h */,
+				4CF742A7FF7CAAF09D2FAE38 /* CoreFoundation_CFUUID.m */,
+				866AD8E532AC92D92D14E17F /* CoreFoundation_CFUUID_sa */,
+				654C2B1F94E42F078F3C9CDB /* CoreFoundation_CFUUID_sr */,
+				D33D9BFA7D715C8B4EF14B27 /* CoreFoundation_CFUtilities.h */,
+				6FDFE9A39ECA7794900A99DA /* CoreFoundation_CFUtilities.m */,
+				05FB396FF6A92E0162F8D722 /* Foundation_NSObject.h */,
+				4A115A87856BEFD2A288501C /* NFICoreFoundation.h */,
+				39B97A0A1BDADD9A8127F121 /* NFICoreFoundationLoader.h */,
+				B206C0210844ABDCF5A5FDCB /* NFICoreFoundationLoader.m */,
+				862A74882BDE3CD24F6F8A26 /* allheaders.h */,
+				5A78D6C90D6A8CF06749CAAA /* allincludes.h */,
+				8935C32CB6650568B204C1A8 /* allprotos.h */,
+				C008F6C94692EF7B22571C2E /* classes */,
+				7418B221606AF04AE7D84ED2 /* parts */,
+				1B4AF10CA15BBB50482FF112 /* parts_sa */,
+				EC534407E204B741CB05C724 /* parts_sr */,
+				6B66A2B7E7023C232B4E08F5 /* protocols */,
+			);
+			path = CoreFoundation/device;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E7D48805EA4A4697A3B4718E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BF68CCD21AF6D7C30988BB /* NFICoreFoundationLoader.h in Headers */,
+				DF3E22F54F21D38CD1E64793 /* NFICoreFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F7D03F0B387FF39A730411 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85672BA9C4A805D5B4BA3B1 /* CallbackSupport.h in Headers */,
+				1A86EB38D7C1ACEBD09E1919 /* NFIUtility.h in Headers */,
+				B9C53F285627428038CBBDAC /* PointerSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		063DD58E530D5A7202F527C2 /* NFICoreFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112D2DB8EFF1C8A2AF4B4135 /* Build configuration list for PBXNativeTarget "NFICoreFoundation" */;
+			buildPhases = (
+				E7D48805EA4A4697A3B4718E /* Headers */,
+				203AD5880E5D46BB25645BDC /* Sources */,
+				4BD290E7C9D33D68F238E260 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F36DCB3E2CC6697447DA033 /* PBXTargetDependency */,
+			);
+			name = NFICoreFoundation;
+			productName = NFICoreFoundation;
+			productReference = 29B3078ECA704BB2308EEA54 /* NFICoreFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE806A700A0157FA9952D415 /* NFIUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6A72A4307AB7D23D3F5691 /* Build configuration list for PBXNativeTarget "NFIUtility" */;
+			buildPhases = (
+				F1F7D03F0B387FF39A730411 /* Headers */,
+				FA333A036DFC20DE9F5D03ED /* Sources */,
+				889F3D01629FBA3868708A1F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFIUtility;
+			productName = NFIUtility;
+			productReference = 1CCEF422C6EF086D09899952 /* NFIUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8BCA38932B16ACDBB00B655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 26E19333D590B828614467CB /* Build configuration list for PBXProject "NFIDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 3B364F5F39DD873E04E8C788;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE125855F5E3D4B09923B95 /* All */,
+				CE806A700A0157FA9952D415 /* NFIUtility */,
+				063DD58E530D5A7202F527C2 /* NFICoreFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203AD5880E5D46BB25645BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB637B77FFB9B7D9518EB7E /* CoreFoundation_CFArray.m in Sources */,
+				A54387AEA4006C32F227BBBB /* CoreFoundation_CFAttributedString.m in Sources */,
+				502088F5B5080746DFC07D9D /* CoreFoundation_CFBag.m in Sources */,
+				C7E8340D3882140F2868D6BB /* CoreFoundation_CFBase.m in Sources */,
+				E38466A09AF4958300C67FD9 /* CoreFoundation_CFBinaryHeap.m in Sources */,
+				AB8BBB666BC9B8B60F2A497B /* CoreFoundation_CFBitVector.m in Sources */,
+				05A661D00B5D92FBE195F94D /* CoreFoundation_CFBundle.m in Sources */,
+				0FCA0C49C1F44CAD36EBCDC5 /* CoreFoundation_CFByteOrder.m in Sources */,
+				FDCDD589644C6B73B6422AF7 /* CoreFoundation_CFCalendar.m in Sources */,
+				13F2955325E8E545EE11555C /* CoreFoundation_CFCharacterSet.m in Sources */,
+				0F0B2CCFB247F2FD45189A53 /* CoreFoundation_CFData.m in Sources */,
+				CCF21FA02964DE5B9AD91698 /* CoreFoundation_CFDate.m in Sources */,
+				31320E9532CF0052E7C7AAB9 /* CoreFoundation_CFDateFormatter.m in Sources */,
+				0E2B25CD36EE61930FA72B32 /* CoreFoundation_CFDictionary.m in Sources */,
+				FDEF9B70BD8776AF2EEF0B20 /* CoreFoundation_CFError.m in Sources */,
+				31EAB347C6B518F43EE8C6B7 /* CoreFoundation_CFFileDescriptor.m in Sources */,
+				44ED751496E29B4FCC4FD5C0 /* CoreFoundation_CFFileSecurity.m in Sources */,
+				361E236489CAD4081B1B9AE8 /* CoreFoundation_CFLocale.m in Sources */,
+				B4692938E971B712B71618A7 /* CoreFoundation_CFMachPort.m in Sources */,
+				1736D501CEDD0DE6B2457FAC /* CoreFoundation_CFMessagePort.m in Sources */,
+				DE1A3F5F5B4D15965860AB22 /* CoreFoundation_CFNotificationCenter.m in Sources */,
+				A4D6AE97965EEDBEC4ECCA74 /* CoreFoundation_CFNumber.m in Sources */,
+				03C6C54E573A623A1A4DF12E /* CoreFoundation_CFNumberFormatter.m in Sources */,
+				F562C866D500A7042C3AA8A9 /* CoreFoundation_CFPlugIn.m in Sources */,
+				3AED0806294C1B944AB0AF0A /* CoreFoundation_CFPreferences.m in Sources */,
+				734CC9F25D67865AA461B146 /* CoreFoundation_CFPropertyList.m in Sources */,
+				8A3B8DF68BBF74CA29F13C32 /* CoreFoundation_CFRunLoop.m in Sources */,
+				9DEFED7BD858AE4CB6C7FD32 /* CoreFoundation_CFSet.m in Sources */,
+				1244A721E667F1C0D850C3CB /* CoreFoundation_CFSocket.m in Sources */,
+				474E88D284221A1F7CA5C890 /* CoreFoundation_CFStream.m in Sources */,
+				379A5761D48EB593B4576A70 /* CoreFoundation_CFString.m in Sources */,
+				6F4CA4507E32E5AF782D5197 /* CoreFoundation_CFStringEncodingExt.m in Sources */,
+				179E8EDFAA586C08BEE4AF9B /* CoreFoundation_CFStringTokenizer.m in Sources */,
+				09E46E5C80F4DB63E14EE33C /* CoreFoundation_CFTimeZone.m in Sources */,
+				22A58A6FDBEA565EDED4EC66 /* CoreFoundation_CFTree.m in Sources */,
+				37FF8306CF743824FE128A29 /* CoreFoundation_CFURL.m in Sources */,
+				07EF53CB22245AB2BEBF7ABF /* CoreFoundation_CFURLAccess.m in Sources */,
+				AB145324F833B01E496C5645 /* CoreFoundation_CFURLEnumerator.m in Sources */,
+				44FB0A6B4087A4D743B707C4 /* CoreFoundation_CFUUID.m in Sources */,
+				5E714DE7F42EFE6F921EFD49 /* CoreFoundation_CFUtilities.m in Sources */,
+				63804485B98CBD8C3B41B719 /* NFICoreFoundationLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA333A036DFC20DE9F5D03ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD703307A4B913A3423EF5E5 /* CallbackSupport.m in Sources */,
+				9F63D8BEC7B0E69156265319 /* PointerSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ECA2C5F09E12D5B460FAC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 063DD58E530D5A7202F527C2 /* NFICoreFoundation */;
+			targetProxy = 8F7EAB5A7E7DB14EC7B0E7FB /* PBXContainerItemProxy */;
+		};
+		6F36DCB3E2CC6697447DA033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE806A700A0157FA9952D415 /* NFIUtility */;
+			targetProxy = 2DB0DE4CB344420269FE7062 /* PBXContainerItemProxy */;
+		};
+		7E13621736B1C8ADDAF10706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE806A700A0157FA9952D415 /* NFIUtility */;
+			targetProxy = 9517C95CDC073A97B506E0E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27C3961592117B333FA661D5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = CoreFoundation/Info.plist;
+				OTHER_LDFLAGS = (
+					"-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork",
+					"-weak_framework CoreFoundation",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFICoreFoundation;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		33C0C418E4CF2EE83BB75CEE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		555A98CBC0536E3EF96C0524 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = ../src/NFIUtility/Info.plist;
+				OTHER_LDFLAGS = "-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIUtility;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		BAB0CC95DF8F6A3106F36518 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112D2DB8EFF1C8A2AF4B4135 /* Build configuration list for PBXNativeTarget "NFICoreFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C3961592117B333FA661D5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		26E19333D590B828614467CB /* Build configuration list for PBXProject "NFIDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C0C418E4CF2EE83BB75CEE /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		C1E33EE0CE69CE2A1E7BF85A /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB0CC95DF8F6A3106F36518 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		FD6A72A4307AB7D23D3F5691 /* Build configuration list for PBXNativeTarget "NFIUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555A98CBC0536E3EF96C0524 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8BCA38932B16ACDBB00B655 /* Project object */;
+}

@@ -1,0 +1,13 @@
+if (strcmp(type, @encode(MIDIMessage_96)) == 0) {
+		MIDIMessage_96 returnValue = value.toMIDIMessage_96;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MIDIMessage_128)) == 0) {
+		MIDIMessage_128 returnValue = value.toMIDIMessage_128;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MIDIMessage_64)) == 0) {
+		MIDIMessage_64 returnValue = value.toMIDIMessage_64;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

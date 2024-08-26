@@ -1,0 +1,6 @@
+framework module Camera {
+  umbrella header "Camera.h"
+  export *
+
+  module * { export * }
+}

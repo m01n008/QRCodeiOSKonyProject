@@ -1,0 +1,6 @@
+framework module NFIBinary {
+  umbrella header "NFIBinary.h"
+
+  export *
+  module * { export * }
+}

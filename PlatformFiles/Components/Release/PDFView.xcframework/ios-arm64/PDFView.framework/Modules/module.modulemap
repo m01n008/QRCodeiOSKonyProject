@@ -1,0 +1,6 @@
+framework module PDFView {
+  umbrella header "PDFView.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module NFIOpenGLES {
+  umbrella header "NFIOpenGLES.h"
+
+  export *
+  module * { export * }
+}

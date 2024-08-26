@@ -1,0 +1,50 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c0077f2c49a4161c7ee2942952fd6e848253120f0617be3f8057eada2df427bb"
+    },
+    {
+      "guid" : "c0077f2c49a4161c7ee2942952fd6e84b7d5e2742d795d653bc5d65e52ea3724"
+    },
+    {
+      "guid" : "c0077f2c49a4161c7ee2942952fd6e8402629617d181f024d319b61b067effab"
+    },
+    {
+      "guid" : "c0077f2c49a4161c7ee2942952fd6e848253120f0617be3f8057eada2df427bb"
+    }
+  ],
+  "containerPath" : "/Users/buildslave/jenkins/workspace/Quantum_mBaaS-SDK-iOS-Plugin-Beta/nativeframeworks3.0/iOS/nativebinding/gen-src/NFISimulator.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ARCHS" : "x86_64 arm64",
+          "IPHONEOS_DEPLOYMENT_TARGET" : "12.0",
+          "SDKROOT" : "iphonesimulator16.0"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

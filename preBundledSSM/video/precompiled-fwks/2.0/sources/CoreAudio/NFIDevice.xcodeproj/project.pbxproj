@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BFE125855F5E3D4B09923B95 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C1E33EE0CE69CE2A1E7BF85A /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				7E13621736B1C8ADDAF10706 /* PBXTargetDependency */,
+				B19EA9998FF9765FA90F57DC /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		10EFEF30A0042066C9C947D3 /* CoreAudio_CoreAudioTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EFB564C7E4740A99B827A3 /* CoreAudio_CoreAudioTypes.m */; };
+		1303199AD1E7C41426079576 /* NFICoreAudioLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 14569D48E661DD2E12ADE01F /* NFICoreAudioLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A086991179DB5C513C1E068 /* PointerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A761855A8FC3C6BADED07EEA /* PointerSupport.m */; };
+		6A7E003982DD522F1177902C /* CallbackSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = ED195B0E26581E4056DC1120 /* CallbackSupport.m */; };
+		6D0A6029F92DC5532B7C4705 /* NFICoreAudioLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DBD4AA8D921470E3DABB74 /* NFICoreAudioLoader.m */; };
+		6EEE30459D16256AD838B8E5 /* NFIUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCEF422C6EF086D09899952 /* NFIUtility.framework */; };
+		880538D8C75CD201A1C21A8E /* NFICoreAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = B902609B47CAB0B356D306E9 /* NFICoreAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF53259D3008FA173842D413 /* CallbackSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 00332D41D163AA58D64A5AD6 /* CallbackSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C08C54C208C53FA329B75AB1 /* PointerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3588F52963385B043129854 /* NFIUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9842BE6505547806A3F5C6 /* NFIUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E0DD76AE6AEC62860CB78ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE806A700A0157FA9952D415;
+			remoteInfo = NFIUtility;
+		};
+		9517C95CDC073A97B506E0E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE806A700A0157FA9952D415;
+			remoteInfo = NFIUtility;
+		};
+		CC2CD5045FD17D84C47BAABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46EF14661010DCAED0BDE91C;
+			remoteInfo = NFICoreAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00332D41D163AA58D64A5AD6 /* CallbackSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackSupport.h; sourceTree = "<group>"; };
+		01E88BBA3B6B72C6FC2041C3 /* parts_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sa; sourceTree = "<group>"; };
+		02F35AA37231A2E844CD179A /* CoreAudio_CoreAudioTypes_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreAudio_CoreAudioTypes_sr; sourceTree = "<group>"; };
+		0E9842BE6505547806A3F5C6 /* NFIUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIUtility.h; sourceTree = "<group>"; };
+		14569D48E661DD2E12ADE01F /* NFICoreAudioLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFICoreAudioLoader.h; sourceTree = "<group>"; };
+		19DBD4AA8D921470E3DABB74 /* NFICoreAudioLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFICoreAudioLoader.m; sourceTree = "<group>"; };
+		1A9FD7CEB891BA572CACD18F /* CoreFoundation_CFBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBase.h; sourceTree = "<group>"; };
+		1C7E942766D7DE199D8DA9D7 /* parts_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sr; sourceTree = "<group>"; };
+		1CCEF422C6EF086D09899952 /* NFIUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFCD696E3FA5801280BB158 /* CoreAudio_CoreAudioTypes_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreAudio_CoreAudioTypes_sa; sourceTree = "<group>"; };
+		3432EB99225C53BAFB0DCFDE /* allincludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allincludes.h; sourceTree = "<group>"; };
+		445B695F74761892516FA11D /* protocols */ = {isa = PBXFileReference; lastKnownFileType = text; path = protocols; sourceTree = "<group>"; };
+		4A11EBA679EF2F901D9CD1B3 /* allheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		64512D06D0845098304CE55D /* CoreAudio_CoreAudioTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudio_CoreAudioTypes.h; sourceTree = "<group>"; };
+		70EFB564C7E4740A99B827A3 /* CoreAudio_CoreAudioTypes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudio_CoreAudioTypes.m; sourceTree = "<group>"; };
+		9983750E9DA611813BC74B6A /* parts */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts; sourceTree = "<group>"; };
+		A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerSupport.h; sourceTree = "<group>"; };
+		A761855A8FC3C6BADED07EEA /* PointerSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointerSupport.m; sourceTree = "<group>"; };
+		B902609B47CAB0B356D306E9 /* NFICoreAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFICoreAudio.h; sourceTree = "<group>"; };
+		C1825DF975D4E782A0B78F75 /* classes */ = {isa = PBXFileReference; lastKnownFileType = text; path = classes; sourceTree = "<group>"; };
+		C9A869D5264ECDB4FE7504E4 /* allprotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allprotos.h; sourceTree = "<group>"; };
+		E03FD85F61B346697779BCD0 /* NFICoreAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFICoreAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B70A232BAA43EBEC1697EB /* NFIDevice.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = NFIDevice.gyp; sourceTree = "<group>"; };
+		ED195B0E26581E4056DC1120 /* CallbackSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackSupport.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889F3D01629FBA3868708A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B184B46569F650B6444CA10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEE30459D16256AD838B8E5 /* NFIUtility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062304186BC1A28BF9E4E6C6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0B46C276DD85B0ED1C17C77E /* ../src/NFIUtility */,
+				567201FBBEF77055EED9798A /* CoreAudio/device */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0B46C276DD85B0ED1C17C77E /* ../src/NFIUtility */ = {
+			isa = PBXGroup;
+			children = (
+				00332D41D163AA58D64A5AD6 /* CallbackSupport.h */,
+				ED195B0E26581E4056DC1120 /* CallbackSupport.m */,
+				0E9842BE6505547806A3F5C6 /* NFIUtility.h */,
+				A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */,
+				A761855A8FC3C6BADED07EEA /* PointerSupport.m */,
+			);
+			path = ../src/NFIUtility;
+			sourceTree = "<group>";
+		};
+		3B364F5F39DD873E04E8C788 = {
+			isa = PBXGroup;
+			children = (
+				062304186BC1A28BF9E4E6C6 /* Source */,
+				9EAABED4C0A2E785314CAB72 /* Products */,
+				420E4108158F6B50F0058685 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		420E4108158F6B50F0058685 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				E4B70A232BAA43EBEC1697EB /* NFIDevice.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		567201FBBEF77055EED9798A /* CoreAudio/device */ = {
+			isa = PBXGroup;
+			children = (
+				64512D06D0845098304CE55D /* CoreAudio_CoreAudioTypes.h */,
+				70EFB564C7E4740A99B827A3 /* CoreAudio_CoreAudioTypes.m */,
+				1CFCD696E3FA5801280BB158 /* CoreAudio_CoreAudioTypes_sa */,
+				02F35AA37231A2E844CD179A /* CoreAudio_CoreAudioTypes_sr */,
+				1A9FD7CEB891BA572CACD18F /* CoreFoundation_CFBase.h */,
+				B902609B47CAB0B356D306E9 /* NFICoreAudio.h */,
+				14569D48E661DD2E12ADE01F /* NFICoreAudioLoader.h */,
+				19DBD4AA8D921470E3DABB74 /* NFICoreAudioLoader.m */,
+				4A11EBA679EF2F901D9CD1B3 /* allheaders.h */,
+				3432EB99225C53BAFB0DCFDE /* allincludes.h */,
+				C9A869D5264ECDB4FE7504E4 /* allprotos.h */,
+				C1825DF975D4E782A0B78F75 /* classes */,
+				9983750E9DA611813BC74B6A /* parts */,
+				01E88BBA3B6B72C6FC2041C3 /* parts_sa */,
+				1C7E942766D7DE199D8DA9D7 /* parts_sr */,
+				445B695F74761892516FA11D /* protocols */,
+			);
+			path = CoreAudio/device;
+			sourceTree = "<group>";
+		};
+		9EAABED4C0A2E785314CAB72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CCEF422C6EF086D09899952 /* NFIUtility.framework */,
+				E03FD85F61B346697779BCD0 /* NFICoreAudio.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6813A46EB6EFB0A343B0D31D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1303199AD1E7C41426079576 /* NFICoreAudioLoader.h in Headers */,
+				880538D8C75CD201A1C21A8E /* NFICoreAudio.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F7D03F0B387FF39A730411 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF53259D3008FA173842D413 /* CallbackSupport.h in Headers */,
+				E3588F52963385B043129854 /* NFIUtility.h in Headers */,
+				C08C54C208C53FA329B75AB1 /* PointerSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46EF14661010DCAED0BDE91C /* NFICoreAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A144201FE6BCF6393CBF0A93 /* Build configuration list for PBXNativeTarget "NFICoreAudio" */;
+			buildPhases = (
+				6813A46EB6EFB0A343B0D31D /* Headers */,
+				6D434909C93917CAEF28B22E /* Sources */,
+				B184B46569F650B6444CA10A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D3E1DB412CE526689683C1 /* PBXTargetDependency */,
+			);
+			name = NFICoreAudio;
+			productName = NFICoreAudio;
+			productReference = E03FD85F61B346697779BCD0 /* NFICoreAudio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE806A700A0157FA9952D415 /* NFIUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6A72A4307AB7D23D3F5691 /* Build configuration list for PBXNativeTarget "NFIUtility" */;
+			buildPhases = (
+				F1F7D03F0B387FF39A730411 /* Headers */,
+				FA333A036DFC20DE9F5D03ED /* Sources */,
+				889F3D01629FBA3868708A1F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFIUtility;
+			productName = NFIUtility;
+			productReference = 1CCEF422C6EF086D09899952 /* NFIUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8BCA38932B16ACDBB00B655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 26E19333D590B828614467CB /* Build configuration list for PBXProject "NFIDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 3B364F5F39DD873E04E8C788;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE125855F5E3D4B09923B95 /* All */,
+				CE806A700A0157FA9952D415 /* NFIUtility */,
+				46EF14661010DCAED0BDE91C /* NFICoreAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D434909C93917CAEF28B22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EFEF30A0042066C9C947D3 /* CoreAudio_CoreAudioTypes.m in Sources */,
+				6D0A6029F92DC5532B7C4705 /* NFICoreAudioLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA333A036DFC20DE9F5D03ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7E003982DD522F1177902C /* CallbackSupport.m in Sources */,
+				2A086991179DB5C513C1E068 /* PointerSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69D3E1DB412CE526689683C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE806A700A0157FA9952D415 /* NFIUtility */;
+			targetProxy = 4E0DD76AE6AEC62860CB78ED /* PBXContainerItemProxy */;
+		};
+		7E13621736B1C8ADDAF10706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE806A700A0157FA9952D415 /* NFIUtility */;
+			targetProxy = 9517C95CDC073A97B506E0E9 /* PBXContainerItemProxy */;
+		};
+		B19EA9998FF9765FA90F57DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46EF14661010DCAED0BDE91C /* NFICoreAudio */;
+			targetProxy = CC2CD5045FD17D84C47BAABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33C0C418E4CF2EE83BB75CEE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		555A98CBC0536E3EF96C0524 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = ../src/NFIUtility/Info.plist;
+				OTHER_LDFLAGS = "-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIUtility;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		BAB0CC95DF8F6A3106F36518 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Default;
+		};
+		C2E739FB188261BD41211E6E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = CoreAudio/Info.plist;
+				OTHER_LDFLAGS = (
+					"-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork",
+					"-weak_framework CoreAudio",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFICoreAudio;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E19333D590B828614467CB /* Build configuration list for PBXProject "NFIDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C0C418E4CF2EE83BB75CEE /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		A144201FE6BCF6393CBF0A93 /* Build configuration list for PBXNativeTarget "NFICoreAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E739FB188261BD41211E6E /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		C1E33EE0CE69CE2A1E7BF85A /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB0CC95DF8F6A3106F36518 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		FD6A72A4307AB7D23D3F5691 /* Build configuration list for PBXNativeTarget "NFIUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555A98CBC0536E3EF96C0524 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8BCA38932B16ACDBB00B655 /* Project object */;
+}

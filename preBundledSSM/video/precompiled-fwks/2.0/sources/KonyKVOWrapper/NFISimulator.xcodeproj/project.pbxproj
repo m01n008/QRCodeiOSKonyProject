@@ -1,0 +1,1639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C764A808488C77627CCC822E /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 95DB00CE994EC607C5F2F4A5 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F17BCB2155F862E69F9125FE /* PBXTargetDependency */,
+				86A200F895123E8A2239AA70 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0FBE4DBBA9D0A0988F05C628 /* CallbackSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F39AD2D3ADECCFD10225AC /* CallbackSupport.m */; };
+		119C19436159D2D844150E48 /* NFIKonyKVOWrapperLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A2A4B6FDDF46FEF5DE2B8F /* NFIKonyKVOWrapperLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B5A99270050D1BF79691769 /* KonyKVOWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89CA51DACAB68549525C33D /* KonyKVOWrapper.framework */; };
+		263C30D21A817EC3C380B0C9 /* NFIUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F9597E92125B418E78B2316A /* NFIUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F0E91302C97579BE52D8727 /* CallbackSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D38231D0DE33EAFD8C574891 /* CallbackSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F5350877E0E3DB6E99DB431 /* PointerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9002AE8A95B090064245AC /* PointerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FCFE645EA93737529596D2B /* NFIUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */; };
+		B4C6AE05F2D5CF4B945D53D5 /* NFIKonyKVOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D83D3FF098F6C05F9845C3C9 /* NFIKonyKVOWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFC49A4E7CD03246361C7433 /* PointerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B10BB9C033D4338C717B2A0 /* PointerSupport.m */; };
+		DA4CEBA3AD151E0AB8793C41 /* KonyKVOWrapper_NSObject_KonyKVOWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BB31CB1A27ACADD8F0454 /* KonyKVOWrapper_NSObject_KonyKVOWrapper.m */; };
+		EA98E5D27BD7AE0F0F5B103D /* NFIKonyKVOWrapperLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B4B5D84DAA926C2CCF4CB /* NFIKonyKVOWrapperLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3308388E460D9187C96B0622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CF65CBBBB125367E89804F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C478656A382488D1EB6BD2F;
+			remoteInfo = NFIUtility;
+		};
+		40E1F35F00280F266CA1D406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CF65CBBBB125367E89804F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C478656A382488D1EB6BD2F;
+			remoteInfo = NFIUtility;
+		};
+		6CEBC432BE11C270E31CBBD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CF65CBBBB125367E89804F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 139D3B1C25D5088686D69B8E;
+			remoteInfo = NFIKonyKVOWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005588DCF20F9ACA10664B29 /* Foundation_NSUndoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUndoManager.h; sourceTree = "<group>"; };
+		00860DF8CB495DA713C9C809 /* CFNetwork_CFNetServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetServices.h; sourceTree = "<group>"; };
+		01004A673C9E6E28FD83DEFB /* AVFoundation_AVFAudio_AVAudioNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioNode.h; sourceTree = "<group>"; };
+		0131234B5C80151C1E02CF45 /* UIKit_UITabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITabBar.h; sourceTree = "<group>"; };
+		02065F40BF7975C496D73CF7 /* Foundation_NSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTimer.h; sourceTree = "<group>"; };
+		022069D71884F12D2C241571 /* CoreFoundation_CFURLAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLAccess.h; sourceTree = "<group>"; };
+		0233533D25303F4E6272F809 /* AVFoundation_AVFAudio_AVMIDIPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVMIDIPlayer.h; sourceTree = "<group>"; };
+		02728A4D71E48D43413EDCCE /* AVFoundation_AVVideoCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVVideoCompositing.h; sourceTree = "<group>"; };
+		0293099E2B88BA133EF8CA7F /* Foundation_NSUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUserDefaults.h; sourceTree = "<group>"; };
+		029FE09B2A52A518153F4A0F /* UIKit_UIAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAlertController.h; sourceTree = "<group>"; };
+		02EF40057BC9E57E7925077A /* CoreFoundation_CFByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFByteOrder.h; sourceTree = "<group>"; };
+		0337292382E4511030DDB050 /* AudioToolbox_AUComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUComponent.h; sourceTree = "<group>"; };
+		0375732F4DEC9CDA05374D54 /* CoreFoundation_CFString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFString.h; sourceTree = "<group>"; };
+		03BC624E22C0157A946163A7 /* UIKit_UIPreviewInteraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPreviewInteraction.h; sourceTree = "<group>"; };
+		03E048CCD4277A872EC1E426 /* UIKit_UITabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITabBarController.h; sourceTree = "<group>"; };
+		04A2258AC62D32FCAC7DF0C0 /* AVFoundation_AVPlayerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerItem.h; sourceTree = "<group>"; };
+		04D96FDB7B0651120C5FBCED /* AVKit_AVPictureInPictureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVKit_AVPictureInPictureController.h; sourceTree = "<group>"; };
+		054FB6B645B87DA451FAE5E1 /* AVFoundation_AVFAudio_AVAudioUnitComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitComponent.h; sourceTree = "<group>"; };
+		055A9D2702355D340CF757F4 /* UIKit_UIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIButton.h; sourceTree = "<group>"; };
+		06BD8DE6F003E0AFC24154C9 /* ImageIO_CGImageDestination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageIO_CGImageDestination.h; sourceTree = "<group>"; };
+		0736BD61E7F4032D79AF9BBD /* CoreFoundation_CFSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSocket.h; sourceTree = "<group>"; };
+		084ED32A756BB31DB224EF46 /* Foundation_NSISO8601DateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSISO8601DateFormatter.h; sourceTree = "<group>"; };
+		089450CB4BDB0BEF6F16E077 /* AudioToolbox_AudioFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFormat.h; sourceTree = "<group>"; };
+		092F2838AF5CB48E0EC5E587 /* UIKit_UIPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPickerView.h; sourceTree = "<group>"; };
+		0932C84B959F1CEB15593BB6 /* CoreGraphics_CGPDFPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFPage.h; sourceTree = "<group>"; };
+		09AF27026773623C8A010E91 /* UIKit_UITextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextView.h; sourceTree = "<group>"; };
+		0B359CBB454872907BFCCA00 /* UIKit_UIDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDocument.h; sourceTree = "<group>"; };
+		0B93C3F318EDEC88CCF7CC95 /* UIKit_UIImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIImagePickerController.h; sourceTree = "<group>"; };
+		0CB1A84D6DA99FF8AA0155A1 /* AVFoundation_AVCaptureSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureSession.h; sourceTree = "<group>"; };
+		0D363D6F6B8B56EB3F8F34C1 /* UIKit_UIPasteboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPasteboard.h; sourceTree = "<group>"; };
+		0D401A80F9F3F0A65587B7DB /* CoreFoundation_CFSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSet.h; sourceTree = "<group>"; };
+		0D8D790CDB23CD84326FC5EB /* AVFoundation_AVFAudio_AVAudioConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioConverter.h; sourceTree = "<group>"; };
+		0DD4CA22E19B60A5B2A0EAF1 /* UIKit_UISelectionFeedbackGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISelectionFeedbackGenerator.h; sourceTree = "<group>"; };
+		0E6C856312433DEC09769603 /* UIKit_UITextDropProposal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextDropProposal.h; sourceTree = "<group>"; };
+		0E88D92C8FEDFBA82EAF3645 /* CoreFoundation_CFPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPreferences.h; sourceTree = "<group>"; };
+		0EBD5BA886B5F29EBB9BBDB3 /* UIKit_UIActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIActivity.h; sourceTree = "<group>"; };
+		0F59FD0F1427731F7198CA77 /* UIKit_UIGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIGraphics.h; sourceTree = "<group>"; };
+		0F7E0021A12AFCE6BB3663F9 /* UIKit_UISpringLoadedInteraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISpringLoadedInteraction.h; sourceTree = "<group>"; };
+		0F83C4793759315D9EB58FE0 /* Foundation_NSHashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHashTable.h; sourceTree = "<group>"; };
+		0FC16CC688A495683EB93830 /* Foundation_NSScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSScanner.h; sourceTree = "<group>"; };
+		0FD920DBDAF7890E393D3976 /* Foundation_NSExtensionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionContext.h; sourceTree = "<group>"; };
+		1075F03EA0A6A230D548D30D /* UIKit_NSTextAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSTextAttachment.h; sourceTree = "<group>"; };
+		10AC20B67BA5FF314319359E /* AVFoundation_AVMetadataFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMetadataFormat.h; sourceTree = "<group>"; };
+		10BA1F87ECBA43BF341766BA /* Foundation_NSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOperation.h; sourceTree = "<group>"; };
+		116D91E4F9EE713E485BD1C9 /* AVFoundation_AVFAudio_AVAudioUnitVarispeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitVarispeed.h; sourceTree = "<group>"; };
+		1174D5EC2377A8A4FA4A8807 /* Foundation_NSBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSBundle.h; sourceTree = "<group>"; };
+		11C5C534FA1E431ECD5959B5 /* UIKit_UIProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIProgressView.h; sourceTree = "<group>"; };
+		12906F6698674348D85D985C /* AVFoundation_AVAssetReaderOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetReaderOutput.h; sourceTree = "<group>"; };
+		13133DE69660E6EC97B7FEFE /* OpenGLES_EAGLDrawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLES_EAGLDrawable.h; sourceTree = "<group>"; };
+		1332E4AECBA110D0DD99D1F9 /* AVFoundation_AVCaptureInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureInput.h; sourceTree = "<group>"; };
+		13CC0FB9FAE886AE25D58580 /* UIKit_UIFocus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFocus.h; sourceTree = "<group>"; };
+		13D867279655630C86C555A7 /* UIKit_UIScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIScrollView.h; sourceTree = "<group>"; };
+		13DBC6A78F544911C27510C0 /* CoreMedia_CMSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMSync.h; sourceTree = "<group>"; };
+		13F15F391B1174DFF477DFAA /* Foundation_NSURLError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLError.h; sourceTree = "<group>"; };
+		14034B50A0031CA1F3B041D1 /* AVFoundation_AVFAudio_AVAudioFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioFormat.h; sourceTree = "<group>"; };
+		14325F001214AD8E7C6D3382 /* Foundation_NSPointerArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPointerArray.h; sourceTree = "<group>"; };
+		145F2EBDF97D5CCE25856C51 /* UIKit_NSAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSAttributedString.h; sourceTree = "<group>"; };
+		157FEDD656BB8EC6B441CB35 /* UIKit_UIAccessibilityConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityConstants.h; sourceTree = "<group>"; };
+		16D82772369398E94114BAA1 /* UIKit_UITargetedDragPreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITargetedDragPreview.h; sourceTree = "<group>"; };
+		1703A6301650288BE505DF97 /* UIKit_DocumentManager_UIDocumentBrowserAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_DocumentManager_UIDocumentBrowserAction.h; sourceTree = "<group>"; };
+		17BA65979DF58068D51E2C3F /* CoreFoundation_CFData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFData.h; sourceTree = "<group>"; };
+		182FA446D9B3AC4B546D1C24 /* UIKit_UICollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UICollectionViewLayout.h; sourceTree = "<group>"; };
+		18BD484FD50746D95F729189 /* AVFoundation_AVAssetDownloadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetDownloadTask.h; sourceTree = "<group>"; };
+		18DC9D5B165E67C2BE5050D0 /* Foundation_NSInvocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSInvocation.h; sourceTree = "<group>"; };
+		1A46837A7B002DC712BCC407 /* UIKit_UIWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIWindow.h; sourceTree = "<group>"; };
+		1AE7FA885E6805A08560B1E3 /* QuartzCore_CATransformLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATransformLayer.h; sourceTree = "<group>"; };
+		1B4133D57071A6C4AD1886ED /* CoreGraphics_CGAffineTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGAffineTransform.h; sourceTree = "<group>"; };
+		1B6B74CEB70C502125383D86 /* UIKit_UIPrintPaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPrintPaper.h; sourceTree = "<group>"; };
+		1BA291E84CA22A6A80B8B2D8 /* AVFoundation_AVTimedMetadataGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVTimedMetadataGroup.h; sourceTree = "<group>"; };
+		1C4BE21185A44B87BD2270F0 /* AVFoundation_AVPlayerLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerLayer.h; sourceTree = "<group>"; };
+		1C5FD4B0FE09445701FD8686 /* Foundation_NSProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProgress.h; sourceTree = "<group>"; };
+		1CB855A77725B91E809DDBBA /* Foundation_NSDateInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateInterval.h; sourceTree = "<group>"; };
+		1CECF287FAABA59D31492104 /* ImageIO_CGImageMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageIO_CGImageMetadata.h; sourceTree = "<group>"; };
+		1D29E6FCA0E09894158AFBF2 /* CFNetwork_CFProxySupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFProxySupport.h; sourceTree = "<group>"; };
+		1D8BA0BA693625206FC0BAE7 /* UIKit_UIVisualEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIVisualEffect.h; sourceTree = "<group>"; };
+		1DAAC858BC4D69DCEADC4EE8 /* AVFoundation_AVAssetResourceLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetResourceLoader.h; sourceTree = "<group>"; };
+		1DCB16086BA1E39775AA71C3 /* CoreFoundation_CFStringTokenizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringTokenizer.h; sourceTree = "<group>"; };
+		1E46A8C31D7B7D979F3B2200 /* AVFoundation_AVFAudio_AVSpeechSynthesis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVSpeechSynthesis.h; sourceTree = "<group>"; };
+		1E91CC68D17655B8BC088D4B /* AVFoundation_AVSynchronizedLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVSynchronizedLayer.h; sourceTree = "<group>"; };
+		1ED5FEFF2FF54179706B7EBB /* CFNetwork_CFNetworkErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetworkErrors.h; sourceTree = "<group>"; };
+		1FC58D0F53EA9725692B14D6 /* Foundation_NSURLCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCredential.h; sourceTree = "<group>"; };
+		1FE3F562467B64232A536FD4 /* CoreGraphics_CGPDFDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFDictionary.h; sourceTree = "<group>"; };
+		1FEE33E1F3F43D59CF2495A6 /* ImageIO_CGImageProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageIO_CGImageProperties.h; sourceTree = "<group>"; };
+		20CDB9C6F0F063B5B6CC7D87 /* UIKit_UIAccessibilityIdentification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityIdentification.h; sourceTree = "<group>"; };
+		2147DAE403417D0042BA8A9D /* CoreFoundation_CFPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPlugIn.h; sourceTree = "<group>"; };
+		217EF532DD9AA7C3C89B3270 /* QuartzCore_CAValueFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAValueFunction.h; sourceTree = "<group>"; };
+		21EDA80AFF3C94A870F6C2A2 /* UIKit_UIDropInteraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDropInteraction.h; sourceTree = "<group>"; };
+		21F6656968B13482B27C596C /* UIKit_UILongPressGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UILongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		22CDA2D8C03148BB7AFD8F29 /* CoreVideo_CVImageBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVImageBuffer.h; sourceTree = "<group>"; };
+		22D19ED8ED972DFB4E0A697B /* UIKit_UITextInteraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextInteraction.h; sourceTree = "<group>"; };
+		23063C7873F2C5BD8A94F08F /* CoreFoundation_CFMachPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMachPort.h; sourceTree = "<group>"; };
+		231241445E6C59883CF4EFC7 /* NFIKonyKVOWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIKonyKVOWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DE3DFB11C3A8090503923E /* FileProvider_NSFileProviderExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileProvider_NSFileProviderExtension.h; sourceTree = "<group>"; };
+		24532EFDCF321A6A0A4E7A99 /* UIKit_UIRegion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIRegion.h; sourceTree = "<group>"; };
+		2494B794C15FDC76EC3E2611 /* UIKit_UITextChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextChecker.h; sourceTree = "<group>"; };
+		24AB004B84158B7CC20AF8F4 /* UIKit_UIFieldBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFieldBehavior.h; sourceTree = "<group>"; };
+		24E234D408C182F3F4B1B132 /* AVFoundation_AVCaptureDepthDataOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureDepthDataOutput.h; sourceTree = "<group>"; };
+		252ABEBD6B8C90C21E5A18B9 /* UIKit_UITimingCurveProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITimingCurveProvider.h; sourceTree = "<group>"; };
+		2583340890FF9D8E3D7CB9BD /* UIKit_UITableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITableView.h; sourceTree = "<group>"; };
+		26FA616A9AEBF638161CB0C6 /* Foundation_NSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSArray.h; sourceTree = "<group>"; };
+		26FBE8353D9D09CA634318E4 /* UIKit_UIAccelerometer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccelerometer.h; sourceTree = "<group>"; };
+		273E4E76A1B9C3DFBF817704 /* CoreFoundation_CFFileDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileDescriptor.h; sourceTree = "<group>"; };
+		27534DBFC5C8FE76C68491B7 /* Foundation_NSRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRange.h; sourceTree = "<group>"; };
+		27EEF7A8CA31267EF868F137 /* QuartzCore_CALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CALayer.h; sourceTree = "<group>"; };
+		2893E72C9D5194B83146DB6F /* AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.h; sourceTree = "<group>"; };
+		28E64816B48F51DEC9D31D61 /* UIKit_UIPressesEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPressesEvent.h; sourceTree = "<group>"; };
+		28EA703D52C3DD4E95046A61 /* UIKit_NSStringDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSStringDrawing.h; sourceTree = "<group>"; };
+		290E9CE6F6D69487676A7435 /* Security_SecBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecBase.h; sourceTree = "<group>"; };
+		29491EED3FCAF4DC067360E2 /* UIKit_UIStepper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIStepper.h; sourceTree = "<group>"; };
+		29809D76B4E48A5EADD3FB08 /* Foundation_NSNotificationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNotificationQueue.h; sourceTree = "<group>"; };
+		2999D161335AC9802C9DAD31 /* UIKit_UIPrintError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPrintError.h; sourceTree = "<group>"; };
+		29A2A4B6FDDF46FEF5DE2B8F /* NFIKonyKVOWrapperLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIKonyKVOWrapperLoader.h; sourceTree = "<group>"; };
+		29E70C376BF58155F324CDB7 /* UIKit_UIImpactFeedbackGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIImpactFeedbackGenerator.h; sourceTree = "<group>"; };
+		2A0AB780D812BAB9414282AE /* AVFoundation_AVVideoComposition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVVideoComposition.h; sourceTree = "<group>"; };
+		2A7A8D247C1168D3B1A0E616 /* AVFoundation_AVCaptureVideoDataOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureVideoDataOutput.h; sourceTree = "<group>"; };
+		2B00E7BA625627055634E087 /* CoreImage_CIBarcodeDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIBarcodeDescriptor.h; sourceTree = "<group>"; };
+		2B7B993D393320D9AD7525C6 /* AudioToolbox_AUParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUParameters.h; sourceTree = "<group>"; };
+		2BC54BCE5706781C5CFD7BE4 /* UIKit_UIBarButtonItemGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIBarButtonItemGroup.h; sourceTree = "<group>"; };
+		2BE59D370EBF978A0199A282 /* QuartzCore_CAMediaTiming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAMediaTiming.h; sourceTree = "<group>"; };
+		2CACF2ABF95E9C7A5A18A7F2 /* Foundation_NSDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateFormatter.h; sourceTree = "<group>"; };
+		2E2D560D198B6CD00A8A1E95 /* allincludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allincludes.h; sourceTree = "<group>"; };
+		2E355EC96E8A045B25788FB3 /* CoreImage_CIFilterShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIFilterShape.h; sourceTree = "<group>"; };
+		2E6E0DE22C817B11184CB7E1 /* Foundation_NSData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSData.h; sourceTree = "<group>"; };
+		2F6D53427F0A1261E8CAAA26 /* AVFoundation_AVRouteDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVRouteDetector.h; sourceTree = "<group>"; };
+		2FA977AACC84AB1B654DFE7F /* CoreGraphics_CGGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGGeometry.h; sourceTree = "<group>"; };
+		2FD965503E003FCF3ECF283D /* AVFoundation_AVFAudio_AVAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioRecorder.h; sourceTree = "<group>"; };
+		31E39AF23B77231D286CBA8B /* AudioToolbox_AudioUnitProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioUnitProperties.h; sourceTree = "<group>"; };
+		324A274C832A2CD4499A11AD /* AVFoundation_AVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayer.h; sourceTree = "<group>"; };
+		32DBE06A62D94A7B7AFBB213 /* Foundation_NSRegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRegularExpression.h; sourceTree = "<group>"; };
+		331163807FA0CCEDF4E989D0 /* UIKit_UIGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIGeometry.h; sourceTree = "<group>"; };
+		34758764D955CA8E82B7779A /* CoreGraphics_CGPDFContentStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFContentStream.h; sourceTree = "<group>"; };
+		34B619C3B60A438F4E1B4A28 /* UIKit_UIStoryboardPopoverSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		34CF791C99A0717D747999A2 /* CoreFoundation_CFURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURL.h; sourceTree = "<group>"; };
+		34F68E198AB610B48C19BB48 /* UIKit_UIApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIApplication.h; sourceTree = "<group>"; };
+		35166FA3F80482201CBC4A0D /* UIKit_UIStoryboardSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIStoryboardSegue.h; sourceTree = "<group>"; };
+		36E1FC59883CA46DEF3D0DAC /* AVKit_AVError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVKit_AVError.h; sourceTree = "<group>"; };
+		3795BD5D313E13C4E0FEE30D /* CoreGraphics_CGPDFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFDocument.h; sourceTree = "<group>"; };
+		37E2BDD63731102A0EE230AC /* CoreGraphics_CGPDFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFObject.h; sourceTree = "<group>"; };
+		387860D96EAC354C3E79917C /* AudioToolbox_AudioSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioSession.h; sourceTree = "<group>"; };
+		391F0F1060CCA1C4939C7255 /* UIKit_UIBlurEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIBlurEffect.h; sourceTree = "<group>"; };
+		3952094203B321B0ABF65DFA /* UIKit_UIPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPrinter.h; sourceTree = "<group>"; };
+		3987B45137450FC843F1B2E9 /* AVKit_AVPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVKit_AVPlayerViewController.h; sourceTree = "<group>"; };
+		39EC1D25C76CF4235389334E /* UIKit_UIVideoEditorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIVideoEditorController.h; sourceTree = "<group>"; };
+		3A1DFF6CD31C2A1E4D0B7954 /* CoreImage_CIContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIContext.h; sourceTree = "<group>"; };
+		3A4171149623C2CFE3039D3C /* Foundation_NSAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSAttributedString.h; sourceTree = "<group>"; };
+		3A4CA6E96C14B2D254A213AB /* Foundation_NSPersonNameComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPersonNameComponents.h; sourceTree = "<group>"; };
+		3A6A1D4F15C120EAE135EB87 /* Foundation_NSNull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNull.h; sourceTree = "<group>"; };
+		3B3320C76C5C09D4DD2EC338 /* AVFoundation_AVFAudio_AVAudioSequencer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioSequencer.h; sourceTree = "<group>"; };
+		3B8550D35B796B504477B869 /* UIKit_UIDataDetectors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDataDetectors.h; sourceTree = "<group>"; };
+		3C6B1485E53EDB6476D9D16E /* AVFoundation_AVComposition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVComposition.h; sourceTree = "<group>"; };
+		3C8AFC5E9EF6A9B82C0E52B7 /* AVFoundation_AVFAudio_AVAudioBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioBuffer.h; sourceTree = "<group>"; };
+		3D0B2F649E76EE72B967FD87 /* UIKit_UIEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIEvent.h; sourceTree = "<group>"; };
+		3D144E27A006542D167B0AB7 /* QuartzCore_CAEmitterLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAEmitterLayer.h; sourceTree = "<group>"; };
+		3DD5A56E03B572766D366944 /* CoreGraphics_CGBitmapContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGBitmapContext.h; sourceTree = "<group>"; };
+		3E1AEDE7BDA3635C058C700F /* CoreFoundation_CFRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFRunLoop.h; sourceTree = "<group>"; };
+		3EFD54793D5A2A217D1B68EB /* Foundation_NSDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDictionary.h; sourceTree = "<group>"; };
+		3F9AF23BE7CA5E64D6C06BC5 /* AudioToolbox_MusicDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_MusicDevice.h; sourceTree = "<group>"; };
+		3FEDFD89876F67020ACC37BD /* AudioToolbox_MusicPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_MusicPlayer.h; sourceTree = "<group>"; };
+		400EF9BF6E26F2DE94149A82 /* Foundation_NSLinguisticTagger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLinguisticTagger.h; sourceTree = "<group>"; };
+		4034F060604FB4A537540ADA /* AVFoundation_AVAudioProcessingSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAudioProcessingSettings.h; sourceTree = "<group>"; };
+		40DB089DD2AE288D036A0FE2 /* AVFoundation_AVPlayerItemOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerItemOutput.h; sourceTree = "<group>"; };
+		417931C884AAD3B354226B00 /* UIKit_UIInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIInputView.h; sourceTree = "<group>"; };
+		42106E23DE96B990A47B6D60 /* CoreGraphics_CGError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGError.h; sourceTree = "<group>"; };
+		4283E61A7A5915F71A10A2B1 /* UIKit_NSLayoutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSLayoutManager.h; sourceTree = "<group>"; };
+		43361968AFC96FA4509C4189 /* AVFoundation_AVAssetExportSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetExportSession.h; sourceTree = "<group>"; };
+		4341B5D5ABBC5037DFC7C1B7 /* AVFoundation_AVAssetTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetTrack.h; sourceTree = "<group>"; };
+		4362F7F880D80DC81F8B17E9 /* UIKit_UIDocumentPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDocumentPickerViewController.h; sourceTree = "<group>"; };
+		43B089F73C64C28AF53FF744 /* CoreFoundation_CFStringEncodingExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringEncodingExt.h; sourceTree = "<group>"; };
+		43B3C67F6901469DCFA14387 /* Foundation_NSMeasurementFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMeasurementFormatter.h; sourceTree = "<group>"; };
+		4422CDE01D35DA1DF9C155F8 /* AVFoundation_AVDepthData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVDepthData.h; sourceTree = "<group>"; };
+		44AB9CFE5BCBE46A0857CF9A /* CoreGraphics_CGFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGFunction.h; sourceTree = "<group>"; };
+		44B7A4C73A1E4986EBD6EB9E /* Foundation_NSValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSValue.h; sourceTree = "<group>"; };
+		44E43EF58EACBBB7035A32B1 /* Foundation_NSExtensionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionItem.h; sourceTree = "<group>"; };
+		455A36A6AC22A46D46A90973 /* CoreMedia_CMTimeRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMTimeRange.h; sourceTree = "<group>"; };
+		457D2D56B18023FDF65FA07C /* AVFoundation_AVCaptureDataOutputSynchronizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureDataOutputSynchronizer.h; sourceTree = "<group>"; };
+		4595B4F94C2B6E4351D0CF9E /* Foundation_NSMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMetadata.h; sourceTree = "<group>"; };
+		45E8E45BE4EFA34D531A8FD8 /* Foundation_NSIndexSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSIndexSet.h; sourceTree = "<group>"; };
+		4606402DB95C594E9082FC69 /* QuartzCore_CAMediaTimingFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAMediaTimingFunction.h; sourceTree = "<group>"; };
+		4638B657D1BDF8AE41B853F1 /* UIKit_DocumentManager_UIDocumentBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_DocumentManager_UIDocumentBrowserViewController.h; sourceTree = "<group>"; };
+		4646FB6834B6AC4340DEC0E3 /* UIKit_UILocalNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UILocalNotification.h; sourceTree = "<group>"; };
+		46A0ADA8D8055E3A8B1D0C66 /* CoreMedia_CMBlockBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMBlockBuffer.h; sourceTree = "<group>"; };
+		471EF4C5E45E9C96934442BF /* UIKit_UIContentSizeCategoryAdjusting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIContentSizeCategoryAdjusting.h; sourceTree = "<group>"; };
+		477C123B9B7B3CF5F1AAF234 /* UIKit_UIBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIBarButtonItem.h; sourceTree = "<group>"; };
+		47C80C3E2DA6CE725D6885EC /* UIKit_UIVisualEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIVisualEffectView.h; sourceTree = "<group>"; };
+		48B98B9AE4A11C5E46AE8A22 /* CoreFoundation_CFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFArray.h; sourceTree = "<group>"; };
+		4924649D22C98F5CDC148204 /* AudioToolbox_AUAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUAudioUnit.h; sourceTree = "<group>"; };
+		49848147547B323E55F55043 /* UIKit_UISwipeGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISwipeGestureRecognizer.h; sourceTree = "<group>"; };
+		499B1F97C03F66F14EE55C67 /* UIKit_UIDragPreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDragPreview.h; sourceTree = "<group>"; };
+		4A6274B9F772CD56D47C7097 /* Foundation_NSCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCoder.h; sourceTree = "<group>"; };
+		4AF1F6CB2C1B45462821907C /* CoreFoundation_CFLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFLocale.h; sourceTree = "<group>"; };
+		4B6B1EBCE1CAA596F4454D5B /* UIKit_UIScreenMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIScreenMode.h; sourceTree = "<group>"; };
+		4B94CE68D4E7CD455451C3D9 /* Foundation_NSFileHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileHandle.h; sourceTree = "<group>"; };
+		4C0BC3A2E3EC93B38B154D97 /* AudioToolbox_AudioConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioConverter.h; sourceTree = "<group>"; };
+		4CD2ED8EECE408CE9997A127 /* UIKit_UITextPasteConfigurationSupporting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextPasteConfigurationSupporting.h; sourceTree = "<group>"; };
+		4D2AC8127DBCC3F629B4770A /* Foundation_NSMassFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMassFormatter.h; sourceTree = "<group>"; };
+		4DAA55E24C19377548708013 /* Foundation_NSItemProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSItemProvider.h; sourceTree = "<group>"; };
+		4DF218655710357D1F72593F /* Foundation_NSOrderedSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrderedSet.h; sourceTree = "<group>"; };
+		4E3339AE339F2C4D63DEB451 /* AVFoundation_AVFAudio_AVAudioMixing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioMixing.h; sourceTree = "<group>"; };
+		4EA23FF97E57888F53FCCD1F /* Foundation_NSHTTPCookieStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHTTPCookieStorage.h; sourceTree = "<group>"; };
+		4FE6FDC179584FACEC4291EF /* Foundation_NSMethodSignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMethodSignature.h; sourceTree = "<group>"; };
+		4FE850A1ECEC3BA7D6F16B23 /* Foundation_NSXPCConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSXPCConnection.h; sourceTree = "<group>"; };
+		5000A18C3B113057D0BA20E9 /* CoreGraphics_CGPDFString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFString.h; sourceTree = "<group>"; };
+		5098588C915E32CDCF3AB90D /* UIKit_UIAccessibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibility.h; sourceTree = "<group>"; };
+		5132EC18FA2C041E27308284 /* UIKit_UIStoryboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIStoryboard.h; sourceTree = "<group>"; };
+		51D24BA175CE1ED2A124A4EB /* Foundation_NSURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLProtocol.h; sourceTree = "<group>"; };
+		51EE0B23CA43C5E45BB3DBD5 /* CoreGraphics_CGPDFScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFScanner.h; sourceTree = "<group>"; };
+		51EEED3410F94E166AB71E1C /* CoreFoundation_CFBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBag.h; sourceTree = "<group>"; };
+		51F3101C1BB8147100B8517C /* Foundation_NSValueTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSValueTransformer.h; sourceTree = "<group>"; };
+		51FB10E69FEB070F9CB82656 /* CoreFoundation_CFAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFAttributedString.h; sourceTree = "<group>"; };
+		5261D8F46621884A30CC022E /* CoreFoundation_CFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStream.h; sourceTree = "<group>"; };
+		54668474FF808696BA7F4E15 /* UIKit_UIPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPresentationController.h; sourceTree = "<group>"; };
+		547C3F5711D2D6CF1B8B18A1 /* Foundation_NSPointerFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPointerFunctions.h; sourceTree = "<group>"; };
+		548A9546F3BFD2052DE101EA /* parts_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sa; sourceTree = "<group>"; };
+		54BFE5F6A6AB396DAA091EC5 /* UIKit_UINotificationFeedbackGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UINotificationFeedbackGenerator.h; sourceTree = "<group>"; };
+		55D35B046D4B8D7F27F52686 /* UIKit_UIContentSizeCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIContentSizeCategory.h; sourceTree = "<group>"; };
+		55D94E26145C504F23BB8134 /* UIKit_UIDataSourceTranslating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDataSourceTranslating.h; sourceTree = "<group>"; };
+		563CD9743E4B028CF1C2BAB2 /* Security_SecKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecKey.h; sourceTree = "<group>"; };
+		564506364645011B2174AF8E /* UIKit_UIColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIColor.h; sourceTree = "<group>"; };
+		568BC94BB45A382189B4026C /* Security_SecIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecIdentity.h; sourceTree = "<group>"; };
+		568F8813F1A7D09647D64D7F /* UIKit_UIFocusAnimationCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFocusAnimationCoordinator.h; sourceTree = "<group>"; };
+		574E058616DF17D21D1648A0 /* CoreGraphics_CGPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPattern.h; sourceTree = "<group>"; };
+		582E8B84D96094A02A84B2E5 /* UIKit_UIDocumentPickerExtensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDocumentPickerExtensionViewController.h; sourceTree = "<group>"; };
+		5851384A94AB225B23301281 /* UIKit_UIRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIRefreshControl.h; sourceTree = "<group>"; };
+		5897C236E7AB834AD4BB06E1 /* UIKit_UIViewAnimating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIViewAnimating.h; sourceTree = "<group>"; };
+		58C9E07880F2CBF8C72B0CED /* AVFoundation_AVFAudio_AVAudioUnitDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitDistortion.h; sourceTree = "<group>"; };
+		5A98F5A9F5CEDD37F9FB2034 /* AVFoundation_AVQueuedSampleBufferRendering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVQueuedSampleBufferRendering.h; sourceTree = "<group>"; };
+		5B10BB9C033D4338C717B2A0 /* PointerSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointerSupport.m; sourceTree = "<group>"; };
+		5C16B01B7A843001A2085B07 /* QuartzCore_CAGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAGradientLayer.h; sourceTree = "<group>"; };
+		5C4410EE956912945CFF3E24 /* CoreGraphics_CGGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGGradient.h; sourceTree = "<group>"; };
+		5CFFF36B3F00725D1B15CB6B /* AVFoundation_AVCaptureMetadataOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureMetadataOutput.h; sourceTree = "<group>"; };
+		5D18111284C3BEFF3E92F66B /* AVFoundation_AVError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVError.h; sourceTree = "<group>"; };
+		5D64C73E9F99EC3AA7B6F7AE /* UIKit_UIStateRestoration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIStateRestoration.h; sourceTree = "<group>"; };
+		5D67E9284D15CFB28F185382 /* UIKit_UIManagedDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIManagedDocument.h; sourceTree = "<group>"; };
+		5DE8AE2B01866E8B5DE12DE3 /* UIKit_UITraitCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITraitCollection.h; sourceTree = "<group>"; };
+		5DF8937C8D104F935CAD936B /* CoreVideo_CVBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVBuffer.h; sourceTree = "<group>"; };
+		5E625E7E15F26E930504CA68 /* CoreFoundation_CFBitVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBitVector.h; sourceTree = "<group>"; };
+		5EAFB89C4080D5592A1B2C62 /* AVFoundation_AVAssetImageGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetImageGenerator.h; sourceTree = "<group>"; };
+		5F2F9FEE5A207CBE47CC4E71 /* UIKit_UIDynamicBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDynamicBehavior.h; sourceTree = "<group>"; };
+		5F82C4AAE248A1A55814608B /* UIKit_NSItemProvider_UIKitAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSItemProvider_UIKitAdditions.h; sourceTree = "<group>"; };
+		601AFA00F891C70BBAC59397 /* Foundation_NSHTTPCookie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHTTPCookie.h; sourceTree = "<group>"; };
+		60E52FA5EF913B963E65F070 /* AVFoundation_AVFAudio_AVAudioSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioSettings.h; sourceTree = "<group>"; };
+		619A542EC1E962D69C277980 /* Foundation_NSFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileManager.h; sourceTree = "<group>"; };
+		61D00579DBF08F83A4FD7B13 /* Foundation_NSException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSException.h; sourceTree = "<group>"; };
+		62A1323726BA4D505B3FE754 /* CoreMedia_CMAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMAttachment.h; sourceTree = "<group>"; };
+		630A5F1628DC247AFD5F770B /* AVFoundation_AVAssetCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetCache.h; sourceTree = "<group>"; };
+		633506B05A95A7184CBDC3D1 /* Foundation_NSUbiquitousKeyValueStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUbiquitousKeyValueStore.h; sourceTree = "<group>"; };
+		6388235298EC8FB0D72BA600 /* Foundation_NSObjCRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObjCRuntime.h; sourceTree = "<group>"; };
+		63C456F0942218DEECD4C85A /* Foundation_NSProcessInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProcessInfo.h; sourceTree = "<group>"; };
+		646DCE633B7E620366321B4C /* UIKit_UIFocusGuide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFocusGuide.h; sourceTree = "<group>"; };
+		652B326FC24C2D667E8B9E95 /* UIKit_UIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIViewController.h; sourceTree = "<group>"; };
+		654AB547C3019019AE5407E8 /* UIKit_UITextDropping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextDropping.h; sourceTree = "<group>"; };
+		6588281D9EA1422BC4681225 /* CoreImage_CIFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIFilter.h; sourceTree = "<group>"; };
+		65C02692AE432BCACA502D21 /* AVFoundation_AVFAudio_AVAudioEnvironmentNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioEnvironmentNode.h; sourceTree = "<group>"; };
+		65CE72F5E2EDFCF19F75ACF2 /* CoreVideo_CVPixelFormatDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelFormatDescription.h; sourceTree = "<group>"; };
+		65E949BE55E88E7CBBA53752 /* AVFoundation_AVFAudio_AVAudioConnectionPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioConnectionPoint.h; sourceTree = "<group>"; };
+		66572F48A8C21864B21FB783 /* UIKit_UIRotationGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		669D8511D16869E6A9A24405 /* Foundation_NSOrthography.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrthography.h; sourceTree = "<group>"; };
+		67B86F8681C5C2C58B191F93 /* Foundation_NSUserActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUserActivity.h; sourceTree = "<group>"; };
+		67EBD421406B2CAFCCE7BE62 /* UIKit_UINavigationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UINavigationItem.h; sourceTree = "<group>"; };
+		685CCF8D8A3F19A4C994950E /* AudioToolbox_AUAudioUnitImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUAudioUnitImplementation.h; sourceTree = "<group>"; };
+		699273D898D2D54BCB1CF93F /* AVFoundation_AVCaptureFileOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureFileOutput.h; sourceTree = "<group>"; };
+		6A2875D86B7FB2A020900261 /* Foundation_NSMapTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMapTable.h; sourceTree = "<group>"; };
+		6A52D48F60F37F5CDD0E96B9 /* UIKit_UIPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPageControl.h; sourceTree = "<group>"; };
+		6A5D8FD88BF145FA7847F2AE /* UIKit_NSLayoutAnchor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSLayoutAnchor.h; sourceTree = "<group>"; };
+		6AA66485C43E0760371EE222 /* AudioToolbox_AudioFileStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFileStream.h; sourceTree = "<group>"; };
+		6AAD2F39F5214CB18AFF8D28 /* CoreFoundation_CFCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCharacterSet.h; sourceTree = "<group>"; };
+		6B20C7AEB79E32A2F8A95ADF /* UIKit_UIAccessibilityZoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityZoom.h; sourceTree = "<group>"; };
+		6B24074BD1CAD9A41BA69500 /* CoreImage_CIColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIColor.h; sourceTree = "<group>"; };
+		6B5CEFAED20B9D932304531A /* CoreImage_CIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIImage.h; sourceTree = "<group>"; };
+		6B640393411EC21A9C20C3EA /* Security_SecTrust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecTrust.h; sourceTree = "<group>"; };
+		6CB4B13B2A428CE1122FB231 /* UIKit_UITouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITouch.h; sourceTree = "<group>"; };
+		6CCC29F71996874C647D581C /* UIKit_UIBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIBarItem.h; sourceTree = "<group>"; };
+		6CDC5134208A816D7756CD65 /* ImageIO_CGImageSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageIO_CGImageSource.h; sourceTree = "<group>"; };
+		6CDF8DE87E99C16BBB01851B /* parts_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sr; sourceTree = "<group>"; };
+		6CFDEE00585F194E56AFA5A6 /* AVFoundation_AVFAudio_AVAudioUnitGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitGenerator.h; sourceTree = "<group>"; };
+		6D0A2C923AE4CDCDDE5E632C /* CoreMIDI_MIDIServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMIDI_MIDIServices.h; sourceTree = "<group>"; };
+		6D47A603103FC97583DF9DB2 /* AVFoundation_AVFAudio_AVAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioPlayer.h; sourceTree = "<group>"; };
+		6D4DF3C67467BA873FF156DC /* CoreMedia_CMTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMTime.h; sourceTree = "<group>"; };
+		6D770B5B1492D6FA3EECDF98 /* AVFoundation_AVPlayerMediaSelectionCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerMediaSelectionCriteria.h; sourceTree = "<group>"; };
+		6DA53C0004BF95119C43047A /* UIKit_UITabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITabBarItem.h; sourceTree = "<group>"; };
+		6DBD0396C2FA3BE6B9548993 /* UIKit_UIAccessibilityElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityElement.h; sourceTree = "<group>"; };
+		6F60FF88A689830E2A6B1ADD /* UIKit_UIStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIStackView.h; sourceTree = "<group>"; };
+		6FF82CF494C280D4B317E937 /* CoreFoundation_CFError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFError.h; sourceTree = "<group>"; };
+		71310FEA4B934051BF795CA0 /* QuartzCore_CATiledLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATiledLayer.h; sourceTree = "<group>"; };
+		714ACE16EFBE314454403DAF /* UIKit_UILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UILabel.h; sourceTree = "<group>"; };
+		716EE634F5A5D6A788ACAD9E /* KonyKVOWrapper_NSObject_KonyKVOWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KonyKVOWrapper_NSObject_KonyKVOWrapper.h; sourceTree = "<group>"; };
+		71B0B9009DF466E4A265E200 /* AudioToolbox_AudioQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioQueue.h; sourceTree = "<group>"; };
+		71E1F697E37A24F4F3435813 /* QuartzCore_CAEAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAEAGLLayer.h; sourceTree = "<group>"; };
+		726136D12E62FA2FCA98BC59 /* UIKit_UIPopoverSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPopoverSupport.h; sourceTree = "<group>"; };
+		72AAE72E48FD0B139D8A619E /* AVFoundation_AVAssetReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetReader.h; sourceTree = "<group>"; };
+		73006A7BD99E800C7677F838 /* UIKit_UIPrintInteractionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPrintInteractionController.h; sourceTree = "<group>"; };
+		7375ED41F482CF65FDDEF9F9 /* CoreFoundation_CFBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBundle.h; sourceTree = "<group>"; };
+		73F2345E091FBF8A41D9653A /* CoreImage_CIFeature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIFeature.h; sourceTree = "<group>"; };
+		75699E9F1805C835E19E5E25 /* UIKit_UIDragSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDragSession.h; sourceTree = "<group>"; };
+		756ECFA12EDED2B76FE662FF /* Foundation_NSByteCountFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSByteCountFormatter.h; sourceTree = "<group>"; };
+		7622BC1527E1C58E669D5923 /* CoreGraphics_CGColorConversionInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGColorConversionInfo.h; sourceTree = "<group>"; };
+		764E3EAAA8E6CE025C840F5D /* UIKit_UIViewControllerTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIViewControllerTransitioning.h; sourceTree = "<group>"; };
+		76827DE21FF23A79319949BD /* Security_SecCertificate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecCertificate.h; sourceTree = "<group>"; };
+		76DFC5ADA42CEAC4D749F350 /* AVFoundation_AVMediaSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMediaSelection.h; sourceTree = "<group>"; };
+		77255D6543AC532447C03D80 /* Foundation_NSFileCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileCoordinator.h; sourceTree = "<group>"; };
+		779DB9C95113C0A86DA390E8 /* UIKit_UIGravityBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIGravityBehavior.h; sourceTree = "<group>"; };
+		7812145B75E477128D0E4E76 /* UIKit_UIInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIInterface.h; sourceTree = "<group>"; };
+		78ABD4F34813845B9822E97D /* CoreVideo_CVReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVReturn.h; sourceTree = "<group>"; };
+		78C47AC012F476BD0C0919C6 /* CoreFoundation_CFBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBase.h; sourceTree = "<group>"; };
+		797DE6BA2BDB4DAE7F4CBB5B /* Foundation_NSPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPropertyList.h; sourceTree = "<group>"; };
+		79923961519AA8BB618CEE7F /* UIKit_UICollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UICollectionViewCell.h; sourceTree = "<group>"; };
+		7A09F1FFF0B06E24263B1986 /* CoreGraphics_CGPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPath.h; sourceTree = "<group>"; };
+		7A15F873068E60E4E5F7C9C1 /* UIKit_UIGraphicsPDFRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIGraphicsPDFRenderer.h; sourceTree = "<group>"; };
+		7A4CBF4A361678A0405E11E6 /* Foundation_NSPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPredicate.h; sourceTree = "<group>"; };
+		7A75A96424B1DC9C1A13D602 /* UIKit_UICollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UICollectionView.h; sourceTree = "<group>"; };
+		7AA0E8D0252C9367F21C6AF2 /* Foundation_NSSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSSet.h; sourceTree = "<group>"; };
+		7AD464DCBB6B8DDAA5FA124D /* UIKit_UIActivityItemProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIActivityItemProvider.h; sourceTree = "<group>"; };
+		7AF7760A9EBCC7951D0BD629 /* AVFoundation_AVFAudio_AVAudioPlayerNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioPlayerNode.h; sourceTree = "<group>"; };
+		7AFFDD6941881C6EA2D3FE85 /* AVFoundation_AVFAudio_AVAudioChannelLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioChannelLayout.h; sourceTree = "<group>"; };
+		7B3A6CAF025DF7AAF6E77050 /* AVFoundation_AVAssetTrackSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetTrackSegment.h; sourceTree = "<group>"; };
+		7B53CBF03B8F07EC47383C48 /* UIKit_UISearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISearchController.h; sourceTree = "<group>"; };
+		7C6E5987162A23E324C0CFBC /* CFNetwork_CFNetDiagnostics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetDiagnostics.h; sourceTree = "<group>"; };
+		7D1110BFE5B698E8E13BE44B /* UIKit_UIViewPropertyAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIViewPropertyAnimator.h; sourceTree = "<group>"; };
+		7DC42F138CF988AB7C5764A4 /* UIKit_UIFeedbackGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFeedbackGenerator.h; sourceTree = "<group>"; };
+		7E15CC9F916F933C26A43036 /* UIKit_UIToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIToolbar.h; sourceTree = "<group>"; };
+		7E2E51642A9F4C80F86DC81A /* CoreImage_CIKernel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIKernel.h; sourceTree = "<group>"; };
+		7EAFB863E6DC0066BBA15A25 /* UIKit_UIAccessibilityContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityContainer.h; sourceTree = "<group>"; };
+		7EEB3FBDD4B0DA4ED6E93E90 /* Foundation_NSDateComponentsFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateComponentsFormatter.h; sourceTree = "<group>"; };
+		7F516574E05E8391C13A28BB /* AVFoundation_AVAudioMix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAudioMix.h; sourceTree = "<group>"; };
+		7F5D84EA1EF7CA433D335F7B /* Foundation_NSURLResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLResponse.h; sourceTree = "<group>"; };
+		7FAEBC79D39EC1BEB990A405 /* CoreFoundation_CFDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDateFormatter.h; sourceTree = "<group>"; };
+		8015E841B483C828C2B9B2C4 /* AVFoundation_AVSampleBufferDisplayLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVSampleBufferDisplayLayer.h; sourceTree = "<group>"; };
+		8063B27665D6E14358CA8C14 /* UIKit_UIAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAppearance.h; sourceTree = "<group>"; };
+		815346551E10F52ADE18B6CA /* CoreFoundation_CFFileSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileSecurity.h; sourceTree = "<group>"; };
+		81E20F4CF1893705ABA48E52 /* Metal_MTLPixelFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Metal_MTLPixelFormat.h; sourceTree = "<group>"; };
+		826686B5D14713994D34931F /* UIKit_UICollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UICollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		829A87BF10928B9E8C6C10D1 /* Foundation_NSProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProxy.h; sourceTree = "<group>"; };
+		831521AA7073C23C46E8BF7F /* UIKit_UIPrintPageRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPrintPageRenderer.h; sourceTree = "<group>"; };
+		831CA2268D074CD88B03DF45 /* UIKit_NSShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSShadow.h; sourceTree = "<group>"; };
+		83F4E2887EDDECB4B52DDAC6 /* CoreGraphics_CGPDFContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFContext.h; sourceTree = "<group>"; };
+		841C52C77E533EC653F3E77D /* UIKit_UICollisionBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UICollisionBehavior.h; sourceTree = "<group>"; };
+		84B01EE39FB01C9113EE3950 /* AVFoundation_AVFAudio_AVAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnit.h; sourceTree = "<group>"; };
+		84F39AD2D3ADECCFD10225AC /* CallbackSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackSupport.m; sourceTree = "<group>"; };
+		850D565694E17E954ECEC7EC /* UIKit_UIGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIGestureRecognizer.h; sourceTree = "<group>"; };
+		8575B8258B2348DD4988BE0A /* AudioToolbox_AudioUnitParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioUnitParameters.h; sourceTree = "<group>"; };
+		85BE1855CDB5792161720990 /* Foundation_NSComparisonPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSComparisonPredicate.h; sourceTree = "<group>"; };
+		85E9F4192F629DF8DEE77EF0 /* UIKit_UIActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIActivityViewController.h; sourceTree = "<group>"; };
+		85ED286182079F007B5E323A /* Foundation_NSTextCheckingResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTextCheckingResult.h; sourceTree = "<group>"; };
+		86752605F13DBC5AA84DEFCF /* UIKit_UIActionSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIActionSheet.h; sourceTree = "<group>"; };
+		874F9826F2050AAFD264B5F8 /* AVFoundation_AVFAudio_AVAudioUnitTimeEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitTimeEffect.h; sourceTree = "<group>"; };
+		87B3F366E7E291F884A9FEFB /* Foundation_NSURLProtectionSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLProtectionSpace.h; sourceTree = "<group>"; };
+		885AD4A624AA89BCC89CF76D /* UIKit_UIDynamicAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDynamicAnimator.h; sourceTree = "<group>"; };
+		88EC9EAB0CE6A38B2CB01DB1 /* UIKit_UIVibrancyEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIVibrancyEffect.h; sourceTree = "<group>"; };
+		89068CA8074DB7C253C131B0 /* UIKit_UIContextualAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIContextualAction.h; sourceTree = "<group>"; };
+		8954DCD3CCB35E05B2A538CD /* Foundation_NSLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLock.h; sourceTree = "<group>"; };
+		89DB5BD0CD90CACEB3DE23A1 /* UIKit_UIDragPreviewParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDragPreviewParameters.h; sourceTree = "<group>"; };
+		8A1404B8063294130F6E4312 /* UIKit_NSIndexPath_UIKitAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSIndexPath_UIKitAdditions.h; sourceTree = "<group>"; };
+		8A3CB67584173054ABFCD8DB /* CFNetwork_CFSocketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFSocketStream.h; sourceTree = "<group>"; };
+		8AF90C81F5263CB920BE7487 /* UIKit_UIAccessibilityCustomRotor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityCustomRotor.h; sourceTree = "<group>"; };
+		8B89FBD8DC6640FB0CA79C1F /* AudioToolbox_AudioOutputUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioOutputUnit.h; sourceTree = "<group>"; };
+		8BA1AECB1B181AF5521C0EC8 /* Foundation_NSKeyedArchiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyedArchiver.h; sourceTree = "<group>"; };
+		8D00B0A14A9C9FA483B1E2D1 /* CoreFoundation_CFCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCalendar.h; sourceTree = "<group>"; };
+		8D51DFA3AA3FAE82CEBCB071 /* Foundation_NSUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUUID.h; sourceTree = "<group>"; };
+		8D70C6BDA0B9CDCC3465A478 /* AVFoundation_AVFAudio_AVAudioUnitTimePitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitTimePitch.h; sourceTree = "<group>"; };
+		8D9B70B286D3B1B3175BDEFB /* AVFoundation_AVMetadataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMetadataItem.h; sourceTree = "<group>"; };
+		8DA3FF8F332266C67960DCC0 /* AudioToolbox_AudioToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioToolbox.h; sourceTree = "<group>"; };
+		8DBD6E83CAB25252F84BE211 /* AVFoundation_AVOutputSettingsAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVOutputSettingsAssistant.h; sourceTree = "<group>"; };
+		8F1B5BA0DCB1B3DB33B1C196 /* CoreFoundation_CFNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumberFormatter.h; sourceTree = "<group>"; };
+		8F947D35509EDEEE4A114B61 /* CoreGraphics_CGContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGContext.h; sourceTree = "<group>"; };
+		90170DCE74A93BA01870F342 /* Security_SecRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecRandom.h; sourceTree = "<group>"; };
+		90846C6C3354C9077414338A /* CFNetwork_CFHTTPMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPMessage.h; sourceTree = "<group>"; };
+		90A74F3DD5BDC07DDF065D41 /* CoreAudio_CoreAudioTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudio_CoreAudioTypes.h; sourceTree = "<group>"; };
+		90E4322011AAB54452132376 /* AVFoundation_AVTextStyleRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVTextStyleRule.h; sourceTree = "<group>"; };
+		90F14854DF69F48CB78B61F5 /* UIKit_UIAccessibilityAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityAdditions.h; sourceTree = "<group>"; };
+		91670CF0F3046DB3FBE1B24F /* UIKit_UIPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPageViewController.h; sourceTree = "<group>"; };
+		924E6C2BB33F5B7E88391A39 /* UIKit_UIPopoverPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPopoverPresentationController.h; sourceTree = "<group>"; };
+		929AECDCE362E0D44E598771 /* AVFoundation_AVContentKeySession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVContentKeySession.h; sourceTree = "<group>"; };
+		92D52C575A23CC496F41B2FF /* OpenGLES_EAGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLES_EAGL.h; sourceTree = "<group>"; };
+		92D693DBB5BF4CA0B610FA15 /* Foundation_NSJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSJSONSerialization.h; sourceTree = "<group>"; };
+		92FC7F2F835B907B7D35DFA9 /* QuartzCore_CATextLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATextLayer.h; sourceTree = "<group>"; };
+		935E372C4F20CF1BBD773E69 /* CoreGraphics_CGLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGLayer.h; sourceTree = "<group>"; };
+		936477F4C5E6531B86ACF6D7 /* CoreText_CTParagraphStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreText_CTParagraphStyle.h; sourceTree = "<group>"; };
+		940FAF056E3FE961FD9C75EF /* CoreMedia_CMSampleBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMSampleBuffer.h; sourceTree = "<group>"; };
+		9549BEAAFEAA525770DD3883 /* AVFoundation_AVCompositionTrackSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCompositionTrackSegment.h; sourceTree = "<group>"; };
+		95985C8DBEBF53327D02441D /* UIKit_UITextDragPreviewRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextDragPreviewRenderer.h; sourceTree = "<group>"; };
+		95B6B71FF44D4A2B022B2DD4 /* Foundation_NSNetServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNetServices.h; sourceTree = "<group>"; };
+		96356C957F3E470EBE392424 /* QuartzCore_CADisplayLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CADisplayLink.h; sourceTree = "<group>"; };
+		966AC151B15A63AEB680934E /* UIKit_UIControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIControl.h; sourceTree = "<group>"; };
+		97BFF0B8245F5F2EDC301EDB /* AVFoundation_AVFAudio_AVAudioUnitEQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitEQ.h; sourceTree = "<group>"; };
+		9814E05365C3355DED443B2A /* UIKit_UICollectionViewTransitionLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UICollectionViewTransitionLayout.h; sourceTree = "<group>"; };
+		9870286C093C6D3736F1ACD6 /* CoreVideo_CVPixelBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelBuffer.h; sourceTree = "<group>"; };
+		99751D30A2B163C1B11C7C0A /* AVFoundation_AVAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAsset.h; sourceTree = "<group>"; };
+		99BFA600821B0B1069B2E256 /* UIKit_UIImageAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIImageAsset.h; sourceTree = "<group>"; };
+		99D129DE7E6A148F61582CDE /* AVFoundation_AVCompositionTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCompositionTrack.h; sourceTree = "<group>"; };
+		9A5AA4A44FFBEA1894C4B5FB /* UIKit_NSLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSLayoutConstraint.h; sourceTree = "<group>"; };
+		9A6A093BA41EE6D60CB67CF7 /* Foundation_NSURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLSession.h; sourceTree = "<group>"; };
+		9B06904F5C53A90AFEEA1863 /* UIKit_UIWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIWebView.h; sourceTree = "<group>"; };
+		9BBEE5AA7A7C955DA17507EA /* Foundation_NSFilePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFilePresenter.h; sourceTree = "<group>"; };
+		9BE74A630172F0CFC2C82F47 /* Foundation_NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSString.h; sourceTree = "<group>"; };
+		9C0AB274D3F6621AA10852BE /* UIKit_UIDragItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDragItem.h; sourceTree = "<group>"; };
+		9CB771E362C7AE8D7A80C552 /* UIKit_UIGuidedAccessRestrictions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIGuidedAccessRestrictions.h; sourceTree = "<group>"; };
+		9D2200987D7CCA0F7F170829 /* Foundation_NSZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSZone.h; sourceTree = "<group>"; };
+		9E1FBCECF2F36D887247EF98 /* CoreGraphics_CGColorSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGColorSpace.h; sourceTree = "<group>"; };
+		9F6C3F87920F268480B6056E /* Foundation_NSURLCredentialStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCredentialStorage.h; sourceTree = "<group>"; };
+		A0C5A37D66C49C2A81D9C2D8 /* Foundation_NSIndexPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSIndexPath.h; sourceTree = "<group>"; };
+		A0CC5A07DBBC8855E8A9219C /* UIKit_UISlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISlider.h; sourceTree = "<group>"; };
+		A2E2A1AA3208EDAE233F6F33 /* CoreVideo_CVOpenGLESTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVOpenGLESTexture.h; sourceTree = "<group>"; };
+		A2FDEA137A988B0A3492D877 /* AVFoundation_AVMediaFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMediaFormat.h; sourceTree = "<group>"; };
+		A30B393F20902A2414D9E670 /* AVFoundation_AVFAudio_AVAudioSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioSession.h; sourceTree = "<group>"; };
+		A30D9EAA4E79FDD024528C95 /* CoreFoundation_CFNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumber.h; sourceTree = "<group>"; };
+		A3532264FEE47D212C13B4B8 /* UIKit_UIDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDatePicker.h; sourceTree = "<group>"; };
+		A39A7B689CF423E3CEF37175 /* UIKit_UILayoutGuide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UILayoutGuide.h; sourceTree = "<group>"; };
+		A406EFC1D16202C36888F669 /* UIKit_UIBarCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIBarCommon.h; sourceTree = "<group>"; };
+		A4C5700E35396C7B50B1A70A /* CoreImage_CIImageProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIImageProvider.h; sourceTree = "<group>"; };
+		A4E190CE9C6332467F9983F6 /* UIKit_UIAccessibilityCustomAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityCustomAction.h; sourceTree = "<group>"; };
+		A501ED0D8A21D425C22F6DCB /* UIKit_UIUserNotificationSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIUserNotificationSettings.h; sourceTree = "<group>"; };
+		A5B13CFF8A5466D0BC108639 /* Foundation_NSByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSByteOrder.h; sourceTree = "<group>"; };
+		A63E7931911B907010B56BA1 /* Foundation_NSTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTimeZone.h; sourceTree = "<group>"; };
+		A6594A0D6AE7821321B60725 /* CFNetwork_CFHTTPAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPAuthentication.h; sourceTree = "<group>"; };
+		A6910EE861F0A3CD72DC9BD6 /* CoreImage_CIRAWFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIRAWFilter.h; sourceTree = "<group>"; };
+		A6A4CE5F8B48698BE5040FD5 /* UIKit_UIScreenEdgePanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIScreenEdgePanGestureRecognizer.h; sourceTree = "<group>"; };
+		A6D7E29F966FECBFD7E0DF48 /* UIKit_UIFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFont.h; sourceTree = "<group>"; };
+		A72515AB4B08D2C26308F5BA /* AVFoundation_AVCaptureVideoPreviewLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureVideoPreviewLayer.h; sourceTree = "<group>"; };
+		A7728EC7F2B69387FCCC32D9 /* UIKit_UIScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIScreen.h; sourceTree = "<group>"; };
+		A790442596911E61297E54F6 /* UIKit_UIPrintFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPrintFormatter.h; sourceTree = "<group>"; };
+		A861C2C2D667FE92DC0966C1 /* UIKit_UIResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIResponder.h; sourceTree = "<group>"; };
+		A87FF0BDBEAB8BD466CA8F5B /* AVFoundation_AVAssetWriterInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetWriterInput.h; sourceTree = "<group>"; };
+		A8990B928E92CBBEC07F8AC0 /* AVFoundation_AVUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVUtilities.h; sourceTree = "<group>"; };
+		A89CA51DACAB68549525C33D /* KonyKVOWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KonyKVOWrapper.framework; path = "/Volumes/DATA/source-code/nativeframeworks/iOS/nativebinding/gen-src/KonyKVOWrapper/thirdparty/KonyKVOWrapper/KonyKVOWrapper.framework"; sourceTree = "<group>"; };
+		A8C7A2B366F605131A9DDB96 /* UIKit_UISplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISplitViewController.h; sourceTree = "<group>"; };
+		A8D9F94B0C032A4184F99011 /* UIKit_UINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UINavigationController.h; sourceTree = "<group>"; };
+		A907C299B8C02F8AF98E6D10 /* UIKit_UIPinchGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPinchGestureRecognizer.h; sourceTree = "<group>"; };
+		A96E9DCB13E1729D280A1595 /* UIKit_UISpringLoadedInteractionSupporting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISpringLoadedInteractionSupporting.h; sourceTree = "<group>"; };
+		AA1DD50FE8B1A0679F5339B4 /* AudioToolbox_AudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFile.h; sourceTree = "<group>"; };
+		AA40C00A32BCB1AE58D5AAE5 /* Foundation_FoundationErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_FoundationErrors.h; sourceTree = "<group>"; };
+		AA71B0DEFAE8465AD1008F03 /* Foundation_NSEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSEnumerator.h; sourceTree = "<group>"; };
+		AABB4B2579E2581916D6CF87 /* UIKit_UILocalizedIndexedCollation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UILocalizedIndexedCollation.h; sourceTree = "<group>"; };
+		AABF4410D30B46A3F1CF2BEC /* CoreGraphics_CGDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGDataProvider.h; sourceTree = "<group>"; };
+		AAFE59702C6EE2F79501FB93 /* UIKit_UITextInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextInput.h; sourceTree = "<group>"; };
+		AB3AEE5915FC705C3E0396F2 /* QuartzCore_CAReplicatorLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAReplicatorLayer.h; sourceTree = "<group>"; };
+		AB9002AE8A95B090064245AC /* PointerSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerSupport.h; sourceTree = "<group>"; };
+		AC78535ACE24E4324F2AEFB3 /* UIKit_UIApplicationShortcutItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIApplicationShortcutItem.h; sourceTree = "<group>"; };
+		ACCCD5E87FF53A05D634D88A /* CoreGraphics_CGColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGColor.h; sourceTree = "<group>"; };
+		ACDDE56B1FED2C12B2B13410 /* Foundation_NSURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURL.h; sourceTree = "<group>"; };
+		AD67D40765198A81E6FE5CE0 /* Foundation_NSMetadataAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMetadataAttributes.h; sourceTree = "<group>"; };
+		AE5822EB59DE372298012FD2 /* UIKit_UIDocumentInteractionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDocumentInteractionController.h; sourceTree = "<group>"; };
+		AE5B05E28E3F94C9048C3A39 /* Foundation_NSExtensionRequestHandling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionRequestHandling.h; sourceTree = "<group>"; };
+		AEDAD75726DFDDD2A5A24A34 /* Foundation_NSError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSError.h; sourceTree = "<group>"; };
+		AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0018BB60F3DFFCAF35B2AAA /* AVFoundation_AVAssetWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetWriter.h; sourceTree = "<group>"; };
+		B2915DE66FD350ADD0CE8602 /* UIKit_UIGraphicsRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIGraphicsRenderer.h; sourceTree = "<group>"; };
+		B33AB3EE2C683F4EE519232E /* UIKit_UISnapBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISnapBehavior.h; sourceTree = "<group>"; };
+		B3918C2F170115DF86E58615 /* UIKit_UIImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIImageView.h; sourceTree = "<group>"; };
+		B3992F7B7386738F340FC6C9 /* QuartzCore_CAEmitterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAEmitterCell.h; sourceTree = "<group>"; };
+		B4EA72373D2AD83BC47D8937 /* AVFoundation_AVPlayerItemTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerItemTrack.h; sourceTree = "<group>"; };
+		B4EE423A3C8800D8C45433A2 /* Foundation_NSPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPort.h; sourceTree = "<group>"; };
+		B50C304C6A62BDA2B515B9DB /* CoreFoundation_CFBinaryHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBinaryHeap.h; sourceTree = "<group>"; };
+		B523231AF0790900CF4AD2CE /* UIKit_UISegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISegmentedControl.h; sourceTree = "<group>"; };
+		B6969C5D2B50DD5CE3B3C7B1 /* CoreImage_CIDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIDetector.h; sourceTree = "<group>"; };
+		B6BA2EAC65C0CAE29680CEE5 /* UIKit_UIPushBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPushBehavior.h; sourceTree = "<group>"; };
+		B73B8FC3132517B0E6DD8536 /* UIKit_UINavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UINavigationBar.h; sourceTree = "<group>"; };
+		B8B7B1C933F12297D252D054 /* Foundation_NSKeyValueCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyValueCoding.h; sourceTree = "<group>"; };
+		B9DB03B9DD5E251C32DAAC81 /* UIKit_NSDataAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSDataAsset.h; sourceTree = "<group>"; };
+		B9DD0F35F3AA92D88CEE7D94 /* CoreGraphics_CGPDFOperatorTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFOperatorTable.h; sourceTree = "<group>"; };
+		BADAF1B782733F2074990013 /* Foundation_NSRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRunLoop.h; sourceTree = "<group>"; };
+		BAF0AB1FA7816F432E628186 /* Foundation_NSXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSXMLParser.h; sourceTree = "<group>"; };
+		BBC494227050315DFAFA32AC /* Foundation_NSStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSStream.h; sourceTree = "<group>"; };
+		BC2FDFCFA98BBEEF1F18ABE3 /* AVFoundation_AVFAudio_AVAudioUnitDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitDelay.h; sourceTree = "<group>"; };
+		BC9BBB67797584790D574163 /* Foundation_NSExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExpression.h; sourceTree = "<group>"; };
+		BCD0C4BB93F072F0FD985D23 /* AVFoundation_AVFAudio_AVAudioIONode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioIONode.h; sourceTree = "<group>"; };
+		BCF3B61476489906F4FCC4A9 /* Foundation_NSFileWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileWrapper.h; sourceTree = "<group>"; };
+		BD00D2AC68EA68FBDD7DF460 /* CoreImage_CIFilterConstructor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIFilterConstructor.h; sourceTree = "<group>"; };
+		BD33A62A57473CC2828225A9 /* Foundation_NSURLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLRequest.h; sourceTree = "<group>"; };
+		C1636F3FD48BB06073BFD513 /* AVFoundation_AVAsynchronousKeyValueLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAsynchronousKeyValueLoading.h; sourceTree = "<group>"; };
+		C1DA7C3E76268ABDE53B1841 /* Security_SecAccessControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecAccessControl.h; sourceTree = "<group>"; };
+		C302E35CCEEF24913DCAB526 /* UIKit_UIInteraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIInteraction.h; sourceTree = "<group>"; };
+		C354798FE3ED6422668683C9 /* AVFoundation_AVAssetTrackGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetTrackGroup.h; sourceTree = "<group>"; };
+		C3A3C0E2B7681A7F5284AE84 /* CoreFoundation_CFDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDate.h; sourceTree = "<group>"; };
+		C450CD8BF7C41BC875C77066 /* QuartzCore_CATransform3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATransform3D.h; sourceTree = "<group>"; };
+		C500A1FA5E5C24E13E5B56C1 /* UIKit_UIAttachmentBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAttachmentBehavior.h; sourceTree = "<group>"; };
+		C6603DC95D7CB0CF63B3D39B /* UIKit_UIReferenceLibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIReferenceLibraryViewController.h; sourceTree = "<group>"; };
+		C67CE20049AFC76588048FD7 /* Security_CipherSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_CipherSuite.h; sourceTree = "<group>"; };
+		C75141406243A24B8958680A /* CoreVideo_CVPixelBufferPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelBufferPool.h; sourceTree = "<group>"; };
+		C7A0F1A9EF670C7679F65013 /* Foundation_NSDecimalNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDecimalNumber.h; sourceTree = "<group>"; };
+		C7A4A86A5C16399A643DA369 /* CoreImage_CIImageAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIImageAccumulator.h; sourceTree = "<group>"; };
+		C7E8AD4538D73323F89A6134 /* Foundation_NSFileVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileVersion.h; sourceTree = "<group>"; };
+		C83E382A2D2E2291C8AD5409 /* UIKit_UIDragInteraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDragInteraction.h; sourceTree = "<group>"; };
+		C8442425A8CAA85805624F45 /* CFNetwork_CFHost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHost.h; sourceTree = "<group>"; };
+		C85FAA4BB1924AF4D07B2090 /* AVFoundation_AVCaptureOutputBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureOutputBase.h; sourceTree = "<group>"; };
+		C8676FEB3547D82D56CC5006 /* allheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		C8FA5A65B3C30052242693FA /* UIKit_UITextInputTraits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextInputTraits.h; sourceTree = "<group>"; };
+		C916312B3D0A44C624DF8624 /* CoreFoundation_CFURLEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLEnumerator.h; sourceTree = "<group>"; };
+		C92FAF1630026D2DE7A50E39 /* Foundation_NSURLAuthenticationChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLAuthenticationChallenge.h; sourceTree = "<group>"; };
+		C94C34E876AD27C973820787 /* UIKit_UIAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAlertView.h; sourceTree = "<group>"; };
+		C960A364383AA390F8C65B53 /* AVFoundation_AVSampleBufferRenderSynchronizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVSampleBufferRenderSynchronizer.h; sourceTree = "<group>"; };
+		CA85C426F3B41ACCDCB604CB /* AudioToolbox_AUGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUGraph.h; sourceTree = "<group>"; };
+		CA9ED9C58FAF15FA538F1E96 /* UIKit_UIPrintInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPrintInfo.h; sourceTree = "<group>"; };
+		CB0088E89CC893646A2D4C3F /* CoreFoundation_CFUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUUID.h; sourceTree = "<group>"; };
+		CB0FD9E22D974A540ED6CABE /* CoreFoundation_CFNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNotificationCenter.h; sourceTree = "<group>"; };
+		CB411B0CF16AF479C9B009F2 /* NFISimulator.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = NFISimulator.gyp; sourceTree = "<group>"; };
+		CB5B3408DF76FDF8D46C0CCE /* UIKit_NSText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSText.h; sourceTree = "<group>"; };
+		CBB32C0A9614EAC931461E34 /* AVFoundation_AVCaptureStillImageOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureStillImageOutput.h; sourceTree = "<group>"; };
+		CC1A608B0E8CB91C76CE90C9 /* UIKit_UIFontMetrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFontMetrics.h; sourceTree = "<group>"; };
+		CC3D5042FD8D6EE88DCB9474 /* UIKit_UIDocumentMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDocumentMenuViewController.h; sourceTree = "<group>"; };
+		CCB375E0D2CCE3E397919400 /* UIKit_UITextDragURLPreviews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextDragURLPreviews.h; sourceTree = "<group>"; };
+		CCE5B38771ADED90F35E21C7 /* Foundation_NSURLCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCache.h; sourceTree = "<group>"; };
+		CCF8C3CD6CD6740AC2E85B56 /* CFNetwork_CFHTTPStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPStream.h; sourceTree = "<group>"; };
+		CD5416E0191E8A09FC55225E /* FileProvider_NSFileProviderItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileProvider_NSFileProviderItem.h; sourceTree = "<group>"; };
+		CD5E90D0E1866FB22DE2E4D9 /* UIKit_UIGraphicsImageRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIGraphicsImageRenderer.h; sourceTree = "<group>"; };
+		CDE69690372556E1B0FC1593 /* UIKit_UIPopoverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPopoverController.h; sourceTree = "<group>"; };
+		CE094F4025B96F4C4FDD73D9 /* CoreImage_CIImageProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIImageProcessor.h; sourceTree = "<group>"; };
+		CE8EDBBD2F12F16FF02A7FC0 /* UIKit_UITableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITableViewController.h; sourceTree = "<group>"; };
+		CF4279A1922379C5F677BBC8 /* AVFoundation_AVCameraCalibrationData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCameraCalibrationData.h; sourceTree = "<group>"; };
+		CF8615C935B93CE561C972D7 /* allprotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allprotos.h; sourceTree = "<group>"; };
+		CF8D6CA6EA9F3FE0AB43BF50 /* Security_SecSharedCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecSharedCredential.h; sourceTree = "<group>"; };
+		CF9748E39210B5E1675F900E /* AVFoundation_AVCaptureSessionPreset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureSessionPreset.h; sourceTree = "<group>"; };
+		CFB811328D52DA3CDDFD445C /* Security_SecImportExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecImportExport.h; sourceTree = "<group>"; };
+		D00B4B5D84DAA926C2CCF4CB /* NFIKonyKVOWrapperLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFIKonyKVOWrapperLoader.m; sourceTree = "<group>"; };
+		D06904A4553BB3A25E1E02C2 /* Security_SecItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecItem.h; sourceTree = "<group>"; };
+		D10389E214952394953F6DC3 /* AVFoundation_AVCaptureSystemPressure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureSystemPressure.h; sourceTree = "<group>"; };
+		D11957E8C82BFD7005AE61EC /* CoreImage_CIVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIVector.h; sourceTree = "<group>"; };
+		D121C237A363367CF2F507C6 /* AVFoundation_AVFAudio_AVAudioTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioTime.h; sourceTree = "<group>"; };
+		D15CBBA582939410D432C732 /* UIKit_UITextDragging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextDragging.h; sourceTree = "<group>"; };
+		D1607F68680C421D16FB2F30 /* parts */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts; sourceTree = "<group>"; };
+		D1B4C887724606444161E48E /* Foundation_NSDecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDecimal.h; sourceTree = "<group>"; };
+		D1DE077B869AD996042CF9CC /* AVFoundation_AVFAudio_AVAudioMixerNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioMixerNode.h; sourceTree = "<group>"; };
+		D218FC0DA6CCE138F7350C5C /* Foundation_NSSortDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSSortDescriptor.h; sourceTree = "<group>"; };
+		D2D5814355AB1A2A39DFE496 /* Foundation_NSUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUnit.h; sourceTree = "<group>"; };
+		D2E7A4B36866813DF79E3711 /* UIKit_UICloudSharingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UICloudSharingController.h; sourceTree = "<group>"; };
+		D2F2071B31A7EE262344812C /* Foundation_NSDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDate.h; sourceTree = "<group>"; };
+		D34805AAEC951697D74F2FBF /* Foundation_NSCompoundPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCompoundPredicate.h; sourceTree = "<group>"; };
+		D35E2BEA0BC83DAF9F5E42BC /* Foundation_NSLengthFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLengthFormatter.h; sourceTree = "<group>"; };
+		D38231D0DE33EAFD8C574891 /* CallbackSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackSupport.h; sourceTree = "<group>"; };
+		D469650F5DD0175D9D05DAC4 /* Foundation_NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObject.h; sourceTree = "<group>"; };
+		D486EE65B2044D08254AB511 /* CoreMedia_CMFormatDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMFormatDescription.h; sourceTree = "<group>"; };
+		D4A483925EF714F4D5E4E65F /* UIKit_UIPasteConfigurationSupporting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPasteConfigurationSupporting.h; sourceTree = "<group>"; };
+		D4FE2314E42243B035F4CAB1 /* AudioToolbox_ExtendedAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_ExtendedAudioFile.h; sourceTree = "<group>"; };
+		D51CF3D71B3597A6344422EE /* AVKit_AVRoutePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVKit_AVRoutePickerView.h; sourceTree = "<group>"; };
+		D53746DDAC95521113DA982D /* UIKit_UIFocusSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFocusSystem.h; sourceTree = "<group>"; };
+		D6052A5D68B1FBF14B4AE31F /* UIKit_UISwipeActionsConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISwipeActionsConfiguration.h; sourceTree = "<group>"; };
+		D6D69A5A525698D80411A6A3 /* CoreVideo_CVOpenGLESTextureCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVOpenGLESTextureCache.h; sourceTree = "<group>"; };
+		D6E38CEACAC87D2646D929A3 /* AVFoundation_AVFAudio_AVAudioUnitReverb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitReverb.h; sourceTree = "<group>"; };
+		D7DA04492FE1E9FAD2224EE8 /* UIKit_UIMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIMenuController.h; sourceTree = "<group>"; };
+		D83D3FF098F6C05F9845C3C9 /* NFIKonyKVOWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIKonyKVOWrapper.h; sourceTree = "<group>"; };
+		D955222FB5E829BB34E1FFF0 /* AVFoundation_AVPlayerLooper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerLooper.h; sourceTree = "<group>"; };
+		D96FE51FBA0498D7FA079371 /* Foundation_NSPersonNameComponentsFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPersonNameComponentsFormatter.h; sourceTree = "<group>"; };
+		D9D532B758F97A6829324FFD /* CoreFoundation_CFMessagePort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMessagePort.h; sourceTree = "<group>"; };
+		DA5D7F779F75B82024097F2B /* QuartzCore_CATransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATransaction.h; sourceTree = "<group>"; };
+		DAADEE3AB5D8CA1FC4E8A481 /* UIKit_UISwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISwitch.h; sourceTree = "<group>"; };
+		DAE5AEF6758CB3FF8EA2E612 /* CoreGraphics_CGShading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGShading.h; sourceTree = "<group>"; };
+		DB4CA4FA338B05A38A9DF3F1 /* UIKit_UIDynamicItemBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDynamicItemBehavior.h; sourceTree = "<group>"; };
+		DB52707663091659E228EC92 /* QuartzCore_CAShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAShapeLayer.h; sourceTree = "<group>"; };
+		DB80157EF5C8042E02E2BD4E /* UIKit_UINib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UINib.h; sourceTree = "<group>"; };
+		DB826AB14DA52972A5D7287D /* classes */ = {isa = PBXFileReference; lastKnownFileType = text; path = classes; sourceTree = "<group>"; };
+		DBA9BD2A2FAAE2F93906CD70 /* AudioToolbox_CAFFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_CAFFile.h; sourceTree = "<group>"; };
+		DBC464171B6B29C0F6BE2D5A /* UIKit_UIPasteConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPasteConfiguration.h; sourceTree = "<group>"; };
+		DC48DD0ED229191C551B1408 /* CoreFoundation_CFPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPropertyList.h; sourceTree = "<group>"; };
+		DD0F1AB097F63606546AB59C /* AVFoundation_AVAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAnimation.h; sourceTree = "<group>"; };
+		DD41FE2572F45A5523411CEE /* CoreFoundation_CFTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTree.h; sourceTree = "<group>"; };
+		DD8AD1CB781E06EFD186C81C /* UIKit_UITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextField.h; sourceTree = "<group>"; };
+		DDC8F7A6ABD9B79394CEBC79 /* QuartzCore_CAScrollLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAScrollLayer.h; sourceTree = "<group>"; };
+		DDCE7DF858741473B9974032 /* Foundation_NSAutoreleasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSAutoreleasePool.h; sourceTree = "<group>"; };
+		DE30E23C8BDEC5C661F5DC9E /* UIKit_UIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIImage.h; sourceTree = "<group>"; };
+		DEB38539DEED4DBAD9C78135 /* CoreMedia_CMBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMBase.h; sourceTree = "<group>"; };
+		DF1244BA2FD8117F5EA53E88 /* MediaToolbox_MTAudioProcessingTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaToolbox_MTAudioProcessingTap.h; sourceTree = "<group>"; };
+		DF34678E841DD0BE375ABF36 /* UIKit_UISearchContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISearchContainerViewController.h; sourceTree = "<group>"; };
+		E009DD93A780D62CE9667594 /* Foundation_NSKeyValueObserving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyValueObserving.h; sourceTree = "<group>"; };
+		E0A060723D3400022B145183 /* CoreVideo_CVBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVBase.h; sourceTree = "<group>"; };
+		E1726E98C2FCBBCBC1C1FA48 /* UIKit_UIAccessibilityContentSizeCategoryImageAdjusting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityContentSizeCategoryImageAdjusting.h; sourceTree = "<group>"; };
+		E1C5ACB6EB9C0C5FB1979E55 /* CoreFoundation_CFDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDictionary.h; sourceTree = "<group>"; };
+		E1F464C704DE1AB89688B400 /* CoreGraphics_CGImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGImage.h; sourceTree = "<group>"; };
+		E2232373578127BD18B55141 /* UIKit_NSTextStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSTextStorage.h; sourceTree = "<group>"; };
+		E23388A999D9A81E1007F02C /* AVFoundation_AVFAudio_AVAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioFile.h; sourceTree = "<group>"; };
+		E2845F8CEC7184FEE40BD83F /* CoreGraphics_CGDataConsumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGDataConsumer.h; sourceTree = "<group>"; };
+		E3017963C557FB670075178B /* UIKit_UIMotionEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIMotionEffect.h; sourceTree = "<group>"; };
+		E30B8E1ABE9DF704E45F5178 /* CFNetwork_CFFTPStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFFTPStream.h; sourceTree = "<group>"; };
+		E376254BD84CC67765ADE00C /* UIKit_UILexicon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UILexicon.h; sourceTree = "<group>"; };
+		E425DA62A47FA63C6245511F /* CoreImage_CISampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CISampler.h; sourceTree = "<group>"; };
+		E55274CF8CFEFEC33FE42F62 /* AVFoundation_AVMediaSelectionGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMediaSelectionGroup.h; sourceTree = "<group>"; };
+		E5B1D9A822E19A2B770D9D26 /* CoreGraphics_CGFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGFont.h; sourceTree = "<group>"; };
+		E67B61FDC13ED6B29B92FF9D /* UIKit_UICollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UICollectionViewController.h; sourceTree = "<group>"; };
+		E68CA8569E16377FFC0FB7E1 /* Foundation_NSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSThread.h; sourceTree = "<group>"; };
+		E7256872EF86BEB83B3BBA7F /* AVFoundation_AVVideoSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVVideoSettings.h; sourceTree = "<group>"; };
+		E784F49C98CD09A2225DC8FC /* UIKit_NSTextContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSTextContainer.h; sourceTree = "<group>"; };
+		E8336A33836FD3C38976DAAD /* AVFoundation_AVCaptureDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureDevice.h; sourceTree = "<group>"; };
+		E88DB71F12C739E9603EFD60 /* UIKit_NSParagraphStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_NSParagraphStyle.h; sourceTree = "<group>"; };
+		E90BB31CB1A27ACADD8F0454 /* KonyKVOWrapper_NSObject_KonyKVOWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KonyKVOWrapper_NSObject_KonyKVOWrapper.m; sourceTree = "<group>"; };
+		E953A4143F9F907770A66D3D /* Foundation_NSPathUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPathUtilities.h; sourceTree = "<group>"; };
+		E9DAD638360DFC6EF5A4EC2E /* UIKit_UITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITableViewCell.h; sourceTree = "<group>"; };
+		E9DF7C892AAF57EA001A5C71 /* CoreGraphics_CGPDFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFArray.h; sourceTree = "<group>"; };
+		E9F75351F0FEF4D560EC6583 /* Foundation_NSFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFormatter.h; sourceTree = "<group>"; };
+		EB17636BE98D0D040D3B6C78 /* Foundation_NSLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLocale.h; sourceTree = "<group>"; };
+		EB5296F34EA0D03ECA734A16 /* Foundation_NSMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMeasurement.h; sourceTree = "<group>"; };
+		EB6C20EC99E4B9F3D2EC731B /* AVFoundation_AVFAudio_AVAudioEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioEngine.h; sourceTree = "<group>"; };
+		EC5445D6217BA59A233870DF /* AVFoundation_AVFAudio_AVAudioTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioTypes.h; sourceTree = "<group>"; };
+		EC8AF983FF88D9F6BDDDEB21 /* QuartzCore_CAAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAAnimation.h; sourceTree = "<group>"; };
+		ECE4538D21EFF34F00A49997 /* AudioToolbox_AudioComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioComponent.h; sourceTree = "<group>"; };
+		ED436174ADDCA817AEA584E9 /* UIKit_UITapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITapGestureRecognizer.h; sourceTree = "<group>"; };
+		ED8E01AC5B93586DAB74CE67 /* Foundation_NSDateIntervalFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateIntervalFormatter.h; sourceTree = "<group>"; };
+		EDD60F2B25508A5149813DA4 /* UIKit_UIViewControllerTransitionCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIViewControllerTransitionCoordinator.h; sourceTree = "<group>"; };
+		EEB3860153EDD01C43DE6E68 /* CoreFoundation_CFTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTimeZone.h; sourceTree = "<group>"; };
+		EEE3276BF7492E2267ADD6B4 /* UIKit_UIPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPanGestureRecognizer.h; sourceTree = "<group>"; };
+		EEEA3484325204188B3CF9DF /* UIKit_UIFocusDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFocusDebugger.h; sourceTree = "<group>"; };
+		EF8639326229309BE5B5D4D4 /* Foundation_NSCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCalendar.h; sourceTree = "<group>"; };
+		EF93AB8CE2D26EFBED2F8946 /* UIKit_UINibLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UINibLoading.h; sourceTree = "<group>"; };
+		EFC5AEC64D3D9D4E3AF8FAC0 /* UIKit_UIDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIDevice.h; sourceTree = "<group>"; };
+		F012A1FC32BC97699B0D8916 /* UIKit_UITableViewHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		F04608B86EA52FDD50C268BD /* AVFoundation_AVMetadataObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMetadataObject.h; sourceTree = "<group>"; };
+		F1565A75EA0511F8B72744FC /* AVFoundation_AVCaptureAudioDataOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureAudioDataOutput.h; sourceTree = "<group>"; };
+		F1B4233B79F6B6D4A3D9541B /* UIKit_UITextPasteDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITextPasteDelegate.h; sourceTree = "<group>"; };
+		F21F4F2C82E40F711558A34B /* UIKit_UISearchDisplayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISearchDisplayController.h; sourceTree = "<group>"; };
+		F268F7629FA9466EA46E6393 /* AVFoundation_AVTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVTime.h; sourceTree = "<group>"; };
+		F2819969156EA51ECED2AA45 /* Security_SecPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecPolicy.h; sourceTree = "<group>"; };
+		F29888D39E84A315976BC04D /* Foundation_NSEnergyFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSEnergyFormatter.h; sourceTree = "<group>"; };
+		F2B5B413FCA6D8F30927F983 /* UIKit_UIFontDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIFontDescriptor.h; sourceTree = "<group>"; };
+		F2E6233377E1EA32D7DC28C7 /* CoreImage_CIRenderDestination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImage_CIRenderDestination.h; sourceTree = "<group>"; };
+		F34F9D8E6E40F73C50FF0A7D /* UIKit_UIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIView.h; sourceTree = "<group>"; };
+		F3A5E2452B0762998F1712A0 /* Foundation_NSCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCharacterSet.h; sourceTree = "<group>"; };
+		F3B9AD39676A39E73587CAE9 /* Foundation_NSURLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLConnection.h; sourceTree = "<group>"; };
+		F3F16C0D4164F3314D1D4CBC /* CoreVideo_CVMetalTextureCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVMetalTextureCache.h; sourceTree = "<group>"; };
+		F4CCA37BC74A6274C3E820BC /* AudioToolbox_AudioServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioServices.h; sourceTree = "<group>"; };
+		F4E8786168FB508C6311C1A3 /* CoreGraphics_CGPDFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFStream.h; sourceTree = "<group>"; };
+		F5C2EB02C493AF3393ED2ADE /* Foundation_NSNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNotification.h; sourceTree = "<group>"; };
+		F6165CABCCC4863A4368D617 /* UIKit_UIBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIBezierPath.h; sourceTree = "<group>"; };
+		F6192D49580A3B533AF4B0A3 /* Foundation_NSNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNumberFormatter.h; sourceTree = "<group>"; };
+		F61B36F3920BB1BF17DB7DE4 /* UIKit_UIPress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPress.h; sourceTree = "<group>"; };
+		F64325EEDF10763AEE0F8606 /* AVFoundation_AVFAudio_AVAudioUnitEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitEffect.h; sourceTree = "<group>"; };
+		F70F37D10929E64C222D4DA4 /* AVFoundation_AVMetadataIdentifiers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMetadataIdentifiers.h; sourceTree = "<group>"; };
+		F86B79FD12033928B6B9871B /* AVFoundation_AVCapturePhotoOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCapturePhotoOutput.h; sourceTree = "<group>"; };
+		F8743A3ED6F1D4F86225852C /* QuartzCore_CABase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CABase.h; sourceTree = "<group>"; };
+		F893B98331C0B0545E078E9C /* UIKit_UITimingParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UITimingParameters.h; sourceTree = "<group>"; };
+		F9597E92125B418E78B2316A /* NFIUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIUtility.h; sourceTree = "<group>"; };
+		F95EB00F0700D4A3C9C6DEC9 /* protocols */ = {isa = PBXFileReference; lastKnownFileType = text; path = protocols; sourceTree = "<group>"; };
+		F985601E9119C703578D823B /* UIKit_UIActivityIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIActivityIndicatorView.h; sourceTree = "<group>"; };
+		F988EA7DAE0800ECBCEAC2AC /* AVFoundation_AVSampleBufferAudioRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVSampleBufferAudioRenderer.h; sourceTree = "<group>"; };
+		F9FDE6CEFC132482FC5A415C /* UIKit_UIPopoverBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPopoverBackgroundView.h; sourceTree = "<group>"; };
+		FA5E560D306D7A3D83AD2A33 /* Foundation_NSCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCache.h; sourceTree = "<group>"; };
+		FA97F253221BAFAF0E9C5514 /* UIKit_UISearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UISearchBar.h; sourceTree = "<group>"; };
+		FAED65C4F5BB6C392EFB58A7 /* CoreFoundation_CFUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUtilities.h; sourceTree = "<group>"; };
+		FB4B6917C0CADD84ED859C8A /* AVFoundation_AVFAudio_AVAudioUnitSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitSampler.h; sourceTree = "<group>"; };
+		FB7CCDE8FD84226AFA18B1E3 /* UIKit_UIAccessibilityLocationDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIAccessibilityLocationDescriptor.h; sourceTree = "<group>"; };
+		FB8ED03524E666A611DF228F /* UIKit_UIInputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIInputViewController.h; sourceTree = "<group>"; };
+		FDB156BA8865C2F7B26AE7FE /* Security_SecureTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecureTransport.h; sourceTree = "<group>"; };
+		FE21866011FF4323E04A4A64 /* AVFoundation_AVPlayerItemMediaDataCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerItemMediaDataCollector.h; sourceTree = "<group>"; };
+		FE53FC5A7EF06D207B9F35FB /* UIKit_UIStringDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIStringDrawing.h; sourceTree = "<group>"; };
+		FE61235A321DAB219C30FD9F /* UIKit_UIPrinterPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_UIPrinterPickerController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90C26F1A680ABBFA1C321582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCFE645EA93737529596D2B /* NFIUtility.framework in Frameworks */,
+				1B5A99270050D1BF79691769 /* KonyKVOWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD57A533763DFA1B0D4B878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078AC89717C54F546746B272 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DFF48FC583D3EA802FDD6893 /* ../src/NFIUtility */,
+				2CF7164690AE6922DCEFC62B /* KonyKVOWrapper/simulator */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1775C19A2B2A693240E4CC96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */,
+				231241445E6C59883CF4EFC7 /* NFIKonyKVOWrapper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CF7164690AE6922DCEFC62B /* KonyKVOWrapper/simulator */ = {
+			isa = PBXGroup;
+			children = (
+				DD0F1AB097F63606546AB59C /* AVFoundation_AVAnimation.h */,
+				99751D30A2B163C1B11C7C0A /* AVFoundation_AVAsset.h */,
+				630A5F1628DC247AFD5F770B /* AVFoundation_AVAssetCache.h */,
+				18BD484FD50746D95F729189 /* AVFoundation_AVAssetDownloadTask.h */,
+				43361968AFC96FA4509C4189 /* AVFoundation_AVAssetExportSession.h */,
+				5EAFB89C4080D5592A1B2C62 /* AVFoundation_AVAssetImageGenerator.h */,
+				72AAE72E48FD0B139D8A619E /* AVFoundation_AVAssetReader.h */,
+				12906F6698674348D85D985C /* AVFoundation_AVAssetReaderOutput.h */,
+				1DAAC858BC4D69DCEADC4EE8 /* AVFoundation_AVAssetResourceLoader.h */,
+				4341B5D5ABBC5037DFC7C1B7 /* AVFoundation_AVAssetTrack.h */,
+				C354798FE3ED6422668683C9 /* AVFoundation_AVAssetTrackGroup.h */,
+				7B3A6CAF025DF7AAF6E77050 /* AVFoundation_AVAssetTrackSegment.h */,
+				B0018BB60F3DFFCAF35B2AAA /* AVFoundation_AVAssetWriter.h */,
+				A87FF0BDBEAB8BD466CA8F5B /* AVFoundation_AVAssetWriterInput.h */,
+				C1636F3FD48BB06073BFD513 /* AVFoundation_AVAsynchronousKeyValueLoading.h */,
+				7F516574E05E8391C13A28BB /* AVFoundation_AVAudioMix.h */,
+				4034F060604FB4A537540ADA /* AVFoundation_AVAudioProcessingSettings.h */,
+				CF4279A1922379C5F677BBC8 /* AVFoundation_AVCameraCalibrationData.h */,
+				F1565A75EA0511F8B72744FC /* AVFoundation_AVCaptureAudioDataOutput.h */,
+				457D2D56B18023FDF65FA07C /* AVFoundation_AVCaptureDataOutputSynchronizer.h */,
+				24E234D408C182F3F4B1B132 /* AVFoundation_AVCaptureDepthDataOutput.h */,
+				E8336A33836FD3C38976DAAD /* AVFoundation_AVCaptureDevice.h */,
+				699273D898D2D54BCB1CF93F /* AVFoundation_AVCaptureFileOutput.h */,
+				1332E4AECBA110D0DD99D1F9 /* AVFoundation_AVCaptureInput.h */,
+				5CFFF36B3F00725D1B15CB6B /* AVFoundation_AVCaptureMetadataOutput.h */,
+				C85FAA4BB1924AF4D07B2090 /* AVFoundation_AVCaptureOutputBase.h */,
+				F86B79FD12033928B6B9871B /* AVFoundation_AVCapturePhotoOutput.h */,
+				0CB1A84D6DA99FF8AA0155A1 /* AVFoundation_AVCaptureSession.h */,
+				CF9748E39210B5E1675F900E /* AVFoundation_AVCaptureSessionPreset.h */,
+				CBB32C0A9614EAC931461E34 /* AVFoundation_AVCaptureStillImageOutput.h */,
+				D10389E214952394953F6DC3 /* AVFoundation_AVCaptureSystemPressure.h */,
+				2A7A8D247C1168D3B1A0E616 /* AVFoundation_AVCaptureVideoDataOutput.h */,
+				A72515AB4B08D2C26308F5BA /* AVFoundation_AVCaptureVideoPreviewLayer.h */,
+				3C6B1485E53EDB6476D9D16E /* AVFoundation_AVComposition.h */,
+				99D129DE7E6A148F61582CDE /* AVFoundation_AVCompositionTrack.h */,
+				9549BEAAFEAA525770DD3883 /* AVFoundation_AVCompositionTrackSegment.h */,
+				929AECDCE362E0D44E598771 /* AVFoundation_AVContentKeySession.h */,
+				4422CDE01D35DA1DF9C155F8 /* AVFoundation_AVDepthData.h */,
+				5D18111284C3BEFF3E92F66B /* AVFoundation_AVError.h */,
+				3C8AFC5E9EF6A9B82C0E52B7 /* AVFoundation_AVFAudio_AVAudioBuffer.h */,
+				7AFFDD6941881C6EA2D3FE85 /* AVFoundation_AVFAudio_AVAudioChannelLayout.h */,
+				65E949BE55E88E7CBBA53752 /* AVFoundation_AVFAudio_AVAudioConnectionPoint.h */,
+				0D8D790CDB23CD84326FC5EB /* AVFoundation_AVFAudio_AVAudioConverter.h */,
+				EB6C20EC99E4B9F3D2EC731B /* AVFoundation_AVFAudio_AVAudioEngine.h */,
+				65C02692AE432BCACA502D21 /* AVFoundation_AVFAudio_AVAudioEnvironmentNode.h */,
+				E23388A999D9A81E1007F02C /* AVFoundation_AVFAudio_AVAudioFile.h */,
+				14034B50A0031CA1F3B041D1 /* AVFoundation_AVFAudio_AVAudioFormat.h */,
+				BCD0C4BB93F072F0FD985D23 /* AVFoundation_AVFAudio_AVAudioIONode.h */,
+				D1DE077B869AD996042CF9CC /* AVFoundation_AVFAudio_AVAudioMixerNode.h */,
+				4E3339AE339F2C4D63DEB451 /* AVFoundation_AVFAudio_AVAudioMixing.h */,
+				01004A673C9E6E28FD83DEFB /* AVFoundation_AVFAudio_AVAudioNode.h */,
+				6D47A603103FC97583DF9DB2 /* AVFoundation_AVFAudio_AVAudioPlayer.h */,
+				7AF7760A9EBCC7951D0BD629 /* AVFoundation_AVFAudio_AVAudioPlayerNode.h */,
+				2FD965503E003FCF3ECF283D /* AVFoundation_AVFAudio_AVAudioRecorder.h */,
+				3B3320C76C5C09D4DD2EC338 /* AVFoundation_AVFAudio_AVAudioSequencer.h */,
+				A30B393F20902A2414D9E670 /* AVFoundation_AVFAudio_AVAudioSession.h */,
+				60E52FA5EF913B963E65F070 /* AVFoundation_AVFAudio_AVAudioSettings.h */,
+				D121C237A363367CF2F507C6 /* AVFoundation_AVFAudio_AVAudioTime.h */,
+				EC5445D6217BA59A233870DF /* AVFoundation_AVFAudio_AVAudioTypes.h */,
+				84B01EE39FB01C9113EE3950 /* AVFoundation_AVFAudio_AVAudioUnit.h */,
+				054FB6B645B87DA451FAE5E1 /* AVFoundation_AVFAudio_AVAudioUnitComponent.h */,
+				BC2FDFCFA98BBEEF1F18ABE3 /* AVFoundation_AVFAudio_AVAudioUnitDelay.h */,
+				58C9E07880F2CBF8C72B0CED /* AVFoundation_AVFAudio_AVAudioUnitDistortion.h */,
+				97BFF0B8245F5F2EDC301EDB /* AVFoundation_AVFAudio_AVAudioUnitEQ.h */,
+				F64325EEDF10763AEE0F8606 /* AVFoundation_AVFAudio_AVAudioUnitEffect.h */,
+				6CFDEE00585F194E56AFA5A6 /* AVFoundation_AVFAudio_AVAudioUnitGenerator.h */,
+				2893E72C9D5194B83146DB6F /* AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.h */,
+				D6E38CEACAC87D2646D929A3 /* AVFoundation_AVFAudio_AVAudioUnitReverb.h */,
+				FB4B6917C0CADD84ED859C8A /* AVFoundation_AVFAudio_AVAudioUnitSampler.h */,
+				874F9826F2050AAFD264B5F8 /* AVFoundation_AVFAudio_AVAudioUnitTimeEffect.h */,
+				8D70C6BDA0B9CDCC3465A478 /* AVFoundation_AVFAudio_AVAudioUnitTimePitch.h */,
+				116D91E4F9EE713E485BD1C9 /* AVFoundation_AVFAudio_AVAudioUnitVarispeed.h */,
+				0233533D25303F4E6272F809 /* AVFoundation_AVFAudio_AVMIDIPlayer.h */,
+				1E46A8C31D7B7D979F3B2200 /* AVFoundation_AVFAudio_AVSpeechSynthesis.h */,
+				A2FDEA137A988B0A3492D877 /* AVFoundation_AVMediaFormat.h */,
+				76DFC5ADA42CEAC4D749F350 /* AVFoundation_AVMediaSelection.h */,
+				E55274CF8CFEFEC33FE42F62 /* AVFoundation_AVMediaSelectionGroup.h */,
+				10AC20B67BA5FF314319359E /* AVFoundation_AVMetadataFormat.h */,
+				F70F37D10929E64C222D4DA4 /* AVFoundation_AVMetadataIdentifiers.h */,
+				8D9B70B286D3B1B3175BDEFB /* AVFoundation_AVMetadataItem.h */,
+				F04608B86EA52FDD50C268BD /* AVFoundation_AVMetadataObject.h */,
+				8DBD6E83CAB25252F84BE211 /* AVFoundation_AVOutputSettingsAssistant.h */,
+				324A274C832A2CD4499A11AD /* AVFoundation_AVPlayer.h */,
+				04A2258AC62D32FCAC7DF0C0 /* AVFoundation_AVPlayerItem.h */,
+				FE21866011FF4323E04A4A64 /* AVFoundation_AVPlayerItemMediaDataCollector.h */,
+				40DB089DD2AE288D036A0FE2 /* AVFoundation_AVPlayerItemOutput.h */,
+				B4EA72373D2AD83BC47D8937 /* AVFoundation_AVPlayerItemTrack.h */,
+				1C4BE21185A44B87BD2270F0 /* AVFoundation_AVPlayerLayer.h */,
+				D955222FB5E829BB34E1FFF0 /* AVFoundation_AVPlayerLooper.h */,
+				6D770B5B1492D6FA3EECDF98 /* AVFoundation_AVPlayerMediaSelectionCriteria.h */,
+				5A98F5A9F5CEDD37F9FB2034 /* AVFoundation_AVQueuedSampleBufferRendering.h */,
+				2F6D53427F0A1261E8CAAA26 /* AVFoundation_AVRouteDetector.h */,
+				F988EA7DAE0800ECBCEAC2AC /* AVFoundation_AVSampleBufferAudioRenderer.h */,
+				8015E841B483C828C2B9B2C4 /* AVFoundation_AVSampleBufferDisplayLayer.h */,
+				C960A364383AA390F8C65B53 /* AVFoundation_AVSampleBufferRenderSynchronizer.h */,
+				1E91CC68D17655B8BC088D4B /* AVFoundation_AVSynchronizedLayer.h */,
+				90E4322011AAB54452132376 /* AVFoundation_AVTextStyleRule.h */,
+				F268F7629FA9466EA46E6393 /* AVFoundation_AVTime.h */,
+				1BA291E84CA22A6A80B8B2D8 /* AVFoundation_AVTimedMetadataGroup.h */,
+				A8990B928E92CBBEC07F8AC0 /* AVFoundation_AVUtilities.h */,
+				02728A4D71E48D43413EDCCE /* AVFoundation_AVVideoCompositing.h */,
+				2A0AB780D812BAB9414282AE /* AVFoundation_AVVideoComposition.h */,
+				E7256872EF86BEB83B3BBA7F /* AVFoundation_AVVideoSettings.h */,
+				36E1FC59883CA46DEF3D0DAC /* AVKit_AVError.h */,
+				04D96FDB7B0651120C5FBCED /* AVKit_AVPictureInPictureController.h */,
+				3987B45137450FC843F1B2E9 /* AVKit_AVPlayerViewController.h */,
+				D51CF3D71B3597A6344422EE /* AVKit_AVRoutePickerView.h */,
+				4924649D22C98F5CDC148204 /* AudioToolbox_AUAudioUnit.h */,
+				685CCF8D8A3F19A4C994950E /* AudioToolbox_AUAudioUnitImplementation.h */,
+				0337292382E4511030DDB050 /* AudioToolbox_AUComponent.h */,
+				CA85C426F3B41ACCDCB604CB /* AudioToolbox_AUGraph.h */,
+				2B7B993D393320D9AD7525C6 /* AudioToolbox_AUParameters.h */,
+				ECE4538D21EFF34F00A49997 /* AudioToolbox_AudioComponent.h */,
+				4C0BC3A2E3EC93B38B154D97 /* AudioToolbox_AudioConverter.h */,
+				AA1DD50FE8B1A0679F5339B4 /* AudioToolbox_AudioFile.h */,
+				6AA66485C43E0760371EE222 /* AudioToolbox_AudioFileStream.h */,
+				089450CB4BDB0BEF6F16E077 /* AudioToolbox_AudioFormat.h */,
+				8B89FBD8DC6640FB0CA79C1F /* AudioToolbox_AudioOutputUnit.h */,
+				71B0B9009DF466E4A265E200 /* AudioToolbox_AudioQueue.h */,
+				F4CCA37BC74A6274C3E820BC /* AudioToolbox_AudioServices.h */,
+				387860D96EAC354C3E79917C /* AudioToolbox_AudioSession.h */,
+				8DA3FF8F332266C67960DCC0 /* AudioToolbox_AudioToolbox.h */,
+				8575B8258B2348DD4988BE0A /* AudioToolbox_AudioUnitParameters.h */,
+				31E39AF23B77231D286CBA8B /* AudioToolbox_AudioUnitProperties.h */,
+				DBA9BD2A2FAAE2F93906CD70 /* AudioToolbox_CAFFile.h */,
+				D4FE2314E42243B035F4CAB1 /* AudioToolbox_ExtendedAudioFile.h */,
+				3F9AF23BE7CA5E64D6C06BC5 /* AudioToolbox_MusicDevice.h */,
+				3FEDFD89876F67020ACC37BD /* AudioToolbox_MusicPlayer.h */,
+				E30B8E1ABE9DF704E45F5178 /* CFNetwork_CFFTPStream.h */,
+				A6594A0D6AE7821321B60725 /* CFNetwork_CFHTTPAuthentication.h */,
+				90846C6C3354C9077414338A /* CFNetwork_CFHTTPMessage.h */,
+				CCF8C3CD6CD6740AC2E85B56 /* CFNetwork_CFHTTPStream.h */,
+				C8442425A8CAA85805624F45 /* CFNetwork_CFHost.h */,
+				7C6E5987162A23E324C0CFBC /* CFNetwork_CFNetDiagnostics.h */,
+				00860DF8CB495DA713C9C809 /* CFNetwork_CFNetServices.h */,
+				1ED5FEFF2FF54179706B7EBB /* CFNetwork_CFNetworkErrors.h */,
+				1D29E6FCA0E09894158AFBF2 /* CFNetwork_CFProxySupport.h */,
+				8A3CB67584173054ABFCD8DB /* CFNetwork_CFSocketStream.h */,
+				90A74F3DD5BDC07DDF065D41 /* CoreAudio_CoreAudioTypes.h */,
+				48B98B9AE4A11C5E46AE8A22 /* CoreFoundation_CFArray.h */,
+				51FB10E69FEB070F9CB82656 /* CoreFoundation_CFAttributedString.h */,
+				51EEED3410F94E166AB71E1C /* CoreFoundation_CFBag.h */,
+				78C47AC012F476BD0C0919C6 /* CoreFoundation_CFBase.h */,
+				B50C304C6A62BDA2B515B9DB /* CoreFoundation_CFBinaryHeap.h */,
+				5E625E7E15F26E930504CA68 /* CoreFoundation_CFBitVector.h */,
+				7375ED41F482CF65FDDEF9F9 /* CoreFoundation_CFBundle.h */,
+				02EF40057BC9E57E7925077A /* CoreFoundation_CFByteOrder.h */,
+				8D00B0A14A9C9FA483B1E2D1 /* CoreFoundation_CFCalendar.h */,
+				6AAD2F39F5214CB18AFF8D28 /* CoreFoundation_CFCharacterSet.h */,
+				17BA65979DF58068D51E2C3F /* CoreFoundation_CFData.h */,
+				C3A3C0E2B7681A7F5284AE84 /* CoreFoundation_CFDate.h */,
+				7FAEBC79D39EC1BEB990A405 /* CoreFoundation_CFDateFormatter.h */,
+				E1C5ACB6EB9C0C5FB1979E55 /* CoreFoundation_CFDictionary.h */,
+				6FF82CF494C280D4B317E937 /* CoreFoundation_CFError.h */,
+				273E4E76A1B9C3DFBF817704 /* CoreFoundation_CFFileDescriptor.h */,
+				815346551E10F52ADE18B6CA /* CoreFoundation_CFFileSecurity.h */,
+				4AF1F6CB2C1B45462821907C /* CoreFoundation_CFLocale.h */,
+				23063C7873F2C5BD8A94F08F /* CoreFoundation_CFMachPort.h */,
+				D9D532B758F97A6829324FFD /* CoreFoundation_CFMessagePort.h */,
+				CB0FD9E22D974A540ED6CABE /* CoreFoundation_CFNotificationCenter.h */,
+				A30D9EAA4E79FDD024528C95 /* CoreFoundation_CFNumber.h */,
+				8F1B5BA0DCB1B3DB33B1C196 /* CoreFoundation_CFNumberFormatter.h */,
+				2147DAE403417D0042BA8A9D /* CoreFoundation_CFPlugIn.h */,
+				0E88D92C8FEDFBA82EAF3645 /* CoreFoundation_CFPreferences.h */,
+				DC48DD0ED229191C551B1408 /* CoreFoundation_CFPropertyList.h */,
+				3E1AEDE7BDA3635C058C700F /* CoreFoundation_CFRunLoop.h */,
+				0D401A80F9F3F0A65587B7DB /* CoreFoundation_CFSet.h */,
+				0736BD61E7F4032D79AF9BBD /* CoreFoundation_CFSocket.h */,
+				5261D8F46621884A30CC022E /* CoreFoundation_CFStream.h */,
+				0375732F4DEC9CDA05374D54 /* CoreFoundation_CFString.h */,
+				43B089F73C64C28AF53FF744 /* CoreFoundation_CFStringEncodingExt.h */,
+				1DCB16086BA1E39775AA71C3 /* CoreFoundation_CFStringTokenizer.h */,
+				EEB3860153EDD01C43DE6E68 /* CoreFoundation_CFTimeZone.h */,
+				DD41FE2572F45A5523411CEE /* CoreFoundation_CFTree.h */,
+				34CF791C99A0717D747999A2 /* CoreFoundation_CFURL.h */,
+				022069D71884F12D2C241571 /* CoreFoundation_CFURLAccess.h */,
+				C916312B3D0A44C624DF8624 /* CoreFoundation_CFURLEnumerator.h */,
+				CB0088E89CC893646A2D4C3F /* CoreFoundation_CFUUID.h */,
+				FAED65C4F5BB6C392EFB58A7 /* CoreFoundation_CFUtilities.h */,
+				1B4133D57071A6C4AD1886ED /* CoreGraphics_CGAffineTransform.h */,
+				3DD5A56E03B572766D366944 /* CoreGraphics_CGBitmapContext.h */,
+				ACCCD5E87FF53A05D634D88A /* CoreGraphics_CGColor.h */,
+				7622BC1527E1C58E669D5923 /* CoreGraphics_CGColorConversionInfo.h */,
+				9E1FBCECF2F36D887247EF98 /* CoreGraphics_CGColorSpace.h */,
+				8F947D35509EDEEE4A114B61 /* CoreGraphics_CGContext.h */,
+				E2845F8CEC7184FEE40BD83F /* CoreGraphics_CGDataConsumer.h */,
+				AABF4410D30B46A3F1CF2BEC /* CoreGraphics_CGDataProvider.h */,
+				42106E23DE96B990A47B6D60 /* CoreGraphics_CGError.h */,
+				E5B1D9A822E19A2B770D9D26 /* CoreGraphics_CGFont.h */,
+				44AB9CFE5BCBE46A0857CF9A /* CoreGraphics_CGFunction.h */,
+				2FA977AACC84AB1B654DFE7F /* CoreGraphics_CGGeometry.h */,
+				5C4410EE956912945CFF3E24 /* CoreGraphics_CGGradient.h */,
+				E1F464C704DE1AB89688B400 /* CoreGraphics_CGImage.h */,
+				935E372C4F20CF1BBD773E69 /* CoreGraphics_CGLayer.h */,
+				E9DF7C892AAF57EA001A5C71 /* CoreGraphics_CGPDFArray.h */,
+				34758764D955CA8E82B7779A /* CoreGraphics_CGPDFContentStream.h */,
+				83F4E2887EDDECB4B52DDAC6 /* CoreGraphics_CGPDFContext.h */,
+				1FE3F562467B64232A536FD4 /* CoreGraphics_CGPDFDictionary.h */,
+				3795BD5D313E13C4E0FEE30D /* CoreGraphics_CGPDFDocument.h */,
+				37E2BDD63731102A0EE230AC /* CoreGraphics_CGPDFObject.h */,
+				B9DD0F35F3AA92D88CEE7D94 /* CoreGraphics_CGPDFOperatorTable.h */,
+				0932C84B959F1CEB15593BB6 /* CoreGraphics_CGPDFPage.h */,
+				51EE0B23CA43C5E45BB3DBD5 /* CoreGraphics_CGPDFScanner.h */,
+				F4E8786168FB508C6311C1A3 /* CoreGraphics_CGPDFStream.h */,
+				5000A18C3B113057D0BA20E9 /* CoreGraphics_CGPDFString.h */,
+				7A09F1FFF0B06E24263B1986 /* CoreGraphics_CGPath.h */,
+				574E058616DF17D21D1648A0 /* CoreGraphics_CGPattern.h */,
+				DAE5AEF6758CB3FF8EA2E612 /* CoreGraphics_CGShading.h */,
+				2B00E7BA625627055634E087 /* CoreImage_CIBarcodeDescriptor.h */,
+				6B24074BD1CAD9A41BA69500 /* CoreImage_CIColor.h */,
+				3A1DFF6CD31C2A1E4D0B7954 /* CoreImage_CIContext.h */,
+				B6969C5D2B50DD5CE3B3C7B1 /* CoreImage_CIDetector.h */,
+				73F2345E091FBF8A41D9653A /* CoreImage_CIFeature.h */,
+				6588281D9EA1422BC4681225 /* CoreImage_CIFilter.h */,
+				BD00D2AC68EA68FBDD7DF460 /* CoreImage_CIFilterConstructor.h */,
+				2E355EC96E8A045B25788FB3 /* CoreImage_CIFilterShape.h */,
+				6B5CEFAED20B9D932304531A /* CoreImage_CIImage.h */,
+				C7A4A86A5C16399A643DA369 /* CoreImage_CIImageAccumulator.h */,
+				CE094F4025B96F4C4FDD73D9 /* CoreImage_CIImageProcessor.h */,
+				A4C5700E35396C7B50B1A70A /* CoreImage_CIImageProvider.h */,
+				7E2E51642A9F4C80F86DC81A /* CoreImage_CIKernel.h */,
+				A6910EE861F0A3CD72DC9BD6 /* CoreImage_CIRAWFilter.h */,
+				F2E6233377E1EA32D7DC28C7 /* CoreImage_CIRenderDestination.h */,
+				E425DA62A47FA63C6245511F /* CoreImage_CISampler.h */,
+				D11957E8C82BFD7005AE61EC /* CoreImage_CIVector.h */,
+				6D0A2C923AE4CDCDDE5E632C /* CoreMIDI_MIDIServices.h */,
+				62A1323726BA4D505B3FE754 /* CoreMedia_CMAttachment.h */,
+				DEB38539DEED4DBAD9C78135 /* CoreMedia_CMBase.h */,
+				46A0ADA8D8055E3A8B1D0C66 /* CoreMedia_CMBlockBuffer.h */,
+				D486EE65B2044D08254AB511 /* CoreMedia_CMFormatDescription.h */,
+				940FAF056E3FE961FD9C75EF /* CoreMedia_CMSampleBuffer.h */,
+				13DBC6A78F544911C27510C0 /* CoreMedia_CMSync.h */,
+				6D4DF3C67467BA873FF156DC /* CoreMedia_CMTime.h */,
+				455A36A6AC22A46D46A90973 /* CoreMedia_CMTimeRange.h */,
+				936477F4C5E6531B86ACF6D7 /* CoreText_CTParagraphStyle.h */,
+				E0A060723D3400022B145183 /* CoreVideo_CVBase.h */,
+				5DF8937C8D104F935CAD936B /* CoreVideo_CVBuffer.h */,
+				22CDA2D8C03148BB7AFD8F29 /* CoreVideo_CVImageBuffer.h */,
+				F3F16C0D4164F3314D1D4CBC /* CoreVideo_CVMetalTextureCache.h */,
+				A2E2A1AA3208EDAE233F6F33 /* CoreVideo_CVOpenGLESTexture.h */,
+				D6D69A5A525698D80411A6A3 /* CoreVideo_CVOpenGLESTextureCache.h */,
+				9870286C093C6D3736F1ACD6 /* CoreVideo_CVPixelBuffer.h */,
+				C75141406243A24B8958680A /* CoreVideo_CVPixelBufferPool.h */,
+				65CE72F5E2EDFCF19F75ACF2 /* CoreVideo_CVPixelFormatDescription.h */,
+				78ABD4F34813845B9822E97D /* CoreVideo_CVReturn.h */,
+				23DE3DFB11C3A8090503923E /* FileProvider_NSFileProviderExtension.h */,
+				CD5416E0191E8A09FC55225E /* FileProvider_NSFileProviderItem.h */,
+				AA40C00A32BCB1AE58D5AAE5 /* Foundation_FoundationErrors.h */,
+				26FA616A9AEBF638161CB0C6 /* Foundation_NSArray.h */,
+				3A4171149623C2CFE3039D3C /* Foundation_NSAttributedString.h */,
+				DDCE7DF858741473B9974032 /* Foundation_NSAutoreleasePool.h */,
+				1174D5EC2377A8A4FA4A8807 /* Foundation_NSBundle.h */,
+				756ECFA12EDED2B76FE662FF /* Foundation_NSByteCountFormatter.h */,
+				A5B13CFF8A5466D0BC108639 /* Foundation_NSByteOrder.h */,
+				FA5E560D306D7A3D83AD2A33 /* Foundation_NSCache.h */,
+				EF8639326229309BE5B5D4D4 /* Foundation_NSCalendar.h */,
+				F3A5E2452B0762998F1712A0 /* Foundation_NSCharacterSet.h */,
+				4A6274B9F772CD56D47C7097 /* Foundation_NSCoder.h */,
+				85BE1855CDB5792161720990 /* Foundation_NSComparisonPredicate.h */,
+				D34805AAEC951697D74F2FBF /* Foundation_NSCompoundPredicate.h */,
+				2E6E0DE22C817B11184CB7E1 /* Foundation_NSData.h */,
+				D2F2071B31A7EE262344812C /* Foundation_NSDate.h */,
+				7EEB3FBDD4B0DA4ED6E93E90 /* Foundation_NSDateComponentsFormatter.h */,
+				2CACF2ABF95E9C7A5A18A7F2 /* Foundation_NSDateFormatter.h */,
+				1CB855A77725B91E809DDBBA /* Foundation_NSDateInterval.h */,
+				ED8E01AC5B93586DAB74CE67 /* Foundation_NSDateIntervalFormatter.h */,
+				D1B4C887724606444161E48E /* Foundation_NSDecimal.h */,
+				C7A0F1A9EF670C7679F65013 /* Foundation_NSDecimalNumber.h */,
+				3EFD54793D5A2A217D1B68EB /* Foundation_NSDictionary.h */,
+				F29888D39E84A315976BC04D /* Foundation_NSEnergyFormatter.h */,
+				AA71B0DEFAE8465AD1008F03 /* Foundation_NSEnumerator.h */,
+				AEDAD75726DFDDD2A5A24A34 /* Foundation_NSError.h */,
+				61D00579DBF08F83A4FD7B13 /* Foundation_NSException.h */,
+				BC9BBB67797584790D574163 /* Foundation_NSExpression.h */,
+				0FD920DBDAF7890E393D3976 /* Foundation_NSExtensionContext.h */,
+				44E43EF58EACBBB7035A32B1 /* Foundation_NSExtensionItem.h */,
+				AE5B05E28E3F94C9048C3A39 /* Foundation_NSExtensionRequestHandling.h */,
+				77255D6543AC532447C03D80 /* Foundation_NSFileCoordinator.h */,
+				4B94CE68D4E7CD455451C3D9 /* Foundation_NSFileHandle.h */,
+				619A542EC1E962D69C277980 /* Foundation_NSFileManager.h */,
+				9BBEE5AA7A7C955DA17507EA /* Foundation_NSFilePresenter.h */,
+				C7E8AD4538D73323F89A6134 /* Foundation_NSFileVersion.h */,
+				BCF3B61476489906F4FCC4A9 /* Foundation_NSFileWrapper.h */,
+				E9F75351F0FEF4D560EC6583 /* Foundation_NSFormatter.h */,
+				601AFA00F891C70BBAC59397 /* Foundation_NSHTTPCookie.h */,
+				4EA23FF97E57888F53FCCD1F /* Foundation_NSHTTPCookieStorage.h */,
+				0F83C4793759315D9EB58FE0 /* Foundation_NSHashTable.h */,
+				084ED32A756BB31DB224EF46 /* Foundation_NSISO8601DateFormatter.h */,
+				A0C5A37D66C49C2A81D9C2D8 /* Foundation_NSIndexPath.h */,
+				45E8E45BE4EFA34D531A8FD8 /* Foundation_NSIndexSet.h */,
+				18DC9D5B165E67C2BE5050D0 /* Foundation_NSInvocation.h */,
+				4DAA55E24C19377548708013 /* Foundation_NSItemProvider.h */,
+				92D693DBB5BF4CA0B610FA15 /* Foundation_NSJSONSerialization.h */,
+				B8B7B1C933F12297D252D054 /* Foundation_NSKeyValueCoding.h */,
+				E009DD93A780D62CE9667594 /* Foundation_NSKeyValueObserving.h */,
+				8BA1AECB1B181AF5521C0EC8 /* Foundation_NSKeyedArchiver.h */,
+				D35E2BEA0BC83DAF9F5E42BC /* Foundation_NSLengthFormatter.h */,
+				400EF9BF6E26F2DE94149A82 /* Foundation_NSLinguisticTagger.h */,
+				EB17636BE98D0D040D3B6C78 /* Foundation_NSLocale.h */,
+				8954DCD3CCB35E05B2A538CD /* Foundation_NSLock.h */,
+				6A2875D86B7FB2A020900261 /* Foundation_NSMapTable.h */,
+				4D2AC8127DBCC3F629B4770A /* Foundation_NSMassFormatter.h */,
+				EB5296F34EA0D03ECA734A16 /* Foundation_NSMeasurement.h */,
+				43B3C67F6901469DCFA14387 /* Foundation_NSMeasurementFormatter.h */,
+				4595B4F94C2B6E4351D0CF9E /* Foundation_NSMetadata.h */,
+				AD67D40765198A81E6FE5CE0 /* Foundation_NSMetadataAttributes.h */,
+				4FE6FDC179584FACEC4291EF /* Foundation_NSMethodSignature.h */,
+				95B6B71FF44D4A2B022B2DD4 /* Foundation_NSNetServices.h */,
+				F5C2EB02C493AF3393ED2ADE /* Foundation_NSNotification.h */,
+				29809D76B4E48A5EADD3FB08 /* Foundation_NSNotificationQueue.h */,
+				3A6A1D4F15C120EAE135EB87 /* Foundation_NSNull.h */,
+				F6192D49580A3B533AF4B0A3 /* Foundation_NSNumberFormatter.h */,
+				6388235298EC8FB0D72BA600 /* Foundation_NSObjCRuntime.h */,
+				D469650F5DD0175D9D05DAC4 /* Foundation_NSObject.h */,
+				10BA1F87ECBA43BF341766BA /* Foundation_NSOperation.h */,
+				4DF218655710357D1F72593F /* Foundation_NSOrderedSet.h */,
+				669D8511D16869E6A9A24405 /* Foundation_NSOrthography.h */,
+				E953A4143F9F907770A66D3D /* Foundation_NSPathUtilities.h */,
+				3A4CA6E96C14B2D254A213AB /* Foundation_NSPersonNameComponents.h */,
+				D96FE51FBA0498D7FA079371 /* Foundation_NSPersonNameComponentsFormatter.h */,
+				14325F001214AD8E7C6D3382 /* Foundation_NSPointerArray.h */,
+				547C3F5711D2D6CF1B8B18A1 /* Foundation_NSPointerFunctions.h */,
+				B4EE423A3C8800D8C45433A2 /* Foundation_NSPort.h */,
+				7A4CBF4A361678A0405E11E6 /* Foundation_NSPredicate.h */,
+				63C456F0942218DEECD4C85A /* Foundation_NSProcessInfo.h */,
+				1C5FD4B0FE09445701FD8686 /* Foundation_NSProgress.h */,
+				797DE6BA2BDB4DAE7F4CBB5B /* Foundation_NSPropertyList.h */,
+				829A87BF10928B9E8C6C10D1 /* Foundation_NSProxy.h */,
+				27534DBFC5C8FE76C68491B7 /* Foundation_NSRange.h */,
+				32DBE06A62D94A7B7AFBB213 /* Foundation_NSRegularExpression.h */,
+				BADAF1B782733F2074990013 /* Foundation_NSRunLoop.h */,
+				0FC16CC688A495683EB93830 /* Foundation_NSScanner.h */,
+				7AA0E8D0252C9367F21C6AF2 /* Foundation_NSSet.h */,
+				D218FC0DA6CCE138F7350C5C /* Foundation_NSSortDescriptor.h */,
+				BBC494227050315DFAFA32AC /* Foundation_NSStream.h */,
+				9BE74A630172F0CFC2C82F47 /* Foundation_NSString.h */,
+				85ED286182079F007B5E323A /* Foundation_NSTextCheckingResult.h */,
+				E68CA8569E16377FFC0FB7E1 /* Foundation_NSThread.h */,
+				A63E7931911B907010B56BA1 /* Foundation_NSTimeZone.h */,
+				02065F40BF7975C496D73CF7 /* Foundation_NSTimer.h */,
+				ACDDE56B1FED2C12B2B13410 /* Foundation_NSURL.h */,
+				C92FAF1630026D2DE7A50E39 /* Foundation_NSURLAuthenticationChallenge.h */,
+				CCE5B38771ADED90F35E21C7 /* Foundation_NSURLCache.h */,
+				F3B9AD39676A39E73587CAE9 /* Foundation_NSURLConnection.h */,
+				1FC58D0F53EA9725692B14D6 /* Foundation_NSURLCredential.h */,
+				9F6C3F87920F268480B6056E /* Foundation_NSURLCredentialStorage.h */,
+				13F15F391B1174DFF477DFAA /* Foundation_NSURLError.h */,
+				87B3F366E7E291F884A9FEFB /* Foundation_NSURLProtectionSpace.h */,
+				51D24BA175CE1ED2A124A4EB /* Foundation_NSURLProtocol.h */,
+				BD33A62A57473CC2828225A9 /* Foundation_NSURLRequest.h */,
+				7F5D84EA1EF7CA433D335F7B /* Foundation_NSURLResponse.h */,
+				9A6A093BA41EE6D60CB67CF7 /* Foundation_NSURLSession.h */,
+				8D51DFA3AA3FAE82CEBCB071 /* Foundation_NSUUID.h */,
+				633506B05A95A7184CBDC3D1 /* Foundation_NSUbiquitousKeyValueStore.h */,
+				005588DCF20F9ACA10664B29 /* Foundation_NSUndoManager.h */,
+				D2D5814355AB1A2A39DFE496 /* Foundation_NSUnit.h */,
+				67B86F8681C5C2C58B191F93 /* Foundation_NSUserActivity.h */,
+				0293099E2B88BA133EF8CA7F /* Foundation_NSUserDefaults.h */,
+				44B7A4C73A1E4986EBD6EB9E /* Foundation_NSValue.h */,
+				51F3101C1BB8147100B8517C /* Foundation_NSValueTransformer.h */,
+				BAF0AB1FA7816F432E628186 /* Foundation_NSXMLParser.h */,
+				4FE850A1ECEC3BA7D6F16B23 /* Foundation_NSXPCConnection.h */,
+				9D2200987D7CCA0F7F170829 /* Foundation_NSZone.h */,
+				06BD8DE6F003E0AFC24154C9 /* ImageIO_CGImageDestination.h */,
+				1CECF287FAABA59D31492104 /* ImageIO_CGImageMetadata.h */,
+				1FEE33E1F3F43D59CF2495A6 /* ImageIO_CGImageProperties.h */,
+				6CDC5134208A816D7756CD65 /* ImageIO_CGImageSource.h */,
+				716EE634F5A5D6A788ACAD9E /* KonyKVOWrapper_NSObject_KonyKVOWrapper.h */,
+				E90BB31CB1A27ACADD8F0454 /* KonyKVOWrapper_NSObject_KonyKVOWrapper.m */,
+				DF1244BA2FD8117F5EA53E88 /* MediaToolbox_MTAudioProcessingTap.h */,
+				81E20F4CF1893705ABA48E52 /* Metal_MTLPixelFormat.h */,
+				D83D3FF098F6C05F9845C3C9 /* NFIKonyKVOWrapper.h */,
+				29A2A4B6FDDF46FEF5DE2B8F /* NFIKonyKVOWrapperLoader.h */,
+				D00B4B5D84DAA926C2CCF4CB /* NFIKonyKVOWrapperLoader.m */,
+				92D52C575A23CC496F41B2FF /* OpenGLES_EAGL.h */,
+				13133DE69660E6EC97B7FEFE /* OpenGLES_EAGLDrawable.h */,
+				EC8AF983FF88D9F6BDDDEB21 /* QuartzCore_CAAnimation.h */,
+				F8743A3ED6F1D4F86225852C /* QuartzCore_CABase.h */,
+				96356C957F3E470EBE392424 /* QuartzCore_CADisplayLink.h */,
+				71E1F697E37A24F4F3435813 /* QuartzCore_CAEAGLLayer.h */,
+				B3992F7B7386738F340FC6C9 /* QuartzCore_CAEmitterCell.h */,
+				3D144E27A006542D167B0AB7 /* QuartzCore_CAEmitterLayer.h */,
+				5C16B01B7A843001A2085B07 /* QuartzCore_CAGradientLayer.h */,
+				27EEF7A8CA31267EF868F137 /* QuartzCore_CALayer.h */,
+				2BE59D370EBF978A0199A282 /* QuartzCore_CAMediaTiming.h */,
+				4606402DB95C594E9082FC69 /* QuartzCore_CAMediaTimingFunction.h */,
+				AB3AEE5915FC705C3E0396F2 /* QuartzCore_CAReplicatorLayer.h */,
+				DDC8F7A6ABD9B79394CEBC79 /* QuartzCore_CAScrollLayer.h */,
+				DB52707663091659E228EC92 /* QuartzCore_CAShapeLayer.h */,
+				92FC7F2F835B907B7D35DFA9 /* QuartzCore_CATextLayer.h */,
+				71310FEA4B934051BF795CA0 /* QuartzCore_CATiledLayer.h */,
+				DA5D7F779F75B82024097F2B /* QuartzCore_CATransaction.h */,
+				C450CD8BF7C41BC875C77066 /* QuartzCore_CATransform3D.h */,
+				1AE7FA885E6805A08560B1E3 /* QuartzCore_CATransformLayer.h */,
+				217EF532DD9AA7C3C89B3270 /* QuartzCore_CAValueFunction.h */,
+				C67CE20049AFC76588048FD7 /* Security_CipherSuite.h */,
+				C1DA7C3E76268ABDE53B1841 /* Security_SecAccessControl.h */,
+				290E9CE6F6D69487676A7435 /* Security_SecBase.h */,
+				76827DE21FF23A79319949BD /* Security_SecCertificate.h */,
+				568BC94BB45A382189B4026C /* Security_SecIdentity.h */,
+				CFB811328D52DA3CDDFD445C /* Security_SecImportExport.h */,
+				D06904A4553BB3A25E1E02C2 /* Security_SecItem.h */,
+				563CD9743E4B028CF1C2BAB2 /* Security_SecKey.h */,
+				F2819969156EA51ECED2AA45 /* Security_SecPolicy.h */,
+				90170DCE74A93BA01870F342 /* Security_SecRandom.h */,
+				CF8D6CA6EA9F3FE0AB43BF50 /* Security_SecSharedCredential.h */,
+				6B640393411EC21A9C20C3EA /* Security_SecTrust.h */,
+				FDB156BA8865C2F7B26AE7FE /* Security_SecureTransport.h */,
+				1703A6301650288BE505DF97 /* UIKit_DocumentManager_UIDocumentBrowserAction.h */,
+				4638B657D1BDF8AE41B853F1 /* UIKit_DocumentManager_UIDocumentBrowserViewController.h */,
+				145F2EBDF97D5CCE25856C51 /* UIKit_NSAttributedString.h */,
+				B9DB03B9DD5E251C32DAAC81 /* UIKit_NSDataAsset.h */,
+				8A1404B8063294130F6E4312 /* UIKit_NSIndexPath_UIKitAdditions.h */,
+				5F82C4AAE248A1A55814608B /* UIKit_NSItemProvider_UIKitAdditions.h */,
+				6A5D8FD88BF145FA7847F2AE /* UIKit_NSLayoutAnchor.h */,
+				9A5AA4A44FFBEA1894C4B5FB /* UIKit_NSLayoutConstraint.h */,
+				4283E61A7A5915F71A10A2B1 /* UIKit_NSLayoutManager.h */,
+				E88DB71F12C739E9603EFD60 /* UIKit_NSParagraphStyle.h */,
+				831CA2268D074CD88B03DF45 /* UIKit_NSShadow.h */,
+				28EA703D52C3DD4E95046A61 /* UIKit_NSStringDrawing.h */,
+				CB5B3408DF76FDF8D46C0CCE /* UIKit_NSText.h */,
+				1075F03EA0A6A230D548D30D /* UIKit_NSTextAttachment.h */,
+				E784F49C98CD09A2225DC8FC /* UIKit_NSTextContainer.h */,
+				E2232373578127BD18B55141 /* UIKit_NSTextStorage.h */,
+				26FBE8353D9D09CA634318E4 /* UIKit_UIAccelerometer.h */,
+				5098588C915E32CDCF3AB90D /* UIKit_UIAccessibility.h */,
+				90F14854DF69F48CB78B61F5 /* UIKit_UIAccessibilityAdditions.h */,
+				157FEDD656BB8EC6B441CB35 /* UIKit_UIAccessibilityConstants.h */,
+				7EAFB863E6DC0066BBA15A25 /* UIKit_UIAccessibilityContainer.h */,
+				E1726E98C2FCBBCBC1C1FA48 /* UIKit_UIAccessibilityContentSizeCategoryImageAdjusting.h */,
+				A4E190CE9C6332467F9983F6 /* UIKit_UIAccessibilityCustomAction.h */,
+				8AF90C81F5263CB920BE7487 /* UIKit_UIAccessibilityCustomRotor.h */,
+				6DBD0396C2FA3BE6B9548993 /* UIKit_UIAccessibilityElement.h */,
+				20CDB9C6F0F063B5B6CC7D87 /* UIKit_UIAccessibilityIdentification.h */,
+				FB7CCDE8FD84226AFA18B1E3 /* UIKit_UIAccessibilityLocationDescriptor.h */,
+				6B20C7AEB79E32A2F8A95ADF /* UIKit_UIAccessibilityZoom.h */,
+				86752605F13DBC5AA84DEFCF /* UIKit_UIActionSheet.h */,
+				0EBD5BA886B5F29EBB9BBDB3 /* UIKit_UIActivity.h */,
+				F985601E9119C703578D823B /* UIKit_UIActivityIndicatorView.h */,
+				7AD464DCBB6B8DDAA5FA124D /* UIKit_UIActivityItemProvider.h */,
+				85E9F4192F629DF8DEE77EF0 /* UIKit_UIActivityViewController.h */,
+				029FE09B2A52A518153F4A0F /* UIKit_UIAlertController.h */,
+				C94C34E876AD27C973820787 /* UIKit_UIAlertView.h */,
+				8063B27665D6E14358CA8C14 /* UIKit_UIAppearance.h */,
+				34F68E198AB610B48C19BB48 /* UIKit_UIApplication.h */,
+				AC78535ACE24E4324F2AEFB3 /* UIKit_UIApplicationShortcutItem.h */,
+				C500A1FA5E5C24E13E5B56C1 /* UIKit_UIAttachmentBehavior.h */,
+				477C123B9B7B3CF5F1AAF234 /* UIKit_UIBarButtonItem.h */,
+				2BC54BCE5706781C5CFD7BE4 /* UIKit_UIBarButtonItemGroup.h */,
+				A406EFC1D16202C36888F669 /* UIKit_UIBarCommon.h */,
+				6CCC29F71996874C647D581C /* UIKit_UIBarItem.h */,
+				F6165CABCCC4863A4368D617 /* UIKit_UIBezierPath.h */,
+				391F0F1060CCA1C4939C7255 /* UIKit_UIBlurEffect.h */,
+				055A9D2702355D340CF757F4 /* UIKit_UIButton.h */,
+				D2E7A4B36866813DF79E3711 /* UIKit_UICloudSharingController.h */,
+				7A75A96424B1DC9C1A13D602 /* UIKit_UICollectionView.h */,
+				79923961519AA8BB618CEE7F /* UIKit_UICollectionViewCell.h */,
+				E67B61FDC13ED6B29B92FF9D /* UIKit_UICollectionViewController.h */,
+				826686B5D14713994D34931F /* UIKit_UICollectionViewFlowLayout.h */,
+				182FA446D9B3AC4B546D1C24 /* UIKit_UICollectionViewLayout.h */,
+				9814E05365C3355DED443B2A /* UIKit_UICollectionViewTransitionLayout.h */,
+				841C52C77E533EC653F3E77D /* UIKit_UICollisionBehavior.h */,
+				564506364645011B2174AF8E /* UIKit_UIColor.h */,
+				55D35B046D4B8D7F27F52686 /* UIKit_UIContentSizeCategory.h */,
+				471EF4C5E45E9C96934442BF /* UIKit_UIContentSizeCategoryAdjusting.h */,
+				89068CA8074DB7C253C131B0 /* UIKit_UIContextualAction.h */,
+				966AC151B15A63AEB680934E /* UIKit_UIControl.h */,
+				3B8550D35B796B504477B869 /* UIKit_UIDataDetectors.h */,
+				55D94E26145C504F23BB8134 /* UIKit_UIDataSourceTranslating.h */,
+				A3532264FEE47D212C13B4B8 /* UIKit_UIDatePicker.h */,
+				EFC5AEC64D3D9D4E3AF8FAC0 /* UIKit_UIDevice.h */,
+				0B359CBB454872907BFCCA00 /* UIKit_UIDocument.h */,
+				AE5822EB59DE372298012FD2 /* UIKit_UIDocumentInteractionController.h */,
+				CC3D5042FD8D6EE88DCB9474 /* UIKit_UIDocumentMenuViewController.h */,
+				582E8B84D96094A02A84B2E5 /* UIKit_UIDocumentPickerExtensionViewController.h */,
+				4362F7F880D80DC81F8B17E9 /* UIKit_UIDocumentPickerViewController.h */,
+				C83E382A2D2E2291C8AD5409 /* UIKit_UIDragInteraction.h */,
+				9C0AB274D3F6621AA10852BE /* UIKit_UIDragItem.h */,
+				499B1F97C03F66F14EE55C67 /* UIKit_UIDragPreview.h */,
+				89DB5BD0CD90CACEB3DE23A1 /* UIKit_UIDragPreviewParameters.h */,
+				75699E9F1805C835E19E5E25 /* UIKit_UIDragSession.h */,
+				21EDA80AFF3C94A870F6C2A2 /* UIKit_UIDropInteraction.h */,
+				885AD4A624AA89BCC89CF76D /* UIKit_UIDynamicAnimator.h */,
+				5F2F9FEE5A207CBE47CC4E71 /* UIKit_UIDynamicBehavior.h */,
+				DB4CA4FA338B05A38A9DF3F1 /* UIKit_UIDynamicItemBehavior.h */,
+				3D0B2F649E76EE72B967FD87 /* UIKit_UIEvent.h */,
+				7DC42F138CF988AB7C5764A4 /* UIKit_UIFeedbackGenerator.h */,
+				24AB004B84158B7CC20AF8F4 /* UIKit_UIFieldBehavior.h */,
+				13CC0FB9FAE886AE25D58580 /* UIKit_UIFocus.h */,
+				568F8813F1A7D09647D64D7F /* UIKit_UIFocusAnimationCoordinator.h */,
+				EEEA3484325204188B3CF9DF /* UIKit_UIFocusDebugger.h */,
+				646DCE633B7E620366321B4C /* UIKit_UIFocusGuide.h */,
+				D53746DDAC95521113DA982D /* UIKit_UIFocusSystem.h */,
+				A6D7E29F966FECBFD7E0DF48 /* UIKit_UIFont.h */,
+				F2B5B413FCA6D8F30927F983 /* UIKit_UIFontDescriptor.h */,
+				CC1A608B0E8CB91C76CE90C9 /* UIKit_UIFontMetrics.h */,
+				331163807FA0CCEDF4E989D0 /* UIKit_UIGeometry.h */,
+				850D565694E17E954ECEC7EC /* UIKit_UIGestureRecognizer.h */,
+				0F59FD0F1427731F7198CA77 /* UIKit_UIGraphics.h */,
+				CD5E90D0E1866FB22DE2E4D9 /* UIKit_UIGraphicsImageRenderer.h */,
+				7A15F873068E60E4E5F7C9C1 /* UIKit_UIGraphicsPDFRenderer.h */,
+				B2915DE66FD350ADD0CE8602 /* UIKit_UIGraphicsRenderer.h */,
+				779DB9C95113C0A86DA390E8 /* UIKit_UIGravityBehavior.h */,
+				9CB771E362C7AE8D7A80C552 /* UIKit_UIGuidedAccessRestrictions.h */,
+				DE30E23C8BDEC5C661F5DC9E /* UIKit_UIImage.h */,
+				99BFA600821B0B1069B2E256 /* UIKit_UIImageAsset.h */,
+				0B93C3F318EDEC88CCF7CC95 /* UIKit_UIImagePickerController.h */,
+				B3918C2F170115DF86E58615 /* UIKit_UIImageView.h */,
+				29E70C376BF58155F324CDB7 /* UIKit_UIImpactFeedbackGenerator.h */,
+				417931C884AAD3B354226B00 /* UIKit_UIInputView.h */,
+				FB8ED03524E666A611DF228F /* UIKit_UIInputViewController.h */,
+				C302E35CCEEF24913DCAB526 /* UIKit_UIInteraction.h */,
+				7812145B75E477128D0E4E76 /* UIKit_UIInterface.h */,
+				714ACE16EFBE314454403DAF /* UIKit_UILabel.h */,
+				A39A7B689CF423E3CEF37175 /* UIKit_UILayoutGuide.h */,
+				E376254BD84CC67765ADE00C /* UIKit_UILexicon.h */,
+				4646FB6834B6AC4340DEC0E3 /* UIKit_UILocalNotification.h */,
+				AABB4B2579E2581916D6CF87 /* UIKit_UILocalizedIndexedCollation.h */,
+				21F6656968B13482B27C596C /* UIKit_UILongPressGestureRecognizer.h */,
+				5D67E9284D15CFB28F185382 /* UIKit_UIManagedDocument.h */,
+				D7DA04492FE1E9FAD2224EE8 /* UIKit_UIMenuController.h */,
+				E3017963C557FB670075178B /* UIKit_UIMotionEffect.h */,
+				B73B8FC3132517B0E6DD8536 /* UIKit_UINavigationBar.h */,
+				A8D9F94B0C032A4184F99011 /* UIKit_UINavigationController.h */,
+				67EBD421406B2CAFCCE7BE62 /* UIKit_UINavigationItem.h */,
+				DB80157EF5C8042E02E2BD4E /* UIKit_UINib.h */,
+				EF93AB8CE2D26EFBED2F8946 /* UIKit_UINibLoading.h */,
+				54BFE5F6A6AB396DAA091EC5 /* UIKit_UINotificationFeedbackGenerator.h */,
+				6A52D48F60F37F5CDD0E96B9 /* UIKit_UIPageControl.h */,
+				91670CF0F3046DB3FBE1B24F /* UIKit_UIPageViewController.h */,
+				EEE3276BF7492E2267ADD6B4 /* UIKit_UIPanGestureRecognizer.h */,
+				DBC464171B6B29C0F6BE2D5A /* UIKit_UIPasteConfiguration.h */,
+				D4A483925EF714F4D5E4E65F /* UIKit_UIPasteConfigurationSupporting.h */,
+				0D363D6F6B8B56EB3F8F34C1 /* UIKit_UIPasteboard.h */,
+				092F2838AF5CB48E0EC5E587 /* UIKit_UIPickerView.h */,
+				A907C299B8C02F8AF98E6D10 /* UIKit_UIPinchGestureRecognizer.h */,
+				F9FDE6CEFC132482FC5A415C /* UIKit_UIPopoverBackgroundView.h */,
+				CDE69690372556E1B0FC1593 /* UIKit_UIPopoverController.h */,
+				924E6C2BB33F5B7E88391A39 /* UIKit_UIPopoverPresentationController.h */,
+				726136D12E62FA2FCA98BC59 /* UIKit_UIPopoverSupport.h */,
+				54668474FF808696BA7F4E15 /* UIKit_UIPresentationController.h */,
+				F61B36F3920BB1BF17DB7DE4 /* UIKit_UIPress.h */,
+				28E64816B48F51DEC9D31D61 /* UIKit_UIPressesEvent.h */,
+				03BC624E22C0157A946163A7 /* UIKit_UIPreviewInteraction.h */,
+				2999D161335AC9802C9DAD31 /* UIKit_UIPrintError.h */,
+				A790442596911E61297E54F6 /* UIKit_UIPrintFormatter.h */,
+				CA9ED9C58FAF15FA538F1E96 /* UIKit_UIPrintInfo.h */,
+				73006A7BD99E800C7677F838 /* UIKit_UIPrintInteractionController.h */,
+				831521AA7073C23C46E8BF7F /* UIKit_UIPrintPageRenderer.h */,
+				1B6B74CEB70C502125383D86 /* UIKit_UIPrintPaper.h */,
+				3952094203B321B0ABF65DFA /* UIKit_UIPrinter.h */,
+				FE61235A321DAB219C30FD9F /* UIKit_UIPrinterPickerController.h */,
+				11C5C534FA1E431ECD5959B5 /* UIKit_UIProgressView.h */,
+				B6BA2EAC65C0CAE29680CEE5 /* UIKit_UIPushBehavior.h */,
+				C6603DC95D7CB0CF63B3D39B /* UIKit_UIReferenceLibraryViewController.h */,
+				5851384A94AB225B23301281 /* UIKit_UIRefreshControl.h */,
+				24532EFDCF321A6A0A4E7A99 /* UIKit_UIRegion.h */,
+				A861C2C2D667FE92DC0966C1 /* UIKit_UIResponder.h */,
+				66572F48A8C21864B21FB783 /* UIKit_UIRotationGestureRecognizer.h */,
+				A7728EC7F2B69387FCCC32D9 /* UIKit_UIScreen.h */,
+				A6A4CE5F8B48698BE5040FD5 /* UIKit_UIScreenEdgePanGestureRecognizer.h */,
+				4B6B1EBCE1CAA596F4454D5B /* UIKit_UIScreenMode.h */,
+				13D867279655630C86C555A7 /* UIKit_UIScrollView.h */,
+				FA97F253221BAFAF0E9C5514 /* UIKit_UISearchBar.h */,
+				DF34678E841DD0BE375ABF36 /* UIKit_UISearchContainerViewController.h */,
+				7B53CBF03B8F07EC47383C48 /* UIKit_UISearchController.h */,
+				F21F4F2C82E40F711558A34B /* UIKit_UISearchDisplayController.h */,
+				B523231AF0790900CF4AD2CE /* UIKit_UISegmentedControl.h */,
+				0DD4CA22E19B60A5B2A0EAF1 /* UIKit_UISelectionFeedbackGenerator.h */,
+				A0CC5A07DBBC8855E8A9219C /* UIKit_UISlider.h */,
+				B33AB3EE2C683F4EE519232E /* UIKit_UISnapBehavior.h */,
+				A8C7A2B366F605131A9DDB96 /* UIKit_UISplitViewController.h */,
+				0F7E0021A12AFCE6BB3663F9 /* UIKit_UISpringLoadedInteraction.h */,
+				A96E9DCB13E1729D280A1595 /* UIKit_UISpringLoadedInteractionSupporting.h */,
+				6F60FF88A689830E2A6B1ADD /* UIKit_UIStackView.h */,
+				5D64C73E9F99EC3AA7B6F7AE /* UIKit_UIStateRestoration.h */,
+				29491EED3FCAF4DC067360E2 /* UIKit_UIStepper.h */,
+				5132EC18FA2C041E27308284 /* UIKit_UIStoryboard.h */,
+				34B619C3B60A438F4E1B4A28 /* UIKit_UIStoryboardPopoverSegue.h */,
+				35166FA3F80482201CBC4A0D /* UIKit_UIStoryboardSegue.h */,
+				FE53FC5A7EF06D207B9F35FB /* UIKit_UIStringDrawing.h */,
+				D6052A5D68B1FBF14B4AE31F /* UIKit_UISwipeActionsConfiguration.h */,
+				49848147547B323E55F55043 /* UIKit_UISwipeGestureRecognizer.h */,
+				DAADEE3AB5D8CA1FC4E8A481 /* UIKit_UISwitch.h */,
+				0131234B5C80151C1E02CF45 /* UIKit_UITabBar.h */,
+				03E048CCD4277A872EC1E426 /* UIKit_UITabBarController.h */,
+				6DA53C0004BF95119C43047A /* UIKit_UITabBarItem.h */,
+				2583340890FF9D8E3D7CB9BD /* UIKit_UITableView.h */,
+				E9DAD638360DFC6EF5A4EC2E /* UIKit_UITableViewCell.h */,
+				CE8EDBBD2F12F16FF02A7FC0 /* UIKit_UITableViewController.h */,
+				F012A1FC32BC97699B0D8916 /* UIKit_UITableViewHeaderFooterView.h */,
+				ED436174ADDCA817AEA584E9 /* UIKit_UITapGestureRecognizer.h */,
+				16D82772369398E94114BAA1 /* UIKit_UITargetedDragPreview.h */,
+				2494B794C15FDC76EC3E2611 /* UIKit_UITextChecker.h */,
+				95985C8DBEBF53327D02441D /* UIKit_UITextDragPreviewRenderer.h */,
+				CCB375E0D2CCE3E397919400 /* UIKit_UITextDragURLPreviews.h */,
+				D15CBBA582939410D432C732 /* UIKit_UITextDragging.h */,
+				0E6C856312433DEC09769603 /* UIKit_UITextDropProposal.h */,
+				654AB547C3019019AE5407E8 /* UIKit_UITextDropping.h */,
+				DD8AD1CB781E06EFD186C81C /* UIKit_UITextField.h */,
+				AAFE59702C6EE2F79501FB93 /* UIKit_UITextInput.h */,
+				C8FA5A65B3C30052242693FA /* UIKit_UITextInputTraits.h */,
+				22D19ED8ED972DFB4E0A697B /* UIKit_UITextInteraction.h */,
+				4CD2ED8EECE408CE9997A127 /* UIKit_UITextPasteConfigurationSupporting.h */,
+				F1B4233B79F6B6D4A3D9541B /* UIKit_UITextPasteDelegate.h */,
+				09AF27026773623C8A010E91 /* UIKit_UITextView.h */,
+				252ABEBD6B8C90C21E5A18B9 /* UIKit_UITimingCurveProvider.h */,
+				F893B98331C0B0545E078E9C /* UIKit_UITimingParameters.h */,
+				7E15CC9F916F933C26A43036 /* UIKit_UIToolbar.h */,
+				6CB4B13B2A428CE1122FB231 /* UIKit_UITouch.h */,
+				5DE8AE2B01866E8B5DE12DE3 /* UIKit_UITraitCollection.h */,
+				A501ED0D8A21D425C22F6DCB /* UIKit_UIUserNotificationSettings.h */,
+				88EC9EAB0CE6A38B2CB01DB1 /* UIKit_UIVibrancyEffect.h */,
+				39EC1D25C76CF4235389334E /* UIKit_UIVideoEditorController.h */,
+				F34F9D8E6E40F73C50FF0A7D /* UIKit_UIView.h */,
+				5897C236E7AB834AD4BB06E1 /* UIKit_UIViewAnimating.h */,
+				652B326FC24C2D667E8B9E95 /* UIKit_UIViewController.h */,
+				EDD60F2B25508A5149813DA4 /* UIKit_UIViewControllerTransitionCoordinator.h */,
+				764E3EAAA8E6CE025C840F5D /* UIKit_UIViewControllerTransitioning.h */,
+				7D1110BFE5B698E8E13BE44B /* UIKit_UIViewPropertyAnimator.h */,
+				1D8BA0BA693625206FC0BAE7 /* UIKit_UIVisualEffect.h */,
+				47C80C3E2DA6CE725D6885EC /* UIKit_UIVisualEffectView.h */,
+				9B06904F5C53A90AFEEA1863 /* UIKit_UIWebView.h */,
+				1A46837A7B002DC712BCC407 /* UIKit_UIWindow.h */,
+				C8676FEB3547D82D56CC5006 /* allheaders.h */,
+				2E2D560D198B6CD00A8A1E95 /* allincludes.h */,
+				CF8615C935B93CE561C972D7 /* allprotos.h */,
+				DB826AB14DA52972A5D7287D /* classes */,
+				D1607F68680C421D16FB2F30 /* parts */,
+				548A9546F3BFD2052DE101EA /* parts_sa */,
+				6CDF8DE87E99C16BBB01851B /* parts_sr */,
+				F95EB00F0700D4A3C9C6DEC9 /* protocols */,
+			);
+			path = KonyKVOWrapper/simulator;
+			sourceTree = "<group>";
+		};
+		548AD8A190B8771B5049F872 = {
+			isa = PBXGroup;
+			children = (
+				078AC89717C54F546746B272 /* Source */,
+				DB59886B55772EB43BABACED /* Frameworks */,
+				1775C19A2B2A693240E4CC96 /* Products */,
+				A161E65C41EEBF05DB6A2874 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		A161E65C41EEBF05DB6A2874 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				CB411B0CF16AF479C9B009F2 /* NFISimulator.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		DB59886B55772EB43BABACED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A89CA51DACAB68549525C33D /* KonyKVOWrapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF48FC583D3EA802FDD6893 /* ../src/NFIUtility */ = {
+			isa = PBXGroup;
+			children = (
+				D38231D0DE33EAFD8C574891 /* CallbackSupport.h */,
+				84F39AD2D3ADECCFD10225AC /* CallbackSupport.m */,
+				F9597E92125B418E78B2316A /* NFIUtility.h */,
+				AB9002AE8A95B090064245AC /* PointerSupport.h */,
+				5B10BB9C033D4338C717B2A0 /* PointerSupport.m */,
+			);
+			path = ../src/NFIUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28DB18D2B7B8BA8983EE4863 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E91302C97579BE52D8727 /* CallbackSupport.h in Headers */,
+				263C30D21A817EC3C380B0C9 /* NFIUtility.h in Headers */,
+				6F5350877E0E3DB6E99DB431 /* PointerSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39688EACE5EE0D72FCE53C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119C19436159D2D844150E48 /* NFIKonyKVOWrapperLoader.h in Headers */,
+				B4C6AE05F2D5CF4B945D53D5 /* NFIKonyKVOWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		139D3B1C25D5088686D69B8E /* NFIKonyKVOWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A180791842DF25B5FFE1EE58 /* Build configuration list for PBXNativeTarget "NFIKonyKVOWrapper" */;
+			buildPhases = (
+				E39688EACE5EE0D72FCE53C6 /* Headers */,
+				A0FE33B4D0B1AE2066B23662 /* Sources */,
+				90C26F1A680ABBFA1C321582 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28BEDF43938099DF1FF7A2E1 /* PBXTargetDependency */,
+			);
+			name = NFIKonyKVOWrapper;
+			productName = NFIKonyKVOWrapper;
+			productReference = 231241445E6C59883CF4EFC7 /* NFIKonyKVOWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C478656A382488D1EB6BD2F /* NFIUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C334771F0ADD50B757FAB8B /* Build configuration list for PBXNativeTarget "NFIUtility" */;
+			buildPhases = (
+				28DB18D2B7B8BA8983EE4863 /* Headers */,
+				1C841735A99CAE009CBE1BA9 /* Sources */,
+				BAD57A533763DFA1B0D4B878 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFIUtility;
+			productName = NFIUtility;
+			productReference = AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78CF65CBBBB125367E89804F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 9F5564CAE6B92DD64C95FD91 /* Build configuration list for PBXProject "NFISimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 548AD8A190B8771B5049F872;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C764A808488C77627CCC822E /* All */,
+				7C478656A382488D1EB6BD2F /* NFIUtility */,
+				139D3B1C25D5088686D69B8E /* NFIKonyKVOWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C841735A99CAE009CBE1BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBE4DBBA9D0A0988F05C628 /* CallbackSupport.m in Sources */,
+				BFC49A4E7CD03246361C7433 /* PointerSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FE33B4D0B1AE2066B23662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4CEBA3AD151E0AB8793C41 /* KonyKVOWrapper_NSObject_KonyKVOWrapper.m in Sources */,
+				EA98E5D27BD7AE0F0F5B103D /* NFIKonyKVOWrapperLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28BEDF43938099DF1FF7A2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C478656A382488D1EB6BD2F /* NFIUtility */;
+			targetProxy = 40E1F35F00280F266CA1D406 /* PBXContainerItemProxy */;
+		};
+		86A200F895123E8A2239AA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 139D3B1C25D5088686D69B8E /* NFIKonyKVOWrapper */;
+			targetProxy = 6CEBC432BE11C270E31CBBD8 /* PBXContainerItemProxy */;
+		};
+		F17BCB2155F862E69F9125FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C478656A382488D1EB6BD2F /* NFIUtility */;
+			targetProxy = 3308388E460D9187C96B0622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C542F4367F6404E3A524239 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "/Volumes/DATA/source-code/nativeframeworks/iOS/nativebinding/gen-src/KonyKVOWrapper/thirdparty/**";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "/Volumes/DATA/source-code/nativeframeworks/iOS/nativebinding/gen-src/KonyKVOWrapper/thirdparty/KonyKVOWrapper/KonyKVOWrapper.framework/Headers";
+				INFOPLIST_FILE = KonyKVOWrapper/Info.plist;
+				LIBRARY_SEARCH_PATHS = "/Volumes/DATA/source-code/nativeframeworks/iOS/nativebinding/gen-src/KonyKVOWrapper/thirdparty/KonyKVOWrapper";
+				OTHER_LDFLAGS = "-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIKonyKVOWrapper;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		401EAB3DA3F11FC40896D06F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		B2B90B89403B3513D44E4284 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Default;
+		};
+		C063BCF634847F4A2168AAEF /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = ../src/NFIUtility/Info.plist;
+				OTHER_LDFLAGS = "-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIUtility;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C334771F0ADD50B757FAB8B /* Build configuration list for PBXNativeTarget "NFIUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C063BCF634847F4A2168AAEF /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		95DB00CE994EC607C5F2F4A5 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B90B89403B3513D44E4284 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		9F5564CAE6B92DD64C95FD91 /* Build configuration list for PBXProject "NFISimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401EAB3DA3F11FC40896D06F /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		A180791842DF25B5FFE1EE58 /* Build configuration list for PBXNativeTarget "NFIKonyKVOWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C542F4367F6404E3A524239 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78CF65CBBBB125367E89804F /* Project object */;
+}

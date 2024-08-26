@@ -1,0 +1,6 @@
+framework module Slider {
+  umbrella header "Slider.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+if (strcmp(type, @encode(MTLSizeAndAlign)) == 0) {
+		MTLSizeAndAlign returnValue = value.toMTLSizeAndAlign;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

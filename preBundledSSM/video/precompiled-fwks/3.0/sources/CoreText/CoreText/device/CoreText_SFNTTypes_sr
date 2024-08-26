@@ -1,0 +1,45 @@
+if (strcmp(type, @encode(sfntFontDescriptor)) == 0) {
+		sfntFontDescriptor returnValue = value.tosfntFontDescriptor;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(sfntNameRecord)) == 0) {
+		sfntNameRecord returnValue = value.tosfntNameRecord;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(sfntFontRunFeature)) == 0) {
+		sfntFontRunFeature returnValue = value.tosfntFontRunFeature;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(sfntCMapExtendedSubHeader)) == 0) {
+		sfntCMapExtendedSubHeader returnValue = value.tosfntCMapExtendedSubHeader;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(sfntCMapEncoding)) == 0) {
+		sfntCMapEncoding returnValue = value.tosfntCMapEncoding;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(sfntCMapSubHeader)) == 0) {
+		sfntCMapSubHeader returnValue = value.tosfntCMapSubHeader;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(sfntFontFeatureSetting)) == 0) {
+		sfntFontFeatureSetting returnValue = value.tosfntFontFeatureSetting;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(sfntDirectoryEntry)) == 0) {
+		sfntDirectoryEntry returnValue = value.tosfntDirectoryEntry;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(sfntVariationAxis)) == 0) {
+		sfntVariationAxis returnValue = value.tosfntVariationAxis;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(sfntFeatureName)) == 0) {
+		sfntFeatureName returnValue = value.tosfntFeatureName;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(FontVariation)) == 0) {
+		FontVariation returnValue = value.toFontVariation;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

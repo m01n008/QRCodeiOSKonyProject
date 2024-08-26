@@ -1,0 +1,5 @@
+if (strcmp(type, @encode(AudioCodecPrimeInfo)) == 0) {
+		AudioCodecPrimeInfo argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithAudioCodecPrimeInfo: argument inContext: context];
+	}

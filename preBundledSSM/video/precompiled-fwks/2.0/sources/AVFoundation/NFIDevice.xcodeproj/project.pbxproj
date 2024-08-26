@@ -1,0 +1,1581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BFE125855F5E3D4B09923B95 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C1E33EE0CE69CE2A1E7BF85A /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				7E13621736B1C8ADDAF10706 /* PBXTargetDependency */,
+				0AD8197774D9DC5DE8EC2482 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04F869895338D036D06B60B4 /* AVFoundation_AVUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B31B9CBC360996B11FCAD0 /* AVFoundation_AVUtilities.m */; };
+		086D4CACF4916B1C7B93959D /* AVFoundation_AVCaptureOutputBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C2717381FD22F3B9BC61BBB8 /* AVFoundation_AVCaptureOutputBase.m */; };
+		0AC8C9565F3376943CBDB3CA /* AVFoundation_AVFAudio_AVAudioUnitTimePitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D4B44E7EF1034045775DB /* AVFoundation_AVFAudio_AVAudioUnitTimePitch.m */; };
+		0C3F46AF82C5492F4AD0FFD9 /* AVFoundation_AVAssetImageGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C75CC304FF828C9FDFCE9 /* AVFoundation_AVAssetImageGenerator.m */; };
+		0F29232A5DA8DED17D10DBD7 /* AVFoundation_AVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BACAAC351E1A96C6BC50ADEB /* AVFoundation_AVPlayer.m */; };
+		115CFE790911A2D2FE2F2997 /* AVFoundation_AVFAudio_AVAudioUnitEQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B33175C2EF417B10C39255E /* AVFoundation_AVFAudio_AVAudioUnitEQ.m */; };
+		12C0FFE372E50708D1A1AA61 /* AVFoundation_AVCaptureAudioDataOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6694555F8D2113D05C9066B5 /* AVFoundation_AVCaptureAudioDataOutput.m */; };
+		1355BAB8D5F1050B46936AD4 /* AVFoundation_AVAssetReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F26A6FF97B5C914D0CA60 /* AVFoundation_AVAssetReader.m */; };
+		153F51124530B9577497E6FE /* AVFoundation_AVMetadataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA36F19A55603278F662A5 /* AVFoundation_AVMetadataObject.m */; };
+		178749C4BB75FC9B61FB96EA /* AVFoundation_AVPlayerLooper.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A42E5690921AA7EBCCA9E /* AVFoundation_AVPlayerLooper.m */; };
+		19571C13BE34B83798316A67 /* AVFoundation_AVMetadataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B5817ACD6C2849DAF5F1B3 /* AVFoundation_AVMetadataItem.m */; };
+		1BD6A77B79C442D2C2A06AF3 /* AVFoundation_AVCaptureInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 595490E573B1B1575EF9C0D5 /* AVFoundation_AVCaptureInput.m */; };
+		1CFFE2B652B1C6B29039E213 /* AVFoundation_AVAssetDownloadStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81893693F29016C8510B0BB7 /* AVFoundation_AVAssetDownloadStorageManager.m */; };
+		1F66B5CC4438C3E7B76A6BA5 /* PointerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A761855A8FC3C6BADED07EEA /* PointerSupport.m */; };
+		24E564E29CA8ABE4A7B757CC /* AVFoundation_AVCaptureDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3670294FE06AC4EB54A513CD /* AVFoundation_AVCaptureDevice.m */; };
+		254A901752B70C00B13E0720 /* AVFoundation_AVFAudio_AVAudioUnitComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B7C170EA1C2BC0E943A46B /* AVFoundation_AVFAudio_AVAudioUnitComponent.m */; };
+		27726050E8060B2D691BF8DA /* AVFoundation_AVFAudio_AVAudioUnitEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9FC51A13D4AA4C07720BA /* AVFoundation_AVFAudio_AVAudioUnitEffect.m */; };
+		2929D158CE05EFC77E07B38F /* AVFoundation_AVDepthData.m in Sources */ = {isa = PBXBuildFile; fileRef = C8492BE0C522D5ABAC204704 /* AVFoundation_AVDepthData.m */; };
+		295279F6B9F806FF0A757594 /* CallbackSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 00332D41D163AA58D64A5AD6 /* CallbackSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A7082AFA0E00A7D2B3B0AB6 /* AVFoundation_AVFAudio_AVAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = B735DF6EBCF95FCA6AB7827E /* AVFoundation_AVFAudio_AVAudioUnit.m */; };
+		3031A26EDA2DC936912A59D4 /* AVFoundation_AVAssetWriterInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7020E5B556D3A7F06B21B1 /* AVFoundation_AVAssetWriterInput.m */; };
+		319DDE2728D2FB11929BF73E /* AVFoundation_AVFAudio_AVMIDIPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A45A45A7A454667D001CE /* AVFoundation_AVFAudio_AVMIDIPlayer.m */; };
+		326BAB4D679FBFCAECF7BC0C /* AVFoundation_AVPlayerItemOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BFCEF3358057D34012DD7B /* AVFoundation_AVPlayerItemOutput.m */; };
+		3404412CE7349AB3BDC7E5E2 /* AVFoundation_AVFAudio_AVAudioTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9314CA3AB917562C7F37172F /* AVFoundation_AVFAudio_AVAudioTypes.m */; };
+		36760806A01C2E91494012CD /* AVFoundation_AVSampleBufferAudioRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFD6D3F298C15D8E70ECF8B /* AVFoundation_AVSampleBufferAudioRenderer.m */; };
+		43BEAE2EE12398278FEEEA5D /* AVFoundation_AVRouteDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC93C5E6F531543AE075481 /* AVFoundation_AVRouteDetector.m */; };
+		43D6126C0D5F8E37311A09F0 /* AVFoundation_AVFAudio_AVAudioUnitTimeEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BC45679ED3C419B79D2CE7 /* AVFoundation_AVFAudio_AVAudioUnitTimeEffect.m */; };
+		444B166EA52DC2534088080B /* AVFoundation_AVPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B89D092DAFFF6171ADD782EA /* AVFoundation_AVPlayerItem.m */; };
+		453E4F3AABB1DC21BB425EA3 /* AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB1D1714D2A1E580467CE33 /* AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.m */; };
+		46392A81630A320F41221133 /* PointerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4975203A9D193655CA624534 /* AVFoundation_AVFAudio_AVAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559BEC115DC1BCC3FAB7A56 /* AVFoundation_AVFAudio_AVAudioConverter.m */; };
+		4A6F5F8231F20DA340258C51 /* CallbackSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = ED195B0E26581E4056DC1120 /* CallbackSupport.m */; };
+		4ABF064C2A811C9F57738D0F /* AVFoundation_AVCompositionTrackSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE0780901464B20C46CA251 /* AVFoundation_AVCompositionTrackSegment.m */; };
+		4B38224E271AD7DB494046C2 /* AVFoundation_AVAssetResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10ECF0635FEF56B021495F /* AVFoundation_AVAssetResourceLoader.m */; };
+		4CFE466BC07F035B8FC8EEFE /* AVFoundation_AVFAudio_AVAudioPlayerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0126837386253F9454E7193C /* AVFoundation_AVFAudio_AVAudioPlayerNode.m */; };
+		4D4002E5318536C90C5A20CC /* AVFoundation_AVFAudio_AVSpeechSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85263EE46B99B63120BC5F /* AVFoundation_AVFAudio_AVSpeechSynthesis.m */; };
+		4FDFD09D36554284944FEC69 /* AVFoundation_AVAssetWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB84A3B58BB0C00AC17609 /* AVFoundation_AVAssetWriter.m */; };
+		5A4AF9D70486E783A6F7221A /* AVFoundation_AVTextStyleRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DF84BC9717552116DE561A /* AVFoundation_AVTextStyleRule.m */; };
+		5B429A62B71AA0EF47E1A31D /* AVFoundation_AVFAudio_AVAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D19001179D7F730F39960 /* AVFoundation_AVFAudio_AVAudioFile.m */; };
+		5C0279EB843CBA4A66725720 /* AVFoundation_AVCaptureStillImageOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4351E2DFD8D25570FF11B8 /* AVFoundation_AVCaptureStillImageOutput.m */; };
+		5D012FCCC08F9CEC84A3FE78 /* AVFoundation_AVFAudio_AVAudioEnvironmentNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BA075E763430202C04209506 /* AVFoundation_AVFAudio_AVAudioEnvironmentNode.m */; };
+		5D6E8EE33C6E2F2AEB3F89D7 /* AVFoundation_AVVideoComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F1C60E2C66F1D8728C5A0 /* AVFoundation_AVVideoComposition.m */; };
+		5DC815AABB8C0EF154AC1559 /* AVFoundation_AVFAudio_AVAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F065D7BB1BDA093F839CD4C0 /* AVFoundation_AVFAudio_AVAudioEngine.m */; };
+		60CED164C05066438F0C9074 /* NFIAVFoundationLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F3EEEEFAAF477C65E73D6D94 /* NFIAVFoundationLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		615A3765DFE25562DEAE1CBB /* AVFoundation_AVFAudio_AVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1268F0DB17A6E34F32D5B39F /* AVFoundation_AVFAudio_AVAudioPlayer.m */; };
+		61E6B7FC4DBC9D46DDA99EBF /* AVFoundation_AVFAudio_AVAudioIONode.m in Sources */ = {isa = PBXBuildFile; fileRef = C945EA458B36127E7D0EC68A /* AVFoundation_AVFAudio_AVAudioIONode.m */; };
+		6682FEBDE5117ECBE7BCAA8D /* AVFoundation_AVComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F9283450B554F4EC9D39D0 /* AVFoundation_AVComposition.m */; };
+		6A28490EAFC46B8FAF84ECE4 /* AVFoundation_AVCaptureSessionPreset.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B230E920C39C36CAC07AD41 /* AVFoundation_AVCaptureSessionPreset.m */; };
+		6AB47AFB9DF5DC3B608806F9 /* AVFoundation_AVCaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEA0FBCB22CC1C483001BBE /* AVFoundation_AVCaptureSession.m */; };
+		70BE3E2DF9BF4847A712C91E /* AVFoundation_AVFAudio_AVAudioBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A224A0270F088E98EFC19A /* AVFoundation_AVFAudio_AVAudioBuffer.m */; };
+		71A6F0A574598D32BA9AB9B1 /* AVFoundation_AVFAudio_AVAudioUnitDistortion.m in Sources */ = {isa = PBXBuildFile; fileRef = 299A09E8ED8633232EE49C94 /* AVFoundation_AVFAudio_AVAudioUnitDistortion.m */; };
+		722532654805614FC8458EFD /* AVFoundation_AVCaptureSystemPressure.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D763B2B77E04057CC1843 /* AVFoundation_AVCaptureSystemPressure.m */; };
+		7410E54864E4B64C1718F219 /* AVFoundation_AVQueuedSampleBufferRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 6008D76B35D9FBA00E029E61 /* AVFoundation_AVQueuedSampleBufferRendering.m */; };
+		762EDACE6DFCEF3B57F05990 /* NFIUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCEF422C6EF086D09899952 /* NFIUtility.framework */; };
+		76CBCD0465AD5AB7D894966C /* AVFoundation_AVSampleBufferRenderSynchronizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DCBCD58171B9ED83C8AAE8 /* AVFoundation_AVSampleBufferRenderSynchronizer.m */; };
+		77A84B8E9869AE69428E946C /* AVFoundation_AVAssetCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 79108CC3D1BF679531428B2B /* AVFoundation_AVAssetCache.m */; };
+		7B21B469E55849FD4EE35641 /* AVFoundation_AVSynchronizedLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D4A9CB1F0DD48F5D729A26 /* AVFoundation_AVSynchronizedLayer.m */; };
+		7D0069850F30D699C8F394E8 /* AVFoundation_AVAssetTrackGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FE18EF4B25ACAFFBB6C246 /* AVFoundation_AVAssetTrackGroup.m */; };
+		80DBF132D431050F07200484 /* AVFoundation_AVAudioMix.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C66F5F864AFE186D7CB14B /* AVFoundation_AVAudioMix.m */; };
+		829180B18B0AF262F9AC187C /* AVFoundation_AVCaptureVideoDataOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA881AB1B97E63C2149749F /* AVFoundation_AVCaptureVideoDataOutput.m */; };
+		8356FE08AA6AF87E1A7C1C4A /* AVFoundation_AVFAudio_AVAudioTime.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF1434D378BC1F186EE5191 /* AVFoundation_AVFAudio_AVAudioTime.m */; };
+		835774429ACAE915DB1F0C9F /* AVFoundation_AVFAudio_AVAudioMixerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7D401759468A54D05341A /* AVFoundation_AVFAudio_AVAudioMixerNode.m */; };
+		853EFB1CDEA55FB520BA048D /* AVFoundation_AVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B49FA37925CAF84D44360F48 /* AVFoundation_AVAssetExportSession.m */; };
+		87BB5B0C9ECD9E78682D5793 /* AVFoundation_AVAssetTrackSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = F654DD2992E63F9FE944DA86 /* AVFoundation_AVAssetTrackSegment.m */; };
+		8B52445D4CB23623387F3EDE /* AVFoundation_AVFAudio_AVAudioChannelLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F7548848E84BB7FD8DF6C /* AVFoundation_AVFAudio_AVAudioChannelLayout.m */; };
+		8F22C8649841B465FF0C407C /* AVFoundation_AVContentKeySession.m in Sources */ = {isa = PBXBuildFile; fileRef = A613B7C71F669822C5DE855D /* AVFoundation_AVContentKeySession.m */; };
+		94039427D4EEF80EE27F252C /* AVFoundation_AVFAudio_AVAudioUnitReverb.m in Sources */ = {isa = PBXBuildFile; fileRef = 47201284F49569D2A983D4B0 /* AVFoundation_AVFAudio_AVAudioUnitReverb.m */; };
+		94EBE267C36752CD0CF26E42 /* AVFoundation_AVTimedMetadataGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FE9CA75AA6083487B4CCD7 /* AVFoundation_AVTimedMetadataGroup.m */; };
+		979A3E1122D48D5A8E1EC081 /* AVFoundation_AVOutputSettingsAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 405D9C7A520FBC554B4342BE /* AVFoundation_AVOutputSettingsAssistant.m */; };
+		99E671D14ED5C79257926C13 /* AVFoundation_AVPlayerMediaSelectionCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 781FC12479D3E9F8E06E95A6 /* AVFoundation_AVPlayerMediaSelectionCriteria.m */; };
+		9ABD6599A1F8AE2FBAE688B5 /* AVFoundation_AVCaptureFileOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE394589E1B60DDDE7A654 /* AVFoundation_AVCaptureFileOutput.m */; };
+		9B19FD4F19F60E0F6CE415B7 /* AVFoundation_AVFAudio_AVAudioUnitGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 505973F664A21C406A4756C9 /* AVFoundation_AVFAudio_AVAudioUnitGenerator.m */; };
+		9B92FAD68E942688DDEA42A7 /* AVFoundation_AVAsynchronousKeyValueLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CDAA19576B86DAF1DDB4D0 /* AVFoundation_AVAsynchronousKeyValueLoading.m */; };
+		9CC7012902BA838355780E29 /* AVFoundation_AVCapturePhotoOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F5F317D737F328A9FD459 /* AVFoundation_AVCapturePhotoOutput.m */; };
+		9D5D914221630AB38857862D /* AVFoundation_AVFAudio_AVAudioFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E55E5E7C754703D0EC6411 /* AVFoundation_AVFAudio_AVAudioFormat.m */; };
+		9DA721001D862BFE134D7F23 /* NFIAVFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F31CE7233FB9C89792B66F6 /* NFIAVFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DCC03996211596A5C7C834D /* AVFoundation_AVAssetTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 242F7178096E4DA72DD7B5AA /* AVFoundation_AVAssetTrack.m */; };
+		9FE8B22B541319AB48390475 /* AVFoundation_AVFAudio_AVAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B32D9564A8E6BCCE1B3BFDAA /* AVFoundation_AVFAudio_AVAudioSession.m */; };
+		A305D3041304E6C430C18665 /* NFIAVFoundationLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F58DC1580B1294575A716F4A /* NFIAVFoundationLoader.m */; };
+		A3F864E837D99A3B24AAA79B /* AVFoundation_AVCompositionTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 932886044FD30F87CA1A5944 /* AVFoundation_AVCompositionTrack.m */; };
+		A4F503D31331429A80776F94 /* AVFoundation_AVCaptureVideoPreviewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E5CDE6905E5E4B55C7A16B /* AVFoundation_AVCaptureVideoPreviewLayer.m */; };
+		AD2035AD571079D1A1FDFD75 /* AVFoundation_AVVideoCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = D01DB8964F5D96B4CCD03380 /* AVFoundation_AVVideoCompositing.m */; };
+		B0AADB0EF316530135569631 /* AVFoundation_AVFAudio_AVAudioSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B77513FEF85657ECB56C3 /* AVFoundation_AVFAudio_AVAudioSettings.m */; };
+		B285B964677FD9AD7FB83792 /* AVFoundation_AVFAudio_AVAudioMixing.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F16AB388C38EFFE6585F3A /* AVFoundation_AVFAudio_AVAudioMixing.m */; };
+		B3D2E93550E2342CB95B0270 /* AVFoundation_AVMediaSelectionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DF1E6CAA181F772ED60880 /* AVFoundation_AVMediaSelectionGroup.m */; };
+		B705F1203C530E940BF72CF8 /* AVFoundation_AVCaptureDepthDataOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 389DCC5E79249DBAF2D6ADFC /* AVFoundation_AVCaptureDepthDataOutput.m */; };
+		B7BBDF4E7955E7F3125C9F20 /* NFIUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9842BE6505547806A3F5C6 /* NFIUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B953CBA3228B980A2B091275 /* AVFoundation_AVMetadataIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 613FDA1FEB11AA6F57A96BAE /* AVFoundation_AVMetadataIdentifiers.m */; };
+		BA3AB8561FCC19A30B55799D /* AVFoundation_AVFAudio_AVAudioConnectionPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD7B1A3141E5CC5609A4FA /* AVFoundation_AVFAudio_AVAudioConnectionPoint.m */; };
+		BC90C92E681A8337517D3F73 /* AVFoundation_AVFAudio_AVAudioUnitDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FB5B12196493FB97B0A1D7 /* AVFoundation_AVFAudio_AVAudioUnitDelay.m */; };
+		C7709BD623567910EA861564 /* AVFoundation_AVFAudio_AVAudioNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F66A8AED5101C2742B4BB651 /* AVFoundation_AVFAudio_AVAudioNode.m */; };
+		CD0A5091988DA48D34333CEE /* AVFoundation_AVVideoSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A592FA3DE167832408F69D /* AVFoundation_AVVideoSettings.m */; };
+		CF892A960D2CC15E96BEF7B7 /* AVFoundation_AVPlayerItemTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D28575E05901C6001D962C /* AVFoundation_AVPlayerItemTrack.m */; };
+		D325C869F97614D86357AA1E /* AVFoundation_AVMediaFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220A001F85DD374778D1DFB /* AVFoundation_AVMediaFormat.m */; };
+		D441620B0DB81BF71020B148 /* AVFoundation_AVAssetReaderOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 5923CB3EEBE365956E3FECC2 /* AVFoundation_AVAssetReaderOutput.m */; };
+		D67DE6CCCE4891A17CE7EDB8 /* AVFoundation_AVMetadataFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 131022F3FE5CBD96849D7937 /* AVFoundation_AVMetadataFormat.m */; };
+		D99AA7B4FB2E426A669D5DFC /* AVFoundation_AVCaptureMetadataOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A5207879D2F74E202484CCB6 /* AVFoundation_AVCaptureMetadataOutput.m */; };
+		E3EA829B4EF329EAD1054798 /* AVFoundation_AVFAudio_AVAudioUnitVarispeed.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE335B54ED9ECE7E3ADF2C /* AVFoundation_AVFAudio_AVAudioUnitVarispeed.m */; };
+		E5BE3AB6E71F8D1DD609E91F /* AVFoundation_AVPlayerItemMediaDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = E88839A41A3D555E1C07F849 /* AVFoundation_AVPlayerItemMediaDataCollector.m */; };
+		E5DDEB9DEDB8D0E9A56C278C /* AVFoundation_AVSampleBufferDisplayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3402D6DBF949ACC08248B0D9 /* AVFoundation_AVSampleBufferDisplayLayer.m */; };
+		E640EFA1791C7A677E4D9DDB /* AVFoundation_AVFAudio_AVAudioSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ED1A761C36BA93B7F7FD3 /* AVFoundation_AVFAudio_AVAudioSequencer.m */; };
+		E81FFD22E6F9BEA296B54E43 /* AVFoundation_AVAssetDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C57AB9AFD9D870503BAADFD /* AVFoundation_AVAssetDownloadTask.m */; };
+		E9AD20D2798F737B9772DD43 /* AVFoundation_AVError.m in Sources */ = {isa = PBXBuildFile; fileRef = 29289FC376E6CD4BB2AA170F /* AVFoundation_AVError.m */; };
+		EC3657229A56B7947B73FB63 /* AVFoundation_AVAudioProcessingSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F177092E0B1C3CF425E873D /* AVFoundation_AVAudioProcessingSettings.m */; };
+		ED398E936BEA4AA01B486DAB /* AVFoundation_AVFAudio_AVAudioUnitSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = B4727978087D289A12755371 /* AVFoundation_AVFAudio_AVAudioUnitSampler.m */; };
+		EDCA7EF0EA1EEA478EB404D5 /* AVFoundation_AVAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = C98AE85107FC673524D6074F /* AVFoundation_AVAsset.m */; };
+		F39703D788273146089AB9A0 /* AVFoundation_AVCameraCalibrationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D305CF0E673F137F26583A /* AVFoundation_AVCameraCalibrationData.m */; };
+		F7B25651FF06A91DD7E4CC16 /* AVFoundation_AVCaptureDataOutputSynchronizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DEEAAD7A364051577D6552 /* AVFoundation_AVCaptureDataOutputSynchronizer.m */; };
+		F8144F7123DA4C5A1C8B8427 /* AVFoundation_AVFAudio_AVAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 519C9985E2755092F76BDE6A /* AVFoundation_AVFAudio_AVAudioRecorder.m */; };
+		F8463830889491AEBE86FD46 /* AVFoundation_AVPlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5561DD1A690627A74A7423 /* AVFoundation_AVPlayerLayer.m */; };
+		FA7E4799475E18BEFAF841C6 /* AVFoundation_AVAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0F1D8E4484E72E5A30908 /* AVFoundation_AVAnimation.m */; };
+		FAA2396728CD479FFE61D646 /* AVFoundation_AVTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9DA93A2B05CC54FA7F2E15 /* AVFoundation_AVTime.m */; };
+		FC4E65B65CC53B49B53377C4 /* AVFoundation_AVMediaSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 205C78E93B59499C290D23DE /* AVFoundation_AVMediaSelection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B355DBCEE7636CA9030C73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70FF1473D4E9007A1A3D8E6B;
+			remoteInfo = NFIAVFoundation;
+		};
+		9517C95CDC073A97B506E0E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE806A700A0157FA9952D415;
+			remoteInfo = NFIUtility;
+		};
+		D9161CC3C08E5FFA5D4E9E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BCA38932B16ACDBB00B655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE806A700A0157FA9952D415;
+			remoteInfo = NFIUtility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00332D41D163AA58D64A5AD6 /* CallbackSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackSupport.h; sourceTree = "<group>"; };
+		0053A2CEDF5A5A34B9C98B1F /* Foundation_NSDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateFormatter.h; sourceTree = "<group>"; };
+		00E37D79E078EE8DECD88508 /* CoreFoundation_CFNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNotificationCenter.h; sourceTree = "<group>"; };
+		0126837386253F9454E7193C /* AVFoundation_AVFAudio_AVAudioPlayerNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioPlayerNode.m; sourceTree = "<group>"; };
+		018928E69F1F66CD9D7AE0D3 /* QuartzCore_CATiledLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATiledLayer.h; sourceTree = "<group>"; };
+		01DB0BCEF81D79D65A5E00B5 /* CoreGraphics_CGGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGGeometry.h; sourceTree = "<group>"; };
+		02069934E50C9DD6BF44C303 /* Security_SecBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecBase.h; sourceTree = "<group>"; };
+		024AEBCBA4BEECA071700022 /* Foundation_NSData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSData.h; sourceTree = "<group>"; };
+		028EA92E440A15EF664A8A41 /* QuartzCore_CAReplicatorLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAReplicatorLayer.h; sourceTree = "<group>"; };
+		032EE15828515D65C6A42D31 /* AVFoundation_AVSampleBufferAudioRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVSampleBufferAudioRenderer.h; sourceTree = "<group>"; };
+		03EDCF502EADEEA2758216B1 /* CoreMedia_CMSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMSync.h; sourceTree = "<group>"; };
+		04535C907C53B2CD70E15564 /* Security_SecRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecRandom.h; sourceTree = "<group>"; };
+		0495D8442416DB93BD4F292B /* AVFoundation_AVCaptureSystemPressure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureSystemPressure.h; sourceTree = "<group>"; };
+		04D305CF0E673F137F26583A /* AVFoundation_AVCameraCalibrationData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCameraCalibrationData.m; sourceTree = "<group>"; };
+		04E112E8996CE012D7846D3F /* AudioToolbox_AUAudioUnitImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUAudioUnitImplementation.h; sourceTree = "<group>"; };
+		05B608F190B63D57B8FEB77A /* CoreFoundation_CFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFArray.h; sourceTree = "<group>"; };
+		06087E9E763D480BA0E1F607 /* AVFoundation_AVMetadataFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMetadataFormat.h; sourceTree = "<group>"; };
+		060C678800EEACCD4196C9D0 /* classes */ = {isa = PBXFileReference; lastKnownFileType = text; path = classes; sourceTree = "<group>"; };
+		062A49728FB1E8959F7E2F92 /* Metal_MTLDrawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Metal_MTLDrawable.h; sourceTree = "<group>"; };
+		07085AB5E11118DC26299B47 /* AudioToolbox_AudioFileStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFileStream.h; sourceTree = "<group>"; };
+		07B31B9CBC360996B11FCAD0 /* AVFoundation_AVUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVUtilities.m; sourceTree = "<group>"; };
+		07D71331DAAEB03749652C70 /* AVFoundation_AVCameraCalibrationData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCameraCalibrationData.h; sourceTree = "<group>"; };
+		080084017BC172C052721C0D /* Foundation_NSUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUserDefaults.h; sourceTree = "<group>"; };
+		08BADA221A49FACDFA7EB694 /* AVFoundation_AVFAudio_AVAudioUnitTimeEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitTimeEffect.h; sourceTree = "<group>"; };
+		0A6C4B300FF3BD291ADF3A6C /* QuartzCore_CATransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATransaction.h; sourceTree = "<group>"; };
+		0A6F7548848E84BB7FD8DF6C /* AVFoundation_AVFAudio_AVAudioChannelLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioChannelLayout.m; sourceTree = "<group>"; };
+		0AE55A9538A8991893EA86ED /* CoreGraphics_CGPDFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFObject.h; sourceTree = "<group>"; };
+		0B230E920C39C36CAC07AD41 /* AVFoundation_AVCaptureSessionPreset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureSessionPreset.m; sourceTree = "<group>"; };
+		0BFB81ABF1B1A2EFF94615AB /* Foundation_NSURLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLRequest.h; sourceTree = "<group>"; };
+		0C96A254B2995BE0D809D543 /* Foundation_NSPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPropertyList.h; sourceTree = "<group>"; };
+		0D1D5E6DAA28085DE4F6DAF0 /* Foundation_NSInvocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSInvocation.h; sourceTree = "<group>"; };
+		0D2425EB0F32FE6FEF4D74FF /* CFNetwork_CFNetDiagnostics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetDiagnostics.h; sourceTree = "<group>"; };
+		0D79951F484658B0C7AA0B87 /* AVFoundation_AVFAudio_AVAudioEnvironmentNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioEnvironmentNode.h; sourceTree = "<group>"; };
+		0E67CE2D2B3CD8D24B32CEE1 /* CoreGraphics_CGColorSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGColorSpace.h; sourceTree = "<group>"; };
+		0E9842BE6505547806A3F5C6 /* NFIUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIUtility.h; sourceTree = "<group>"; };
+		0E9E4D97EDB89ED4F8E76FDE /* CoreVideo_CVBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVBuffer.h; sourceTree = "<group>"; };
+		0EE5C529A3CF02CFC4187BD5 /* AudioToolbox_AUAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUAudioUnit.h; sourceTree = "<group>"; };
+		0F177092E0B1C3CF425E873D /* AVFoundation_AVAudioProcessingSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAudioProcessingSettings.m; sourceTree = "<group>"; };
+		0F31360F6E6DA7190128E469 /* CoreMedia_CMAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMAttachment.h; sourceTree = "<group>"; };
+		1039037C81E840CB0358E9A1 /* AVFoundation_AVCompositionTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCompositionTrack.h; sourceTree = "<group>"; };
+		122DF71E6C48336F277BACDF /* Foundation_NSRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRange.h; sourceTree = "<group>"; };
+		1268F0DB17A6E34F32D5B39F /* AVFoundation_AVFAudio_AVAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioPlayer.m; sourceTree = "<group>"; };
+		12CE12BD5CA6948751CD5CC4 /* AVFoundation_AVTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVTime.h; sourceTree = "<group>"; };
+		131022F3FE5CBD96849D7937 /* AVFoundation_AVMetadataFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVMetadataFormat.m; sourceTree = "<group>"; };
+		14D4A9CB1F0DD48F5D729A26 /* AVFoundation_AVSynchronizedLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVSynchronizedLayer.m; sourceTree = "<group>"; };
+		157928FB67AD45C489348A1F /* CoreVideo_CVImageBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVImageBuffer.h; sourceTree = "<group>"; };
+		15909577940AC27792DB3756 /* AVFoundation_AVMediaSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMediaSelection.h; sourceTree = "<group>"; };
+		1696CFB9AB5DDDB9FF38EF3C /* Foundation_NSIndexPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSIndexPath.h; sourceTree = "<group>"; };
+		18279CD43522CDE719CABEE8 /* Foundation_NSNetServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNetServices.h; sourceTree = "<group>"; };
+		1879105F0D7E2E14E35C832C /* Foundation_NSComparisonPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSComparisonPredicate.h; sourceTree = "<group>"; };
+		189E05521A127C57C67F4B91 /* Foundation_NSOrthography.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrthography.h; sourceTree = "<group>"; };
+		18EA8264E0059D3C63C5C732 /* allheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		19981C6B7960ED5A562C068D /* QuartzCore_CATransformLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATransformLayer.h; sourceTree = "<group>"; };
+		1A26476372B4BC9C8DE1D595 /* AVFoundation_AVCaptureStillImageOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureStillImageOutput.h; sourceTree = "<group>"; };
+		1A5561DD1A690627A74A7423 /* AVFoundation_AVPlayerLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVPlayerLayer.m; sourceTree = "<group>"; };
+		1AF89C66E46B6E0573887F6A /* CFNetwork_CFNetworkErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetworkErrors.h; sourceTree = "<group>"; };
+		1B300D7FCBC70EB38D03E422 /* CoreFoundation_CFUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUtilities.h; sourceTree = "<group>"; };
+		1B33175C2EF417B10C39255E /* AVFoundation_AVFAudio_AVAudioUnitEQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitEQ.m; sourceTree = "<group>"; };
+		1C57AB9AFD9D870503BAADFD /* AVFoundation_AVAssetDownloadTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetDownloadTask.m; sourceTree = "<group>"; };
+		1C83245D36EF4921470A12D6 /* AVFoundation_AVAssetTrackSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetTrackSegment.h; sourceTree = "<group>"; };
+		1CCEF422C6EF086D09899952 /* NFIUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D561D99225A1C8F5CDC8EB9 /* CoreFoundation_CFMessagePort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMessagePort.h; sourceTree = "<group>"; };
+		1D7ED1A761C36BA93B7F7FD3 /* AVFoundation_AVFAudio_AVAudioSequencer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioSequencer.m; sourceTree = "<group>"; };
+		1D8339A6A451C6A74CFCD5BB /* CoreGraphics_CGContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGContext.h; sourceTree = "<group>"; };
+		1D9034AA7FF4F7430CA096A6 /* OpenGLES_EAGLDrawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLES_EAGLDrawable.h; sourceTree = "<group>"; };
+		1F60E9742580FFD023211545 /* AVFoundation_AVFAudio_AVAudioSequencer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioSequencer.h; sourceTree = "<group>"; };
+		205C78E93B59499C290D23DE /* AVFoundation_AVMediaSelection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVMediaSelection.m; sourceTree = "<group>"; };
+		20943D5BCAE9FA56B2DBDD93 /* Foundation_NSXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSXMLParser.h; sourceTree = "<group>"; };
+		20C09200077548E2306A35DD /* AudioToolbox_AUComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUComponent.h; sourceTree = "<group>"; };
+		213E2A80FAFD8C76FBCD913A /* CoreGraphics_CGAffineTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGAffineTransform.h; sourceTree = "<group>"; };
+		21F64B194DA9B11513A9CED4 /* Foundation_NSFileVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileVersion.h; sourceTree = "<group>"; };
+		22C98666E63FCA23043E45C6 /* Metal_MTLPixelFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Metal_MTLPixelFormat.h; sourceTree = "<group>"; };
+		231BD55C39851E563E548709 /* Foundation_NSException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSException.h; sourceTree = "<group>"; };
+		2392414269BEC9C50D64EAB1 /* Security_SecSharedCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecSharedCredential.h; sourceTree = "<group>"; };
+		23A4BE4092000B2CEE0B1CAF /* AVFoundation_AVFAudio_AVAudioConverter_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVFAudio_AVAudioConverter_sa; sourceTree = "<group>"; };
+		23B5817ACD6C2849DAF5F1B3 /* AVFoundation_AVMetadataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVMetadataItem.m; sourceTree = "<group>"; };
+		23DBFC7578EF7E60C0E7E196 /* Foundation_NSUbiquitousKeyValueStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUbiquitousKeyValueStore.h; sourceTree = "<group>"; };
+		23DC71510C77336D01989A82 /* Foundation_NSPointerArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPointerArray.h; sourceTree = "<group>"; };
+		23E0F1D8E4484E72E5A30908 /* AVFoundation_AVAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAnimation.m; sourceTree = "<group>"; };
+		242F7178096E4DA72DD7B5AA /* AVFoundation_AVAssetTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetTrack.m; sourceTree = "<group>"; };
+		245062468E09CF9FCC048CF2 /* Foundation_NSNotificationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNotificationQueue.h; sourceTree = "<group>"; };
+		24C891B20B3711F18B64D364 /* Foundation_NSNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNumberFormatter.h; sourceTree = "<group>"; };
+		2504F3A805FE284ED1307824 /* CoreFoundation_CFLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFLocale.h; sourceTree = "<group>"; };
+		2516EEE9B952ECDBEF81326A /* Foundation_NSDateComponentsFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateComponentsFormatter.h; sourceTree = "<group>"; };
+		2569BCD9DE44D35BA77422F3 /* QuartzCore_CADisplayLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CADisplayLink.h; sourceTree = "<group>"; };
+		26998358BD8B06685E6D62B9 /* CFNetwork_CFHTTPMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPMessage.h; sourceTree = "<group>"; };
+		274E635E36F9357EB5603337 /* CoreFoundation_CFStringTokenizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringTokenizer.h; sourceTree = "<group>"; };
+		2804E11AABFC4881113348DB /* Security_SecCertificate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecCertificate.h; sourceTree = "<group>"; };
+		28D991266067CE3CC114F441 /* Foundation_NSRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRunLoop.h; sourceTree = "<group>"; };
+		28EA2C3CC761EDCA319BB5CE /* Security_SecureTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecureTransport.h; sourceTree = "<group>"; };
+		291C9F9462C7B1766311926E /* CoreGraphics_CGLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGLayer.h; sourceTree = "<group>"; };
+		29289FC376E6CD4BB2AA170F /* AVFoundation_AVError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVError.m; sourceTree = "<group>"; };
+		299A09E8ED8633232EE49C94 /* AVFoundation_AVFAudio_AVAudioUnitDistortion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitDistortion.m; sourceTree = "<group>"; };
+		29B216C4D206FF39EA8F6A5B /* AVFoundation_AVFAudio_AVAudioUnitSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitSampler.h; sourceTree = "<group>"; };
+		29CE691A35B4FABD844C48D1 /* AudioToolbox_AudioFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFormat.h; sourceTree = "<group>"; };
+		2B0399BD9A9076663FB8D3E4 /* AudioToolbox_AudioServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioServices.h; sourceTree = "<group>"; };
+		2C01B767563213BA729F2CCA /* AVFoundation_AVFAudio_AVAudioConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioConverter.h; sourceTree = "<group>"; };
+		2C4A1F13BCCB81484A11E546 /* Foundation_NSStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSStream.h; sourceTree = "<group>"; };
+		2CD444A154254DB4E2230560 /* Security_SecTrust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecTrust.h; sourceTree = "<group>"; };
+		2D03064CE6800015EDF818EF /* Foundation_NSXPCConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSXPCConnection.h; sourceTree = "<group>"; };
+		2E20C577110DE065FCC838D0 /* AVFoundation_AVVideoCompositing_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVVideoCompositing_sa; sourceTree = "<group>"; };
+		306B8D86E2CB4D124AFAF334 /* CFNetwork_CFNetServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetServices.h; sourceTree = "<group>"; };
+		31C46ED9FD88C20E73F992CB /* CoreGraphics_CGPDFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFStream.h; sourceTree = "<group>"; };
+		3220A001F85DD374778D1DFB /* AVFoundation_AVMediaFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVMediaFormat.m; sourceTree = "<group>"; };
+		32A05A3FF6C78166EEAA733E /* CoreGraphics_CGDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGDataProvider.h; sourceTree = "<group>"; };
+		32D55436712645F3D4E905DD /* Foundation_NSRegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRegularExpression.h; sourceTree = "<group>"; };
+		32E70DE2C5EE26F212CEDD14 /* allincludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allincludes.h; sourceTree = "<group>"; };
+		32F31680F5D2A7C40CD37D45 /* AudioToolbox_AudioConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioConverter.h; sourceTree = "<group>"; };
+		335AA2EB68A5192A03E6F30E /* AVFoundation_AVCaptureVideoDataOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureVideoDataOutput.h; sourceTree = "<group>"; };
+		33F6B14E7526A49811D6F42D /* CoreFoundation_CFData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFData.h; sourceTree = "<group>"; };
+		3402D6DBF949ACC08248B0D9 /* AVFoundation_AVSampleBufferDisplayLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVSampleBufferDisplayLayer.m; sourceTree = "<group>"; };
+		35C4B1A36D9D8125EB8215AB /* AVFoundation_AVCaptureVideoPreviewLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureVideoPreviewLayer.h; sourceTree = "<group>"; };
+		36432D5B03D8349CB065C4D9 /* Foundation_NSURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLProtocol.h; sourceTree = "<group>"; };
+		3670294FE06AC4EB54A513CD /* AVFoundation_AVCaptureDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureDevice.m; sourceTree = "<group>"; };
+		380729E0001A110EA4FC9788 /* NFIAVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIAVFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		389DCC5E79249DBAF2D6ADFC /* AVFoundation_AVCaptureDepthDataOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureDepthDataOutput.m; sourceTree = "<group>"; };
+		38B16A84ED5DEB65E22B5989 /* CoreFoundation_CFPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPropertyList.h; sourceTree = "<group>"; };
+		38C7E62AF8D74A02399C8F89 /* QuartzCore_CABase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CABase.h; sourceTree = "<group>"; };
+		38EDB569FDA14CABC32B0BBA /* AVFoundation_AVFAudio_AVAudioSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioSettings.h; sourceTree = "<group>"; };
+		39898778F65626CCF682192B /* AVFoundation_AVMetadataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMetadataItem.h; sourceTree = "<group>"; };
+		3A6D715CC0B8708C1A53ABD5 /* CoreVideo_CVPixelBufferIOSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelBufferIOSurface.h; sourceTree = "<group>"; };
+		3AADEEC6083FB8A37FA4A2C6 /* AVFoundation_AVTextStyleRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVTextStyleRule.h; sourceTree = "<group>"; };
+		3B6F26A6FF97B5C914D0CA60 /* AVFoundation_AVAssetReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetReader.m; sourceTree = "<group>"; };
+		3BEAB6EE5F42AAE1ADEBDE8F /* CoreVideo_CVPixelBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelBuffer.h; sourceTree = "<group>"; };
+		3C224BD36B2C12D96FFB05EA /* AVFoundation_AVFAudio_AVSpeechSynthesis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVSpeechSynthesis.h; sourceTree = "<group>"; };
+		3DFAAFED2F3472EBF3A3931C /* CoreFoundation_CFCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCalendar.h; sourceTree = "<group>"; };
+		3E2A45A45A7A454667D001CE /* AVFoundation_AVFAudio_AVMIDIPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVMIDIPlayer.m; sourceTree = "<group>"; };
+		3E6D4B44E7EF1034045775DB /* AVFoundation_AVFAudio_AVAudioUnitTimePitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitTimePitch.m; sourceTree = "<group>"; };
+		3F7D4185BAFC57F59BD5BF29 /* AVFoundation_AVFAudio_AVAudioSequencer_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVFAudio_AVAudioSequencer_sr; sourceTree = "<group>"; };
+		40482AEA87CA97052CF185F4 /* Foundation_NSKeyValueObserving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyValueObserving.h; sourceTree = "<group>"; };
+		40580F578793C49F582D1111 /* QuartzCore_CAValueFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAValueFunction.h; sourceTree = "<group>"; };
+		405D9C7A520FBC554B4342BE /* AVFoundation_AVOutputSettingsAssistant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVOutputSettingsAssistant.m; sourceTree = "<group>"; };
+		4063830C15FB0827EB811F80 /* Foundation_NSURLAuthenticationChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLAuthenticationChallenge.h; sourceTree = "<group>"; };
+		4102F197BFD5CCD91D689371 /* AVFoundation_AVFAudio_AVAudioUnitEQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitEQ.h; sourceTree = "<group>"; };
+		412C821E59AF58F141C573B9 /* Foundation_NSValueTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSValueTransformer.h; sourceTree = "<group>"; };
+		42789157AF18F2CD07EC4833 /* Foundation_NSFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFormatter.h; sourceTree = "<group>"; };
+		428F3BA4A240A3138C1A4F39 /* parts_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sr; sourceTree = "<group>"; };
+		42AB7B1FF57D8E3F388577C1 /* Foundation_NSURLCredentialStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCredentialStorage.h; sourceTree = "<group>"; };
+		439FDAFA5D4DC73F742C7DFA /* CoreGraphics_CGError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGError.h; sourceTree = "<group>"; };
+		4444465711E380539C5F7269 /* Foundation_NSLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLock.h; sourceTree = "<group>"; };
+		4559BEC115DC1BCC3FAB7A56 /* AVFoundation_AVFAudio_AVAudioConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioConverter.m; sourceTree = "<group>"; };
+		45645842A8D0F997B93DDF5F /* AVFoundation_AVCaptureFileOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureFileOutput.h; sourceTree = "<group>"; };
+		45D594E10192D36424A85D01 /* parts_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sa; sourceTree = "<group>"; };
+		465882DD0E2CFEDC8C936CDF /* AVFoundation_AVCaptureDataOutputSynchronizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureDataOutputSynchronizer.h; sourceTree = "<group>"; };
+		4693213E35D4566669D0D523 /* AVFoundation_AVCaptureSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureSession.h; sourceTree = "<group>"; };
+		46DF84BC9717552116DE561A /* AVFoundation_AVTextStyleRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVTextStyleRule.m; sourceTree = "<group>"; };
+		47201284F49569D2A983D4B0 /* AVFoundation_AVFAudio_AVAudioUnitReverb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitReverb.m; sourceTree = "<group>"; };
+		47DF78EFB236C9148B799788 /* Foundation_NSExtensionRequestHandling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionRequestHandling.h; sourceTree = "<group>"; };
+		48822CCF9AFC568545C8D78C /* CoreFoundation_CFTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTimeZone.h; sourceTree = "<group>"; };
+		4942B5DB4F13FDCB3BB4866B /* AudioToolbox_MusicDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_MusicDevice.h; sourceTree = "<group>"; };
+		49DCA39A4DDC7C7348492B73 /* Security_SecImportExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecImportExport.h; sourceTree = "<group>"; };
+		49DCBCD58171B9ED83C8AAE8 /* AVFoundation_AVSampleBufferRenderSynchronizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVSampleBufferRenderSynchronizer.m; sourceTree = "<group>"; };
+		49F1D8563C1D60055C70C2C9 /* CoreGraphics_CGPDFPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFPage.h; sourceTree = "<group>"; };
+		4A7020E5B556D3A7F06B21B1 /* AVFoundation_AVAssetWriterInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetWriterInput.m; sourceTree = "<group>"; };
+		4AFCEA0345F9F584D77DA2BB /* CoreVideo_CVOpenGLESTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVOpenGLESTexture.h; sourceTree = "<group>"; };
+		4B125FD66C0BE99E0006FB50 /* AVFoundation_AVFAudio_AVAudioChannelLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioChannelLayout.h; sourceTree = "<group>"; };
+		4B94C6CE09AA5A1982D2A19C /* AVFoundation_AVFAudio_AVAudioEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioEngine.h; sourceTree = "<group>"; };
+		4C9C75CC304FF828C9FDFCE9 /* AVFoundation_AVAssetImageGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetImageGenerator.m; sourceTree = "<group>"; };
+		4CA7D401759468A54D05341A /* AVFoundation_AVFAudio_AVAudioMixerNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioMixerNode.m; sourceTree = "<group>"; };
+		4D32413C51BD79E125DD8848 /* Security_SecItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecItem.h; sourceTree = "<group>"; };
+		4D4C214AD13987794144DD27 /* AVFoundation_AVAssetReaderOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetReaderOutput.h; sourceTree = "<group>"; };
+		4D510A36FAA2F18A3FB6BB43 /* CoreGraphics_CGPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPattern.h; sourceTree = "<group>"; };
+		4DAA36F19A55603278F662A5 /* AVFoundation_AVMetadataObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVMetadataObject.m; sourceTree = "<group>"; };
+		4DFD05188CADCF14F312A98D /* CoreGraphics_CGPDFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFDocument.h; sourceTree = "<group>"; };
+		4E64AF0C81A4C3DD7315E87B /* Foundation_NSUserActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUserActivity.h; sourceTree = "<group>"; };
+		4EC00E18F799B11E3F878132 /* AVFoundation_AVAssetReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetReader.h; sourceTree = "<group>"; };
+		4F6FF04D12F063EBB5B626AF /* QuartzCore_CAEAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAEAGLLayer.h; sourceTree = "<group>"; };
+		4F87014E8FFAC36BE7B56A65 /* Foundation_NSKeyValueCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyValueCoding.h; sourceTree = "<group>"; };
+		4FDE497B22FF68142979941F /* QuartzCore_CAMetalLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAMetalLayer.h; sourceTree = "<group>"; };
+		5007A35446096C40B95D25E4 /* QuartzCore_CAScrollLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAScrollLayer.h; sourceTree = "<group>"; };
+		500F8346085CD6BED801D029 /* AVFoundation_AVRouteDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVRouteDetector.h; sourceTree = "<group>"; };
+		505973F664A21C406A4756C9 /* AVFoundation_AVFAudio_AVAudioUnitGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitGenerator.m; sourceTree = "<group>"; };
+		508A0FD945B51582F5FA39D6 /* CFNetwork_CFFTPStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFFTPStream.h; sourceTree = "<group>"; };
+		511BA2FE6519AE7FB21D72DB /* QuartzCore_CAAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAAnimation.h; sourceTree = "<group>"; };
+		512B727FDFB5DE28137B8C47 /* AVFoundation_AVAssetResourceLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetResourceLoader.h; sourceTree = "<group>"; };
+		519C9985E2755092F76BDE6A /* AVFoundation_AVFAudio_AVAudioRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioRecorder.m; sourceTree = "<group>"; };
+		524B0D60DE156884355A613E /* AVFoundation_AVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayer.h; sourceTree = "<group>"; };
+		527BB80CF34C3133EB72ABA7 /* Foundation_NSDecimalNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDecimalNumber.h; sourceTree = "<group>"; };
+		53E93E9490706B98541E23EC /* Foundation_NSDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDate.h; sourceTree = "<group>"; };
+		5485E48C8A467CDFCF3DE20B /* Foundation_NSMassFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMassFormatter.h; sourceTree = "<group>"; };
+		54A8537DCD1D101096358D88 /* Security_SecIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecIdentity.h; sourceTree = "<group>"; };
+		5560B889CE1636D232796705 /* AVFoundation_AVAudioMix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAudioMix.h; sourceTree = "<group>"; };
+		567EDDC4A663B252ECC3F2BD /* AVFoundation_AVAsynchronousKeyValueLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAsynchronousKeyValueLoading.h; sourceTree = "<group>"; };
+		56EF7F40EE0ADB576649BB5C /* AVFoundation_AVPlayerLooper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerLooper.h; sourceTree = "<group>"; };
+		57DC2DEF979DDF3D6112F4D4 /* CoreFoundation_CFFileDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileDescriptor.h; sourceTree = "<group>"; };
+		580C191E67BDA58E3674B7EA /* CFNetwork_CFHost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHost.h; sourceTree = "<group>"; };
+		584E596381EB1A25BB1BBF91 /* AVFoundation_AVAssetDownloadStorageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetDownloadStorageManager.h; sourceTree = "<group>"; };
+		5923CB3EEBE365956E3FECC2 /* AVFoundation_AVAssetReaderOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetReaderOutput.m; sourceTree = "<group>"; };
+		592E3A30C947EA511A14EAF7 /* AVFoundation_AVFAudio_AVAudioTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioTime.h; sourceTree = "<group>"; };
+		594A4857603FB54ECB9CAE25 /* Foundation_NSAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSAttributedString.h; sourceTree = "<group>"; };
+		595490E573B1B1575EF9C0D5 /* AVFoundation_AVCaptureInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureInput.m; sourceTree = "<group>"; };
+		599B441686EFC48C8BF956AA /* CoreFoundation_CFCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCharacterSet.h; sourceTree = "<group>"; };
+		5AD76D723FA2EF3873F01996 /* AVFoundation_AVPlayerItemTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerItemTrack.h; sourceTree = "<group>"; };
+		5AFD6D3F298C15D8E70ECF8B /* AVFoundation_AVSampleBufferAudioRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVSampleBufferAudioRenderer.m; sourceTree = "<group>"; };
+		5B1A4C4927A3A1D98BA3207B /* Foundation_NSFilePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFilePresenter.h; sourceTree = "<group>"; };
+		5BBBA296D0C4683B26B6F891 /* AVFoundation_AVUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVUtilities.h; sourceTree = "<group>"; };
+		5C9DA93A2B05CC54FA7F2E15 /* AVFoundation_AVTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVTime.m; sourceTree = "<group>"; };
+		5D57A10063D80BFD08CF37C0 /* CoreFoundation_CFBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBase.h; sourceTree = "<group>"; };
+		5DB87211F83D38B23FB8BCCE /* AVFoundation_AVSynchronizedLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVSynchronizedLayer.h; sourceTree = "<group>"; };
+		5DB8C026F484D099ADF31ECF /* CoreFoundation_CFBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBag.h; sourceTree = "<group>"; };
+		5DF0B686D71068A05CADDCB6 /* Foundation_NSURLResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLResponse.h; sourceTree = "<group>"; };
+		5F4351E2DFD8D25570FF11B8 /* AVFoundation_AVCaptureStillImageOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureStillImageOutput.m; sourceTree = "<group>"; };
+		5F7014B84F0086D85F0E1082 /* Foundation_NSHTTPCookieStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHTTPCookieStorage.h; sourceTree = "<group>"; };
+		5F7FDCB93283DC575BA5EFD1 /* CoreMedia_CMTimeRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMTimeRange.h; sourceTree = "<group>"; };
+		6008D76B35D9FBA00E029E61 /* AVFoundation_AVQueuedSampleBufferRendering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVQueuedSampleBufferRendering.m; sourceTree = "<group>"; };
+		60201A81414A263925355175 /* AudioToolbox_AudioUnitProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioUnitProperties.h; sourceTree = "<group>"; };
+		60C0302545B23A861E0D309F /* parts */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts; sourceTree = "<group>"; };
+		60D68026E2FF028DB539FA10 /* Foundation_NSByteCountFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSByteCountFormatter.h; sourceTree = "<group>"; };
+		613FDA1FEB11AA6F57A96BAE /* AVFoundation_AVMetadataIdentifiers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVMetadataIdentifiers.m; sourceTree = "<group>"; };
+		62D28575E05901C6001D962C /* AVFoundation_AVPlayerItemTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVPlayerItemTrack.m; sourceTree = "<group>"; };
+		63AB7094ECDE38A5CB3E9976 /* CoreFoundation_CFUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUUID.h; sourceTree = "<group>"; };
+		63CE2D55E42470AC22EEE08E /* Foundation_NSMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMetadata.h; sourceTree = "<group>"; };
+		63E8377713BAD4EACB411209 /* AVFoundation_AVAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAnimation.h; sourceTree = "<group>"; };
+		63EA322304D92A82177B7751 /* CoreFoundation_CFRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFRunLoop.h; sourceTree = "<group>"; };
+		651EEA3ED4FB111E8D4A70D5 /* Foundation_NSURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLSession.h; sourceTree = "<group>"; };
+		6555DEBFBA35F9630DEB338D /* Foundation_NSPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPort.h; sourceTree = "<group>"; };
+		656D6C56F26C18321A57928D /* AVFoundation_AVAssetWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetWriter.h; sourceTree = "<group>"; };
+		65DAC78C546D251CC6BA222D /* AVFoundation_AVAssetImageGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetImageGenerator.h; sourceTree = "<group>"; };
+		6622A1214C2BD1707AFE45AC /* AVFoundation_AVFAudio_AVAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioRecorder.h; sourceTree = "<group>"; };
+		6694555F8D2113D05C9066B5 /* AVFoundation_AVCaptureAudioDataOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureAudioDataOutput.m; sourceTree = "<group>"; };
+		669F9488E1D6A7206F17E370 /* AVFoundation_AVComposition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVComposition.h; sourceTree = "<group>"; };
+		680D56BEA11DF9C6D14CADA2 /* Foundation_NSLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLocale.h; sourceTree = "<group>"; };
+		6863AC4394D68BDF96528AAC /* Foundation_NSCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCache.h; sourceTree = "<group>"; };
+		68DAF22C61EF08EFDB50D512 /* Foundation_NSLengthFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLengthFormatter.h; sourceTree = "<group>"; };
+		695A46237F7D502DAB039027 /* CoreGraphics_CGDataConsumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGDataConsumer.h; sourceTree = "<group>"; };
+		695B3B32C7700ED7574477E2 /* CoreMedia_CMSampleBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMSampleBuffer.h; sourceTree = "<group>"; };
+		69AC6FED7481EA28BDAF33B5 /* QuartzCore_CAMediaTiming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAMediaTiming.h; sourceTree = "<group>"; };
+		6AC93C5E6F531543AE075481 /* AVFoundation_AVRouteDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVRouteDetector.m; sourceTree = "<group>"; };
+		6CE34C39C5B832DF153062F3 /* Foundation_NSExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExpression.h; sourceTree = "<group>"; };
+		6CEA0FBCB22CC1C483001BBE /* AVFoundation_AVCaptureSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureSession.m; sourceTree = "<group>"; };
+		6D1D14C0401DBB7A72607CF4 /* AVFoundation_AVCaptureMetadataOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureMetadataOutput.h; sourceTree = "<group>"; };
+		6D6B9F1B74C59BB4BFBD51A4 /* CoreFoundation_CFURLAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLAccess.h; sourceTree = "<group>"; };
+		6D80F890D2DAE6BFE9251465 /* AVFoundation_AVCaptureDepthDataOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureDepthDataOutput.h; sourceTree = "<group>"; };
+		6DBFAA9FEB3CD4C29DD654B3 /* AudioToolbox_ExtendedAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_ExtendedAudioFile.h; sourceTree = "<group>"; };
+		6DC4F137C60E859ECFB76720 /* Foundation_NSSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSSet.h; sourceTree = "<group>"; };
+		6E1227273411DCB9FE339520 /* Foundation_NSJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSJSONSerialization.h; sourceTree = "<group>"; };
+		6EA6D62D875B278391A9E790 /* AVFoundation_AVMediaFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMediaFormat.h; sourceTree = "<group>"; };
+		6EF37912D629AFF90837B9FF /* CoreFoundation_CFDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDictionary.h; sourceTree = "<group>"; };
+		6F85263EE46B99B63120BC5F /* AVFoundation_AVFAudio_AVSpeechSynthesis.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVSpeechSynthesis.m; sourceTree = "<group>"; };
+		6F977B611DA8575C888B1496 /* Foundation_NSPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPredicate.h; sourceTree = "<group>"; };
+		6FE06CD3E83D81506E939620 /* CoreFoundation_CFNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumber.h; sourceTree = "<group>"; };
+		7122F699AEEB3A757FBB181F /* Foundation_NSFileWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileWrapper.h; sourceTree = "<group>"; };
+		71F9283450B554F4EC9D39D0 /* AVFoundation_AVComposition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVComposition.m; sourceTree = "<group>"; };
+		72C067235769D68C7B83B165 /* CoreMedia_CMTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMTime.h; sourceTree = "<group>"; };
+		736B77513FEF85657ECB56C3 /* AVFoundation_AVFAudio_AVAudioSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioSettings.m; sourceTree = "<group>"; };
+		74433DC89D7E78A6F3E3D3A4 /* AVFoundation_AVVideoCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVVideoCompositing.h; sourceTree = "<group>"; };
+		76DBED9B5CC63F52A7A5BB4C /* Foundation_NSOrderedSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrderedSet.h; sourceTree = "<group>"; };
+		76DEAE72B6B1C42B373609A5 /* AVFoundation_AVFAudio_AVAudioUnitEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitEffect.h; sourceTree = "<group>"; };
+		76E7D93547A9115EE9E789B6 /* Foundation_NSTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTimeZone.h; sourceTree = "<group>"; };
+		777A1B1EFDE8511BAEB08120 /* CoreFoundation_CFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStream.h; sourceTree = "<group>"; };
+		77DEEAAD7A364051577D6552 /* AVFoundation_AVCaptureDataOutputSynchronizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureDataOutputSynchronizer.m; sourceTree = "<group>"; };
+		781D34FF9F02AF3544E5329D /* Foundation_FoundationErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_FoundationErrors.h; sourceTree = "<group>"; };
+		781FC12479D3E9F8E06E95A6 /* AVFoundation_AVPlayerMediaSelectionCriteria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVPlayerMediaSelectionCriteria.m; sourceTree = "<group>"; };
+		789D8ED4704D200A74019C73 /* Foundation_NSMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMeasurement.h; sourceTree = "<group>"; };
+		78DF1E6CAA181F772ED60880 /* AVFoundation_AVMediaSelectionGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVMediaSelectionGroup.m; sourceTree = "<group>"; };
+		79108CC3D1BF679531428B2B /* AVFoundation_AVAssetCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetCache.m; sourceTree = "<group>"; };
+		79F16AB388C38EFFE6585F3A /* AVFoundation_AVFAudio_AVAudioMixing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioMixing.m; sourceTree = "<group>"; };
+		7A223CE7AB86E9D6C32172C0 /* CoreFoundation_CFBinaryHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBinaryHeap.h; sourceTree = "<group>"; };
+		7A85FA5A1CE4BCD061454247 /* Foundation_NSMethodSignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMethodSignature.h; sourceTree = "<group>"; };
+		7AA8A640FF15F0421CEFC842 /* AVFoundation_AVFAudio_AVMIDIPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVMIDIPlayer.h; sourceTree = "<group>"; };
+		7B3A293D591EE20A8C8BE578 /* AVFoundation_AVQueuedSampleBufferRendering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVQueuedSampleBufferRendering.h; sourceTree = "<group>"; };
+		7C4F35A62A3C191E1743A15F /* Foundation_NSDateInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateInterval.h; sourceTree = "<group>"; };
+		7CE24D75F8157B2EDCF54BEA /* CoreVideo_CVMetalTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVMetalTexture.h; sourceTree = "<group>"; };
+		7CE4C77E30A6E429641EC1D3 /* CoreFoundation_CFURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURL.h; sourceTree = "<group>"; };
+		7DE88667459F733C7C5F77D6 /* CoreFoundation_CFString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFString.h; sourceTree = "<group>"; };
+		7DED39B964DA4D54D4FCA8D9 /* CFNetwork_CFHTTPAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPAuthentication.h; sourceTree = "<group>"; };
+		80B7C170EA1C2BC0E943A46B /* AVFoundation_AVFAudio_AVAudioUnitComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitComponent.m; sourceTree = "<group>"; };
+		813BF8B355E0C4B7C3690A13 /* AVFoundation_AVCapturePhotoOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCapturePhotoOutput.h; sourceTree = "<group>"; };
+		81893693F29016C8510B0BB7 /* AVFoundation_AVAssetDownloadStorageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetDownloadStorageManager.m; sourceTree = "<group>"; };
+		8328D952C6347B00B8A7CCBE /* AVFoundation_AVTimedMetadataGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVTimedMetadataGroup.h; sourceTree = "<group>"; };
+		83696C5144CACF66BAB1C196 /* CoreGraphics_CGPDFDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFDictionary.h; sourceTree = "<group>"; };
+		83C5345A1136980FCB0B2F30 /* AVFoundation_AVCaptureInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureInput.h; sourceTree = "<group>"; };
+		85B5D05CFF9AF72673F046FF /* Foundation_NSExtensionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionItem.h; sourceTree = "<group>"; };
+		860A616329E17447AFF0F175 /* Foundation_NSScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSScanner.h; sourceTree = "<group>"; };
+		87E5CDE6905E5E4B55C7A16B /* AVFoundation_AVCaptureVideoPreviewLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureVideoPreviewLayer.m; sourceTree = "<group>"; };
+		87E609011743ED5031501905 /* AudioToolbox_AudioSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioSession.h; sourceTree = "<group>"; };
+		899DA14CAC049D9737117CAE /* AVFoundation_AVFAudio_AVAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioFile.h; sourceTree = "<group>"; };
+		89CDAA19576B86DAF1DDB4D0 /* AVFoundation_AVAsynchronousKeyValueLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAsynchronousKeyValueLoading.m; sourceTree = "<group>"; };
+		89CEF334BDA75AE6B3CCCBD2 /* AVFoundation_AVFAudio_AVAudioUnitGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitGenerator.h; sourceTree = "<group>"; };
+		8A46E4D26E2C31B6A729D6BF /* Foundation_NSURLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLConnection.h; sourceTree = "<group>"; };
+		8AB6CF84A22EE21D9EA63483 /* AudioToolbox_AudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioFile.h; sourceTree = "<group>"; };
+		8AE2E4D7AE63A2C4069975F1 /* AVFoundation_AVFAudio_AVAudioSequencer_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVFAudio_AVAudioSequencer_sa; sourceTree = "<group>"; };
+		8BFB6214857F59794816B2A7 /* Foundation_NSDateIntervalFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateIntervalFormatter.h; sourceTree = "<group>"; };
+		8C9D19001179D7F730F39960 /* AVFoundation_AVFAudio_AVAudioFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioFile.m; sourceTree = "<group>"; };
+		8CAB84A3B58BB0C00AC17609 /* AVFoundation_AVAssetWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetWriter.m; sourceTree = "<group>"; };
+		8D22ED36D4E8A0DD9ED0A804 /* Foundation_NSMeasurementFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMeasurementFormatter.h; sourceTree = "<group>"; };
+		8D63966F378C9CA143CB60AA /* Foundation_NSProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProgress.h; sourceTree = "<group>"; };
+		8ED3D05E9B12CE4D45B089E2 /* CoreGraphics_CGColorConversionInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGColorConversionInfo.h; sourceTree = "<group>"; };
+		8F31CE7233FB9C89792B66F6 /* NFIAVFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIAVFoundation.h; sourceTree = "<group>"; };
+		906F5F317D737F328A9FD459 /* AVFoundation_AVCapturePhotoOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCapturePhotoOutput.m; sourceTree = "<group>"; };
+		90C6948BA2A62A55D24CB870 /* AVFoundation_AVAssetTrackGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetTrackGroup.h; sourceTree = "<group>"; };
+		90EE08CA752F29463D621EA8 /* AVFoundation_AVFAudio_AVAudioFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioFormat.h; sourceTree = "<group>"; };
+		911E0766F7AE1D749051E6A4 /* CoreGraphics_CGFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGFunction.h; sourceTree = "<group>"; };
+		915A2C693DC50EC9725F7E8E /* Foundation_NSItemProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSItemProvider.h; sourceTree = "<group>"; };
+		915FAC1D8B56417594A847C0 /* AudioToolbox_AudioComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioComponent.h; sourceTree = "<group>"; };
+		91E5121843B95170B8ECC2CC /* AVFoundation_AVAudioProcessingSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAudioProcessingSettings.h; sourceTree = "<group>"; };
+		9314CA3AB917562C7F37172F /* AVFoundation_AVFAudio_AVAudioTypes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioTypes.m; sourceTree = "<group>"; };
+		931D7EC5B3AD11B2BF38B233 /* AVFoundation_AVAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAsset.h; sourceTree = "<group>"; };
+		932886044FD30F87CA1A5944 /* AVFoundation_AVCompositionTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCompositionTrack.m; sourceTree = "<group>"; };
+		9339C00AF2C0AB9CA217375C /* Foundation_NSValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSValue.h; sourceTree = "<group>"; };
+		934B8132482916F6903AFF47 /* CoreFoundation_CFFileSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileSecurity.h; sourceTree = "<group>"; };
+		9431422E80D05D49F4C8ACB3 /* AVFoundation_AVSampleBufferDisplayLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVSampleBufferDisplayLayer.h; sourceTree = "<group>"; };
+		94E55E5E7C754703D0EC6411 /* AVFoundation_AVFAudio_AVAudioFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioFormat.m; sourceTree = "<group>"; };
+		95F2C5427915A471EE9C4531 /* CFNetwork_CFHTTPStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPStream.h; sourceTree = "<group>"; };
+		9636EB47DB6B917106E177C6 /* AVFoundation_AVCaptureOutputBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureOutputBase.h; sourceTree = "<group>"; };
+		9657209D2B2468D3BBE554B5 /* AVFoundation_AVFAudio_AVAudioNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioNode.h; sourceTree = "<group>"; };
+		96AC9DBA01BD30FB54FF1188 /* CFNetwork_CFSocketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFSocketStream.h; sourceTree = "<group>"; };
+		96CDDE2F786D57616F51297F /* AVFoundation_AVVideoSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVVideoSettings.h; sourceTree = "<group>"; };
+		9754393F8FFEB879C4C36BA6 /* AVFoundation_AVAssetExportSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetExportSession.h; sourceTree = "<group>"; };
+		9797F6FE37625DEC5132615F /* QuartzCore_CATransform3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATransform3D.h; sourceTree = "<group>"; };
+		97AE36041A4A61FA4E84DDEC /* AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.h; sourceTree = "<group>"; };
+		980C61CEE2B154B58D4F457D /* Foundation_NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObject.h; sourceTree = "<group>"; };
+		982DF85A271DFCDE40F83655 /* AVFoundation_AVDepthData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVDepthData.h; sourceTree = "<group>"; };
+		99E1B00B3FC74C913523DF7D /* AVFoundation_AVContentKeySession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVContentKeySession.h; sourceTree = "<group>"; };
+		9A5D64AC03FA5338E992082D /* OpenGLES_EAGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLES_EAGL.h; sourceTree = "<group>"; };
+		9A6DDFFEDD0446050197039B /* Foundation_NSMapTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMapTable.h; sourceTree = "<group>"; };
+		9AB69F759551FADBC76CCD17 /* Foundation_NSExtensionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionContext.h; sourceTree = "<group>"; };
+		9B0F08DFF17CE886335725BF /* QuartzCore_CAShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAShapeLayer.h; sourceTree = "<group>"; };
+		9BCCD659490D03D5A2AAE927 /* CoreFoundation_CFPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPreferences.h; sourceTree = "<group>"; };
+		9C494AF08DB399DB1C36569D /* CoreFoundation_CFStringEncodingExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringEncodingExt.h; sourceTree = "<group>"; };
+		9C5C4984DCF7270FF5582693 /* AVFoundation_AVFAudio_AVAudioSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioSession.h; sourceTree = "<group>"; };
+		9C7D782E484883511D4532EA /* AVFoundation_AVCaptureDevice_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVCaptureDevice_sr; sourceTree = "<group>"; };
+		9D5A003C69DE3A32087534B2 /* AVFoundation_AVFAudio_AVAudioTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioTypes.h; sourceTree = "<group>"; };
+		9D8929E56D213CA9B8ED4620 /* Foundation_NSCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCoder.h; sourceTree = "<group>"; };
+		9D9CC18F17DDE7F61FD60284 /* AVFoundation_AVAssetCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetCache.h; sourceTree = "<group>"; };
+		9DCE394589E1B60DDDE7A654 /* AVFoundation_AVCaptureFileOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureFileOutput.m; sourceTree = "<group>"; };
+		9F10AC6FCE6451859980BBC4 /* Foundation_NSCompoundPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCompoundPredicate.h; sourceTree = "<group>"; };
+		9FF7485C80F67C77D742623A /* Foundation_NSPersonNameComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPersonNameComponents.h; sourceTree = "<group>"; };
+		A0EE335B54ED9ECE7E3ADF2C /* AVFoundation_AVFAudio_AVAudioUnitVarispeed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitVarispeed.m; sourceTree = "<group>"; };
+		A105FA731CD4832EB82A6CAC /* CoreGraphics_CGPDFOperatorTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFOperatorTable.h; sourceTree = "<group>"; };
+		A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerSupport.h; sourceTree = "<group>"; };
+		A1730464DBE93792E0E7960D /* CoreFoundation_CFSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSet.h; sourceTree = "<group>"; };
+		A3703970B7D828BC56D94526 /* Foundation_NSByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSByteOrder.h; sourceTree = "<group>"; };
+		A37323EB618D70C1F4EC6BAE /* CoreFoundation_CFByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFByteOrder.h; sourceTree = "<group>"; };
+		A5207879D2F74E202484CCB6 /* AVFoundation_AVCaptureMetadataOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureMetadataOutput.m; sourceTree = "<group>"; };
+		A52D0B85E1147BE96349ECCA /* CoreGraphics_CGGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGGradient.h; sourceTree = "<group>"; };
+		A5EFEA1F1F69E6DF628F2E1C /* Foundation_NSTextCheckingResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTextCheckingResult.h; sourceTree = "<group>"; };
+		A613B7C71F669822C5DE855D /* AVFoundation_AVContentKeySession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVContentKeySession.m; sourceTree = "<group>"; };
+		A69DBD8D2692F1CA17178EA5 /* AVFoundation_AVVideoComposition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVVideoComposition.h; sourceTree = "<group>"; };
+		A746438FBA4C59D004690895 /* Foundation_NSBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSBundle.h; sourceTree = "<group>"; };
+		A761855A8FC3C6BADED07EEA /* PointerSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointerSupport.m; sourceTree = "<group>"; };
+		A7C4F63EEC618D6005076A0C /* Foundation_NSEnergyFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSEnergyFormatter.h; sourceTree = "<group>"; };
+		A7CD7B1A3141E5CC5609A4FA /* AVFoundation_AVFAudio_AVAudioConnectionPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioConnectionPoint.m; sourceTree = "<group>"; };
+		A8C66F5F864AFE186D7CB14B /* AVFoundation_AVAudioMix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAudioMix.m; sourceTree = "<group>"; };
+		A98FF4CAE158B4F4F8538133 /* AVFoundation_AVPlayerItemMediaDataCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerItemMediaDataCollector.h; sourceTree = "<group>"; };
+		A99078635E425BBE28F807FD /* AVFoundation_AVFAudio_AVAudioUnitDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitDelay.h; sourceTree = "<group>"; };
+		A99E377B5583DEE4D19F988D /* AVFoundation_AVFAudio_AVAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioPlayer.h; sourceTree = "<group>"; };
+		AA9193C2980C06B5455FFB1E /* QuartzCore_CALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CALayer.h; sourceTree = "<group>"; };
+		AABD9A4F6BEE95BE68D33CA5 /* Foundation_NSLinguisticTagger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLinguisticTagger.h; sourceTree = "<group>"; };
+		AB873964B8131E1EF5082A95 /* CoreFoundation_CFDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDateFormatter.h; sourceTree = "<group>"; };
+		AC48BF0C4A20850BAD7CB1D8 /* CoreFoundation_CFAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFAttributedString.h; sourceTree = "<group>"; };
+		ACDF267E3E2868512CCF3FFA /* AVFoundation_AVPlayerMediaSelectionCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerMediaSelectionCriteria.h; sourceTree = "<group>"; };
+		ACF87BA4CEB108B2D4669924 /* AudioToolbox_MusicPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_MusicPlayer.h; sourceTree = "<group>"; };
+		ACF9C0E175272AB503DF9937 /* CoreFoundation_CFMachPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMachPort.h; sourceTree = "<group>"; };
+		ADD3A17DFD7F37D57830F974 /* AudioToolbox_AUGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUGraph.h; sourceTree = "<group>"; };
+		AEB1D1714D2A1E580467CE33 /* AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.m; sourceTree = "<group>"; };
+		AEE0780901464B20C46CA251 /* AVFoundation_AVCompositionTrackSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCompositionTrackSegment.m; sourceTree = "<group>"; };
+		AF2B2E17B0B89EA7A78187F1 /* Security_SecKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecKey.h; sourceTree = "<group>"; };
+		AF575C23550F8D9EEEA534DA /* CoreGraphics_CGPDFString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFString.h; sourceTree = "<group>"; };
+		AFCA96779CBA43FD16F6AC29 /* Foundation_NSDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDictionary.h; sourceTree = "<group>"; };
+		AFF6E383343403B9B949729E /* AVFoundation_AVFAudio_AVAudioBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioBuffer.h; sourceTree = "<group>"; };
+		B165FB2A1D8966AF32AFBAB3 /* CFNetwork_CFProxySupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFProxySupport.h; sourceTree = "<group>"; };
+		B17C667585B44451D9658C99 /* CoreGraphics_CGBitmapContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGBitmapContext.h; sourceTree = "<group>"; };
+		B185916195752CC0148B9188 /* Foundation_NSSortDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSSortDescriptor.h; sourceTree = "<group>"; };
+		B1DB3F51B749171B80BC68D2 /* Security_CipherSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_CipherSuite.h; sourceTree = "<group>"; };
+		B26DB68194E0E7B2DF97CA96 /* AVFoundation_AVMediaSelectionGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMediaSelectionGroup.h; sourceTree = "<group>"; };
+		B2A592FA3DE167832408F69D /* AVFoundation_AVVideoSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVVideoSettings.m; sourceTree = "<group>"; };
+		B2E031AECF0A78E19E0AC15A /* AVFoundation_AVCompositionTrackSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCompositionTrackSegment.h; sourceTree = "<group>"; };
+		B32D9564A8E6BCCE1B3BFDAA /* AVFoundation_AVFAudio_AVAudioSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioSession.m; sourceTree = "<group>"; };
+		B4663B80977521A6EF26D1E5 /* CoreGraphics_CGColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGColor.h; sourceTree = "<group>"; };
+		B4727978087D289A12755371 /* AVFoundation_AVFAudio_AVAudioUnitSampler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitSampler.m; sourceTree = "<group>"; };
+		B49FA37925CAF84D44360F48 /* AVFoundation_AVAssetExportSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetExportSession.m; sourceTree = "<group>"; };
+		B55D8C0EA6ABBFDA31A6C26D /* CoreVideo_CVBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVBase.h; sourceTree = "<group>"; };
+		B5E4DC9254A3C69792E9C7A5 /* AVFoundation_AVCaptureAudioDataOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureAudioDataOutput.h; sourceTree = "<group>"; };
+		B6FE9CA75AA6083487B4CCD7 /* AVFoundation_AVTimedMetadataGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVTimedMetadataGroup.m; sourceTree = "<group>"; };
+		B735DF6EBCF95FCA6AB7827E /* AVFoundation_AVFAudio_AVAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnit.m; sourceTree = "<group>"; };
+		B7833704AE4C3D90AFF361F2 /* AudioToolbox_AudioUnitParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioUnitParameters.h; sourceTree = "<group>"; };
+		B89D092DAFFF6171ADD782EA /* AVFoundation_AVPlayerItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVPlayerItem.m; sourceTree = "<group>"; };
+		B9FB5B12196493FB97B0A1D7 /* AVFoundation_AVFAudio_AVAudioUnitDelay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitDelay.m; sourceTree = "<group>"; };
+		BA075E763430202C04209506 /* AVFoundation_AVFAudio_AVAudioEnvironmentNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioEnvironmentNode.m; sourceTree = "<group>"; };
+		BA69AC047BB6E5B3CDECEC6D /* Foundation_NSProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProxy.h; sourceTree = "<group>"; };
+		BACAAC351E1A96C6BC50ADEB /* AVFoundation_AVPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVPlayer.m; sourceTree = "<group>"; };
+		BAD7F79D940E848E5FE59153 /* Foundation_NSUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUUID.h; sourceTree = "<group>"; };
+		BB799A5A8C959AF0796C038E /* CoreGraphics_CGPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPath.h; sourceTree = "<group>"; };
+		BDC2BEAB5DD70FBEB846122E /* Foundation_NSFileHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileHandle.h; sourceTree = "<group>"; };
+		BEF3F79BB6E3278A450D884E /* Foundation_NSURLCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCache.h; sourceTree = "<group>"; };
+		BF7FD9147C3DF77B32B9BD4C /* AudioToolbox_AudioQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioQueue.h; sourceTree = "<group>"; };
+		BFDE6D2EA0C20F74D6757963 /* AVFoundation_AVCaptureDevice_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVCaptureDevice_sa; sourceTree = "<group>"; };
+		C015F4A60938C3ACB9229543 /* AVFoundation_AVOutputSettingsAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVOutputSettingsAssistant.h; sourceTree = "<group>"; };
+		C0DF03CEA392EB8EABEEAF7D /* Foundation_NSPathUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPathUtilities.h; sourceTree = "<group>"; };
+		C0E53C193097A5AEC6017F3D /* AVFoundation_AVFAudio_AVAudioMixerNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioMixerNode.h; sourceTree = "<group>"; };
+		C0EDB49744E0C7BD89EF508D /* AVFoundation_AVFAudio_AVAudioUnitComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitComponent.h; sourceTree = "<group>"; };
+		C159777C68287575574C5657 /* QuartzCore_CAEmitterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAEmitterCell.h; sourceTree = "<group>"; };
+		C21CBF684273B52D3D86D02E /* Foundation_NSCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCharacterSet.h; sourceTree = "<group>"; };
+		C236C15DCC2CB026760C4B79 /* AVFoundation_AVFAudio_AVAudioPlayerNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioPlayerNode.h; sourceTree = "<group>"; };
+		C2717381FD22F3B9BC61BBB8 /* AVFoundation_AVCaptureOutputBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureOutputBase.m; sourceTree = "<group>"; };
+		C2E05309D51077D9C2632780 /* Foundation_NSHTTPCookie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHTTPCookie.h; sourceTree = "<group>"; };
+		C3936CD7C28096A4B99B2CB3 /* CoreFoundation_CFError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFError.h; sourceTree = "<group>"; };
+		C56D763B2B77E04057CC1843 /* AVFoundation_AVCaptureSystemPressure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureSystemPressure.m; sourceTree = "<group>"; };
+		C5CA1578F9A86EA0C1A4FD0F /* Foundation_NSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSThread.h; sourceTree = "<group>"; };
+		C74D897C75861FA730D5B0D2 /* AVFoundation_AVFAudio_AVAudioUnitVarispeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitVarispeed.h; sourceTree = "<group>"; };
+		C76A40D3C7A4269DB2C296A9 /* AVFoundation_AVFAudio_AVAudioTypes_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVFAudio_AVAudioTypes_sa; sourceTree = "<group>"; };
+		C7847DE4F773B17A6F4E8A48 /* CoreVideo_CVMetalTextureCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVMetalTextureCache.h; sourceTree = "<group>"; };
+		C8492BE0C522D5ABAC204704 /* AVFoundation_AVDepthData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVDepthData.m; sourceTree = "<group>"; };
+		C87AB45D3AD2583CDBEEA79C /* AVFoundation_AVFAudio_AVAudioTypes_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVFAudio_AVAudioTypes_sr; sourceTree = "<group>"; };
+		C945EA458B36127E7D0EC68A /* AVFoundation_AVFAudio_AVAudioIONode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioIONode.m; sourceTree = "<group>"; };
+		C97A3959C4AC9C341BFFDFA5 /* CoreVideo_CVOpenGLESTextureCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVOpenGLESTextureCache.h; sourceTree = "<group>"; };
+		C98AE85107FC673524D6074F /* AVFoundation_AVAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAsset.m; sourceTree = "<group>"; };
+		CAE050EA7366B75FB2A68DF4 /* Foundation_NSError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSError.h; sourceTree = "<group>"; };
+		CBA42292129CE591CE58D61D /* allprotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allprotos.h; sourceTree = "<group>"; };
+		CD068B476BD6029C551BE86A /* Foundation_NSObjCRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObjCRuntime.h; sourceTree = "<group>"; };
+		CD385B864DADC5B68E1D87CE /* Foundation_NSMetadataAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMetadataAttributes.h; sourceTree = "<group>"; };
+		CD492F408B4170052F0570E2 /* Foundation_NSURLCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCredential.h; sourceTree = "<group>"; };
+		CE2496A84EE2B011DE161889 /* CoreFoundation_CFBitVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBitVector.h; sourceTree = "<group>"; };
+		CE87884B036CB4C7C3776761 /* AVFoundation_AVFAudio_AVAudioIONode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioIONode.h; sourceTree = "<group>"; };
+		CEB46861913F2818AB42C9CA /* AVFoundation_AVPlayerLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerLayer.h; sourceTree = "<group>"; };
+		CF762FDBEFD401393E505072 /* Foundation_NSDecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDecimal.h; sourceTree = "<group>"; };
+		D00BCA09245EAC83B560B6A3 /* Foundation_NSAutoreleasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSAutoreleasePool.h; sourceTree = "<group>"; };
+		D01DB8964F5D96B4CCD03380 /* AVFoundation_AVVideoCompositing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVVideoCompositing.m; sourceTree = "<group>"; };
+		D022FC77F586B67EB5630D09 /* CoreAudio_CoreAudioTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudio_CoreAudioTypes.h; sourceTree = "<group>"; };
+		D04F467DD6438C41AAA230F7 /* Foundation_NSIndexSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSIndexSet.h; sourceTree = "<group>"; };
+		D14F8FC166BDBE913BDA0D70 /* Foundation_NSNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNotification.h; sourceTree = "<group>"; };
+		D16D7AAE4D1EC86F905E9D71 /* CoreMIDI_MIDIServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMIDI_MIDIServices.h; sourceTree = "<group>"; };
+		D17E84AB4B431F94300C739D /* CoreGraphics_CGPDFContentStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFContentStream.h; sourceTree = "<group>"; };
+		D1A0184595408DF9B8EA9B93 /* Foundation_NSNull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNull.h; sourceTree = "<group>"; };
+		D1C74D098BB31F5796506418 /* AVFoundation_AVError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVError.h; sourceTree = "<group>"; };
+		D1CB336225B51D941F1E9C3E /* Foundation_NSPointerFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPointerFunctions.h; sourceTree = "<group>"; };
+		D1D2872AF3C3CAAE658F55AA /* Foundation_NSURLError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLError.h; sourceTree = "<group>"; };
+		D1D93CBC578063C210AE6F9D /* AudioToolbox_CAFFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_CAFFile.h; sourceTree = "<group>"; };
+		D2380F67E65528155A669665 /* AVFoundation_AVCaptureDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureDevice.h; sourceTree = "<group>"; };
+		D28A42E5690921AA7EBCCA9E /* AVFoundation_AVPlayerLooper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVPlayerLooper.m; sourceTree = "<group>"; };
+		D2FA780A972EBAB2BEEC1F25 /* Foundation_NSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSArray.h; sourceTree = "<group>"; };
+		D43854FCD19957D5DD15DFBE /* Foundation_NSHashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHashTable.h; sourceTree = "<group>"; };
+		D5E027F9AA423798C9D65830 /* CoreVideo_CVPixelBufferPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelBufferPool.h; sourceTree = "<group>"; };
+		D60924C60336142679560018 /* CoreFoundation_CFNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumberFormatter.h; sourceTree = "<group>"; };
+		D679D94AC85C07C5D9A4CC0A /* AVFoundation_AVCaptureSessionPreset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVCaptureSessionPreset.h; sourceTree = "<group>"; };
+		D693629D749D221429185D20 /* AVFoundation_AVFAudio_AVAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnit.h; sourceTree = "<group>"; };
+		D7716A46BCCCC86D3E7AF78C /* AudioToolbox_AudioOutputUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioOutputUnit.h; sourceTree = "<group>"; };
+		D7816FFD3A2A0AED65DD1111 /* Foundation_NSZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSZone.h; sourceTree = "<group>"; };
+		D7BC45679ED3C419B79D2CE7 /* AVFoundation_AVFAudio_AVAudioUnitTimeEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitTimeEffect.m; sourceTree = "<group>"; };
+		D95C60B5CCC804658FB7947D /* AVFoundation_AVPlayerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerItem.h; sourceTree = "<group>"; };
+		DA1A2CA061958A642A021B33 /* CoreFoundation_CFSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSocket.h; sourceTree = "<group>"; };
+		DA3FD5B913D38D08D609009B /* CoreGraphics_CGPDFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFArray.h; sourceTree = "<group>"; };
+		DAA9FC51A13D4AA4C07720BA /* AVFoundation_AVFAudio_AVAudioUnitEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioUnitEffect.m; sourceTree = "<group>"; };
+		DAF1434D378BC1F186EE5191 /* AVFoundation_AVFAudio_AVAudioTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioTime.m; sourceTree = "<group>"; };
+		DBBA0CE11525CA0FD6581F44 /* CoreVideo_CVReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVReturn.h; sourceTree = "<group>"; };
+		DBBBCAE3B8C339F57120F0AD /* Foundation_NSUndoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUndoManager.h; sourceTree = "<group>"; };
+		DC10ECF0635FEF56B021495F /* AVFoundation_AVAssetResourceLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetResourceLoader.m; sourceTree = "<group>"; };
+		DD4F9894AECA084ABD6271B6 /* Foundation_NSKeyedArchiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyedArchiver.h; sourceTree = "<group>"; };
+		DE3BC34A330B0EE015B5808A /* AudioToolbox_AUParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AUParameters.h; sourceTree = "<group>"; };
+		DE787966998BA992BBAE6607 /* AVFoundation_AVFAudio_AVAudioConnectionPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioConnectionPoint.h; sourceTree = "<group>"; };
+		DEDB16CB7C576A17DBD072EC /* QuartzCore_CATextLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CATextLayer.h; sourceTree = "<group>"; };
+		DF631713D01E3A150329A80C /* AVFoundation_AVFAudio_AVAudioUnitDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitDistortion.h; sourceTree = "<group>"; };
+		DFD18E16AF6C5A76BD5FA064 /* Foundation_NSUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUnit.h; sourceTree = "<group>"; };
+		E0285A17951DCC3EC65BADC3 /* CoreFoundation_CFBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBundle.h; sourceTree = "<group>"; };
+		E03FB4A2CB253DE17E747D23 /* AVFoundation_AVFAudio_AVAudioUnitTimePitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitTimePitch.h; sourceTree = "<group>"; };
+		E0452B4097C741326BC66194 /* CoreFoundation_CFDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDate.h; sourceTree = "<group>"; };
+		E0875AF4352427DFA6306475 /* CoreGraphics_CGShading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGShading.h; sourceTree = "<group>"; };
+		E0A0E23F79079B4B6B71ADB5 /* Foundation_NSCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCalendar.h; sourceTree = "<group>"; };
+		E0B3968B7FECE5AE31A6CA7C /* AVFoundation_AVFAudio_AVAudioConverter_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVFAudio_AVAudioConverter_sr; sourceTree = "<group>"; };
+		E2645D1AC67CD380B0528815 /* Foundation_NSFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileManager.h; sourceTree = "<group>"; };
+		E4B70A232BAA43EBEC1697EB /* NFIDevice.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = NFIDevice.gyp; sourceTree = "<group>"; };
+		E5517BDC0885D73CA764C5EE /* AVFoundation_AVVideoCompositing_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVFoundation_AVVideoCompositing_sr; sourceTree = "<group>"; };
+		E552610F0EE9BED6F0C413F0 /* ImageIO_CGImageProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageIO_CGImageProperties.h; sourceTree = "<group>"; };
+		E5F15E7851D4BD7952FE3E08 /* Foundation_NSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOperation.h; sourceTree = "<group>"; };
+		E62A694EA85BA4235FD219BF /* CoreGraphics_CGImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGImage.h; sourceTree = "<group>"; };
+		E7FD1AEE51BA7C30D7FE7072 /* CoreFoundation_CFPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPlugIn.h; sourceTree = "<group>"; };
+		E81DA6131389C183FC685D42 /* AVFoundation_AVAssetDownloadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetDownloadTask.h; sourceTree = "<group>"; };
+		E839CFECEE76E67CBBB1B21A /* CoreFoundation_CFTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTree.h; sourceTree = "<group>"; };
+		E88399741B2CD5E7B2AC0EA6 /* Foundation_NSISO8601DateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSISO8601DateFormatter.h; sourceTree = "<group>"; };
+		E88839A41A3D555E1C07F849 /* AVFoundation_AVPlayerItemMediaDataCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVPlayerItemMediaDataCollector.m; sourceTree = "<group>"; };
+		E8B4516E332F7200359C6D10 /* CoreGraphics_CGPDFScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFScanner.h; sourceTree = "<group>"; };
+		E8BFCEF3358057D34012DD7B /* AVFoundation_AVPlayerItemOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVPlayerItemOutput.m; sourceTree = "<group>"; };
+		E8D58272985D87BBFA0E20B7 /* Foundation_NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSString.h; sourceTree = "<group>"; };
+		E91BCE3F2396F53D8A28F180 /* Foundation_NSPersonNameComponentsFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPersonNameComponentsFormatter.h; sourceTree = "<group>"; };
+		E9525D81D7BADB54A2844B85 /* CoreMedia_CMBlockBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMBlockBuffer.h; sourceTree = "<group>"; };
+		E95DD44944518308B609BE40 /* AVFoundation_AVFAudio_AVAudioMixing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioMixing.h; sourceTree = "<group>"; };
+		E96F1C60E2C66F1D8728C5A0 /* AVFoundation_AVVideoComposition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVVideoComposition.m; sourceTree = "<group>"; };
+		E9FE18EF4B25ACAFFBB6C246 /* AVFoundation_AVAssetTrackGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetTrackGroup.m; sourceTree = "<group>"; };
+		EA0983E7B32024E92F448462 /* AVFoundation_AVPlayerItemOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVPlayerItemOutput.h; sourceTree = "<group>"; };
+		EA219458DD2E2A908CC7150E /* QuartzCore_CAGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAGradientLayer.h; sourceTree = "<group>"; };
+		EA7AC9A776AF1BE3568239B3 /* CoreFoundation_CFURLEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLEnumerator.h; sourceTree = "<group>"; };
+		ED0ADF12B5637E874246E68B /* AVFoundation_AVFAudio_AVAudioUnitReverb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVFAudio_AVAudioUnitReverb.h; sourceTree = "<group>"; };
+		ED195B0E26581E4056DC1120 /* CallbackSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackSupport.m; sourceTree = "<group>"; };
+		EDC790764BFE484C48A659F2 /* CoreVideo_CVPixelFormatDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVideo_CVPixelFormatDescription.h; sourceTree = "<group>"; };
+		EE73E502A0100D7E1AC8A047 /* Foundation_NSProcessInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProcessInfo.h; sourceTree = "<group>"; };
+		EE8383ECAC6660A449EF78F1 /* AVFoundation_AVMetadataIdentifiers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMetadataIdentifiers.h; sourceTree = "<group>"; };
+		EE8458796676540CB60D4EE4 /* CoreMedia_CMBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMBase.h; sourceTree = "<group>"; };
+		F065D7BB1BDA093F839CD4C0 /* AVFoundation_AVFAudio_AVAudioEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioEngine.m; sourceTree = "<group>"; };
+		F10BE244EFDDF0F610EDBD60 /* Security_SecAccessControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecAccessControl.h; sourceTree = "<group>"; };
+		F22DE234061AE7775F500EC9 /* AVFoundation_AVAssetTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetTrack.h; sourceTree = "<group>"; };
+		F28E0D2CFB3F4B444DD9A274 /* Foundation_NSFileCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileCoordinator.h; sourceTree = "<group>"; };
+		F3EEEEFAAF477C65E73D6D94 /* NFIAVFoundationLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIAVFoundationLoader.h; sourceTree = "<group>"; };
+		F54DEC474B3756A262AD243A /* Foundation_NSURLProtectionSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLProtectionSpace.h; sourceTree = "<group>"; };
+		F58DC1580B1294575A716F4A /* NFIAVFoundationLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFIAVFoundationLoader.m; sourceTree = "<group>"; };
+		F639B117AE774C7AC09BB6A3 /* CoreGraphics_CGPDFContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGPDFContext.h; sourceTree = "<group>"; };
+		F654DD2992E63F9FE944DA86 /* AVFoundation_AVAssetTrackSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVAssetTrackSegment.m; sourceTree = "<group>"; };
+		F66A8AED5101C2742B4BB651 /* AVFoundation_AVFAudio_AVAudioNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioNode.m; sourceTree = "<group>"; };
+		F6EEAFF8E8577ED10E6A62CC /* Foundation_NSEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSEnumerator.h; sourceTree = "<group>"; };
+		F77181CA48DEEDEA3A63EEF9 /* QuartzCore_CAEmitterLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAEmitterLayer.h; sourceTree = "<group>"; };
+		F7A224A0270F088E98EFC19A /* AVFoundation_AVFAudio_AVAudioBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVFAudio_AVAudioBuffer.m; sourceTree = "<group>"; };
+		F8307B352865F95E85C7B6BE /* protocols */ = {isa = PBXFileReference; lastKnownFileType = text; path = protocols; sourceTree = "<group>"; };
+		F987C50B7091FF2A9D5309CB /* CoreMedia_CMFormatDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMedia_CMFormatDescription.h; sourceTree = "<group>"; };
+		F9A00D9FF2C6B748B2489D85 /* AVFoundation_AVSampleBufferRenderSynchronizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVSampleBufferRenderSynchronizer.h; sourceTree = "<group>"; };
+		FA2A0752FD551ADFA8371F16 /* MediaToolbox_MTAudioProcessingTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaToolbox_MTAudioProcessingTap.h; sourceTree = "<group>"; };
+		FCA6B2C267A2B13E805F6E6E /* Foundation_NSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTimer.h; sourceTree = "<group>"; };
+		FCA881AB1B97E63C2149749F /* AVFoundation_AVCaptureVideoDataOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundation_AVCaptureVideoDataOutput.m; sourceTree = "<group>"; };
+		FDA02743197AFEEFA65A9E51 /* Security_SecPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecPolicy.h; sourceTree = "<group>"; };
+		FE2E06D0030F9AD1B1CAFC92 /* AVFoundation_AVAssetWriterInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVAssetWriterInput.h; sourceTree = "<group>"; };
+		FE667D59EDCE7B8A284FEA55 /* QuartzCore_CAMediaTimingFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzCore_CAMediaTimingFunction.h; sourceTree = "<group>"; };
+		FE8F694347641546385FBB26 /* AudioToolbox_AudioToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolbox_AudioToolbox.h; sourceTree = "<group>"; };
+		FEF1A49D068C2E4A4209BCC0 /* AVFoundation_AVMetadataObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundation_AVMetadataObject.h; sourceTree = "<group>"; };
+		FFC3DC8DA41873F3D83A3D6B /* Foundation_NSURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURL.h; sourceTree = "<group>"; };
+		FFE69C0CA8702DFFE70DB345 /* CoreGraphics_CGFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_CGFont.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		510E6AA0F2580849F4D5C400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762EDACE6DFCEF3B57F05990 /* NFIUtility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889F3D01629FBA3868708A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B46C276DD85B0ED1C17C77E /* ../src/NFIUtility */ = {
+			isa = PBXGroup;
+			children = (
+				00332D41D163AA58D64A5AD6 /* CallbackSupport.h */,
+				ED195B0E26581E4056DC1120 /* CallbackSupport.m */,
+				0E9842BE6505547806A3F5C6 /* NFIUtility.h */,
+				A12E11D19AC4AD480C8FAD75 /* PointerSupport.h */,
+				A761855A8FC3C6BADED07EEA /* PointerSupport.m */,
+			);
+			path = ../src/NFIUtility;
+			sourceTree = "<group>";
+		};
+		3B364F5F39DD873E04E8C788 = {
+			isa = PBXGroup;
+			children = (
+				EF32B4D8B38770716AD1BAA6 /* Source */,
+				CBC1A4E59092CCA4F5F5AC65 /* Products */,
+				420E4108158F6B50F0058685 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		420E4108158F6B50F0058685 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				E4B70A232BAA43EBEC1697EB /* NFIDevice.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		7F23ACEF07C3F8E4720AE557 /* AVFoundation/device */ = {
+			isa = PBXGroup;
+			children = (
+				63E8377713BAD4EACB411209 /* AVFoundation_AVAnimation.h */,
+				23E0F1D8E4484E72E5A30908 /* AVFoundation_AVAnimation.m */,
+				931D7EC5B3AD11B2BF38B233 /* AVFoundation_AVAsset.h */,
+				C98AE85107FC673524D6074F /* AVFoundation_AVAsset.m */,
+				9D9CC18F17DDE7F61FD60284 /* AVFoundation_AVAssetCache.h */,
+				79108CC3D1BF679531428B2B /* AVFoundation_AVAssetCache.m */,
+				584E596381EB1A25BB1BBF91 /* AVFoundation_AVAssetDownloadStorageManager.h */,
+				81893693F29016C8510B0BB7 /* AVFoundation_AVAssetDownloadStorageManager.m */,
+				E81DA6131389C183FC685D42 /* AVFoundation_AVAssetDownloadTask.h */,
+				1C57AB9AFD9D870503BAADFD /* AVFoundation_AVAssetDownloadTask.m */,
+				9754393F8FFEB879C4C36BA6 /* AVFoundation_AVAssetExportSession.h */,
+				B49FA37925CAF84D44360F48 /* AVFoundation_AVAssetExportSession.m */,
+				65DAC78C546D251CC6BA222D /* AVFoundation_AVAssetImageGenerator.h */,
+				4C9C75CC304FF828C9FDFCE9 /* AVFoundation_AVAssetImageGenerator.m */,
+				4EC00E18F799B11E3F878132 /* AVFoundation_AVAssetReader.h */,
+				3B6F26A6FF97B5C914D0CA60 /* AVFoundation_AVAssetReader.m */,
+				4D4C214AD13987794144DD27 /* AVFoundation_AVAssetReaderOutput.h */,
+				5923CB3EEBE365956E3FECC2 /* AVFoundation_AVAssetReaderOutput.m */,
+				512B727FDFB5DE28137B8C47 /* AVFoundation_AVAssetResourceLoader.h */,
+				DC10ECF0635FEF56B021495F /* AVFoundation_AVAssetResourceLoader.m */,
+				F22DE234061AE7775F500EC9 /* AVFoundation_AVAssetTrack.h */,
+				242F7178096E4DA72DD7B5AA /* AVFoundation_AVAssetTrack.m */,
+				90C6948BA2A62A55D24CB870 /* AVFoundation_AVAssetTrackGroup.h */,
+				E9FE18EF4B25ACAFFBB6C246 /* AVFoundation_AVAssetTrackGroup.m */,
+				1C83245D36EF4921470A12D6 /* AVFoundation_AVAssetTrackSegment.h */,
+				F654DD2992E63F9FE944DA86 /* AVFoundation_AVAssetTrackSegment.m */,
+				656D6C56F26C18321A57928D /* AVFoundation_AVAssetWriter.h */,
+				8CAB84A3B58BB0C00AC17609 /* AVFoundation_AVAssetWriter.m */,
+				FE2E06D0030F9AD1B1CAFC92 /* AVFoundation_AVAssetWriterInput.h */,
+				4A7020E5B556D3A7F06B21B1 /* AVFoundation_AVAssetWriterInput.m */,
+				567EDDC4A663B252ECC3F2BD /* AVFoundation_AVAsynchronousKeyValueLoading.h */,
+				89CDAA19576B86DAF1DDB4D0 /* AVFoundation_AVAsynchronousKeyValueLoading.m */,
+				5560B889CE1636D232796705 /* AVFoundation_AVAudioMix.h */,
+				A8C66F5F864AFE186D7CB14B /* AVFoundation_AVAudioMix.m */,
+				91E5121843B95170B8ECC2CC /* AVFoundation_AVAudioProcessingSettings.h */,
+				0F177092E0B1C3CF425E873D /* AVFoundation_AVAudioProcessingSettings.m */,
+				07D71331DAAEB03749652C70 /* AVFoundation_AVCameraCalibrationData.h */,
+				04D305CF0E673F137F26583A /* AVFoundation_AVCameraCalibrationData.m */,
+				B5E4DC9254A3C69792E9C7A5 /* AVFoundation_AVCaptureAudioDataOutput.h */,
+				6694555F8D2113D05C9066B5 /* AVFoundation_AVCaptureAudioDataOutput.m */,
+				465882DD0E2CFEDC8C936CDF /* AVFoundation_AVCaptureDataOutputSynchronizer.h */,
+				77DEEAAD7A364051577D6552 /* AVFoundation_AVCaptureDataOutputSynchronizer.m */,
+				6D80F890D2DAE6BFE9251465 /* AVFoundation_AVCaptureDepthDataOutput.h */,
+				389DCC5E79249DBAF2D6ADFC /* AVFoundation_AVCaptureDepthDataOutput.m */,
+				D2380F67E65528155A669665 /* AVFoundation_AVCaptureDevice.h */,
+				3670294FE06AC4EB54A513CD /* AVFoundation_AVCaptureDevice.m */,
+				BFDE6D2EA0C20F74D6757963 /* AVFoundation_AVCaptureDevice_sa */,
+				9C7D782E484883511D4532EA /* AVFoundation_AVCaptureDevice_sr */,
+				45645842A8D0F997B93DDF5F /* AVFoundation_AVCaptureFileOutput.h */,
+				9DCE394589E1B60DDDE7A654 /* AVFoundation_AVCaptureFileOutput.m */,
+				83C5345A1136980FCB0B2F30 /* AVFoundation_AVCaptureInput.h */,
+				595490E573B1B1575EF9C0D5 /* AVFoundation_AVCaptureInput.m */,
+				6D1D14C0401DBB7A72607CF4 /* AVFoundation_AVCaptureMetadataOutput.h */,
+				A5207879D2F74E202484CCB6 /* AVFoundation_AVCaptureMetadataOutput.m */,
+				9636EB47DB6B917106E177C6 /* AVFoundation_AVCaptureOutputBase.h */,
+				C2717381FD22F3B9BC61BBB8 /* AVFoundation_AVCaptureOutputBase.m */,
+				813BF8B355E0C4B7C3690A13 /* AVFoundation_AVCapturePhotoOutput.h */,
+				906F5F317D737F328A9FD459 /* AVFoundation_AVCapturePhotoOutput.m */,
+				4693213E35D4566669D0D523 /* AVFoundation_AVCaptureSession.h */,
+				6CEA0FBCB22CC1C483001BBE /* AVFoundation_AVCaptureSession.m */,
+				D679D94AC85C07C5D9A4CC0A /* AVFoundation_AVCaptureSessionPreset.h */,
+				0B230E920C39C36CAC07AD41 /* AVFoundation_AVCaptureSessionPreset.m */,
+				1A26476372B4BC9C8DE1D595 /* AVFoundation_AVCaptureStillImageOutput.h */,
+				5F4351E2DFD8D25570FF11B8 /* AVFoundation_AVCaptureStillImageOutput.m */,
+				0495D8442416DB93BD4F292B /* AVFoundation_AVCaptureSystemPressure.h */,
+				C56D763B2B77E04057CC1843 /* AVFoundation_AVCaptureSystemPressure.m */,
+				335AA2EB68A5192A03E6F30E /* AVFoundation_AVCaptureVideoDataOutput.h */,
+				FCA881AB1B97E63C2149749F /* AVFoundation_AVCaptureVideoDataOutput.m */,
+				35C4B1A36D9D8125EB8215AB /* AVFoundation_AVCaptureVideoPreviewLayer.h */,
+				87E5CDE6905E5E4B55C7A16B /* AVFoundation_AVCaptureVideoPreviewLayer.m */,
+				669F9488E1D6A7206F17E370 /* AVFoundation_AVComposition.h */,
+				71F9283450B554F4EC9D39D0 /* AVFoundation_AVComposition.m */,
+				1039037C81E840CB0358E9A1 /* AVFoundation_AVCompositionTrack.h */,
+				932886044FD30F87CA1A5944 /* AVFoundation_AVCompositionTrack.m */,
+				B2E031AECF0A78E19E0AC15A /* AVFoundation_AVCompositionTrackSegment.h */,
+				AEE0780901464B20C46CA251 /* AVFoundation_AVCompositionTrackSegment.m */,
+				99E1B00B3FC74C913523DF7D /* AVFoundation_AVContentKeySession.h */,
+				A613B7C71F669822C5DE855D /* AVFoundation_AVContentKeySession.m */,
+				982DF85A271DFCDE40F83655 /* AVFoundation_AVDepthData.h */,
+				C8492BE0C522D5ABAC204704 /* AVFoundation_AVDepthData.m */,
+				D1C74D098BB31F5796506418 /* AVFoundation_AVError.h */,
+				29289FC376E6CD4BB2AA170F /* AVFoundation_AVError.m */,
+				AFF6E383343403B9B949729E /* AVFoundation_AVFAudio_AVAudioBuffer.h */,
+				F7A224A0270F088E98EFC19A /* AVFoundation_AVFAudio_AVAudioBuffer.m */,
+				4B125FD66C0BE99E0006FB50 /* AVFoundation_AVFAudio_AVAudioChannelLayout.h */,
+				0A6F7548848E84BB7FD8DF6C /* AVFoundation_AVFAudio_AVAudioChannelLayout.m */,
+				DE787966998BA992BBAE6607 /* AVFoundation_AVFAudio_AVAudioConnectionPoint.h */,
+				A7CD7B1A3141E5CC5609A4FA /* AVFoundation_AVFAudio_AVAudioConnectionPoint.m */,
+				2C01B767563213BA729F2CCA /* AVFoundation_AVFAudio_AVAudioConverter.h */,
+				4559BEC115DC1BCC3FAB7A56 /* AVFoundation_AVFAudio_AVAudioConverter.m */,
+				23A4BE4092000B2CEE0B1CAF /* AVFoundation_AVFAudio_AVAudioConverter_sa */,
+				E0B3968B7FECE5AE31A6CA7C /* AVFoundation_AVFAudio_AVAudioConverter_sr */,
+				4B94C6CE09AA5A1982D2A19C /* AVFoundation_AVFAudio_AVAudioEngine.h */,
+				F065D7BB1BDA093F839CD4C0 /* AVFoundation_AVFAudio_AVAudioEngine.m */,
+				0D79951F484658B0C7AA0B87 /* AVFoundation_AVFAudio_AVAudioEnvironmentNode.h */,
+				BA075E763430202C04209506 /* AVFoundation_AVFAudio_AVAudioEnvironmentNode.m */,
+				899DA14CAC049D9737117CAE /* AVFoundation_AVFAudio_AVAudioFile.h */,
+				8C9D19001179D7F730F39960 /* AVFoundation_AVFAudio_AVAudioFile.m */,
+				90EE08CA752F29463D621EA8 /* AVFoundation_AVFAudio_AVAudioFormat.h */,
+				94E55E5E7C754703D0EC6411 /* AVFoundation_AVFAudio_AVAudioFormat.m */,
+				CE87884B036CB4C7C3776761 /* AVFoundation_AVFAudio_AVAudioIONode.h */,
+				C945EA458B36127E7D0EC68A /* AVFoundation_AVFAudio_AVAudioIONode.m */,
+				C0E53C193097A5AEC6017F3D /* AVFoundation_AVFAudio_AVAudioMixerNode.h */,
+				4CA7D401759468A54D05341A /* AVFoundation_AVFAudio_AVAudioMixerNode.m */,
+				E95DD44944518308B609BE40 /* AVFoundation_AVFAudio_AVAudioMixing.h */,
+				79F16AB388C38EFFE6585F3A /* AVFoundation_AVFAudio_AVAudioMixing.m */,
+				9657209D2B2468D3BBE554B5 /* AVFoundation_AVFAudio_AVAudioNode.h */,
+				F66A8AED5101C2742B4BB651 /* AVFoundation_AVFAudio_AVAudioNode.m */,
+				A99E377B5583DEE4D19F988D /* AVFoundation_AVFAudio_AVAudioPlayer.h */,
+				1268F0DB17A6E34F32D5B39F /* AVFoundation_AVFAudio_AVAudioPlayer.m */,
+				C236C15DCC2CB026760C4B79 /* AVFoundation_AVFAudio_AVAudioPlayerNode.h */,
+				0126837386253F9454E7193C /* AVFoundation_AVFAudio_AVAudioPlayerNode.m */,
+				6622A1214C2BD1707AFE45AC /* AVFoundation_AVFAudio_AVAudioRecorder.h */,
+				519C9985E2755092F76BDE6A /* AVFoundation_AVFAudio_AVAudioRecorder.m */,
+				1F60E9742580FFD023211545 /* AVFoundation_AVFAudio_AVAudioSequencer.h */,
+				1D7ED1A761C36BA93B7F7FD3 /* AVFoundation_AVFAudio_AVAudioSequencer.m */,
+				8AE2E4D7AE63A2C4069975F1 /* AVFoundation_AVFAudio_AVAudioSequencer_sa */,
+				3F7D4185BAFC57F59BD5BF29 /* AVFoundation_AVFAudio_AVAudioSequencer_sr */,
+				9C5C4984DCF7270FF5582693 /* AVFoundation_AVFAudio_AVAudioSession.h */,
+				B32D9564A8E6BCCE1B3BFDAA /* AVFoundation_AVFAudio_AVAudioSession.m */,
+				38EDB569FDA14CABC32B0BBA /* AVFoundation_AVFAudio_AVAudioSettings.h */,
+				736B77513FEF85657ECB56C3 /* AVFoundation_AVFAudio_AVAudioSettings.m */,
+				592E3A30C947EA511A14EAF7 /* AVFoundation_AVFAudio_AVAudioTime.h */,
+				DAF1434D378BC1F186EE5191 /* AVFoundation_AVFAudio_AVAudioTime.m */,
+				9D5A003C69DE3A32087534B2 /* AVFoundation_AVFAudio_AVAudioTypes.h */,
+				9314CA3AB917562C7F37172F /* AVFoundation_AVFAudio_AVAudioTypes.m */,
+				C76A40D3C7A4269DB2C296A9 /* AVFoundation_AVFAudio_AVAudioTypes_sa */,
+				C87AB45D3AD2583CDBEEA79C /* AVFoundation_AVFAudio_AVAudioTypes_sr */,
+				D693629D749D221429185D20 /* AVFoundation_AVFAudio_AVAudioUnit.h */,
+				B735DF6EBCF95FCA6AB7827E /* AVFoundation_AVFAudio_AVAudioUnit.m */,
+				C0EDB49744E0C7BD89EF508D /* AVFoundation_AVFAudio_AVAudioUnitComponent.h */,
+				80B7C170EA1C2BC0E943A46B /* AVFoundation_AVFAudio_AVAudioUnitComponent.m */,
+				A99078635E425BBE28F807FD /* AVFoundation_AVFAudio_AVAudioUnitDelay.h */,
+				B9FB5B12196493FB97B0A1D7 /* AVFoundation_AVFAudio_AVAudioUnitDelay.m */,
+				DF631713D01E3A150329A80C /* AVFoundation_AVFAudio_AVAudioUnitDistortion.h */,
+				299A09E8ED8633232EE49C94 /* AVFoundation_AVFAudio_AVAudioUnitDistortion.m */,
+				4102F197BFD5CCD91D689371 /* AVFoundation_AVFAudio_AVAudioUnitEQ.h */,
+				1B33175C2EF417B10C39255E /* AVFoundation_AVFAudio_AVAudioUnitEQ.m */,
+				76DEAE72B6B1C42B373609A5 /* AVFoundation_AVFAudio_AVAudioUnitEffect.h */,
+				DAA9FC51A13D4AA4C07720BA /* AVFoundation_AVFAudio_AVAudioUnitEffect.m */,
+				89CEF334BDA75AE6B3CCCBD2 /* AVFoundation_AVFAudio_AVAudioUnitGenerator.h */,
+				505973F664A21C406A4756C9 /* AVFoundation_AVFAudio_AVAudioUnitGenerator.m */,
+				97AE36041A4A61FA4E84DDEC /* AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.h */,
+				AEB1D1714D2A1E580467CE33 /* AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.m */,
+				ED0ADF12B5637E874246E68B /* AVFoundation_AVFAudio_AVAudioUnitReverb.h */,
+				47201284F49569D2A983D4B0 /* AVFoundation_AVFAudio_AVAudioUnitReverb.m */,
+				29B216C4D206FF39EA8F6A5B /* AVFoundation_AVFAudio_AVAudioUnitSampler.h */,
+				B4727978087D289A12755371 /* AVFoundation_AVFAudio_AVAudioUnitSampler.m */,
+				08BADA221A49FACDFA7EB694 /* AVFoundation_AVFAudio_AVAudioUnitTimeEffect.h */,
+				D7BC45679ED3C419B79D2CE7 /* AVFoundation_AVFAudio_AVAudioUnitTimeEffect.m */,
+				E03FB4A2CB253DE17E747D23 /* AVFoundation_AVFAudio_AVAudioUnitTimePitch.h */,
+				3E6D4B44E7EF1034045775DB /* AVFoundation_AVFAudio_AVAudioUnitTimePitch.m */,
+				C74D897C75861FA730D5B0D2 /* AVFoundation_AVFAudio_AVAudioUnitVarispeed.h */,
+				A0EE335B54ED9ECE7E3ADF2C /* AVFoundation_AVFAudio_AVAudioUnitVarispeed.m */,
+				7AA8A640FF15F0421CEFC842 /* AVFoundation_AVFAudio_AVMIDIPlayer.h */,
+				3E2A45A45A7A454667D001CE /* AVFoundation_AVFAudio_AVMIDIPlayer.m */,
+				3C224BD36B2C12D96FFB05EA /* AVFoundation_AVFAudio_AVSpeechSynthesis.h */,
+				6F85263EE46B99B63120BC5F /* AVFoundation_AVFAudio_AVSpeechSynthesis.m */,
+				6EA6D62D875B278391A9E790 /* AVFoundation_AVMediaFormat.h */,
+				3220A001F85DD374778D1DFB /* AVFoundation_AVMediaFormat.m */,
+				15909577940AC27792DB3756 /* AVFoundation_AVMediaSelection.h */,
+				205C78E93B59499C290D23DE /* AVFoundation_AVMediaSelection.m */,
+				B26DB68194E0E7B2DF97CA96 /* AVFoundation_AVMediaSelectionGroup.h */,
+				78DF1E6CAA181F772ED60880 /* AVFoundation_AVMediaSelectionGroup.m */,
+				06087E9E763D480BA0E1F607 /* AVFoundation_AVMetadataFormat.h */,
+				131022F3FE5CBD96849D7937 /* AVFoundation_AVMetadataFormat.m */,
+				EE8383ECAC6660A449EF78F1 /* AVFoundation_AVMetadataIdentifiers.h */,
+				613FDA1FEB11AA6F57A96BAE /* AVFoundation_AVMetadataIdentifiers.m */,
+				39898778F65626CCF682192B /* AVFoundation_AVMetadataItem.h */,
+				23B5817ACD6C2849DAF5F1B3 /* AVFoundation_AVMetadataItem.m */,
+				FEF1A49D068C2E4A4209BCC0 /* AVFoundation_AVMetadataObject.h */,
+				4DAA36F19A55603278F662A5 /* AVFoundation_AVMetadataObject.m */,
+				C015F4A60938C3ACB9229543 /* AVFoundation_AVOutputSettingsAssistant.h */,
+				405D9C7A520FBC554B4342BE /* AVFoundation_AVOutputSettingsAssistant.m */,
+				524B0D60DE156884355A613E /* AVFoundation_AVPlayer.h */,
+				BACAAC351E1A96C6BC50ADEB /* AVFoundation_AVPlayer.m */,
+				D95C60B5CCC804658FB7947D /* AVFoundation_AVPlayerItem.h */,
+				B89D092DAFFF6171ADD782EA /* AVFoundation_AVPlayerItem.m */,
+				A98FF4CAE158B4F4F8538133 /* AVFoundation_AVPlayerItemMediaDataCollector.h */,
+				E88839A41A3D555E1C07F849 /* AVFoundation_AVPlayerItemMediaDataCollector.m */,
+				EA0983E7B32024E92F448462 /* AVFoundation_AVPlayerItemOutput.h */,
+				E8BFCEF3358057D34012DD7B /* AVFoundation_AVPlayerItemOutput.m */,
+				5AD76D723FA2EF3873F01996 /* AVFoundation_AVPlayerItemTrack.h */,
+				62D28575E05901C6001D962C /* AVFoundation_AVPlayerItemTrack.m */,
+				CEB46861913F2818AB42C9CA /* AVFoundation_AVPlayerLayer.h */,
+				1A5561DD1A690627A74A7423 /* AVFoundation_AVPlayerLayer.m */,
+				56EF7F40EE0ADB576649BB5C /* AVFoundation_AVPlayerLooper.h */,
+				D28A42E5690921AA7EBCCA9E /* AVFoundation_AVPlayerLooper.m */,
+				ACDF267E3E2868512CCF3FFA /* AVFoundation_AVPlayerMediaSelectionCriteria.h */,
+				781FC12479D3E9F8E06E95A6 /* AVFoundation_AVPlayerMediaSelectionCriteria.m */,
+				7B3A293D591EE20A8C8BE578 /* AVFoundation_AVQueuedSampleBufferRendering.h */,
+				6008D76B35D9FBA00E029E61 /* AVFoundation_AVQueuedSampleBufferRendering.m */,
+				500F8346085CD6BED801D029 /* AVFoundation_AVRouteDetector.h */,
+				6AC93C5E6F531543AE075481 /* AVFoundation_AVRouteDetector.m */,
+				032EE15828515D65C6A42D31 /* AVFoundation_AVSampleBufferAudioRenderer.h */,
+				5AFD6D3F298C15D8E70ECF8B /* AVFoundation_AVSampleBufferAudioRenderer.m */,
+				9431422E80D05D49F4C8ACB3 /* AVFoundation_AVSampleBufferDisplayLayer.h */,
+				3402D6DBF949ACC08248B0D9 /* AVFoundation_AVSampleBufferDisplayLayer.m */,
+				F9A00D9FF2C6B748B2489D85 /* AVFoundation_AVSampleBufferRenderSynchronizer.h */,
+				49DCBCD58171B9ED83C8AAE8 /* AVFoundation_AVSampleBufferRenderSynchronizer.m */,
+				5DB87211F83D38B23FB8BCCE /* AVFoundation_AVSynchronizedLayer.h */,
+				14D4A9CB1F0DD48F5D729A26 /* AVFoundation_AVSynchronizedLayer.m */,
+				3AADEEC6083FB8A37FA4A2C6 /* AVFoundation_AVTextStyleRule.h */,
+				46DF84BC9717552116DE561A /* AVFoundation_AVTextStyleRule.m */,
+				12CE12BD5CA6948751CD5CC4 /* AVFoundation_AVTime.h */,
+				5C9DA93A2B05CC54FA7F2E15 /* AVFoundation_AVTime.m */,
+				8328D952C6347B00B8A7CCBE /* AVFoundation_AVTimedMetadataGroup.h */,
+				B6FE9CA75AA6083487B4CCD7 /* AVFoundation_AVTimedMetadataGroup.m */,
+				5BBBA296D0C4683B26B6F891 /* AVFoundation_AVUtilities.h */,
+				07B31B9CBC360996B11FCAD0 /* AVFoundation_AVUtilities.m */,
+				74433DC89D7E78A6F3E3D3A4 /* AVFoundation_AVVideoCompositing.h */,
+				D01DB8964F5D96B4CCD03380 /* AVFoundation_AVVideoCompositing.m */,
+				2E20C577110DE065FCC838D0 /* AVFoundation_AVVideoCompositing_sa */,
+				E5517BDC0885D73CA764C5EE /* AVFoundation_AVVideoCompositing_sr */,
+				A69DBD8D2692F1CA17178EA5 /* AVFoundation_AVVideoComposition.h */,
+				E96F1C60E2C66F1D8728C5A0 /* AVFoundation_AVVideoComposition.m */,
+				96CDDE2F786D57616F51297F /* AVFoundation_AVVideoSettings.h */,
+				B2A592FA3DE167832408F69D /* AVFoundation_AVVideoSettings.m */,
+				0EE5C529A3CF02CFC4187BD5 /* AudioToolbox_AUAudioUnit.h */,
+				04E112E8996CE012D7846D3F /* AudioToolbox_AUAudioUnitImplementation.h */,
+				20C09200077548E2306A35DD /* AudioToolbox_AUComponent.h */,
+				ADD3A17DFD7F37D57830F974 /* AudioToolbox_AUGraph.h */,
+				DE3BC34A330B0EE015B5808A /* AudioToolbox_AUParameters.h */,
+				915FAC1D8B56417594A847C0 /* AudioToolbox_AudioComponent.h */,
+				32F31680F5D2A7C40CD37D45 /* AudioToolbox_AudioConverter.h */,
+				8AB6CF84A22EE21D9EA63483 /* AudioToolbox_AudioFile.h */,
+				07085AB5E11118DC26299B47 /* AudioToolbox_AudioFileStream.h */,
+				29CE691A35B4FABD844C48D1 /* AudioToolbox_AudioFormat.h */,
+				D7716A46BCCCC86D3E7AF78C /* AudioToolbox_AudioOutputUnit.h */,
+				BF7FD9147C3DF77B32B9BD4C /* AudioToolbox_AudioQueue.h */,
+				2B0399BD9A9076663FB8D3E4 /* AudioToolbox_AudioServices.h */,
+				87E609011743ED5031501905 /* AudioToolbox_AudioSession.h */,
+				FE8F694347641546385FBB26 /* AudioToolbox_AudioToolbox.h */,
+				B7833704AE4C3D90AFF361F2 /* AudioToolbox_AudioUnitParameters.h */,
+				60201A81414A263925355175 /* AudioToolbox_AudioUnitProperties.h */,
+				D1D93CBC578063C210AE6F9D /* AudioToolbox_CAFFile.h */,
+				6DBFAA9FEB3CD4C29DD654B3 /* AudioToolbox_ExtendedAudioFile.h */,
+				4942B5DB4F13FDCB3BB4866B /* AudioToolbox_MusicDevice.h */,
+				ACF87BA4CEB108B2D4669924 /* AudioToolbox_MusicPlayer.h */,
+				508A0FD945B51582F5FA39D6 /* CFNetwork_CFFTPStream.h */,
+				7DED39B964DA4D54D4FCA8D9 /* CFNetwork_CFHTTPAuthentication.h */,
+				26998358BD8B06685E6D62B9 /* CFNetwork_CFHTTPMessage.h */,
+				95F2C5427915A471EE9C4531 /* CFNetwork_CFHTTPStream.h */,
+				580C191E67BDA58E3674B7EA /* CFNetwork_CFHost.h */,
+				0D2425EB0F32FE6FEF4D74FF /* CFNetwork_CFNetDiagnostics.h */,
+				306B8D86E2CB4D124AFAF334 /* CFNetwork_CFNetServices.h */,
+				1AF89C66E46B6E0573887F6A /* CFNetwork_CFNetworkErrors.h */,
+				B165FB2A1D8966AF32AFBAB3 /* CFNetwork_CFProxySupport.h */,
+				96AC9DBA01BD30FB54FF1188 /* CFNetwork_CFSocketStream.h */,
+				D022FC77F586B67EB5630D09 /* CoreAudio_CoreAudioTypes.h */,
+				05B608F190B63D57B8FEB77A /* CoreFoundation_CFArray.h */,
+				AC48BF0C4A20850BAD7CB1D8 /* CoreFoundation_CFAttributedString.h */,
+				5DB8C026F484D099ADF31ECF /* CoreFoundation_CFBag.h */,
+				5D57A10063D80BFD08CF37C0 /* CoreFoundation_CFBase.h */,
+				7A223CE7AB86E9D6C32172C0 /* CoreFoundation_CFBinaryHeap.h */,
+				CE2496A84EE2B011DE161889 /* CoreFoundation_CFBitVector.h */,
+				E0285A17951DCC3EC65BADC3 /* CoreFoundation_CFBundle.h */,
+				A37323EB618D70C1F4EC6BAE /* CoreFoundation_CFByteOrder.h */,
+				3DFAAFED2F3472EBF3A3931C /* CoreFoundation_CFCalendar.h */,
+				599B441686EFC48C8BF956AA /* CoreFoundation_CFCharacterSet.h */,
+				33F6B14E7526A49811D6F42D /* CoreFoundation_CFData.h */,
+				E0452B4097C741326BC66194 /* CoreFoundation_CFDate.h */,
+				AB873964B8131E1EF5082A95 /* CoreFoundation_CFDateFormatter.h */,
+				6EF37912D629AFF90837B9FF /* CoreFoundation_CFDictionary.h */,
+				C3936CD7C28096A4B99B2CB3 /* CoreFoundation_CFError.h */,
+				57DC2DEF979DDF3D6112F4D4 /* CoreFoundation_CFFileDescriptor.h */,
+				934B8132482916F6903AFF47 /* CoreFoundation_CFFileSecurity.h */,
+				2504F3A805FE284ED1307824 /* CoreFoundation_CFLocale.h */,
+				ACF9C0E175272AB503DF9937 /* CoreFoundation_CFMachPort.h */,
+				1D561D99225A1C8F5CDC8EB9 /* CoreFoundation_CFMessagePort.h */,
+				00E37D79E078EE8DECD88508 /* CoreFoundation_CFNotificationCenter.h */,
+				6FE06CD3E83D81506E939620 /* CoreFoundation_CFNumber.h */,
+				D60924C60336142679560018 /* CoreFoundation_CFNumberFormatter.h */,
+				E7FD1AEE51BA7C30D7FE7072 /* CoreFoundation_CFPlugIn.h */,
+				9BCCD659490D03D5A2AAE927 /* CoreFoundation_CFPreferences.h */,
+				38B16A84ED5DEB65E22B5989 /* CoreFoundation_CFPropertyList.h */,
+				63EA322304D92A82177B7751 /* CoreFoundation_CFRunLoop.h */,
+				A1730464DBE93792E0E7960D /* CoreFoundation_CFSet.h */,
+				DA1A2CA061958A642A021B33 /* CoreFoundation_CFSocket.h */,
+				777A1B1EFDE8511BAEB08120 /* CoreFoundation_CFStream.h */,
+				7DE88667459F733C7C5F77D6 /* CoreFoundation_CFString.h */,
+				9C494AF08DB399DB1C36569D /* CoreFoundation_CFStringEncodingExt.h */,
+				274E635E36F9357EB5603337 /* CoreFoundation_CFStringTokenizer.h */,
+				48822CCF9AFC568545C8D78C /* CoreFoundation_CFTimeZone.h */,
+				E839CFECEE76E67CBBB1B21A /* CoreFoundation_CFTree.h */,
+				7CE4C77E30A6E429641EC1D3 /* CoreFoundation_CFURL.h */,
+				6D6B9F1B74C59BB4BFBD51A4 /* CoreFoundation_CFURLAccess.h */,
+				EA7AC9A776AF1BE3568239B3 /* CoreFoundation_CFURLEnumerator.h */,
+				63AB7094ECDE38A5CB3E9976 /* CoreFoundation_CFUUID.h */,
+				1B300D7FCBC70EB38D03E422 /* CoreFoundation_CFUtilities.h */,
+				213E2A80FAFD8C76FBCD913A /* CoreGraphics_CGAffineTransform.h */,
+				B17C667585B44451D9658C99 /* CoreGraphics_CGBitmapContext.h */,
+				B4663B80977521A6EF26D1E5 /* CoreGraphics_CGColor.h */,
+				8ED3D05E9B12CE4D45B089E2 /* CoreGraphics_CGColorConversionInfo.h */,
+				0E67CE2D2B3CD8D24B32CEE1 /* CoreGraphics_CGColorSpace.h */,
+				1D8339A6A451C6A74CFCD5BB /* CoreGraphics_CGContext.h */,
+				695A46237F7D502DAB039027 /* CoreGraphics_CGDataConsumer.h */,
+				32A05A3FF6C78166EEAA733E /* CoreGraphics_CGDataProvider.h */,
+				439FDAFA5D4DC73F742C7DFA /* CoreGraphics_CGError.h */,
+				FFE69C0CA8702DFFE70DB345 /* CoreGraphics_CGFont.h */,
+				911E0766F7AE1D749051E6A4 /* CoreGraphics_CGFunction.h */,
+				01DB0BCEF81D79D65A5E00B5 /* CoreGraphics_CGGeometry.h */,
+				A52D0B85E1147BE96349ECCA /* CoreGraphics_CGGradient.h */,
+				E62A694EA85BA4235FD219BF /* CoreGraphics_CGImage.h */,
+				291C9F9462C7B1766311926E /* CoreGraphics_CGLayer.h */,
+				DA3FD5B913D38D08D609009B /* CoreGraphics_CGPDFArray.h */,
+				D17E84AB4B431F94300C739D /* CoreGraphics_CGPDFContentStream.h */,
+				F639B117AE774C7AC09BB6A3 /* CoreGraphics_CGPDFContext.h */,
+				83696C5144CACF66BAB1C196 /* CoreGraphics_CGPDFDictionary.h */,
+				4DFD05188CADCF14F312A98D /* CoreGraphics_CGPDFDocument.h */,
+				0AE55A9538A8991893EA86ED /* CoreGraphics_CGPDFObject.h */,
+				A105FA731CD4832EB82A6CAC /* CoreGraphics_CGPDFOperatorTable.h */,
+				49F1D8563C1D60055C70C2C9 /* CoreGraphics_CGPDFPage.h */,
+				E8B4516E332F7200359C6D10 /* CoreGraphics_CGPDFScanner.h */,
+				31C46ED9FD88C20E73F992CB /* CoreGraphics_CGPDFStream.h */,
+				AF575C23550F8D9EEEA534DA /* CoreGraphics_CGPDFString.h */,
+				BB799A5A8C959AF0796C038E /* CoreGraphics_CGPath.h */,
+				4D510A36FAA2F18A3FB6BB43 /* CoreGraphics_CGPattern.h */,
+				E0875AF4352427DFA6306475 /* CoreGraphics_CGShading.h */,
+				D16D7AAE4D1EC86F905E9D71 /* CoreMIDI_MIDIServices.h */,
+				0F31360F6E6DA7190128E469 /* CoreMedia_CMAttachment.h */,
+				EE8458796676540CB60D4EE4 /* CoreMedia_CMBase.h */,
+				E9525D81D7BADB54A2844B85 /* CoreMedia_CMBlockBuffer.h */,
+				F987C50B7091FF2A9D5309CB /* CoreMedia_CMFormatDescription.h */,
+				695B3B32C7700ED7574477E2 /* CoreMedia_CMSampleBuffer.h */,
+				03EDCF502EADEEA2758216B1 /* CoreMedia_CMSync.h */,
+				72C067235769D68C7B83B165 /* CoreMedia_CMTime.h */,
+				5F7FDCB93283DC575BA5EFD1 /* CoreMedia_CMTimeRange.h */,
+				B55D8C0EA6ABBFDA31A6C26D /* CoreVideo_CVBase.h */,
+				0E9E4D97EDB89ED4F8E76FDE /* CoreVideo_CVBuffer.h */,
+				157928FB67AD45C489348A1F /* CoreVideo_CVImageBuffer.h */,
+				7CE24D75F8157B2EDCF54BEA /* CoreVideo_CVMetalTexture.h */,
+				C7847DE4F773B17A6F4E8A48 /* CoreVideo_CVMetalTextureCache.h */,
+				4AFCEA0345F9F584D77DA2BB /* CoreVideo_CVOpenGLESTexture.h */,
+				C97A3959C4AC9C341BFFDFA5 /* CoreVideo_CVOpenGLESTextureCache.h */,
+				3BEAB6EE5F42AAE1ADEBDE8F /* CoreVideo_CVPixelBuffer.h */,
+				3A6D715CC0B8708C1A53ABD5 /* CoreVideo_CVPixelBufferIOSurface.h */,
+				D5E027F9AA423798C9D65830 /* CoreVideo_CVPixelBufferPool.h */,
+				EDC790764BFE484C48A659F2 /* CoreVideo_CVPixelFormatDescription.h */,
+				DBBA0CE11525CA0FD6581F44 /* CoreVideo_CVReturn.h */,
+				781D34FF9F02AF3544E5329D /* Foundation_FoundationErrors.h */,
+				D2FA780A972EBAB2BEEC1F25 /* Foundation_NSArray.h */,
+				594A4857603FB54ECB9CAE25 /* Foundation_NSAttributedString.h */,
+				D00BCA09245EAC83B560B6A3 /* Foundation_NSAutoreleasePool.h */,
+				A746438FBA4C59D004690895 /* Foundation_NSBundle.h */,
+				60D68026E2FF028DB539FA10 /* Foundation_NSByteCountFormatter.h */,
+				A3703970B7D828BC56D94526 /* Foundation_NSByteOrder.h */,
+				6863AC4394D68BDF96528AAC /* Foundation_NSCache.h */,
+				E0A0E23F79079B4B6B71ADB5 /* Foundation_NSCalendar.h */,
+				C21CBF684273B52D3D86D02E /* Foundation_NSCharacterSet.h */,
+				9D8929E56D213CA9B8ED4620 /* Foundation_NSCoder.h */,
+				1879105F0D7E2E14E35C832C /* Foundation_NSComparisonPredicate.h */,
+				9F10AC6FCE6451859980BBC4 /* Foundation_NSCompoundPredicate.h */,
+				024AEBCBA4BEECA071700022 /* Foundation_NSData.h */,
+				53E93E9490706B98541E23EC /* Foundation_NSDate.h */,
+				2516EEE9B952ECDBEF81326A /* Foundation_NSDateComponentsFormatter.h */,
+				0053A2CEDF5A5A34B9C98B1F /* Foundation_NSDateFormatter.h */,
+				7C4F35A62A3C191E1743A15F /* Foundation_NSDateInterval.h */,
+				8BFB6214857F59794816B2A7 /* Foundation_NSDateIntervalFormatter.h */,
+				CF762FDBEFD401393E505072 /* Foundation_NSDecimal.h */,
+				527BB80CF34C3133EB72ABA7 /* Foundation_NSDecimalNumber.h */,
+				AFCA96779CBA43FD16F6AC29 /* Foundation_NSDictionary.h */,
+				A7C4F63EEC618D6005076A0C /* Foundation_NSEnergyFormatter.h */,
+				F6EEAFF8E8577ED10E6A62CC /* Foundation_NSEnumerator.h */,
+				CAE050EA7366B75FB2A68DF4 /* Foundation_NSError.h */,
+				231BD55C39851E563E548709 /* Foundation_NSException.h */,
+				6CE34C39C5B832DF153062F3 /* Foundation_NSExpression.h */,
+				9AB69F759551FADBC76CCD17 /* Foundation_NSExtensionContext.h */,
+				85B5D05CFF9AF72673F046FF /* Foundation_NSExtensionItem.h */,
+				47DF78EFB236C9148B799788 /* Foundation_NSExtensionRequestHandling.h */,
+				F28E0D2CFB3F4B444DD9A274 /* Foundation_NSFileCoordinator.h */,
+				BDC2BEAB5DD70FBEB846122E /* Foundation_NSFileHandle.h */,
+				E2645D1AC67CD380B0528815 /* Foundation_NSFileManager.h */,
+				5B1A4C4927A3A1D98BA3207B /* Foundation_NSFilePresenter.h */,
+				21F64B194DA9B11513A9CED4 /* Foundation_NSFileVersion.h */,
+				7122F699AEEB3A757FBB181F /* Foundation_NSFileWrapper.h */,
+				42789157AF18F2CD07EC4833 /* Foundation_NSFormatter.h */,
+				C2E05309D51077D9C2632780 /* Foundation_NSHTTPCookie.h */,
+				5F7014B84F0086D85F0E1082 /* Foundation_NSHTTPCookieStorage.h */,
+				D43854FCD19957D5DD15DFBE /* Foundation_NSHashTable.h */,
+				E88399741B2CD5E7B2AC0EA6 /* Foundation_NSISO8601DateFormatter.h */,
+				1696CFB9AB5DDDB9FF38EF3C /* Foundation_NSIndexPath.h */,
+				D04F467DD6438C41AAA230F7 /* Foundation_NSIndexSet.h */,
+				0D1D5E6DAA28085DE4F6DAF0 /* Foundation_NSInvocation.h */,
+				915A2C693DC50EC9725F7E8E /* Foundation_NSItemProvider.h */,
+				6E1227273411DCB9FE339520 /* Foundation_NSJSONSerialization.h */,
+				4F87014E8FFAC36BE7B56A65 /* Foundation_NSKeyValueCoding.h */,
+				40482AEA87CA97052CF185F4 /* Foundation_NSKeyValueObserving.h */,
+				DD4F9894AECA084ABD6271B6 /* Foundation_NSKeyedArchiver.h */,
+				68DAF22C61EF08EFDB50D512 /* Foundation_NSLengthFormatter.h */,
+				AABD9A4F6BEE95BE68D33CA5 /* Foundation_NSLinguisticTagger.h */,
+				680D56BEA11DF9C6D14CADA2 /* Foundation_NSLocale.h */,
+				4444465711E380539C5F7269 /* Foundation_NSLock.h */,
+				9A6DDFFEDD0446050197039B /* Foundation_NSMapTable.h */,
+				5485E48C8A467CDFCF3DE20B /* Foundation_NSMassFormatter.h */,
+				789D8ED4704D200A74019C73 /* Foundation_NSMeasurement.h */,
+				8D22ED36D4E8A0DD9ED0A804 /* Foundation_NSMeasurementFormatter.h */,
+				63CE2D55E42470AC22EEE08E /* Foundation_NSMetadata.h */,
+				CD385B864DADC5B68E1D87CE /* Foundation_NSMetadataAttributes.h */,
+				7A85FA5A1CE4BCD061454247 /* Foundation_NSMethodSignature.h */,
+				18279CD43522CDE719CABEE8 /* Foundation_NSNetServices.h */,
+				D14F8FC166BDBE913BDA0D70 /* Foundation_NSNotification.h */,
+				245062468E09CF9FCC048CF2 /* Foundation_NSNotificationQueue.h */,
+				D1A0184595408DF9B8EA9B93 /* Foundation_NSNull.h */,
+				24C891B20B3711F18B64D364 /* Foundation_NSNumberFormatter.h */,
+				CD068B476BD6029C551BE86A /* Foundation_NSObjCRuntime.h */,
+				980C61CEE2B154B58D4F457D /* Foundation_NSObject.h */,
+				E5F15E7851D4BD7952FE3E08 /* Foundation_NSOperation.h */,
+				76DBED9B5CC63F52A7A5BB4C /* Foundation_NSOrderedSet.h */,
+				189E05521A127C57C67F4B91 /* Foundation_NSOrthography.h */,
+				C0DF03CEA392EB8EABEEAF7D /* Foundation_NSPathUtilities.h */,
+				9FF7485C80F67C77D742623A /* Foundation_NSPersonNameComponents.h */,
+				E91BCE3F2396F53D8A28F180 /* Foundation_NSPersonNameComponentsFormatter.h */,
+				23DC71510C77336D01989A82 /* Foundation_NSPointerArray.h */,
+				D1CB336225B51D941F1E9C3E /* Foundation_NSPointerFunctions.h */,
+				6555DEBFBA35F9630DEB338D /* Foundation_NSPort.h */,
+				6F977B611DA8575C888B1496 /* Foundation_NSPredicate.h */,
+				EE73E502A0100D7E1AC8A047 /* Foundation_NSProcessInfo.h */,
+				8D63966F378C9CA143CB60AA /* Foundation_NSProgress.h */,
+				0C96A254B2995BE0D809D543 /* Foundation_NSPropertyList.h */,
+				BA69AC047BB6E5B3CDECEC6D /* Foundation_NSProxy.h */,
+				122DF71E6C48336F277BACDF /* Foundation_NSRange.h */,
+				32D55436712645F3D4E905DD /* Foundation_NSRegularExpression.h */,
+				28D991266067CE3CC114F441 /* Foundation_NSRunLoop.h */,
+				860A616329E17447AFF0F175 /* Foundation_NSScanner.h */,
+				6DC4F137C60E859ECFB76720 /* Foundation_NSSet.h */,
+				B185916195752CC0148B9188 /* Foundation_NSSortDescriptor.h */,
+				2C4A1F13BCCB81484A11E546 /* Foundation_NSStream.h */,
+				E8D58272985D87BBFA0E20B7 /* Foundation_NSString.h */,
+				A5EFEA1F1F69E6DF628F2E1C /* Foundation_NSTextCheckingResult.h */,
+				C5CA1578F9A86EA0C1A4FD0F /* Foundation_NSThread.h */,
+				76E7D93547A9115EE9E789B6 /* Foundation_NSTimeZone.h */,
+				FCA6B2C267A2B13E805F6E6E /* Foundation_NSTimer.h */,
+				FFC3DC8DA41873F3D83A3D6B /* Foundation_NSURL.h */,
+				4063830C15FB0827EB811F80 /* Foundation_NSURLAuthenticationChallenge.h */,
+				BEF3F79BB6E3278A450D884E /* Foundation_NSURLCache.h */,
+				8A46E4D26E2C31B6A729D6BF /* Foundation_NSURLConnection.h */,
+				CD492F408B4170052F0570E2 /* Foundation_NSURLCredential.h */,
+				42AB7B1FF57D8E3F388577C1 /* Foundation_NSURLCredentialStorage.h */,
+				D1D2872AF3C3CAAE658F55AA /* Foundation_NSURLError.h */,
+				F54DEC474B3756A262AD243A /* Foundation_NSURLProtectionSpace.h */,
+				36432D5B03D8349CB065C4D9 /* Foundation_NSURLProtocol.h */,
+				0BFB81ABF1B1A2EFF94615AB /* Foundation_NSURLRequest.h */,
+				5DF0B686D71068A05CADDCB6 /* Foundation_NSURLResponse.h */,
+				651EEA3ED4FB111E8D4A70D5 /* Foundation_NSURLSession.h */,
+				BAD7F79D940E848E5FE59153 /* Foundation_NSUUID.h */,
+				23DBFC7578EF7E60C0E7E196 /* Foundation_NSUbiquitousKeyValueStore.h */,
+				DBBBCAE3B8C339F57120F0AD /* Foundation_NSUndoManager.h */,
+				DFD18E16AF6C5A76BD5FA064 /* Foundation_NSUnit.h */,
+				4E64AF0C81A4C3DD7315E87B /* Foundation_NSUserActivity.h */,
+				080084017BC172C052721C0D /* Foundation_NSUserDefaults.h */,
+				9339C00AF2C0AB9CA217375C /* Foundation_NSValue.h */,
+				412C821E59AF58F141C573B9 /* Foundation_NSValueTransformer.h */,
+				20943D5BCAE9FA56B2DBDD93 /* Foundation_NSXMLParser.h */,
+				2D03064CE6800015EDF818EF /* Foundation_NSXPCConnection.h */,
+				D7816FFD3A2A0AED65DD1111 /* Foundation_NSZone.h */,
+				E552610F0EE9BED6F0C413F0 /* ImageIO_CGImageProperties.h */,
+				FA2A0752FD551ADFA8371F16 /* MediaToolbox_MTAudioProcessingTap.h */,
+				062A49728FB1E8959F7E2F92 /* Metal_MTLDrawable.h */,
+				22C98666E63FCA23043E45C6 /* Metal_MTLPixelFormat.h */,
+				8F31CE7233FB9C89792B66F6 /* NFIAVFoundation.h */,
+				F3EEEEFAAF477C65E73D6D94 /* NFIAVFoundationLoader.h */,
+				F58DC1580B1294575A716F4A /* NFIAVFoundationLoader.m */,
+				9A5D64AC03FA5338E992082D /* OpenGLES_EAGL.h */,
+				1D9034AA7FF4F7430CA096A6 /* OpenGLES_EAGLDrawable.h */,
+				511BA2FE6519AE7FB21D72DB /* QuartzCore_CAAnimation.h */,
+				38C7E62AF8D74A02399C8F89 /* QuartzCore_CABase.h */,
+				2569BCD9DE44D35BA77422F3 /* QuartzCore_CADisplayLink.h */,
+				4F6FF04D12F063EBB5B626AF /* QuartzCore_CAEAGLLayer.h */,
+				C159777C68287575574C5657 /* QuartzCore_CAEmitterCell.h */,
+				F77181CA48DEEDEA3A63EEF9 /* QuartzCore_CAEmitterLayer.h */,
+				EA219458DD2E2A908CC7150E /* QuartzCore_CAGradientLayer.h */,
+				AA9193C2980C06B5455FFB1E /* QuartzCore_CALayer.h */,
+				69AC6FED7481EA28BDAF33B5 /* QuartzCore_CAMediaTiming.h */,
+				FE667D59EDCE7B8A284FEA55 /* QuartzCore_CAMediaTimingFunction.h */,
+				4FDE497B22FF68142979941F /* QuartzCore_CAMetalLayer.h */,
+				028EA92E440A15EF664A8A41 /* QuartzCore_CAReplicatorLayer.h */,
+				5007A35446096C40B95D25E4 /* QuartzCore_CAScrollLayer.h */,
+				9B0F08DFF17CE886335725BF /* QuartzCore_CAShapeLayer.h */,
+				DEDB16CB7C576A17DBD072EC /* QuartzCore_CATextLayer.h */,
+				018928E69F1F66CD9D7AE0D3 /* QuartzCore_CATiledLayer.h */,
+				0A6C4B300FF3BD291ADF3A6C /* QuartzCore_CATransaction.h */,
+				9797F6FE37625DEC5132615F /* QuartzCore_CATransform3D.h */,
+				19981C6B7960ED5A562C068D /* QuartzCore_CATransformLayer.h */,
+				40580F578793C49F582D1111 /* QuartzCore_CAValueFunction.h */,
+				B1DB3F51B749171B80BC68D2 /* Security_CipherSuite.h */,
+				F10BE244EFDDF0F610EDBD60 /* Security_SecAccessControl.h */,
+				02069934E50C9DD6BF44C303 /* Security_SecBase.h */,
+				2804E11AABFC4881113348DB /* Security_SecCertificate.h */,
+				54A8537DCD1D101096358D88 /* Security_SecIdentity.h */,
+				49DCA39A4DDC7C7348492B73 /* Security_SecImportExport.h */,
+				4D32413C51BD79E125DD8848 /* Security_SecItem.h */,
+				AF2B2E17B0B89EA7A78187F1 /* Security_SecKey.h */,
+				FDA02743197AFEEFA65A9E51 /* Security_SecPolicy.h */,
+				04535C907C53B2CD70E15564 /* Security_SecRandom.h */,
+				2392414269BEC9C50D64EAB1 /* Security_SecSharedCredential.h */,
+				2CD444A154254DB4E2230560 /* Security_SecTrust.h */,
+				28EA2C3CC761EDCA319BB5CE /* Security_SecureTransport.h */,
+				18EA8264E0059D3C63C5C732 /* allheaders.h */,
+				32E70DE2C5EE26F212CEDD14 /* allincludes.h */,
+				CBA42292129CE591CE58D61D /* allprotos.h */,
+				060C678800EEACCD4196C9D0 /* classes */,
+				60C0302545B23A861E0D309F /* parts */,
+				45D594E10192D36424A85D01 /* parts_sa */,
+				428F3BA4A240A3138C1A4F39 /* parts_sr */,
+				F8307B352865F95E85C7B6BE /* protocols */,
+			);
+			path = AVFoundation/device;
+			sourceTree = "<group>";
+		};
+		CBC1A4E59092CCA4F5F5AC65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CCEF422C6EF086D09899952 /* NFIUtility.framework */,
+				380729E0001A110EA4FC9788 /* NFIAVFoundation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF32B4D8B38770716AD1BAA6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0B46C276DD85B0ED1C17C77E /* ../src/NFIUtility */,
+				7F23ACEF07C3F8E4720AE557 /* AVFoundation/device */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F1F7D03F0B387FF39A730411 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295279F6B9F806FF0A757594 /* CallbackSupport.h in Headers */,
+				B7BBDF4E7955E7F3125C9F20 /* NFIUtility.h in Headers */,
+				46392A81630A320F41221133 /* PointerSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47C6C57FED3482DA701F317 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CED164C05066438F0C9074 /* NFIAVFoundationLoader.h in Headers */,
+				9DA721001D862BFE134D7F23 /* NFIAVFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70FF1473D4E9007A1A3D8E6B /* NFIAVFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4C4C70435C611BF69ACA7D /* Build configuration list for PBXNativeTarget "NFIAVFoundation" */;
+			buildPhases = (
+				F47C6C57FED3482DA701F317 /* Headers */,
+				45E8EA8CD49D8B6D861B34CF /* Sources */,
+				510E6AA0F2580849F4D5C400 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CD3CD13C1EF5A70CAC33D7 /* PBXTargetDependency */,
+			);
+			name = NFIAVFoundation;
+			productName = NFIAVFoundation;
+			productReference = 380729E0001A110EA4FC9788 /* NFIAVFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE806A700A0157FA9952D415 /* NFIUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6A72A4307AB7D23D3F5691 /* Build configuration list for PBXNativeTarget "NFIUtility" */;
+			buildPhases = (
+				F1F7D03F0B387FF39A730411 /* Headers */,
+				FA333A036DFC20DE9F5D03ED /* Sources */,
+				889F3D01629FBA3868708A1F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFIUtility;
+			productName = NFIUtility;
+			productReference = 1CCEF422C6EF086D09899952 /* NFIUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8BCA38932B16ACDBB00B655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 26E19333D590B828614467CB /* Build configuration list for PBXProject "NFIDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 3B364F5F39DD873E04E8C788;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE125855F5E3D4B09923B95 /* All */,
+				CE806A700A0157FA9952D415 /* NFIUtility */,
+				70FF1473D4E9007A1A3D8E6B /* NFIAVFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E8EA8CD49D8B6D861B34CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7E4799475E18BEFAF841C6 /* AVFoundation_AVAnimation.m in Sources */,
+				EDCA7EF0EA1EEA478EB404D5 /* AVFoundation_AVAsset.m in Sources */,
+				77A84B8E9869AE69428E946C /* AVFoundation_AVAssetCache.m in Sources */,
+				1CFFE2B652B1C6B29039E213 /* AVFoundation_AVAssetDownloadStorageManager.m in Sources */,
+				E81FFD22E6F9BEA296B54E43 /* AVFoundation_AVAssetDownloadTask.m in Sources */,
+				853EFB1CDEA55FB520BA048D /* AVFoundation_AVAssetExportSession.m in Sources */,
+				0C3F46AF82C5492F4AD0FFD9 /* AVFoundation_AVAssetImageGenerator.m in Sources */,
+				1355BAB8D5F1050B46936AD4 /* AVFoundation_AVAssetReader.m in Sources */,
+				D441620B0DB81BF71020B148 /* AVFoundation_AVAssetReaderOutput.m in Sources */,
+				4B38224E271AD7DB494046C2 /* AVFoundation_AVAssetResourceLoader.m in Sources */,
+				9DCC03996211596A5C7C834D /* AVFoundation_AVAssetTrack.m in Sources */,
+				7D0069850F30D699C8F394E8 /* AVFoundation_AVAssetTrackGroup.m in Sources */,
+				87BB5B0C9ECD9E78682D5793 /* AVFoundation_AVAssetTrackSegment.m in Sources */,
+				4FDFD09D36554284944FEC69 /* AVFoundation_AVAssetWriter.m in Sources */,
+				3031A26EDA2DC936912A59D4 /* AVFoundation_AVAssetWriterInput.m in Sources */,
+				9B92FAD68E942688DDEA42A7 /* AVFoundation_AVAsynchronousKeyValueLoading.m in Sources */,
+				80DBF132D431050F07200484 /* AVFoundation_AVAudioMix.m in Sources */,
+				EC3657229A56B7947B73FB63 /* AVFoundation_AVAudioProcessingSettings.m in Sources */,
+				F39703D788273146089AB9A0 /* AVFoundation_AVCameraCalibrationData.m in Sources */,
+				12C0FFE372E50708D1A1AA61 /* AVFoundation_AVCaptureAudioDataOutput.m in Sources */,
+				F7B25651FF06A91DD7E4CC16 /* AVFoundation_AVCaptureDataOutputSynchronizer.m in Sources */,
+				B705F1203C530E940BF72CF8 /* AVFoundation_AVCaptureDepthDataOutput.m in Sources */,
+				24E564E29CA8ABE4A7B757CC /* AVFoundation_AVCaptureDevice.m in Sources */,
+				9ABD6599A1F8AE2FBAE688B5 /* AVFoundation_AVCaptureFileOutput.m in Sources */,
+				1BD6A77B79C442D2C2A06AF3 /* AVFoundation_AVCaptureInput.m in Sources */,
+				D99AA7B4FB2E426A669D5DFC /* AVFoundation_AVCaptureMetadataOutput.m in Sources */,
+				086D4CACF4916B1C7B93959D /* AVFoundation_AVCaptureOutputBase.m in Sources */,
+				9CC7012902BA838355780E29 /* AVFoundation_AVCapturePhotoOutput.m in Sources */,
+				6AB47AFB9DF5DC3B608806F9 /* AVFoundation_AVCaptureSession.m in Sources */,
+				6A28490EAFC46B8FAF84ECE4 /* AVFoundation_AVCaptureSessionPreset.m in Sources */,
+				5C0279EB843CBA4A66725720 /* AVFoundation_AVCaptureStillImageOutput.m in Sources */,
+				722532654805614FC8458EFD /* AVFoundation_AVCaptureSystemPressure.m in Sources */,
+				829180B18B0AF262F9AC187C /* AVFoundation_AVCaptureVideoDataOutput.m in Sources */,
+				A4F503D31331429A80776F94 /* AVFoundation_AVCaptureVideoPreviewLayer.m in Sources */,
+				6682FEBDE5117ECBE7BCAA8D /* AVFoundation_AVComposition.m in Sources */,
+				A3F864E837D99A3B24AAA79B /* AVFoundation_AVCompositionTrack.m in Sources */,
+				4ABF064C2A811C9F57738D0F /* AVFoundation_AVCompositionTrackSegment.m in Sources */,
+				8F22C8649841B465FF0C407C /* AVFoundation_AVContentKeySession.m in Sources */,
+				2929D158CE05EFC77E07B38F /* AVFoundation_AVDepthData.m in Sources */,
+				E9AD20D2798F737B9772DD43 /* AVFoundation_AVError.m in Sources */,
+				70BE3E2DF9BF4847A712C91E /* AVFoundation_AVFAudio_AVAudioBuffer.m in Sources */,
+				8B52445D4CB23623387F3EDE /* AVFoundation_AVFAudio_AVAudioChannelLayout.m in Sources */,
+				BA3AB8561FCC19A30B55799D /* AVFoundation_AVFAudio_AVAudioConnectionPoint.m in Sources */,
+				4975203A9D193655CA624534 /* AVFoundation_AVFAudio_AVAudioConverter.m in Sources */,
+				5DC815AABB8C0EF154AC1559 /* AVFoundation_AVFAudio_AVAudioEngine.m in Sources */,
+				5D012FCCC08F9CEC84A3FE78 /* AVFoundation_AVFAudio_AVAudioEnvironmentNode.m in Sources */,
+				5B429A62B71AA0EF47E1A31D /* AVFoundation_AVFAudio_AVAudioFile.m in Sources */,
+				9D5D914221630AB38857862D /* AVFoundation_AVFAudio_AVAudioFormat.m in Sources */,
+				61E6B7FC4DBC9D46DDA99EBF /* AVFoundation_AVFAudio_AVAudioIONode.m in Sources */,
+				835774429ACAE915DB1F0C9F /* AVFoundation_AVFAudio_AVAudioMixerNode.m in Sources */,
+				B285B964677FD9AD7FB83792 /* AVFoundation_AVFAudio_AVAudioMixing.m in Sources */,
+				C7709BD623567910EA861564 /* AVFoundation_AVFAudio_AVAudioNode.m in Sources */,
+				615A3765DFE25562DEAE1CBB /* AVFoundation_AVFAudio_AVAudioPlayer.m in Sources */,
+				4CFE466BC07F035B8FC8EEFE /* AVFoundation_AVFAudio_AVAudioPlayerNode.m in Sources */,
+				F8144F7123DA4C5A1C8B8427 /* AVFoundation_AVFAudio_AVAudioRecorder.m in Sources */,
+				E640EFA1791C7A677E4D9DDB /* AVFoundation_AVFAudio_AVAudioSequencer.m in Sources */,
+				9FE8B22B541319AB48390475 /* AVFoundation_AVFAudio_AVAudioSession.m in Sources */,
+				B0AADB0EF316530135569631 /* AVFoundation_AVFAudio_AVAudioSettings.m in Sources */,
+				8356FE08AA6AF87E1A7C1C4A /* AVFoundation_AVFAudio_AVAudioTime.m in Sources */,
+				3404412CE7349AB3BDC7E5E2 /* AVFoundation_AVFAudio_AVAudioTypes.m in Sources */,
+				2A7082AFA0E00A7D2B3B0AB6 /* AVFoundation_AVFAudio_AVAudioUnit.m in Sources */,
+				254A901752B70C00B13E0720 /* AVFoundation_AVFAudio_AVAudioUnitComponent.m in Sources */,
+				BC90C92E681A8337517D3F73 /* AVFoundation_AVFAudio_AVAudioUnitDelay.m in Sources */,
+				71A6F0A574598D32BA9AB9B1 /* AVFoundation_AVFAudio_AVAudioUnitDistortion.m in Sources */,
+				115CFE790911A2D2FE2F2997 /* AVFoundation_AVFAudio_AVAudioUnitEQ.m in Sources */,
+				27726050E8060B2D691BF8DA /* AVFoundation_AVFAudio_AVAudioUnitEffect.m in Sources */,
+				9B19FD4F19F60E0F6CE415B7 /* AVFoundation_AVFAudio_AVAudioUnitGenerator.m in Sources */,
+				453E4F3AABB1DC21BB425EA3 /* AVFoundation_AVFAudio_AVAudioUnitMIDIInstrument.m in Sources */,
+				94039427D4EEF80EE27F252C /* AVFoundation_AVFAudio_AVAudioUnitReverb.m in Sources */,
+				ED398E936BEA4AA01B486DAB /* AVFoundation_AVFAudio_AVAudioUnitSampler.m in Sources */,
+				43D6126C0D5F8E37311A09F0 /* AVFoundation_AVFAudio_AVAudioUnitTimeEffect.m in Sources */,
+				0AC8C9565F3376943CBDB3CA /* AVFoundation_AVFAudio_AVAudioUnitTimePitch.m in Sources */,
+				E3EA829B4EF329EAD1054798 /* AVFoundation_AVFAudio_AVAudioUnitVarispeed.m in Sources */,
+				319DDE2728D2FB11929BF73E /* AVFoundation_AVFAudio_AVMIDIPlayer.m in Sources */,
+				4D4002E5318536C90C5A20CC /* AVFoundation_AVFAudio_AVSpeechSynthesis.m in Sources */,
+				D325C869F97614D86357AA1E /* AVFoundation_AVMediaFormat.m in Sources */,
+				FC4E65B65CC53B49B53377C4 /* AVFoundation_AVMediaSelection.m in Sources */,
+				B3D2E93550E2342CB95B0270 /* AVFoundation_AVMediaSelectionGroup.m in Sources */,
+				D67DE6CCCE4891A17CE7EDB8 /* AVFoundation_AVMetadataFormat.m in Sources */,
+				B953CBA3228B980A2B091275 /* AVFoundation_AVMetadataIdentifiers.m in Sources */,
+				19571C13BE34B83798316A67 /* AVFoundation_AVMetadataItem.m in Sources */,
+				153F51124530B9577497E6FE /* AVFoundation_AVMetadataObject.m in Sources */,
+				979A3E1122D48D5A8E1EC081 /* AVFoundation_AVOutputSettingsAssistant.m in Sources */,
+				0F29232A5DA8DED17D10DBD7 /* AVFoundation_AVPlayer.m in Sources */,
+				444B166EA52DC2534088080B /* AVFoundation_AVPlayerItem.m in Sources */,
+				E5BE3AB6E71F8D1DD609E91F /* AVFoundation_AVPlayerItemMediaDataCollector.m in Sources */,
+				326BAB4D679FBFCAECF7BC0C /* AVFoundation_AVPlayerItemOutput.m in Sources */,
+				CF892A960D2CC15E96BEF7B7 /* AVFoundation_AVPlayerItemTrack.m in Sources */,
+				F8463830889491AEBE86FD46 /* AVFoundation_AVPlayerLayer.m in Sources */,
+				178749C4BB75FC9B61FB96EA /* AVFoundation_AVPlayerLooper.m in Sources */,
+				99E671D14ED5C79257926C13 /* AVFoundation_AVPlayerMediaSelectionCriteria.m in Sources */,
+				7410E54864E4B64C1718F219 /* AVFoundation_AVQueuedSampleBufferRendering.m in Sources */,
+				43BEAE2EE12398278FEEEA5D /* AVFoundation_AVRouteDetector.m in Sources */,
+				36760806A01C2E91494012CD /* AVFoundation_AVSampleBufferAudioRenderer.m in Sources */,
+				E5DDEB9DEDB8D0E9A56C278C /* AVFoundation_AVSampleBufferDisplayLayer.m in Sources */,
+				76CBCD0465AD5AB7D894966C /* AVFoundation_AVSampleBufferRenderSynchronizer.m in Sources */,
+				7B21B469E55849FD4EE35641 /* AVFoundation_AVSynchronizedLayer.m in Sources */,
+				5A4AF9D70486E783A6F7221A /* AVFoundation_AVTextStyleRule.m in Sources */,
+				FAA2396728CD479FFE61D646 /* AVFoundation_AVTime.m in Sources */,
+				94EBE267C36752CD0CF26E42 /* AVFoundation_AVTimedMetadataGroup.m in Sources */,
+				04F869895338D036D06B60B4 /* AVFoundation_AVUtilities.m in Sources */,
+				AD2035AD571079D1A1FDFD75 /* AVFoundation_AVVideoCompositing.m in Sources */,
+				5D6E8EE33C6E2F2AEB3F89D7 /* AVFoundation_AVVideoComposition.m in Sources */,
+				CD0A5091988DA48D34333CEE /* AVFoundation_AVVideoSettings.m in Sources */,
+				A305D3041304E6C430C18665 /* NFIAVFoundationLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA333A036DFC20DE9F5D03ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6F5F8231F20DA340258C51 /* CallbackSupport.m in Sources */,
+				1F66B5CC4438C3E7B76A6BA5 /* PointerSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AD8197774D9DC5DE8EC2482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70FF1473D4E9007A1A3D8E6B /* NFIAVFoundation */;
+			targetProxy = 3B355DBCEE7636CA9030C73A /* PBXContainerItemProxy */;
+		};
+		15CD3CD13C1EF5A70CAC33D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE806A700A0157FA9952D415 /* NFIUtility */;
+			targetProxy = D9161CC3C08E5FFA5D4E9E7B /* PBXContainerItemProxy */;
+		};
+		7E13621736B1C8ADDAF10706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE806A700A0157FA9952D415 /* NFIUtility */;
+			targetProxy = 9517C95CDC073A97B506E0E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33C0C418E4CF2EE83BB75CEE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		468E247376AD96D35BE5A991 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = AVFoundation/Info.plist;
+				OTHER_LDFLAGS = (
+					"-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork",
+					"-weak_framework AVFoundation",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIAVFoundation;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		555A98CBC0536E3EF96C0524 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = ../src/NFIUtility/Info.plist;
+				OTHER_LDFLAGS = "-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIUtility;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		BAB0CC95DF8F6A3106F36518 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E19333D590B828614467CB /* Build configuration list for PBXProject "NFIDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C0C418E4CF2EE83BB75CEE /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		C1E33EE0CE69CE2A1E7BF85A /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB0CC95DF8F6A3106F36518 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		EC4C4C70435C611BF69ACA7D /* Build configuration list for PBXNativeTarget "NFIAVFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468E247376AD96D35BE5A991 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		FD6A72A4307AB7D23D3F5691 /* Build configuration list for PBXNativeTarget "NFIUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555A98CBC0536E3EF96C0524 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8BCA38932B16ACDBB00B655 /* Project object */;
+}

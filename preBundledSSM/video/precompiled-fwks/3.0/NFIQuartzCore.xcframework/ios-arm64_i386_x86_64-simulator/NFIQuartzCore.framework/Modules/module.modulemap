@@ -1,0 +1,6 @@
+framework module NFIQuartzCore {
+  umbrella header "NFIQuartzCore.h"
+
+  export *
+  module * { export * }
+}

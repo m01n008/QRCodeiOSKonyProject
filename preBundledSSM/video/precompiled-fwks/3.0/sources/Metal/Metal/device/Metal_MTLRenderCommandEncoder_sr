@@ -1,0 +1,25 @@
+if (strcmp(type, @encode(MTLScissorRect)) == 0) {
+		MTLScissorRect returnValue = value.toMTLScissorRect;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MTLViewport)) == 0) {
+		MTLViewport returnValue = value.toMTLViewport;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MTLVertexAmplificationViewMapping)) == 0) {
+		MTLVertexAmplificationViewMapping returnValue = value.toMTLVertexAmplificationViewMapping;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MTLDrawIndexedPrimitivesIndirectArguments)) == 0) {
+		MTLDrawIndexedPrimitivesIndirectArguments returnValue = value.toMTLDrawIndexedPrimitivesIndirectArguments;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MTLDrawPrimitivesIndirectArguments)) == 0) {
+		MTLDrawPrimitivesIndirectArguments returnValue = value.toMTLDrawPrimitivesIndirectArguments;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MTLDrawPatchIndirectArguments)) == 0) {
+		MTLDrawPatchIndirectArguments returnValue = value.toMTLDrawPatchIndirectArguments;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

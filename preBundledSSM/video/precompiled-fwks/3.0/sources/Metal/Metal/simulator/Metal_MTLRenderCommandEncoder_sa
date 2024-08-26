@@ -1,0 +1,25 @@
+if (strcmp(type, @encode(MTLScissorRect)) == 0) {
+		MTLScissorRect argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLScissorRect: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLViewport)) == 0) {
+		MTLViewport argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLViewport: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLVertexAmplificationViewMapping)) == 0) {
+		MTLVertexAmplificationViewMapping argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLVertexAmplificationViewMapping: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLDrawIndexedPrimitivesIndirectArguments)) == 0) {
+		MTLDrawIndexedPrimitivesIndirectArguments argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLDrawIndexedPrimitivesIndirectArguments: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLDrawPrimitivesIndirectArguments)) == 0) {
+		MTLDrawPrimitivesIndirectArguments argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLDrawPrimitivesIndirectArguments: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLDrawPatchIndirectArguments)) == 0) {
+		MTLDrawPatchIndirectArguments argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLDrawPatchIndirectArguments: argument inContext: context];
+	}

@@ -1,0 +1,6 @@
+framework module NFIAVFoundation {
+  umbrella header "NFIAVFoundation.h"
+
+  export *
+  module * { export * }
+}

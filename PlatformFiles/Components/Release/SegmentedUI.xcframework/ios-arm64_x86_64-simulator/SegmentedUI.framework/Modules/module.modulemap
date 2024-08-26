@@ -1,0 +1,6 @@
+framework module SegmentedUI {
+  umbrella header "SegmentedUI.h"
+  export *
+
+  module * { export * }
+}

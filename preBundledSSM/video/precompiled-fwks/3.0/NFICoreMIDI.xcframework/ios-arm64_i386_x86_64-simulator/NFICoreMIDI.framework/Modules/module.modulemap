@@ -1,0 +1,6 @@
+framework module NFICoreMIDI {
+  umbrella header "NFICoreMIDI.h"
+
+  export *
+  module * { export * }
+}

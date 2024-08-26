@@ -1,0 +1,23 @@
+{
+	"showCompletionCallback" = {
+		"ext_out_type" = JSCallBack;
+		"ext_acc_type" = ReadWrite;
+		"int_type" = CallBack;
+		"ext_in_type" = JSCallBack;
+		"int_name" = "showCompletionCallback";
+	};
+	title = {
+		"ext_out_type" = JSString;
+		"ext_in_type" = JSString;
+		"int_type" = NSString;
+		"int_name" = title;
+		"ext_acc_type" = ReadWrite;
+	};
+	message = {
+		"ext_out_type" = JSString;
+		"ext_in_type" = JSString;
+		"int_type" = NSString;
+		"int_name" = message;
+		"ext_acc_type" = ReadWrite;
+	};
+}

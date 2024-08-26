@@ -1,0 +1,6 @@
+framework module NFIUserNotifications {
+  umbrella header "NFIUserNotifications.h"
+
+  export *
+  module * { export * }
+}

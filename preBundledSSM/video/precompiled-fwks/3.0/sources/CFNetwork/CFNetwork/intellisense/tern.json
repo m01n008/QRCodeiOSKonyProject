@@ -1,0 +1,93 @@
+{
+	"NSObject": {
+		"load": {
+			"!type": "fn() -> void"
+		},
+		"alloc": {
+			"!type": "fn() -> +NSObject"
+		},
+		"mutableCopyWithZone": {
+			"!type": "fn(zone: +Object) -> +Object"
+		},
+		"hash": {
+			"!type": "fn() -> number"
+		},
+		"description": {
+			"!type": "fn() -> string"
+		},
+		"instancesRespondToSelector": {
+			"!type": "fn(aSelector: string) -> bool"
+		},
+		"debugDescription": {
+			"!type": "fn() -> string"
+		},
+		"copyWithZone": {
+			"!type": "fn(zone: +Object) -> +Object"
+		},
+		"conformsToProtocol": {
+			"!type": "fn(protocol: +Protocol) -> bool"
+		},
+		"superclass": {
+			"!type": "fn() -> +Object"
+		},
+		"instanceMethodForSelector": {
+			"!type": "fn(aSelector: string) -> +Object"
+		},
+		"resolveInstanceMethod": {
+			"!type": "fn(sel: string) -> bool"
+		},
+		"resolveClassMethod": {
+			"!type": "fn(sel: string) -> bool"
+		},
+		"isSubclassOfClass": {
+			"!type": "fn(aClass: +Object) -> bool"
+		},
+		"allocWithZone": {
+			"!type": "fn(zone: +Object) -> +NSObject"
+		},
+		"initialize": {
+			"!type": "fn() -> void"
+		},
+		"jsnew": {
+			"!type": "fn() -> +NSObject"
+		},
+		"class": {
+			"!type": "fn() -> +Object"
+		},
+		"instanceMethodSignatureForSelector": {
+			"!type": "fn(aSelector: string) -> +NSMethodSignature"
+		},
+		"prototype": {
+			"forwardingTargetForSelector": {
+				"!type": "fn(aSelector: string) -> +Object"
+			},
+			"finalize": {
+				"!type": "fn() -> void"
+			},
+			"jsmutableCopy": {
+				"!type": "fn() -> +Object"
+			},
+			"methodSignatureForSelector": {
+				"!type": "fn(aSelector: string) -> +NSMethodSignature"
+			},
+			"methodForSelector": {
+				"!type": "fn(aSelector: string) -> +Object"
+			},
+			"jsinit": {
+				"!type": "fn() -> +NSObject"
+			},
+			"forwardInvocation": {
+				"!type": "fn(anInvocation: +NSInvocation) -> void"
+			},
+			"dealloc": {
+				"!type": "fn() -> void"
+			},
+			"doesNotRecognizeSelector": {
+				"!type": "fn(aSelector: string) -> void"
+			},
+			"jscopy": {
+				"!type": "fn() -> +Object"
+			}
+		}
+	}
+}

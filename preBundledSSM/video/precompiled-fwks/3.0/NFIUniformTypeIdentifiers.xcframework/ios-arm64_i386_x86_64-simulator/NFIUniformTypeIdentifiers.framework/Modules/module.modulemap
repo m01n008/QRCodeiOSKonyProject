@@ -1,0 +1,6 @@
+framework module NFIUniformTypeIdentifiers {
+  umbrella header "NFIUniformTypeIdentifiers.h"
+
+  export *
+  module * { export * }
+}

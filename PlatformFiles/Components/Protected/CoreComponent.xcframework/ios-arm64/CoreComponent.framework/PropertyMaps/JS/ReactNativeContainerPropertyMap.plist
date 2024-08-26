@@ -1,0 +1,9 @@
+{
+	reactNativeAppID = {
+		"ext_out_type" = JSString;
+		"ext_in_type" = JSString;
+		"int_type" = NSString;
+		"int_name" = reactNativeAppId;
+		"ext_acc_type" = ReadWrite;
+	};
+}

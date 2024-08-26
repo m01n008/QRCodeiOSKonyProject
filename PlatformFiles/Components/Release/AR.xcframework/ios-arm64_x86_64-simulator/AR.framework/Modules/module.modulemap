@@ -1,0 +1,11 @@
+framework module AR {
+  umbrella header "AR.h"
+  export *
+
+  module * { export * }
+}
+
+module AR.Swift {
+  header "AR-Swift.h"
+  requires objc
+}

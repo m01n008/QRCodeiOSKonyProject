@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+NFIUtility in NFISimulator, no dependencies
+NFISDKCommons in NFISimulator, depends on:
+NFIUtility in NFISimulator (explicit)
+All in NFISimulator, depends on:
+NFIUtility in NFISimulator (explicit)
+NFISDKCommons in NFISimulator (explicit)

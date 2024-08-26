@@ -1,0 +1,9 @@
+if (strcmp(type, @encode(MTLAccelerationStructureSizes)) == 0) {
+		MTLAccelerationStructureSizes returnValue = value.toMTLAccelerationStructureSizes;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MTLSizeAndAlign)) == 0) {
+		MTLSizeAndAlign returnValue = value.toMTLSizeAndAlign;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

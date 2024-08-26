@@ -1,0 +1,11 @@
+framework module KonySwiftUISource {
+  umbrella header "KonySwiftUISource.h"
+  export *
+
+  module * { export * }
+}
+
+module KonySwiftUISource.Swift {
+  header "KonySwiftUISource-Swift.h"
+  requires objc
+}

@@ -1,0 +1,9 @@
+if (strcmp(type, @encode(AUParameterAutomationEvent)) == 0) {
+		AUParameterAutomationEvent returnValue = value.toAUParameterAutomationEvent;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(AURecordedParameterEvent)) == 0) {
+		AURecordedParameterEvent returnValue = value.toAURecordedParameterEvent;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

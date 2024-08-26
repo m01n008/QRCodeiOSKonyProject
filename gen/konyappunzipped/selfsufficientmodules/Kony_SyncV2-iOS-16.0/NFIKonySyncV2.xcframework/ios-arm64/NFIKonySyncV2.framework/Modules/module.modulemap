@@ -1,0 +1,6 @@
+framework module NFIKonySyncV2 {
+  umbrella header "NFIKonySyncV2.h"
+
+  export *
+  module * { export * }
+}

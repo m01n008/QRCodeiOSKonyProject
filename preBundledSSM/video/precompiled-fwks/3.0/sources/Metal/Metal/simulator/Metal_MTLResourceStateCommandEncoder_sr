@@ -1,0 +1,5 @@
+if (strcmp(type, @encode(MTLMapIndirectArguments)) == 0) {
+		MTLMapIndirectArguments returnValue = value.toMTLMapIndirectArguments;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

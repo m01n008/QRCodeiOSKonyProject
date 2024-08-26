@@ -1,0 +1,1 @@
+#import <NFICoreImage/NFICoreImageLoader.h>

@@ -1,0 +1,11 @@
+framework module Button {
+  umbrella header "Button.h"
+  export *
+
+  module * { export * }
+}
+
+module Button.Swift {
+  header "Button-Swift.h"
+  requires objc
+}

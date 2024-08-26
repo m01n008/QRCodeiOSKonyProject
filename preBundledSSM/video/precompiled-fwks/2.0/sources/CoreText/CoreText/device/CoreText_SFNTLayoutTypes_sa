@@ -1,0 +1,181 @@
+if (strcmp(type, @encode(JustWidthDeltaEntry)) == 0) {
+		JustWidthDeltaEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithJustWidthDeltaEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(MortLigatureSubtable)) == 0) {
+		MortLigatureSubtable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMortLigatureSubtable: argument inContext: context];
+	} else if (strcmp(type, @encode(MorxRearrangementSubtable)) == 0) {
+		MorxRearrangementSubtable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMorxRearrangementSubtable: argument inContext: context];
+	} else if (strcmp(type, @encode(MortInsertionSubtable)) == 0) {
+		MortInsertionSubtable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMortInsertionSubtable: argument inContext: context];
+	} else if (strcmp(type, @encode(TrakTable)) == 0) {
+		TrakTable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithTrakTable: argument inContext: context];
+	} else if (strcmp(type, @encode(KerxStateEntry)) == 0) {
+		KerxStateEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKerxStateEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(SFNTLookupBinarySearchHeader)) == 0) {
+		SFNTLookupBinarySearchHeader argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithSFNTLookupBinarySearchHeader: argument inContext: context];
+	} else if (strcmp(type, @encode(KerxCoordinateAction)) == 0) {
+		KerxCoordinateAction argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKerxCoordinateAction: argument inContext: context];
+	} else if (strcmp(type, @encode(STXHeader)) == 0) {
+		STXHeader argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithSTXHeader: argument inContext: context];
+	} else if (strcmp(type, @encode(STHeader)) == 0) {
+		STHeader argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithSTHeader: argument inContext: context];
+	} else if (strcmp(type, @encode(JustPCDuctilityAction)) == 0) {
+		JustPCDuctilityAction argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithJustPCDuctilityAction: argument inContext: context];
+	} else if (strcmp(type, @encode(MortRearrangementSubtable)) == 0) {
+		MortRearrangementSubtable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMortRearrangementSubtable: argument inContext: context];
+	} else if (strcmp(type, @encode(STXEntryTwo)) == 0) {
+		STXEntryTwo argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithSTXEntryTwo: argument inContext: context];
+	} else if (strcmp(type, @encode(JustPCConditionalAddAction)) == 0) {
+		JustPCConditionalAddAction argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithJustPCConditionalAddAction: argument inContext: context];
+	} else if (strcmp(type, @encode(PropLookupSegment)) == 0) {
+		PropLookupSegment argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithPropLookupSegment: argument inContext: context];
+	} else if (strcmp(type, @encode(OpbdSideValues)) == 0) {
+		OpbdSideValues argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithOpbdSideValues: argument inContext: context];
+	} else if (strcmp(type, @encode(KerxControlPointAction)) == 0) {
+		KerxControlPointAction argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKerxControlPointAction: argument inContext: context];
+	} else if (strcmp(type, @encode(KerxOrderedListEntry)) == 0) {
+		KerxOrderedListEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKerxOrderedListEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(TrakTableEntry)) == 0) {
+		TrakTableEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithTrakTableEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(STEntryOne)) == 0) {
+		STEntryOne argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithSTEntryOne: argument inContext: context];
+	} else if (strcmp(type, @encode(KerxAnchorPointAction)) == 0) {
+		KerxAnchorPointAction argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKerxAnchorPointAction: argument inContext: context];
+	} else if (strcmp(type, @encode(KernKerningPair)) == 0) {
+		KernKerningPair argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKernKerningPair: argument inContext: context];
+	} else if (strcmp(type, @encode(ALMXGlyphEntry)) == 0) {
+		ALMXGlyphEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithALMXGlyphEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(STEntryZero)) == 0) {
+		STEntryZero argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithSTEntryZero: argument inContext: context];
+	} else if (strcmp(type, @encode(STXEntryZero)) == 0) {
+		STXEntryZero argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithSTXEntryZero: argument inContext: context];
+	} else if (strcmp(type, @encode(ROTAGlyphEntry)) == 0) {
+		ROTAGlyphEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithROTAGlyphEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(MorxLigatureSubtable)) == 0) {
+		MorxLigatureSubtable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMorxLigatureSubtable: argument inContext: context];
+	} else if (strcmp(type, @encode(KerxControlPointEntry)) == 0) {
+		KerxControlPointEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKerxControlPointEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(KernOrderedListEntry)) == 0) {
+		KernOrderedListEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKernOrderedListEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(LtagStringRange)) == 0) {
+		LtagStringRange argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithLtagStringRange: argument inContext: context];
+	} else if (strcmp(type, @encode(AnkrTable)) == 0) {
+		AnkrTable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithAnkrTable: argument inContext: context];
+	} else if (strcmp(type, @encode(JustPCGlyphRepeatAddAction)) == 0) {
+		JustPCGlyphRepeatAddAction argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithJustPCGlyphRepeatAddAction: argument inContext: context];
+	} else if (strcmp(type, @encode(MortContextualSubtable)) == 0) {
+		MortContextualSubtable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMortContextualSubtable: argument inContext: context];
+	} else if (strcmp(type, @encode(JustTable)) == 0) {
+		JustTable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithJustTable: argument inContext: context];
+	} else if (strcmp(type, @encode(MortFeatureEntry)) == 0) {
+		MortFeatureEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMortFeatureEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(MorxContextualSubtable)) == 0) {
+		MorxContextualSubtable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMorxContextualSubtable: argument inContext: context];
+	} else if (strcmp(type, @encode(JustPCActionSubrecord)) == 0) {
+		JustPCActionSubrecord argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithJustPCActionSubrecord: argument inContext: context];
+	} else if (strcmp(type, @encode(STEntryTwo)) == 0) {
+		STEntryTwo argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithSTEntryTwo: argument inContext: context];
+	} else if (strcmp(type, @encode(STXEntryOne)) == 0) {
+		STXEntryOne argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithSTXEntryOne: argument inContext: context];
+	} else if (strcmp(type, @encode(KerxKerningPair)) == 0) {
+		KerxKerningPair argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKerxKerningPair: argument inContext: context];
+	} else if (strcmp(type, @encode(MorxInsertionSubtable)) == 0) {
+		MorxInsertionSubtable argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMorxInsertionSubtable: argument inContext: context];
+	} else if (strcmp(type, @encode(PropLookupSingle)) == 0) {
+		PropLookupSingle argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithPropLookupSingle: argument inContext: context];
+	} else if (strcmp(type, @encode(AnchorPoint)) == 0) {
+		AnchorPoint argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithAnchorPoint: argument inContext: context];
+	} else if (strcmp(type, @encode(KernStateEntry)) == 0) {
+		KernStateEntry argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKernStateEntry: argument inContext: context];
+	} else if (strcmp(type, @encode(KerxIndexArrayHeader)) == 0) {
+		KerxIndexArrayHeader argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithKerxIndexArrayHeader: argument inContext: context];
+	}

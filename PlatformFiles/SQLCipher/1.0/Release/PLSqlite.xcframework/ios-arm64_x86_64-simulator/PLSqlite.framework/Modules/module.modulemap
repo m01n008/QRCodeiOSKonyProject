@@ -1,0 +1,6 @@
+framework module PLSqlite {
+  umbrella header "PLSqlite.h"
+  export *
+
+  module * { export * }
+}

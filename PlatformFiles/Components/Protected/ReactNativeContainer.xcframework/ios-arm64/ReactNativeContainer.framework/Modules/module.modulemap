@@ -1,0 +1,6 @@
+framework module ReactNativeContainer {
+  umbrella header "ReactNativeContainer.h"
+  export *
+
+  module * { export * }
+}

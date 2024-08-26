@@ -1,0 +1,6 @@
+framework module KonyMain {
+  umbrella header "KonyMain.h"
+  export *
+
+  module * { export * }
+}

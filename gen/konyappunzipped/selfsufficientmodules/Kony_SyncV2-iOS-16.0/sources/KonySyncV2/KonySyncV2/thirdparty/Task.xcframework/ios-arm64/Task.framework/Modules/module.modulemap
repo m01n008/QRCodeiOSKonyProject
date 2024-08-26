@@ -1,0 +1,6 @@
+framework module Task {
+  umbrella header "Task.h"
+
+  export *
+  module * { export * }
+}

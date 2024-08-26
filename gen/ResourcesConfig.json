@@ -1,0 +1,19 @@
+/* Hash map for Resources for all the channels */
+
+{
+	"common"	: 	[	
+						"phoneResourcesPathList", "watchResourcesPathList"
+					],
+	
+	"iphone"	: 	[
+						"phoneResourcesPathList"
+					],
+	
+	"ipad"		: 	[
+						"phoneResourcesPathList"
+					],
+					
+	"watch"		: 	[
+						"watchResourcesPathList"
+					]		
+}

@@ -1,0 +1,13 @@
+if (strcmp(type, @encode(MTLCounterResultStageUtilization)) == 0) {
+		MTLCounterResultStageUtilization argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLCounterResultStageUtilization: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLCounterResultTimestamp)) == 0) {
+		MTLCounterResultTimestamp argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLCounterResultTimestamp: argument inContext: context];
+	} else if (strcmp(type, @encode(MTLCounterResultStatistic)) == 0) {
+		MTLCounterResultStatistic argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLCounterResultStatistic: argument inContext: context];
+	}

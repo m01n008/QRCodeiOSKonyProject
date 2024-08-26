@@ -1,0 +1,5 @@
+if (strcmp(type, @encode(MTLTextureSwizzleChannels)) == 0) {
+		MTLTextureSwizzleChannels returnValue = value.toMTLTextureSwizzleChannels;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

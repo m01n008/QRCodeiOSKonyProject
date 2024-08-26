@@ -1,0 +1,6 @@
+framework module NFIFoundation {
+  umbrella header "NFIFoundation.h"
+
+  export *
+  module * { export * }
+}

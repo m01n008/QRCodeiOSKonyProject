@@ -1,0 +1,11 @@
+framework module KonyWidgetSource {
+  umbrella header "KonyWidgetSource.h"
+  export *
+
+  module * { export * }
+}
+
+module KonyWidgetSource.Swift {
+  header "KonyWidgetSource-Swift.h"
+  requires objc
+}

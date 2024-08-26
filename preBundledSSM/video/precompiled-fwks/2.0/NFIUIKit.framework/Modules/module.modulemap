@@ -1,0 +1,6 @@
+framework module NFIUIKit {
+  umbrella header "NFIUIKit.h"
+
+  export *
+  module * { export * }
+}

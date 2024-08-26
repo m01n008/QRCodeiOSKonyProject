@@ -1,0 +1,6 @@
+framework module NFIAudioToolbox {
+  umbrella header "NFIAudioToolbox.h"
+
+  export *
+  module * { export * }
+}

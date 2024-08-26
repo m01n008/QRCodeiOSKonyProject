@@ -1,0 +1,17 @@
+if (strcmp(type, @encode(MTLSize)) == 0) {
+		MTLSize returnValue = value.toMTLSize;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MTLOrigin)) == 0) {
+		MTLOrigin returnValue = value.toMTLOrigin;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MTLCoordinate2D)) == 0) {
+		MTLCoordinate2D returnValue = value.toMTLCoordinate2D;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	} else if (strcmp(type, @encode(MTLRegion)) == 0) {
+		MTLRegion returnValue = value.toMTLRegion;
+		[invocation setReturnValue: &returnValue];
+		return YES;
+	}

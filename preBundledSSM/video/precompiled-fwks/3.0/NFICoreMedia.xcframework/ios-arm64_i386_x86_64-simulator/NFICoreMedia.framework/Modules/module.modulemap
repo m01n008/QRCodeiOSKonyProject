@@ -1,0 +1,6 @@
+framework module NFICoreMedia {
+  umbrella header "NFICoreMedia.h"
+
+  export *
+  module * { export * }
+}

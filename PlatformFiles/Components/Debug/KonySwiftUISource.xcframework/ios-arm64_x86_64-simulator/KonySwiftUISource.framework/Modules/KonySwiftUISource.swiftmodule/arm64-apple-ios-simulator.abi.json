@@ -1,0 +1,2760 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlexLayoutEngine",
+        "printedName": "FlexLayoutEngine",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "calculateFrameForXAxix",
+            "printedName": "calculateFrameForXAxix(for:parentLayoutModel:siblingsLayoutModels:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(CoreGraphics.CGFloat, CoreGraphics.CGFloat)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource16FlexLayoutEngineC22calculateFrameForXAxix3for06parentE5Model08siblingsE6Models2in14CoreFoundation7CGFloatV_AKtAA0eM0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "mangledName": "$s17KonySwiftUISource16FlexLayoutEngineC22calculateFrameForXAxix3for06parentE5Model08siblingsE6Models2in12CoreGraphics7CGFloatV_AKtAA0eM0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "calculateFrameForYAxix",
+            "printedName": "calculateFrameForYAxix(for:parentLayoutModel:siblingsLayoutModels:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(CoreGraphics.CGFloat, CoreGraphics.CGFloat)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource16FlexLayoutEngineC22calculateFrameForYAxix3for06parentE5Model08siblingsE6Models2in14CoreFoundation7CGFloatV_AKtAA0eM0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "mangledName": "$s17KonySwiftUISource16FlexLayoutEngineC22calculateFrameForYAxix3for06parentE5Model08siblingsE6Models2in12CoreGraphics7CGFloatV_AKtAA0eM0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17KonySwiftUISource16FlexLayoutEngineC",
+        "mangledName": "$s17KonySwiftUISource16FlexLayoutEngineC",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:17KonySwiftUISource12LayoutEngineC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "KonySwiftUISource.LayoutEngine"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageView",
+        "printedName": "ImageView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:id:layoutModel:parentLayoutModel:siblingsLayoutModels:visibility:contentMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageView",
+                "printedName": "KonySwiftUISource.ImageView",
+                "usr": "s:17KonySwiftUISource9ImageViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentMode",
+                "printedName": "SwiftUI.ContentMode",
+                "usr": "s:7SwiftUI11ContentModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KonySwiftUISource9ImageViewV4name2id11layoutModel012parentLayoutI008siblingsK6Models10visibility11contentModeACyp_SSAA0kI0CALSgSayALGSgSb0B2UI07ContentP0Otcfc",
+            "mangledName": "$s17KonySwiftUISource9ImageViewV4name2id11layoutModel012parentLayoutI008siblingsK6Models10visibility11contentModeACyp_SSAA0kI0CALSgSayALGSgSb0B2UI07ContentP0Otcfc",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KonySwiftUISource9ImageViewV4bodyQrvp",
+            "mangledName": "$s17KonySwiftUISource9ImageViewV4bodyQrvp",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KonySwiftUISource9ImageViewV4bodyQrvg",
+                "mangledName": "$s17KonySwiftUISource9ImageViewV4bodyQrvg",
+                "moduleName": "KonySwiftUISource",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17KonySwiftUISource9ImageViewV",
+        "mangledName": "$s17KonySwiftUISource9ImageViewV",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlexDirectionalLayoutEngine",
+        "printedName": "FlexDirectionalLayoutEngine",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "calculateFrameForXAxix",
+            "printedName": "calculateFrameForXAxix(for:parentLayoutModel:siblingsLayoutModels:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(CoreGraphics.CGFloat, CoreGraphics.CGFloat)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource27FlexDirectionalLayoutEngineC22calculateFrameForXAxix3for06parentF5Model08siblingsF6Models2in14CoreFoundation7CGFloatV_AKtAA0fN0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "mangledName": "$s17KonySwiftUISource27FlexDirectionalLayoutEngineC22calculateFrameForXAxix3for06parentF5Model08siblingsF6Models2in12CoreGraphics7CGFloatV_AKtAA0fN0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "moduleName": "KonySwiftUISource",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "calculateFrameForYAxix",
+            "printedName": "calculateFrameForYAxix(for:parentLayoutModel:siblingsLayoutModels:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(CoreGraphics.CGFloat, CoreGraphics.CGFloat)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource27FlexDirectionalLayoutEngineC22calculateFrameForYAxix3for06parentF5Model08siblingsF6Models2in14CoreFoundation7CGFloatV_AKtAA0fN0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "mangledName": "$s17KonySwiftUISource27FlexDirectionalLayoutEngineC22calculateFrameForYAxix3for06parentF5Model08siblingsF6Models2in12CoreGraphics7CGFloatV_AKtAA0fN0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "moduleName": "KonySwiftUISource",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "calculateHorizontalOffset",
+            "printedName": "calculateHorizontalOffset(for:parentLayoutModel:siblingsLayoutModels:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource27FlexDirectionalLayoutEngineC25calculateHorizontalOffset3for06parentF5Model08siblingsF6Models2in14CoreFoundation7CGFloatVAA0fM0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "mangledName": "$s17KonySwiftUISource27FlexDirectionalLayoutEngineC25calculateHorizontalOffset3for06parentF5Model08siblingsF6Models2in12CoreGraphics7CGFloatVAA0fM0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "calculateVerticalOffset",
+            "printedName": "calculateVerticalOffset(for:parentLayoutModel:siblingsLayoutModels:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource27FlexDirectionalLayoutEngineC23calculateVerticalOffset3for06parentF5Model08siblingsF6Models2in14CoreFoundation7CGFloatVAA0fM0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "mangledName": "$s17KonySwiftUISource27FlexDirectionalLayoutEngineC23calculateVerticalOffset3for06parentF5Model08siblingsF6Models2in12CoreGraphics7CGFloatVAA0fM0C_AMSgSayAMGSgSo6CGSizeVtF",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17KonySwiftUISource27FlexDirectionalLayoutEngineC",
+        "mangledName": "$s17KonySwiftUISource27FlexDirectionalLayoutEngineC",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:17KonySwiftUISource16FlexLayoutEngineC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "KonySwiftUISource.FlexLayoutEngine",
+          "KonySwiftUISource.LayoutEngine"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LayoutEngine",
+        "printedName": "LayoutEngine",
+        "declKind": "Class",
+        "usr": "s:17KonySwiftUISource12LayoutEngineC",
+        "mangledName": "$s17KonySwiftUISource12LayoutEngineC",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LinkView",
+        "printedName": "LinkView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(link:layoutModel:parentLayoutModel:siblingsLayoutModels:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkView",
+                "printedName": "KonySwiftUISource.LinkView",
+                "usr": "s:17KonySwiftUISource8LinkViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KonySwiftUISource8LinkViewV4link11layoutModel012parentLayoutH008siblingsJ6ModelsACSS_AA0jH0CAISgSayAIGSgtcfc",
+            "mangledName": "$s17KonySwiftUISource8LinkViewV4link11layoutModel012parentLayoutH008siblingsJ6ModelsACSS_AA0jH0CAISgSayAIGSgtcfc",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KonySwiftUISource8LinkViewV4bodyQrvp",
+            "mangledName": "$s17KonySwiftUISource8LinkViewV4bodyQrvp",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KonySwiftUISource8LinkViewV4bodyQrvg",
+                "mangledName": "$s17KonySwiftUISource8LinkViewV4bodyQrvg",
+                "moduleName": "KonySwiftUISource",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17KonySwiftUISource8LinkViewV",
+        "mangledName": "$s17KonySwiftUISource8LinkViewV",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LayoutModelProtocol",
+        "printedName": "LayoutModelProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getFrame",
+            "printedName": "getFrame(size:parentLayoutModel:siblingsLayoutModels:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource19LayoutModelProtocolP8getFrame4size06parentdE008siblingsD6ModelsSo6CGRectVSo6CGSizeV_AA0dE0CSgSayAMGSgtF",
+            "mangledName": "$s17KonySwiftUISource19LayoutModelProtocolP8getFrame4size06parentdE008siblingsD6ModelsSo6CGRectVSo6CGSizeV_AA0dE0CSgSayAMGSgtF",
+            "moduleName": "KonySwiftUISource",
+            "genericSig": "<τ_0_0 where τ_0_0 : KonySwiftUISource.LayoutModelProtocol>",
+            "sugared_genericSig": "<Self where Self : KonySwiftUISource.LayoutModelProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17KonySwiftUISource19LayoutModelProtocolP",
+        "mangledName": "$s17KonySwiftUISource19LayoutModelProtocolP",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LayoutModel",
+        "printedName": "LayoutModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGRect?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KonySwiftUISource11LayoutModelC2id5frameACSS_So6CGRectVSgtcfc",
+            "mangledName": "$s17KonySwiftUISource11LayoutModelC2id5frameACSS_So6CGRectVSgtcfc",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getFrame",
+            "printedName": "getFrame(size:parentLayoutModel:siblingsLayoutModels:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource11LayoutModelC8getFrame4size06parentdE008siblingsD6ModelsSo6CGRectVSo6CGSizeV_ACSgSayACGSgtF",
+            "mangledName": "$s17KonySwiftUISource11LayoutModelC8getFrame4size06parentdE008siblingsD6ModelsSo6CGRectVSo6CGSizeV_ACSgSayACGSgtF",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource11LayoutModelC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17KonySwiftUISource11LayoutModelC2eeoiySbAC_ACtFZ",
+            "moduleName": "KonySwiftUISource",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17KonySwiftUISource11LayoutModelC",
+        "mangledName": "$s17KonySwiftUISource11LayoutModelC",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LayoutModelProtocol",
+            "printedName": "LayoutModelProtocol",
+            "usr": "s:17KonySwiftUISource19LayoutModelProtocolP",
+            "mangledName": "$s17KonySwiftUISource19LayoutModelProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DateDisplayStyle",
+        "printedName": "DateDisplayStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "time",
+            "printedName": "time",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonySwiftUISource.DateDisplayStyle.Type) -> KonySwiftUISource.DateDisplayStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateDisplayStyle",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle",
+                    "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateDisplayStyle",
+                        "printedName": "KonySwiftUISource.DateDisplayStyle",
+                        "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KonySwiftUISource16DateDisplayStyleO4timeyA2CmF",
+            "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO4timeyA2CmF",
+            "moduleName": "KonySwiftUISource"
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonySwiftUISource.DateDisplayStyle.Type) -> KonySwiftUISource.DateDisplayStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateDisplayStyle",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle",
+                    "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateDisplayStyle",
+                        "printedName": "KonySwiftUISource.DateDisplayStyle",
+                        "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KonySwiftUISource16DateDisplayStyleO4dateyA2CmF",
+            "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO4dateyA2CmF",
+            "moduleName": "KonySwiftUISource"
+          },
+          {
+            "kind": "Var",
+            "name": "relative",
+            "printedName": "relative",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonySwiftUISource.DateDisplayStyle.Type) -> KonySwiftUISource.DateDisplayStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateDisplayStyle",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle",
+                    "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateDisplayStyle",
+                        "printedName": "KonySwiftUISource.DateDisplayStyle",
+                        "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KonySwiftUISource16DateDisplayStyleO8relativeyA2CmF",
+            "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO8relativeyA2CmF",
+            "moduleName": "KonySwiftUISource"
+          },
+          {
+            "kind": "Var",
+            "name": "offset",
+            "printedName": "offset",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonySwiftUISource.DateDisplayStyle.Type) -> KonySwiftUISource.DateDisplayStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateDisplayStyle",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle",
+                    "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateDisplayStyle",
+                        "printedName": "KonySwiftUISource.DateDisplayStyle",
+                        "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KonySwiftUISource16DateDisplayStyleO6offsetyA2CmF",
+            "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO6offsetyA2CmF",
+            "moduleName": "KonySwiftUISource"
+          },
+          {
+            "kind": "Var",
+            "name": "timer",
+            "printedName": "timer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonySwiftUISource.DateDisplayStyle.Type) -> KonySwiftUISource.DateDisplayStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateDisplayStyle",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle",
+                    "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KonySwiftUISource.DateDisplayStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DateDisplayStyle",
+                        "printedName": "KonySwiftUISource.DateDisplayStyle",
+                        "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KonySwiftUISource16DateDisplayStyleO5timeryA2CmF",
+            "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO5timeryA2CmF",
+            "moduleName": "KonySwiftUISource"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateDisplayStyle",
+                "printedName": "KonySwiftUISource.DateDisplayStyle",
+                "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateDisplayStyle",
+                "printedName": "KonySwiftUISource.DateDisplayStyle",
+                "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource16DateDisplayStyleO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO2eeoiySbAC_ACtFZ",
+            "moduleName": "KonySwiftUISource",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KonySwiftUISource16DateDisplayStyleO9hashValueSivp",
+            "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO9hashValueSivp",
+            "moduleName": "KonySwiftUISource",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KonySwiftUISource16DateDisplayStyleO9hashValueSivg",
+                "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO9hashValueSivg",
+                "moduleName": "KonySwiftUISource",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource16DateDisplayStyleO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO4hash4intoys6HasherVz_tF",
+            "moduleName": "KonySwiftUISource",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17KonySwiftUISource16DateDisplayStyleO",
+        "mangledName": "$s17KonySwiftUISource16DateDisplayStyleO",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TextView",
+        "printedName": "TextView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(text:id:dateStyle:layoutModel:parentLayoutModel:siblingsLayoutModels:visibility:fontSize:fontColor:textAlignment:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TextView",
+                "printedName": "KonySwiftUISource.TextView",
+                "usr": "s:17KonySwiftUISource8TextViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateDisplayStyle",
+                "printedName": "KonySwiftUISource.DateDisplayStyle",
+                "hasDefaultArg": true,
+                "usr": "s:17KonySwiftUISource16DateDisplayStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "SwiftUI.Alignment",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI9AlignmentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KonySwiftUISource8TextViewV4text2id9dateStyle11layoutModel012parentLayoutK008siblingsM6Models10visibility8fontSize0Q5Color0F9Alignment010backgroundS0ACyp_SSAA011DateDisplayI0OAA0mK0CARSgSayARGSgSb14CoreFoundation7CGFloatVSS0B2UI0T0VSStcfc",
+            "mangledName": "$s17KonySwiftUISource8TextViewV4text2id9dateStyle11layoutModel012parentLayoutK008siblingsM6Models10visibility8fontSize0Q5Color0F9Alignment010backgroundS0ACyp_SSAA011DateDisplayI0OAA0mK0CARSgSayARGSgSb12CoreGraphics7CGFloatVSS0B2UI0T0VSStcfc",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KonySwiftUISource8TextViewV4bodyQrvp",
+            "mangledName": "$s17KonySwiftUISource8TextViewV4bodyQrvp",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KonySwiftUISource8TextViewV4bodyQrvg",
+                "mangledName": "$s17KonySwiftUISource8TextViewV4bodyQrvg",
+                "moduleName": "KonySwiftUISource",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17KonySwiftUISource8TextViewV",
+        "mangledName": "$s17KonySwiftUISource8TextViewV",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlexLayoutType",
+        "printedName": "FlexLayoutType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "FlexHorizontal",
+            "printedName": "FlexHorizontal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonySwiftUISource.FlexLayoutType.Type) -> KonySwiftUISource.FlexLayoutType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlexLayoutType",
+                    "printedName": "KonySwiftUISource.FlexLayoutType",
+                    "usr": "s:17KonySwiftUISource14FlexLayoutTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KonySwiftUISource.FlexLayoutType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlexLayoutType",
+                        "printedName": "KonySwiftUISource.FlexLayoutType",
+                        "usr": "s:17KonySwiftUISource14FlexLayoutTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KonySwiftUISource14FlexLayoutTypeO0D10HorizontalyA2CmF",
+            "mangledName": "$s17KonySwiftUISource14FlexLayoutTypeO0D10HorizontalyA2CmF",
+            "moduleName": "KonySwiftUISource"
+          },
+          {
+            "kind": "Var",
+            "name": "FlexVertical",
+            "printedName": "FlexVertical",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonySwiftUISource.FlexLayoutType.Type) -> KonySwiftUISource.FlexLayoutType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlexLayoutType",
+                    "printedName": "KonySwiftUISource.FlexLayoutType",
+                    "usr": "s:17KonySwiftUISource14FlexLayoutTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KonySwiftUISource.FlexLayoutType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlexLayoutType",
+                        "printedName": "KonySwiftUISource.FlexLayoutType",
+                        "usr": "s:17KonySwiftUISource14FlexLayoutTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KonySwiftUISource14FlexLayoutTypeO0D8VerticalyA2CmF",
+            "mangledName": "$s17KonySwiftUISource14FlexLayoutTypeO0D8VerticalyA2CmF",
+            "moduleName": "KonySwiftUISource"
+          },
+          {
+            "kind": "Var",
+            "name": "FlexFree",
+            "printedName": "FlexFree",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonySwiftUISource.FlexLayoutType.Type) -> KonySwiftUISource.FlexLayoutType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlexLayoutType",
+                    "printedName": "KonySwiftUISource.FlexLayoutType",
+                    "usr": "s:17KonySwiftUISource14FlexLayoutTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KonySwiftUISource.FlexLayoutType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlexLayoutType",
+                        "printedName": "KonySwiftUISource.FlexLayoutType",
+                        "usr": "s:17KonySwiftUISource14FlexLayoutTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KonySwiftUISource14FlexLayoutTypeO0D4FreeyA2CmF",
+            "mangledName": "$s17KonySwiftUISource14FlexLayoutTypeO0D4FreeyA2CmF",
+            "moduleName": "KonySwiftUISource"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlexLayoutType",
+                "printedName": "KonySwiftUISource.FlexLayoutType",
+                "usr": "s:17KonySwiftUISource14FlexLayoutTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlexLayoutType",
+                "printedName": "KonySwiftUISource.FlexLayoutType",
+                "usr": "s:17KonySwiftUISource14FlexLayoutTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource14FlexLayoutTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17KonySwiftUISource14FlexLayoutTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "KonySwiftUISource",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KonySwiftUISource14FlexLayoutTypeO9hashValueSivp",
+            "mangledName": "$s17KonySwiftUISource14FlexLayoutTypeO9hashValueSivp",
+            "moduleName": "KonySwiftUISource",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KonySwiftUISource14FlexLayoutTypeO9hashValueSivg",
+                "mangledName": "$s17KonySwiftUISource14FlexLayoutTypeO9hashValueSivg",
+                "moduleName": "KonySwiftUISource",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KonySwiftUISource14FlexLayoutTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17KonySwiftUISource14FlexLayoutTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "KonySwiftUISource",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17KonySwiftUISource14FlexLayoutTypeO",
+        "mangledName": "$s17KonySwiftUISource14FlexLayoutTypeO",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlexLayoutModel",
+        "printedName": "FlexLayoutModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:layoutType:reverseLayoutDirection:leftValue:leftPercentage:centerXValue:centerXPercentage:rightValue:rightPercentage:topValue:topPercentage:centerYValue:centerYPercentage:bottomValue:bottomPercentage:widthValue:widthPercentage:heightValue:heightPercentage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlexLayoutModel",
+                "printedName": "KonySwiftUISource.FlexLayoutModel",
+                "usr": "s:17KonySwiftUISource15FlexLayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.FlexLayoutType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlexLayoutType",
+                    "printedName": "KonySwiftUISource.FlexLayoutType",
+                    "usr": "s:17KonySwiftUISource14FlexLayoutTypeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KonySwiftUISource15FlexLayoutModelC2id10layoutType07reverseE9Direction9leftValue0L10Percentage12centerXValue0O11XPercentage05rightM00rN003topM00sN00O6YValue0O11YPercentage06bottomM00vN005widthM00wN006heightM00xN0ACSS_AA0deI0OSgSbSg14CoreFoundation7CGFloatVSgA2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_tcfc",
+            "mangledName": "$s17KonySwiftUISource15FlexLayoutModelC2id10layoutType07reverseE9Direction9leftValue0L10Percentage12centerXValue0O11XPercentage05rightM00rN003topM00sN00O6YValue0O11YPercentage06bottomM00vN005widthM00wN006heightM00xN0ACSS_AA0deI0OSgSbSg12CoreGraphics7CGFloatVSgA2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_A2_tcfc",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlexLayoutModel",
+                "printedName": "KonySwiftUISource.FlexLayoutModel",
+                "usr": "s:17KonySwiftUISource15FlexLayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGRect?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KonySwiftUISource15FlexLayoutModelC2id5frameACSS_So6CGRectVSgtcfc",
+            "mangledName": "$s17KonySwiftUISource15FlexLayoutModelC2id5frameACSS_So6CGRectVSgtcfc",
+            "moduleName": "KonySwiftUISource",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17KonySwiftUISource15FlexLayoutModelC",
+        "mangledName": "$s17KonySwiftUISource15FlexLayoutModelC",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:17KonySwiftUISource11LayoutModelC",
+        "superclassNames": [
+          "KonySwiftUISource.LayoutModel"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LayoutModelProtocol",
+            "printedName": "LayoutModelProtocol",
+            "usr": "s:17KonySwiftUISource19LayoutModelProtocolP",
+            "mangledName": "$s17KonySwiftUISource19LayoutModelProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlexView",
+        "printedName": "FlexView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:layoutModel:parentLayoutModel:siblingsLayoutModels:visibility:backgroundColor:isFlexConcentric:link:contentView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlexView",
+                "printedName": "KonySwiftUISource.FlexView<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17KonySwiftUISource8FlexViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayoutModel",
+                "printedName": "KonySwiftUISource.LayoutModel",
+                "usr": "s:17KonySwiftUISource11LayoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KonySwiftUISource.LayoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[KonySwiftUISource.LayoutModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[KonySwiftUISource.LayoutModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayoutModel",
+                        "printedName": "KonySwiftUISource.LayoutModel",
+                        "usr": "s:17KonySwiftUISource11LayoutModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any",
+                "hasDefaultArg": true
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KonySwiftUISource.LayoutModel) -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayoutModel",
+                    "printedName": "KonySwiftUISource.LayoutModel",
+                    "usr": "s:17KonySwiftUISource11LayoutModelC"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KonySwiftUISource8FlexViewV2id11layoutModel012parentLayoutH008siblingsJ6Models10visibility15backgroundColor02isD10Concentric4link07contentE0ACyxGSS_AA0jH0CAOSgSayAOGSgSbypSbSSSgxAOXEtcfc",
+            "mangledName": "$s17KonySwiftUISource8FlexViewV2id11layoutModel012parentLayoutH008siblingsJ6Models10visibility15backgroundColor02isD10Concentric4link07contentE0ACyxGSS_AA0jH0CAOSgSayAOGSgSbypSbSSSgxAOXEtcfc",
+            "moduleName": "KonySwiftUISource",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KonySwiftUISource8FlexViewV4bodyQrvp",
+            "mangledName": "$s17KonySwiftUISource8FlexViewV4bodyQrvp",
+            "moduleName": "KonySwiftUISource",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KonySwiftUISource8FlexViewV4bodyQrvg",
+                "mangledName": "$s17KonySwiftUISource8FlexViewV4bodyQrvg",
+                "moduleName": "KonySwiftUISource",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17KonySwiftUISource8FlexViewV",
+        "mangledName": "$s17KonySwiftUISource8FlexViewV",
+        "moduleName": "KonySwiftUISource",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LayoutManager",
+        "printedName": "LayoutManager",
+        "declKind": "Class",
+        "usr": "s:17KonySwiftUISource13LayoutManagerC",
+        "mangledName": "$s17KonySwiftUISource13LayoutManagerC",
+        "moduleName": "KonySwiftUISource",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/Views\/ImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 603,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/Views\/TextView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 890,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/Views\/TextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 932,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/Views\/TextView.swift",
+      "kind": "StringLiteral",
+      "offset": 972,
+      "length": 11,
+      "value": "\"#00000000\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/Views\/TextView.swift",
+      "kind": "StringLiteral",
+      "offset": 1080,
+      "length": 11,
+      "value": "\"#00000000\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/LayoutModel\/FlexLayoutModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1041,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/LayoutModel\/FlexLayoutModel.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 15,
+      "value": "\"KonySwiftUISource.FlexLayoutModel\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/Views\/FlexView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 667,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/Views\/FlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 11,
+      "value": "\"#ffffff00\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/KonySwiftUI\/KonySwiftUISource\/Views\/FlexView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 766,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

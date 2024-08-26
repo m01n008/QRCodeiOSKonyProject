@@ -1,0 +1,29 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KonyWidgetSource
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import APIComponent
+import CoreComponent
+import Foundation
+import JavaScriptCore
+@_exported import KonyWidgetSource
+import NetworkComponent
+import Swift
+import UIKit
+import WidgetKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct StaticTimelineEntry : WidgetKit.TimelineEntry {
+  public var date: Foundation.Date
+  public var model: Swift.Dictionary<Swift.String, Any>
+  public init(date: Foundation.Date)
+  public init(date: Foundation.Date, model: Swift.Dictionary<Swift.String, Any>)
+}
+public struct StaticTimelineProvider : WidgetKit.TimelineProvider {
+  public init(widgetKind: Swift.String)
+  public typealias Entry = KonyWidgetSource.StaticTimelineEntry
+  public func placeholder(in context: KonyWidgetSource.StaticTimelineProvider.Context) -> KonyWidgetSource.StaticTimelineEntry
+  public func getSnapshot(in context: KonyWidgetSource.StaticTimelineProvider.Context, completion: @escaping (KonyWidgetSource.StaticTimelineEntry) -> Swift.Void)
+  public func getTimeline(in context: KonyWidgetSource.StaticTimelineProvider.Context, completion: @escaping (WidgetKit.Timeline<KonyWidgetSource.StaticTimelineEntry>) -> Swift.Void)
+}

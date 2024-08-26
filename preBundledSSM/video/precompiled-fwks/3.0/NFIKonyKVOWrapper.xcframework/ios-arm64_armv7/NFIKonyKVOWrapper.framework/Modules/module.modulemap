@@ -1,0 +1,6 @@
+framework module NFIKonyKVOWrapper {
+  umbrella header "NFIKonyKVOWrapper.h"
+
+  export *
+  module * { export * }
+}

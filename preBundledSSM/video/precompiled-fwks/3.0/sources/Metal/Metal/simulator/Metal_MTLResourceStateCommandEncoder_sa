@@ -1,0 +1,5 @@
+if (strcmp(type, @encode(MTLMapIndirectArguments)) == 0) {
+		MTLMapIndirectArguments argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLMapIndirectArguments: argument inContext: context];
+	}

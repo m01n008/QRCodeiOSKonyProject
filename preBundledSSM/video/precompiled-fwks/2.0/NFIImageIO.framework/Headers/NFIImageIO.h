@@ -1,0 +1,1 @@
+#import <NFIImageIO/NFIImageIOLoader.h>

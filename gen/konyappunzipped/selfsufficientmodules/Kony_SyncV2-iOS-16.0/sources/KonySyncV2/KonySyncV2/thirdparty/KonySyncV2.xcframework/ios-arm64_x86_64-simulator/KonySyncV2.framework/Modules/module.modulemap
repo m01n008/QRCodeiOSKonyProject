@@ -1,0 +1,6 @@
+framework module KonySyncV2 {
+  umbrella header "KonySyncV2.h"
+
+  export *
+  module * { export * }
+}

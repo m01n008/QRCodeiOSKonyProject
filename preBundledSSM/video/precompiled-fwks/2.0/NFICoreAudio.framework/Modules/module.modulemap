@@ -1,0 +1,6 @@
+framework module NFICoreAudio {
+  umbrella header "NFICoreAudio.h"
+
+  export *
+  module * { export * }
+}

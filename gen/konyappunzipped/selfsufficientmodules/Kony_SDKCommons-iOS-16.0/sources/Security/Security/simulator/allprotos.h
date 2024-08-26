@@ -1,0 +1,16 @@
+@protocol NSObjectInstanceExports;
+@protocol NSObjectClassExports;
+@protocol NSObjectInstanceExports_;
+@protocol NSObjectClassExports_;
+@protocol OS_sec_objectInstanceExports_;
+@protocol OS_sec_objectClassExports_;
+@protocol OS_sec_trustInstanceExports_;
+@protocol OS_sec_trustClassExports_;
+@protocol OS_sec_identityInstanceExports_;
+@protocol OS_sec_identityClassExports_;
+@protocol OS_sec_certificateInstanceExports_;
+@protocol OS_sec_certificateClassExports_;
+@protocol OS_sec_protocol_metadataInstanceExports_;
+@protocol OS_sec_protocol_metadataClassExports_;
+@protocol OS_sec_protocol_optionsInstanceExports_;
+@protocol OS_sec_protocol_optionsClassExports_;

@@ -1,0 +1,22 @@
+
+#
+#	NEVER SHARE THE ENTIRE luavmiphone DIRECTORY TO OUTSIDERS.
+#	INSTEAD FOLLOW THE BELOW STEPS AND 
+#	SHARE THIS DIRECTORY ONLY WHICH HAS ALL THE PLATFORM CODE
+#	AS A STATIC LIBRARY.
+#
+
+Follow below mentioned steps:
+
+1. Build VM.xcodeproj target konylib for both simulator and device.
+2. Use createplatformlib.sh script to generate PlatformFiles directory.
+3. Copy PlatformFiles directory into this directory
+4. Use extract.pl located in <this directory>/gen/ to extract the konyapplication kbf (same as luavmiphone/gen/extract.pl)
+   but adds generated files to VMAppWithKonylib project.
+5. Build and run the VMAppWithKonylib.xcodeproj.
+
+
+Sharing:
+
+1. Zip this DIRECTORY only. (i.e VMAppWithKonylib).
+2. Share the zipped file.

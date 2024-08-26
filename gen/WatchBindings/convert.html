@@ -1,0 +1,47 @@
+<textarea id="src" cols="200" rows="30"></textarea>
+<input type="button" value="convert" onclick="convert()"/>
+<div id="formatted" style="height:100%"></div>
+<style type="text/css">
+    body { white-space: pre; font-family: monospace; }
+    pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; } .string { color: green; }
+    .number { color: darkorange; } .boolean { color: blue; } .null { color: magenta; } .key { color: red; }
+  </style>
+<script type="text/javascript">
+function convert() {
+	var src = document.getElementById("src").value;
+	var modified =  src.replace(/(\w+)/g, "\"$1\""); 
+	modified = modified.trim();
+	modified = modified.charAt(modified.length-1) == "," ? modified.substring(0,modified.length-1) : modified; //remove last comma
+	modified = "{" + modified + "}}";
+	modified = modified.replace(/(\s*)/g, "");
+	//modified = JSON.stringify(modified, null, 4);
+	var div = document.getElementById("formatted");
+	console.log(modified);
+	
+	//var json = modified;
+	var json = syntaxHighlight(modified);
+	var html = "<pre>"+json+"</pre>"; 
+	div.innerHTML = html;
+	//div.appendChild(document.createTextNode(html));
+}
+
+function syntaxHighlight(json) {
+   
+    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        var cls = 'number';
+        if (/^"/.test(match)) {
+            if (/:$/.test(match)) {
+                cls = 'key';
+            } else {
+                cls = 'string';
+            }
+        } else if (/true|false/.test(match)) {
+            cls = 'boolean';
+        } else if (/null/.test(match)) {
+            cls = 'null';
+        }
+        return '<span class="' + cls + '">' + match + '</span>';
+    });
+}
+</script>

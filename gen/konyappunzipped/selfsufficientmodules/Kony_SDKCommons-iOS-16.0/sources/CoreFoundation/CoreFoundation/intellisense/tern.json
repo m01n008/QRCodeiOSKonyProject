@@ -1,0 +1,93 @@
+{
+	"NSObject": {
+		"load": {
+			"!type": "fn() -> void"
+		},
+		"initialize": {
+			"!type": "fn() -> void"
+		},
+		"jsnew": {
+			"!type": "fn() -> +NSObject"
+		},
+		"allocWithZone": {
+			"!type": "fn(zone: +Object) -> +NSObject"
+		},
+		"alloc": {
+			"!type": "fn() -> +NSObject"
+		},
+		"copyWithZone": {
+			"!type": "fn(zone: +Object) -> +Object"
+		},
+		"mutableCopyWithZone": {
+			"!type": "fn(zone: +Object) -> +Object"
+		},
+		"instancesRespondToSelector": {
+			"!type": "fn(aSelector: string) -> bool"
+		},
+		"conformsToProtocol": {
+			"!type": "fn(protocol: +Protocol) -> bool"
+		},
+		"instanceMethodForSelector": {
+			"!type": "fn(aSelector: string) -> +Object"
+		},
+		"instanceMethodSignatureForSelector": {
+			"!type": "fn(aSelector: string) -> +NSMethodSignature"
+		},
+		"isSubclassOfClass": {
+			"!type": "fn(aClass: +Object) -> bool"
+		},
+		"resolveClassMethod": {
+			"!type": "fn(sel: string) -> bool"
+		},
+		"resolveInstanceMethod": {
+			"!type": "fn(sel: string) -> bool"
+		},
+		"hash": {
+			"!type": "fn() -> number"
+		},
+		"superclass": {
+			"!type": "fn() -> +Object"
+		},
+		"class": {
+			"!type": "fn() -> +Object"
+		},
+		"description": {
+			"!type": "fn() -> string"
+		},
+		"debugDescription": {
+			"!type": "fn() -> string"
+		},
+		"prototype": {
+			"jsinit": {
+				"!type": "fn() -> +NSObject"
+			},
+			"dealloc": {
+				"!type": "fn() -> void"
+			},
+			"finalize": {
+				"!type": "fn() -> void"
+			},
+			"jscopy": {
+				"!type": "fn() -> +Object"
+			},
+			"jsmutableCopy": {
+				"!type": "fn() -> +Object"
+			},
+			"methodForSelector": {
+				"!type": "fn(aSelector: string) -> +Object"
+			},
+			"doesNotRecognizeSelector": {
+				"!type": "fn(aSelector: string) -> void"
+			},
+			"forwardingTargetForSelector": {
+				"!type": "fn(aSelector: string) -> +Object"
+			},
+			"forwardInvocation": {
+				"!type": "fn(anInvocation: +NSInvocation) -> void"
+			},
+			"methodSignatureForSelector": {
+				"!type": "fn(aSelector: string) -> +NSMethodSignature"
+			}
+		}
+	}
+}

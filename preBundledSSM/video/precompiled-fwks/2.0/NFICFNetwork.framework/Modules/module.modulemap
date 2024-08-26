@@ -1,0 +1,6 @@
+framework module NFICFNetwork {
+  umbrella header "NFICFNetwork.h"
+
+  export *
+  module * { export * }
+}

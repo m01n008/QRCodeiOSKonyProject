@@ -1,0 +1,5 @@
+if (strcmp(type, @encode(MTLClearColor)) == 0) {
+		MTLClearColor argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithMTLClearColor: argument inContext: context];
+	}

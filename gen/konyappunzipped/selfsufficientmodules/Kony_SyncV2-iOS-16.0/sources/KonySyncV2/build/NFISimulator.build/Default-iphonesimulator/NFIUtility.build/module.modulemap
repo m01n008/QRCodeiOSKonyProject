@@ -1,0 +1,6 @@
+framework module NFIUtility {
+  umbrella header "NFIUtility.h"
+
+  export *
+  module * { export * }
+}

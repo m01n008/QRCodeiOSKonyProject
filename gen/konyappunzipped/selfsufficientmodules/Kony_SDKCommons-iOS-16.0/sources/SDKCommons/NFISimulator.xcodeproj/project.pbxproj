@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C764A808488C77627CCC822E /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 95DB00CE994EC607C5F2F4A5 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F17BCB2155F862E69F9125FE /* PBXTargetDependency */,
+				E8F6AB74C6811CA6B7A4ABF7 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1F9162BCD77694E57FB11A1B /* SDKCommons_KNYHTTPMessageIntegrityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59CAF0AAAC26D1F6D466A3 /* SDKCommons_KNYHTTPMessageIntegrityManager.m */; };
+		200B6FA697570675D341A86F /* CallbackSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D38231D0DE33EAFD8C574891 /* CallbackSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33751D5E1E577A1C3E9EA15B /* SDKCommons_KNYGlobalRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6BE176E39F1D417406D31C /* SDKCommons_KNYGlobalRequestParams.m */; };
+		3ED1C89C59F387DB02DC6B5C /* CallbackSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F39AD2D3ADECCFD10225AC /* CallbackSupport.m */; };
+		42D2E6545651AFCD3627D872 /* SDKCommons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52348073F2B58DB9D860798 /* SDKCommons.framework */; };
+		4F88321D770781E1704EBD57 /* NFISDKCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0C12F2609807E7F78766E7 /* NFISDKCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D41C64387DB6F53BFD55EF /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E05F993F8F8579C8E39F5F /* SQLCipher.framework */; };
+		6A8249D3B200454B1018DD96 /* SDKCommons_KNYClientCertificatesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5819979F26D26D2AF65D687 /* SDKCommons_KNYClientCertificatesManager.m */; };
+		890CB67BD9BD00E07A8EDD6D /* NFIUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */; };
+		8F08245158E77B627E15277B /* NFIUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F9597E92125B418E78B2316A /* NFIUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A12616C1B4E20CDC6C1AF2C9 /* NFISDKCommonsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F53496D49B833D57125EF /* NFISDKCommonsLoader.m */; };
+		ABB87EB95AEA21EA4A01FEBD /* NFISDKCommonsLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9874A640CB18D4C857985E /* NFISDKCommonsLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED06354BBF02F2E75F21374 /* PointerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9002AE8A95B090064245AC /* PointerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA3AC96C5CEB6EB55B0A7386 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29B1308CFCBB8CB2C71604 /* FMDB.framework */; };
+		EFAB7179AE2ADBFA5981AB90 /* PointerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B10BB9C033D4338C717B2A0 /* PointerSupport.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3308388E460D9187C96B0622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CF65CBBBB125367E89804F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C478656A382488D1EB6BD2F;
+			remoteInfo = NFIUtility;
+		};
+		8DD254AF20506F21764C22B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CF65CBBBB125367E89804F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758007C6F3FAAAF75F264AF4;
+			remoteInfo = NFISDKCommons;
+		};
+		E2E6A7391993D3684540E20F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CF65CBBBB125367E89804F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C478656A382488D1EB6BD2F;
+			remoteInfo = NFIUtility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001920F5662750DBE365328A /* Foundation_NSExtensionContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionContext.h; sourceTree = "<group>"; };
+		003F75C2FD1C9FF1DB56A320 /* Foundation_NSListFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSListFormatter.h; sourceTree = "<group>"; };
+		007FDCB4B08F71044973C0B4 /* protocols */ = {isa = PBXFileReference; lastKnownFileType = text; path = protocols; sourceTree = "<group>"; };
+		00B7D68F7DB3F377A589CEDE /* Foundation_NSRegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRegularExpression.h; sourceTree = "<group>"; };
+		00E85BE691FE353FDC525063 /* Foundation_NSOrderedCollectionDifference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrderedCollectionDifference.h; sourceTree = "<group>"; };
+		016925B132DDB41102463947 /* Security_SecKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecKey.h; sourceTree = "<group>"; };
+		01C81BB54A03DD6905945791 /* Foundation_NSDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateFormatter.h; sourceTree = "<group>"; };
+		028E8792D867652D3621C2A6 /* Foundation_NSMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMeasurement.h; sourceTree = "<group>"; };
+		029F75EAC948BAF99C0D302C /* Foundation_NSDateInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateInterval.h; sourceTree = "<group>"; };
+		03D1311534AE1B481A8431B5 /* CoreFoundation_CFFileSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileSecurity.h; sourceTree = "<group>"; };
+		05934820974FA3ACBB8825F4 /* Foundation_NSComparisonPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSComparisonPredicate.h; sourceTree = "<group>"; };
+		05DA33DDA974996608A0C3C7 /* Foundation_NSProcessInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProcessInfo.h; sourceTree = "<group>"; };
+		0629B80825B8D664CD324DDA /* Security_SecIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecIdentity.h; sourceTree = "<group>"; };
+		0790F883030C7D2ABD29DF49 /* Foundation_NSMorphology.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMorphology.h; sourceTree = "<group>"; };
+		084FB25BCC0E4F37D3FD9E45 /* Foundation_NSLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLock.h; sourceTree = "<group>"; };
+		08EC48FC6A54101193CAA0C8 /* CFNetwork_CFSocketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFSocketStream.h; sourceTree = "<group>"; };
+		09B2C98DDB9F5A999D12A9ED /* Foundation_NSPersonNameComponentsFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPersonNameComponentsFormatter.h; sourceTree = "<group>"; };
+		0BE293EBF0C0FFEF67382C57 /* Foundation_NSCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCalendar.h; sourceTree = "<group>"; };
+		0D5D17431B89D727533BB306 /* Foundation_NSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOperation.h; sourceTree = "<group>"; };
+		0F8AAA409837D659DFE6E083 /* CFNetwork_CFHTTPMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPMessage.h; sourceTree = "<group>"; };
+		10EB6D6128415B237BC2DB5A /* CoreFoundation_CFDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDictionary.h; sourceTree = "<group>"; };
+		119E5015B368DC77287281ED /* Security_SecRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecRandom.h; sourceTree = "<group>"; };
+		1409B4A482A30F47C1532AC1 /* CoreFoundation_CFPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPlugIn.h; sourceTree = "<group>"; };
+		16362942CDBC12E9ECBBEF95 /* Foundation_NSNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNumberFormatter.h; sourceTree = "<group>"; };
+		17233E90AF94DE0BFA8FAF94 /* CoreFoundation_CFUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUtilities.h; sourceTree = "<group>"; };
+		197726070B5EE69A7134A65B /* CoreFoundation_CFLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFLocale.h; sourceTree = "<group>"; };
+		19D1B09E46EE9BAC20D7A0B5 /* Foundation_NSNotificationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNotificationQueue.h; sourceTree = "<group>"; };
+		1AC1AA3DF1FF05A2FA4BAE3C /* Security_SecBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecBase.h; sourceTree = "<group>"; };
+		1B75A47753C1B8BBCD1F5E4A /* parts_sr */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sr; sourceTree = "<group>"; };
+		1D16031FB08A6D85E8992997 /* Foundation_NSIndexSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSIndexSet.h; sourceTree = "<group>"; };
+		1F446AA112BB48E628CC6FA6 /* NFISDKCommons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFISDKCommons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7339195D539D220FC2AE0F /* Foundation_NSEnergyFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSEnergyFormatter.h; sourceTree = "<group>"; };
+		213D638711728A6EDC7B3680 /* CoreFoundation_CFSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSocket.h; sourceTree = "<group>"; };
+		21532E15AD9BDC170A280CA6 /* Foundation_NSOrthography.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrthography.h; sourceTree = "<group>"; };
+		21A574A54C7A3867A141C898 /* Foundation_NSUbiquitousKeyValueStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUbiquitousKeyValueStore.h; sourceTree = "<group>"; };
+		227CC613D8F4EF81D6D8B5BE /* Foundation_NSAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSAttributedString.h; sourceTree = "<group>"; };
+		22DD75188746FFCF442EE8D0 /* Foundation_NSUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUnit.h; sourceTree = "<group>"; };
+		26DC9244768166E07B5A964E /* Foundation_NSFileCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileCoordinator.h; sourceTree = "<group>"; };
+		26EE38926D1F6E1AF0A8175E /* Security_SecProtocolObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecProtocolObject.h; sourceTree = "<group>"; };
+		275F403D6252C6FEC5140F0D /* Foundation_NSNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNotification.h; sourceTree = "<group>"; };
+		27D10E39D28B0C805CAF7BE4 /* SDKCommons_KNYHTTPMessageIntegrityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCommons_KNYHTTPMessageIntegrityManager.h; sourceTree = "<group>"; };
+		27EF1B720C01A3722BA3F33B /* Foundation_NSPersonNameComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPersonNameComponents.h; sourceTree = "<group>"; };
+		2809B960F0800BDAA5618F10 /* Foundation_NSKeyValueObserving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyValueObserving.h; sourceTree = "<group>"; };
+		2C670D03AA5681622CB3DC8D /* CoreFoundation_CFTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTree.h; sourceTree = "<group>"; };
+		2FDB0FF3E817D252ABD1A4FB /* Foundation_NSURLCredentialStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCredentialStorage.h; sourceTree = "<group>"; };
+		31FD70DAF156CD620DBA29FB /* Security_SecTrust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecTrust.h; sourceTree = "<group>"; };
+		33566CE857A7BC8B955883B0 /* parts */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts; sourceTree = "<group>"; };
+		33D4C12E706ACB67403E6A71 /* Foundation_NSURLCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCredential.h; sourceTree = "<group>"; };
+		353DDADA57EECFA0E87952A3 /* Foundation_NSScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSScanner.h; sourceTree = "<group>"; };
+		3578271F753FF6EAA8AD9C4D /* Foundation_NSExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExpression.h; sourceTree = "<group>"; };
+		35E05F993F8F8579C8E39F5F /* SQLCipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLCipher.framework; path = "../gen-src/SDKCommons/thirdparty/SQLCipher.xcframework/ios-arm64_x86_64-simulator/SQLCipher.framework"; sourceTree = "<group>"; };
+		3823E9602081CD24D01B9361 /* allincludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allincludes.h; sourceTree = "<group>"; };
+		39458A394A5B4898565AC6F9 /* Foundation_NSIndexPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSIndexPath.h; sourceTree = "<group>"; };
+		3A5FC3F59AE86779976B68DA /* CoreFoundation_CFURLEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLEnumerator.h; sourceTree = "<group>"; };
+		3B7D633BDD879733F74F9124 /* Foundation_NSURLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLRequest.h; sourceTree = "<group>"; };
+		3C2253088E30950E41B43C3F /* Foundation_NSMetadataAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMetadataAttributes.h; sourceTree = "<group>"; };
+		3C9BA5095F4E423ADE28F599 /* Foundation_NSLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLocale.h; sourceTree = "<group>"; };
+		3CB1F81EF56EE3BBA0C7A997 /* CoreFoundation_CFURLAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURLAccess.h; sourceTree = "<group>"; };
+		3D1BC50531E9B6028FBADC9C /* CoreFoundation_CFNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumberFormatter.h; sourceTree = "<group>"; };
+		3DA0C037BBDF353A51F4F862 /* CoreFoundation_CFMessagePort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMessagePort.h; sourceTree = "<group>"; };
+		3FBFBA2BB98EFA036EB920FF /* Foundation_NSXPCConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSXPCConnection.h; sourceTree = "<group>"; };
+		410AFDB0B29E48EF518C1BE2 /* CoreFoundation_CFBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBase.h; sourceTree = "<group>"; };
+		42984CA8D015E701E239837D /* Foundation_NSByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSByteOrder.h; sourceTree = "<group>"; };
+		456AA419BD82EFF8BD5117DF /* allheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		4607D76420A532B580B672BA /* CoreFoundation_CFFileDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFFileDescriptor.h; sourceTree = "<group>"; };
+		47D8C239A02426C9C7344E18 /* Security_SecureTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecureTransport.h; sourceTree = "<group>"; };
+		48AA9CFD19048C36C9F6B785 /* Foundation_NSURLCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLCache.h; sourceTree = "<group>"; };
+		48F8C51759722A5D8BF23D71 /* CFNetwork_CFNetServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetServices.h; sourceTree = "<group>"; };
+		4D006C028541C7E928FD4457 /* Foundation_NSPointerFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPointerFunctions.h; sourceTree = "<group>"; };
+		4E870915CAF19D6C32F1621C /* Foundation_NSURLResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLResponse.h; sourceTree = "<group>"; };
+		4EBE5585B60EEE1B97FA8950 /* Foundation_NSData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSData.h; sourceTree = "<group>"; };
+		4F534C8E158C96FB1A614B14 /* Security_SecProtocolOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecProtocolOptions.h; sourceTree = "<group>"; };
+		4F8AA2D5B2E4F3C7341DEA14 /* Foundation_NSUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUserDefaults.h; sourceTree = "<group>"; };
+		4FE9FD0339B00AC5837E38C5 /* CoreFoundation_CFError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFError.h; sourceTree = "<group>"; };
+		4FF43D59F8E50D28A14589A1 /* Foundation_NSDecimalNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDecimalNumber.h; sourceTree = "<group>"; };
+		534B45F4FF974C672A7BD086 /* Foundation_NSKeyValueCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyValueCoding.h; sourceTree = "<group>"; };
+		55AC9997E882EEF9D297B914 /* Foundation_NSURLError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLError.h; sourceTree = "<group>"; };
+		590B58D88A8ED59D5A471377 /* CoreFoundation_CFURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFURL.h; sourceTree = "<group>"; };
+		59F06C8C01E0978755F4A11B /* Foundation_NSExtensionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionItem.h; sourceTree = "<group>"; };
+		5A9874A640CB18D4C857985E /* NFISDKCommonsLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFISDKCommonsLoader.h; sourceTree = "<group>"; };
+		5B10BB9C033D4338C717B2A0 /* PointerSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointerSupport.m; sourceTree = "<group>"; };
+		5B59CAF0AAAC26D1F6D466A3 /* SDKCommons_KNYHTTPMessageIntegrityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKCommons_KNYHTTPMessageIntegrityManager.m; sourceTree = "<group>"; };
+		5D29B1308CFCBB8CB2C71604 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = "../gen-src/SDKCommons/thirdparty/FMDB.xcframework/ios-arm64_x86_64-simulator/FMDB.framework"; sourceTree = "<group>"; };
+		5DD09A3988898715C52289A9 /* Foundation_NSTextCheckingResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTextCheckingResult.h; sourceTree = "<group>"; };
+		5E1F795D1ECAA38599B60029 /* Foundation_NSNetServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNetServices.h; sourceTree = "<group>"; };
+		5E29E3F96A9E3CF154965309 /* Security_SecSharedCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecSharedCredential.h; sourceTree = "<group>"; };
+		5E98B7707D739DC9674FE098 /* CoreFoundation_CFDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDateFormatter.h; sourceTree = "<group>"; };
+		6045DD575F48219DFE6D04ED /* CoreFoundation_CFBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBag.h; sourceTree = "<group>"; };
+		6052EFB897A0FA41929D73B0 /* Foundation_NSRelativeDateTimeFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRelativeDateTimeFormatter.h; sourceTree = "<group>"; };
+		6069640FFBC9DCACCC61BD42 /* Security_SecItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecItem.h; sourceTree = "<group>"; };
+		61E3A26F8422625C1AA4626D /* CoreFoundation_CFString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFString.h; sourceTree = "<group>"; };
+		630D18C36EAD99045F6B0DC7 /* Foundation_NSPathUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPathUtilities.h; sourceTree = "<group>"; };
+		643E4BFB88DF6A960F17CAF5 /* Foundation_NSFilePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFilePresenter.h; sourceTree = "<group>"; };
+		67C51F0B3ABCA7BF99678243 /* Foundation_NSOrderedSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrderedSet.h; sourceTree = "<group>"; };
+		686F0ACE95968181B2EA6616 /* Foundation_NSByteCountFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSByteCountFormatter.h; sourceTree = "<group>"; };
+		68896AC79A7EDD8801DC83E0 /* CFNetwork_CFFTPStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFFTPStream.h; sourceTree = "<group>"; };
+		6894CAC70E1FF868B1073BA1 /* Foundation_NSURLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLConnection.h; sourceTree = "<group>"; };
+		68B7D13590FDE44A506D7B12 /* Foundation_NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSString.h; sourceTree = "<group>"; };
+		6A130E84F62090C91699140D /* CoreFoundation_CFBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBundle.h; sourceTree = "<group>"; };
+		6B6CAF0DAE5AD53ADDE2839E /* Foundation_NSSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSSet.h; sourceTree = "<group>"; };
+		6C0A1D3BA9EA789DCF242A73 /* Foundation_NSUndoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUndoManager.h; sourceTree = "<group>"; };
+		6C6BE176E39F1D417406D31C /* SDKCommons_KNYGlobalRequestParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKCommons_KNYGlobalRequestParams.m; sourceTree = "<group>"; };
+		6CFAE9F2FC4BEEA00D197265 /* Foundation_NSFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFormatter.h; sourceTree = "<group>"; };
+		6D390EBE7772760D837CB3DF /* Foundation_NSCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCharacterSet.h; sourceTree = "<group>"; };
+		6E39C34148152B2418F9E2CE /* CoreFoundation_CFByteOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFByteOrder.h; sourceTree = "<group>"; };
+		6E5B3BC97C8BD86D54711B88 /* CoreFoundation_CFBinaryHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBinaryHeap.h; sourceTree = "<group>"; };
+		71AAAB3C45BC707268846222 /* Foundation_NSURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLProtocol.h; sourceTree = "<group>"; };
+		72B5060DF137B141C82AB82D /* SDKCommons_KNYClientCertificatesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCommons_KNYClientCertificatesManager.h; sourceTree = "<group>"; };
+		736C0F84F9B121D0BB2B2C07 /* Foundation_NSURLProtectionSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLProtectionSpace.h; sourceTree = "<group>"; };
+		7443465CD25878CEC65A2AE4 /* allprotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allprotos.h; sourceTree = "<group>"; };
+		76DC52BFD21CCFA675731F8F /* CoreFoundation_CFStringTokenizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringTokenizer.h; sourceTree = "<group>"; };
+		78B20807AEEF73CDF3B63A9E /* Foundation_NSCompoundPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCompoundPredicate.h; sourceTree = "<group>"; };
+		7904EB4F0B25C02627FF433A /* CoreFoundation_CFAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFAttributedString.h; sourceTree = "<group>"; };
+		7C3CD84856765150A1DEC965 /* CFNetwork_CFNetworkErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetworkErrors.h; sourceTree = "<group>"; };
+		8003FDC2C92EAFC8756A5DED /* Foundation_NSNull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSNull.h; sourceTree = "<group>"; };
+		80D377093BF408F66B4B5492 /* CoreFoundation_CFData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFData.h; sourceTree = "<group>"; };
+		84F39AD2D3ADECCFD10225AC /* CallbackSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackSupport.m; sourceTree = "<group>"; };
+		85E411DBD01F25B7269B4668 /* SDKCommons_KNYGlobalRequestParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCommons_KNYGlobalRequestParams.h; sourceTree = "<group>"; };
+		86D001620ACA8F1439AB8D2F /* Foundation_NSDecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDecimal.h; sourceTree = "<group>"; };
+		874FC8A84218270021C28195 /* CoreFoundation_CFCharacterSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCharacterSet.h; sourceTree = "<group>"; };
+		8B3FB008DCE829AA682A532D /* CoreFoundation_CFArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFArray.h; sourceTree = "<group>"; };
+		8B8C00E273E3050604FD47FF /* Foundation_NSTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTimeZone.h; sourceTree = "<group>"; };
+		8C39AFBB4E60955A9A8C2A57 /* Security_SecCertificate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecCertificate.h; sourceTree = "<group>"; };
+		8E666FE020FF9FF594FBA515 /* Foundation_NSZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSZone.h; sourceTree = "<group>"; };
+		91AAEF4A82DD3E83D7E29132 /* Foundation_NSPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPort.h; sourceTree = "<group>"; };
+		9276ABDC5890635FBD97DB18 /* Foundation_NSMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMetadata.h; sourceTree = "<group>"; };
+		99CCAFFD539B0ED46EFECF74 /* Foundation_NSISO8601DateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSISO8601DateFormatter.h; sourceTree = "<group>"; };
+		9BF8B94B8FE628CCC7A26B9C /* Foundation_NSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSArray.h; sourceTree = "<group>"; };
+		9C6D3DE5457B87B6BAF6F826 /* Foundation_NSMassFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMassFormatter.h; sourceTree = "<group>"; };
+		9CBECAEEE87C4681C8A441D9 /* Foundation_NSOrderedCollectionChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSOrderedCollectionChange.h; sourceTree = "<group>"; };
+		9EA12253D7F2E0A6599E2899 /* Foundation_NSPointerArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPointerArray.h; sourceTree = "<group>"; };
+		A133F8741EC80C8D327C1393 /* CoreFoundation_CFDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFDate.h; sourceTree = "<group>"; };
+		A29A36F589FAC58A386FC902 /* Foundation_NSItemProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSItemProvider.h; sourceTree = "<group>"; };
+		A309AD41987AECCE729D55D7 /* Foundation_NSInflectionRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSInflectionRule.h; sourceTree = "<group>"; };
+		A44AF3EE6D6B354E9CBA6A13 /* Foundation_NSUserActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUserActivity.h; sourceTree = "<group>"; };
+		A4B267D041B9E21F5F9C51CA /* Foundation_NSExtensionRequestHandling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSExtensionRequestHandling.h; sourceTree = "<group>"; };
+		A52348073F2B58DB9D860798 /* SDKCommons.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDKCommons.framework; path = "../gen-src/SDKCommons/thirdparty/SDKCommons.xcframework/ios-arm64_x86_64-simulator/SDKCommons.framework"; sourceTree = "<group>"; };
+		A5819979F26D26D2AF65D687 /* SDKCommons_KNYClientCertificatesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKCommons_KNYClientCertificatesManager.m; sourceTree = "<group>"; };
+		A60CD18054A62A9C1E4FF6CD /* Foundation_NSDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDate.h; sourceTree = "<group>"; };
+		A63CF70AA3B16497C5B99E95 /* Foundation_NSSortDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSSortDescriptor.h; sourceTree = "<group>"; };
+		A6B5F22E2523A12E6C22971C /* Foundation_NSPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPredicate.h; sourceTree = "<group>"; };
+		A99E62E7500AE9CC6EDB20D9 /* Foundation_NSCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCache.h; sourceTree = "<group>"; };
+		AA493BE030597D61C820063F /* CoreFoundation_CFNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNotificationCenter.h; sourceTree = "<group>"; };
+		AA6A0570FA9DAF151922C875 /* Foundation_NSFileHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileHandle.h; sourceTree = "<group>"; };
+		AB5FCCB7CE16FFBB1AB0521C /* CoreFoundation_CFBitVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFBitVector.h; sourceTree = "<group>"; };
+		AB7A532E21BDB3FC398E21FE /* Foundation_NSHTTPCookieStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHTTPCookieStorage.h; sourceTree = "<group>"; };
+		AB9002AE8A95B090064245AC /* PointerSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerSupport.h; sourceTree = "<group>"; };
+		AC2EA56C5ACD6FA7B37FF2E3 /* Foundation_NSError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSError.h; sourceTree = "<group>"; };
+		AD0C12F2609807E7F78766E7 /* NFISDKCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFISDKCommons.h; sourceTree = "<group>"; };
+		AE8292EBB91A6120292351BE /* Foundation_NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObject.h; sourceTree = "<group>"; };
+		AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFIUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2350D2911F1703B12ACB063 /* Foundation_NSEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSEnumerator.h; sourceTree = "<group>"; };
+		B3252302F301824E37D9F07F /* CFNetwork_CFHTTPAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPAuthentication.h; sourceTree = "<group>"; };
+		B429D6842B0CE562FBBCFE02 /* Foundation_NSDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDictionary.h; sourceTree = "<group>"; };
+		B6FC9924AE36F92F454B810D /* Foundation_NSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSTimer.h; sourceTree = "<group>"; };
+		B7C3889CE6B3C615E982CF90 /* parts_sa */ = {isa = PBXFileReference; lastKnownFileType = text; path = parts_sa; sourceTree = "<group>"; };
+		B8B4B7579D8B355617CA22A7 /* CoreFoundation_CFCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCalendar.h; sourceTree = "<group>"; };
+		B9818192451A7144BD69DA46 /* CoreFoundation_CFSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFSet.h; sourceTree = "<group>"; };
+		BAB738D39D3C1B8D81B5A38D /* Foundation_FoundationErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_FoundationErrors.h; sourceTree = "<group>"; };
+		BB0328E57982EE7131F947C5 /* Security_CipherSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_CipherSuite.h; sourceTree = "<group>"; };
+		BB6EB39BEC4C7A10ED446A93 /* Foundation_NSURLAuthenticationChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLAuthenticationChallenge.h; sourceTree = "<group>"; };
+		BB9CEF9D0917B4BDCCD2108E /* Foundation_NSDateComponentsFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateComponentsFormatter.h; sourceTree = "<group>"; };
+		BCEAC445C8967C89909EFCB2 /* Foundation_NSValueTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSValueTransformer.h; sourceTree = "<group>"; };
+		BE93A0F065050C18CA70D786 /* CoreFoundation_CFNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFNumber.h; sourceTree = "<group>"; };
+		BF535BF09384168BBFBC28D4 /* Foundation_NSCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSCoder.h; sourceTree = "<group>"; };
+		BF59B53797F96F7D1758C3D8 /* Foundation_NSException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSException.h; sourceTree = "<group>"; };
+		BFE7DFCE2A3F2C37A94C4923 /* CoreFoundation_CFTimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFTimeZone.h; sourceTree = "<group>"; };
+		C10AC9CE49577C8CABD6D62F /* CoreFoundation_CFRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFRunLoop.h; sourceTree = "<group>"; };
+		C2384BAD0546F8C480091D82 /* Foundation_NSLengthFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLengthFormatter.h; sourceTree = "<group>"; };
+		C43B3FBBF7E32DB289C4B060 /* Foundation_NSXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSXMLParser.h; sourceTree = "<group>"; };
+		C563B893861A85D24DF1B47E /* Foundation_NSMeasurementFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMeasurementFormatter.h; sourceTree = "<group>"; };
+		C6F3B6856CF3DD66DB4D33D0 /* CoreFoundation_CFUserNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUserNotification.h; sourceTree = "<group>"; };
+		C750EF34998A8ADB32CE2C6B /* Foundation_NSRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRunLoop.h; sourceTree = "<group>"; };
+		C86BB9D983915DA903367614 /* Foundation_NSProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProgress.h; sourceTree = "<group>"; };
+		C961CE85FFAC4969268F0EFD /* Foundation_NSFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileManager.h; sourceTree = "<group>"; };
+		CB411B0CF16AF479C9B009F2 /* NFISimulator.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = NFISimulator.gyp; sourceTree = "<group>"; };
+		CBCBCCB79DC3ED2B10EA8F57 /* CoreFoundation_CFMachPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFMachPort.h; sourceTree = "<group>"; };
+		CC36BE691C628F4441C0A220 /* CFNetwork_CFProxySupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFProxySupport.h; sourceTree = "<group>"; };
+		CD238594C62B61D56018F27F /* CFNetwork_CFNetDiagnostics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFNetDiagnostics.h; sourceTree = "<group>"; };
+		CDBE8413E71BC4613D54DE12 /* CoreFoundation_CFPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPropertyList.h; sourceTree = "<group>"; };
+		CED75C6B5F4AB8CFCD92E16C /* CFNetwork_CFHTTPStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHTTPStream.h; sourceTree = "<group>"; };
+		CF2091158B37BAC8A4C1A8E1 /* Foundation_NSLinguisticTagger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSLinguisticTagger.h; sourceTree = "<group>"; };
+		D3511C8495C16C9D67B952F6 /* Foundation_NSObjCRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSObjCRuntime.h; sourceTree = "<group>"; };
+		D35320548D7DBE850959E45B /* Foundation_NSURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURLSession.h; sourceTree = "<group>"; };
+		D370E3D3CFD4E5B6C454AD1B /* Foundation_NSAutoreleasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSAutoreleasePool.h; sourceTree = "<group>"; };
+		D38231D0DE33EAFD8C574891 /* CallbackSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackSupport.h; sourceTree = "<group>"; };
+		D3EF2897A15B3CD661167ABB /* Foundation_NSValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSValue.h; sourceTree = "<group>"; };
+		D5B6A0257539E04F36C7F332 /* CoreFoundation_CFPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFPreferences.h; sourceTree = "<group>"; };
+		D64754CC8BA699F8BA42D518 /* Foundation_NSMethodSignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMethodSignature.h; sourceTree = "<group>"; };
+		D7356CE204036C39BBBC12EE /* Security_SecAccessControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecAccessControl.h; sourceTree = "<group>"; };
+		D8DFD2A4E460DC6471F307CD /* Foundation_NSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSThread.h; sourceTree = "<group>"; };
+		DA25F6F110763FF70B6E3171 /* Foundation_NSRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSRange.h; sourceTree = "<group>"; };
+		DC1F53496D49B833D57125EF /* NFISDKCommonsLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFISDKCommonsLoader.m; sourceTree = "<group>"; };
+		DDEF8B475DA3AA72E0737176 /* Security_SecProtocolTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecProtocolTypes.h; sourceTree = "<group>"; };
+		DE4FB1286E7B60A8E8FA1F49 /* Security_SecPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecPolicy.h; sourceTree = "<group>"; };
+		DF7FD648FA359ADDEFD54E62 /* Foundation_NSHTTPCookie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHTTPCookie.h; sourceTree = "<group>"; };
+		E0AFDE29E69F8C25A38C4D85 /* Foundation_NSHashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSHashTable.h; sourceTree = "<group>"; };
+		E282FB35ADAEC1C097AE11F8 /* Foundation_NSProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSProxy.h; sourceTree = "<group>"; };
+		E35CC73CFA6BBEFBC2112E5F /* Foundation_NSKeyedArchiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSKeyedArchiver.h; sourceTree = "<group>"; };
+		E3CE30196685B9A0D604DD4E /* CoreFoundation_CFUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFUUID.h; sourceTree = "<group>"; };
+		E48BD5D27FC139B9C1544E2F /* CoreFoundation_CFCGTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFCGTypes.h; sourceTree = "<group>"; };
+		EBD042FE2C3A8A87A5789B09 /* Foundation_NSStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSStream.h; sourceTree = "<group>"; };
+		EBE70D4D9EBE69C40E062139 /* Foundation_NSFileVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileVersion.h; sourceTree = "<group>"; };
+		ECF8FC4DAC65C126D2AB9F1D /* Foundation_NSJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSJSONSerialization.h; sourceTree = "<group>"; };
+		ED06BF2936903E3BB8DE5A1E /* Foundation_NSDateIntervalFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSDateIntervalFormatter.h; sourceTree = "<group>"; };
+		EDDA69B20596136E458889ED /* CFNetwork_CFHost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetwork_CFHost.h; sourceTree = "<group>"; };
+		F123F9E833913A08CFF3CAC1 /* Foundation_NSPropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSPropertyList.h; sourceTree = "<group>"; };
+		F28C3DF61C9935A9A79F3121 /* Security_SecProtocolMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecProtocolMetadata.h; sourceTree = "<group>"; };
+		F32855F2A454AEC6E0804056 /* Security_SecImportExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security_SecImportExport.h; sourceTree = "<group>"; };
+		F45445066C110D53516A0EAB /* Foundation_NSInvocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSInvocation.h; sourceTree = "<group>"; };
+		F59B810BACC71751D7B3BA38 /* CoreFoundation_CFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStream.h; sourceTree = "<group>"; };
+		F94C851DEE6FD1EC998CB151 /* classes */ = {isa = PBXFileReference; lastKnownFileType = text; path = classes; sourceTree = "<group>"; };
+		F9597E92125B418E78B2316A /* NFIUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFIUtility.h; sourceTree = "<group>"; };
+		FB6CD14CC3F67376221FE9A4 /* Foundation_NSFileWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSFileWrapper.h; sourceTree = "<group>"; };
+		FC6C8EF1306059763A9B2EAC /* Foundation_NSURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSURL.h; sourceTree = "<group>"; };
+		FC8263306CBB6F6825A9956A /* Foundation_NSMapTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSMapTable.h; sourceTree = "<group>"; };
+		FE4E549D4F070750E0448BD7 /* Foundation_NSUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSUUID.h; sourceTree = "<group>"; };
+		FF04A0222183B204580DC42B /* CoreFoundation_CFStringEncodingExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_CFStringEncodingExt.h; sourceTree = "<group>"; };
+		FFBC5F29A724EB69F2810844 /* Foundation_NSBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_NSBundle.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B511F7526BEA93EF6BF77419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890CB67BD9BD00E07A8EDD6D /* NFIUtility.framework in Frameworks */,
+				CA3AC96C5CEB6EB55B0A7386 /* FMDB.framework in Frameworks */,
+				42D2E6545651AFCD3627D872 /* SDKCommons.framework in Frameworks */,
+				63D41C64387DB6F53BFD55EF /* SQLCipher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD57A533763DFA1B0D4B878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7EE9EF533D97F6C7AF7A2B /* SDKCommons/simulator */ = {
+			isa = PBXGroup;
+			children = (
+				68896AC79A7EDD8801DC83E0 /* CFNetwork_CFFTPStream.h */,
+				B3252302F301824E37D9F07F /* CFNetwork_CFHTTPAuthentication.h */,
+				0F8AAA409837D659DFE6E083 /* CFNetwork_CFHTTPMessage.h */,
+				CED75C6B5F4AB8CFCD92E16C /* CFNetwork_CFHTTPStream.h */,
+				EDDA69B20596136E458889ED /* CFNetwork_CFHost.h */,
+				CD238594C62B61D56018F27F /* CFNetwork_CFNetDiagnostics.h */,
+				48F8C51759722A5D8BF23D71 /* CFNetwork_CFNetServices.h */,
+				7C3CD84856765150A1DEC965 /* CFNetwork_CFNetworkErrors.h */,
+				CC36BE691C628F4441C0A220 /* CFNetwork_CFProxySupport.h */,
+				08EC48FC6A54101193CAA0C8 /* CFNetwork_CFSocketStream.h */,
+				8B3FB008DCE829AA682A532D /* CoreFoundation_CFArray.h */,
+				7904EB4F0B25C02627FF433A /* CoreFoundation_CFAttributedString.h */,
+				6045DD575F48219DFE6D04ED /* CoreFoundation_CFBag.h */,
+				410AFDB0B29E48EF518C1BE2 /* CoreFoundation_CFBase.h */,
+				6E5B3BC97C8BD86D54711B88 /* CoreFoundation_CFBinaryHeap.h */,
+				AB5FCCB7CE16FFBB1AB0521C /* CoreFoundation_CFBitVector.h */,
+				6A130E84F62090C91699140D /* CoreFoundation_CFBundle.h */,
+				6E39C34148152B2418F9E2CE /* CoreFoundation_CFByteOrder.h */,
+				E48BD5D27FC139B9C1544E2F /* CoreFoundation_CFCGTypes.h */,
+				B8B4B7579D8B355617CA22A7 /* CoreFoundation_CFCalendar.h */,
+				874FC8A84218270021C28195 /* CoreFoundation_CFCharacterSet.h */,
+				80D377093BF408F66B4B5492 /* CoreFoundation_CFData.h */,
+				A133F8741EC80C8D327C1393 /* CoreFoundation_CFDate.h */,
+				5E98B7707D739DC9674FE098 /* CoreFoundation_CFDateFormatter.h */,
+				10EB6D6128415B237BC2DB5A /* CoreFoundation_CFDictionary.h */,
+				4FE9FD0339B00AC5837E38C5 /* CoreFoundation_CFError.h */,
+				4607D76420A532B580B672BA /* CoreFoundation_CFFileDescriptor.h */,
+				03D1311534AE1B481A8431B5 /* CoreFoundation_CFFileSecurity.h */,
+				197726070B5EE69A7134A65B /* CoreFoundation_CFLocale.h */,
+				CBCBCCB79DC3ED2B10EA8F57 /* CoreFoundation_CFMachPort.h */,
+				3DA0C037BBDF353A51F4F862 /* CoreFoundation_CFMessagePort.h */,
+				AA493BE030597D61C820063F /* CoreFoundation_CFNotificationCenter.h */,
+				BE93A0F065050C18CA70D786 /* CoreFoundation_CFNumber.h */,
+				3D1BC50531E9B6028FBADC9C /* CoreFoundation_CFNumberFormatter.h */,
+				1409B4A482A30F47C1532AC1 /* CoreFoundation_CFPlugIn.h */,
+				D5B6A0257539E04F36C7F332 /* CoreFoundation_CFPreferences.h */,
+				CDBE8413E71BC4613D54DE12 /* CoreFoundation_CFPropertyList.h */,
+				C10AC9CE49577C8CABD6D62F /* CoreFoundation_CFRunLoop.h */,
+				B9818192451A7144BD69DA46 /* CoreFoundation_CFSet.h */,
+				213D638711728A6EDC7B3680 /* CoreFoundation_CFSocket.h */,
+				F59B810BACC71751D7B3BA38 /* CoreFoundation_CFStream.h */,
+				61E3A26F8422625C1AA4626D /* CoreFoundation_CFString.h */,
+				FF04A0222183B204580DC42B /* CoreFoundation_CFStringEncodingExt.h */,
+				76DC52BFD21CCFA675731F8F /* CoreFoundation_CFStringTokenizer.h */,
+				BFE7DFCE2A3F2C37A94C4923 /* CoreFoundation_CFTimeZone.h */,
+				2C670D03AA5681622CB3DC8D /* CoreFoundation_CFTree.h */,
+				590B58D88A8ED59D5A471377 /* CoreFoundation_CFURL.h */,
+				3CB1F81EF56EE3BBA0C7A997 /* CoreFoundation_CFURLAccess.h */,
+				3A5FC3F59AE86779976B68DA /* CoreFoundation_CFURLEnumerator.h */,
+				E3CE30196685B9A0D604DD4E /* CoreFoundation_CFUUID.h */,
+				C6F3B6856CF3DD66DB4D33D0 /* CoreFoundation_CFUserNotification.h */,
+				17233E90AF94DE0BFA8FAF94 /* CoreFoundation_CFUtilities.h */,
+				BAB738D39D3C1B8D81B5A38D /* Foundation_FoundationErrors.h */,
+				9BF8B94B8FE628CCC7A26B9C /* Foundation_NSArray.h */,
+				227CC613D8F4EF81D6D8B5BE /* Foundation_NSAttributedString.h */,
+				D370E3D3CFD4E5B6C454AD1B /* Foundation_NSAutoreleasePool.h */,
+				FFBC5F29A724EB69F2810844 /* Foundation_NSBundle.h */,
+				686F0ACE95968181B2EA6616 /* Foundation_NSByteCountFormatter.h */,
+				42984CA8D015E701E239837D /* Foundation_NSByteOrder.h */,
+				A99E62E7500AE9CC6EDB20D9 /* Foundation_NSCache.h */,
+				0BE293EBF0C0FFEF67382C57 /* Foundation_NSCalendar.h */,
+				6D390EBE7772760D837CB3DF /* Foundation_NSCharacterSet.h */,
+				BF535BF09384168BBFBC28D4 /* Foundation_NSCoder.h */,
+				05934820974FA3ACBB8825F4 /* Foundation_NSComparisonPredicate.h */,
+				78B20807AEEF73CDF3B63A9E /* Foundation_NSCompoundPredicate.h */,
+				4EBE5585B60EEE1B97FA8950 /* Foundation_NSData.h */,
+				A60CD18054A62A9C1E4FF6CD /* Foundation_NSDate.h */,
+				BB9CEF9D0917B4BDCCD2108E /* Foundation_NSDateComponentsFormatter.h */,
+				01C81BB54A03DD6905945791 /* Foundation_NSDateFormatter.h */,
+				029F75EAC948BAF99C0D302C /* Foundation_NSDateInterval.h */,
+				ED06BF2936903E3BB8DE5A1E /* Foundation_NSDateIntervalFormatter.h */,
+				86D001620ACA8F1439AB8D2F /* Foundation_NSDecimal.h */,
+				4FF43D59F8E50D28A14589A1 /* Foundation_NSDecimalNumber.h */,
+				B429D6842B0CE562FBBCFE02 /* Foundation_NSDictionary.h */,
+				1F7339195D539D220FC2AE0F /* Foundation_NSEnergyFormatter.h */,
+				B2350D2911F1703B12ACB063 /* Foundation_NSEnumerator.h */,
+				AC2EA56C5ACD6FA7B37FF2E3 /* Foundation_NSError.h */,
+				BF59B53797F96F7D1758C3D8 /* Foundation_NSException.h */,
+				3578271F753FF6EAA8AD9C4D /* Foundation_NSExpression.h */,
+				001920F5662750DBE365328A /* Foundation_NSExtensionContext.h */,
+				59F06C8C01E0978755F4A11B /* Foundation_NSExtensionItem.h */,
+				A4B267D041B9E21F5F9C51CA /* Foundation_NSExtensionRequestHandling.h */,
+				26DC9244768166E07B5A964E /* Foundation_NSFileCoordinator.h */,
+				AA6A0570FA9DAF151922C875 /* Foundation_NSFileHandle.h */,
+				C961CE85FFAC4969268F0EFD /* Foundation_NSFileManager.h */,
+				643E4BFB88DF6A960F17CAF5 /* Foundation_NSFilePresenter.h */,
+				EBE70D4D9EBE69C40E062139 /* Foundation_NSFileVersion.h */,
+				FB6CD14CC3F67376221FE9A4 /* Foundation_NSFileWrapper.h */,
+				6CFAE9F2FC4BEEA00D197265 /* Foundation_NSFormatter.h */,
+				DF7FD648FA359ADDEFD54E62 /* Foundation_NSHTTPCookie.h */,
+				AB7A532E21BDB3FC398E21FE /* Foundation_NSHTTPCookieStorage.h */,
+				E0AFDE29E69F8C25A38C4D85 /* Foundation_NSHashTable.h */,
+				99CCAFFD539B0ED46EFECF74 /* Foundation_NSISO8601DateFormatter.h */,
+				39458A394A5B4898565AC6F9 /* Foundation_NSIndexPath.h */,
+				1D16031FB08A6D85E8992997 /* Foundation_NSIndexSet.h */,
+				A309AD41987AECCE729D55D7 /* Foundation_NSInflectionRule.h */,
+				F45445066C110D53516A0EAB /* Foundation_NSInvocation.h */,
+				A29A36F589FAC58A386FC902 /* Foundation_NSItemProvider.h */,
+				ECF8FC4DAC65C126D2AB9F1D /* Foundation_NSJSONSerialization.h */,
+				534B45F4FF974C672A7BD086 /* Foundation_NSKeyValueCoding.h */,
+				2809B960F0800BDAA5618F10 /* Foundation_NSKeyValueObserving.h */,
+				E35CC73CFA6BBEFBC2112E5F /* Foundation_NSKeyedArchiver.h */,
+				C2384BAD0546F8C480091D82 /* Foundation_NSLengthFormatter.h */,
+				CF2091158B37BAC8A4C1A8E1 /* Foundation_NSLinguisticTagger.h */,
+				003F75C2FD1C9FF1DB56A320 /* Foundation_NSListFormatter.h */,
+				3C9BA5095F4E423ADE28F599 /* Foundation_NSLocale.h */,
+				084FB25BCC0E4F37D3FD9E45 /* Foundation_NSLock.h */,
+				FC8263306CBB6F6825A9956A /* Foundation_NSMapTable.h */,
+				9C6D3DE5457B87B6BAF6F826 /* Foundation_NSMassFormatter.h */,
+				028E8792D867652D3621C2A6 /* Foundation_NSMeasurement.h */,
+				C563B893861A85D24DF1B47E /* Foundation_NSMeasurementFormatter.h */,
+				9276ABDC5890635FBD97DB18 /* Foundation_NSMetadata.h */,
+				3C2253088E30950E41B43C3F /* Foundation_NSMetadataAttributes.h */,
+				D64754CC8BA699F8BA42D518 /* Foundation_NSMethodSignature.h */,
+				0790F883030C7D2ABD29DF49 /* Foundation_NSMorphology.h */,
+				5E1F795D1ECAA38599B60029 /* Foundation_NSNetServices.h */,
+				275F403D6252C6FEC5140F0D /* Foundation_NSNotification.h */,
+				19D1B09E46EE9BAC20D7A0B5 /* Foundation_NSNotificationQueue.h */,
+				8003FDC2C92EAFC8756A5DED /* Foundation_NSNull.h */,
+				16362942CDBC12E9ECBBEF95 /* Foundation_NSNumberFormatter.h */,
+				D3511C8495C16C9D67B952F6 /* Foundation_NSObjCRuntime.h */,
+				AE8292EBB91A6120292351BE /* Foundation_NSObject.h */,
+				0D5D17431B89D727533BB306 /* Foundation_NSOperation.h */,
+				9CBECAEEE87C4681C8A441D9 /* Foundation_NSOrderedCollectionChange.h */,
+				00E85BE691FE353FDC525063 /* Foundation_NSOrderedCollectionDifference.h */,
+				67C51F0B3ABCA7BF99678243 /* Foundation_NSOrderedSet.h */,
+				21532E15AD9BDC170A280CA6 /* Foundation_NSOrthography.h */,
+				630D18C36EAD99045F6B0DC7 /* Foundation_NSPathUtilities.h */,
+				27EF1B720C01A3722BA3F33B /* Foundation_NSPersonNameComponents.h */,
+				09B2C98DDB9F5A999D12A9ED /* Foundation_NSPersonNameComponentsFormatter.h */,
+				9EA12253D7F2E0A6599E2899 /* Foundation_NSPointerArray.h */,
+				4D006C028541C7E928FD4457 /* Foundation_NSPointerFunctions.h */,
+				91AAEF4A82DD3E83D7E29132 /* Foundation_NSPort.h */,
+				A6B5F22E2523A12E6C22971C /* Foundation_NSPredicate.h */,
+				05DA33DDA974996608A0C3C7 /* Foundation_NSProcessInfo.h */,
+				C86BB9D983915DA903367614 /* Foundation_NSProgress.h */,
+				F123F9E833913A08CFF3CAC1 /* Foundation_NSPropertyList.h */,
+				E282FB35ADAEC1C097AE11F8 /* Foundation_NSProxy.h */,
+				DA25F6F110763FF70B6E3171 /* Foundation_NSRange.h */,
+				00B7D68F7DB3F377A589CEDE /* Foundation_NSRegularExpression.h */,
+				6052EFB897A0FA41929D73B0 /* Foundation_NSRelativeDateTimeFormatter.h */,
+				C750EF34998A8ADB32CE2C6B /* Foundation_NSRunLoop.h */,
+				353DDADA57EECFA0E87952A3 /* Foundation_NSScanner.h */,
+				6B6CAF0DAE5AD53ADDE2839E /* Foundation_NSSet.h */,
+				A63CF70AA3B16497C5B99E95 /* Foundation_NSSortDescriptor.h */,
+				EBD042FE2C3A8A87A5789B09 /* Foundation_NSStream.h */,
+				68B7D13590FDE44A506D7B12 /* Foundation_NSString.h */,
+				5DD09A3988898715C52289A9 /* Foundation_NSTextCheckingResult.h */,
+				D8DFD2A4E460DC6471F307CD /* Foundation_NSThread.h */,
+				8B8C00E273E3050604FD47FF /* Foundation_NSTimeZone.h */,
+				B6FC9924AE36F92F454B810D /* Foundation_NSTimer.h */,
+				FC6C8EF1306059763A9B2EAC /* Foundation_NSURL.h */,
+				BB6EB39BEC4C7A10ED446A93 /* Foundation_NSURLAuthenticationChallenge.h */,
+				48AA9CFD19048C36C9F6B785 /* Foundation_NSURLCache.h */,
+				6894CAC70E1FF868B1073BA1 /* Foundation_NSURLConnection.h */,
+				33D4C12E706ACB67403E6A71 /* Foundation_NSURLCredential.h */,
+				2FDB0FF3E817D252ABD1A4FB /* Foundation_NSURLCredentialStorage.h */,
+				55AC9997E882EEF9D297B914 /* Foundation_NSURLError.h */,
+				736C0F84F9B121D0BB2B2C07 /* Foundation_NSURLProtectionSpace.h */,
+				71AAAB3C45BC707268846222 /* Foundation_NSURLProtocol.h */,
+				3B7D633BDD879733F74F9124 /* Foundation_NSURLRequest.h */,
+				4E870915CAF19D6C32F1621C /* Foundation_NSURLResponse.h */,
+				D35320548D7DBE850959E45B /* Foundation_NSURLSession.h */,
+				FE4E549D4F070750E0448BD7 /* Foundation_NSUUID.h */,
+				21A574A54C7A3867A141C898 /* Foundation_NSUbiquitousKeyValueStore.h */,
+				6C0A1D3BA9EA789DCF242A73 /* Foundation_NSUndoManager.h */,
+				22DD75188746FFCF442EE8D0 /* Foundation_NSUnit.h */,
+				A44AF3EE6D6B354E9CBA6A13 /* Foundation_NSUserActivity.h */,
+				4F8AA2D5B2E4F3C7341DEA14 /* Foundation_NSUserDefaults.h */,
+				D3EF2897A15B3CD661167ABB /* Foundation_NSValue.h */,
+				BCEAC445C8967C89909EFCB2 /* Foundation_NSValueTransformer.h */,
+				C43B3FBBF7E32DB289C4B060 /* Foundation_NSXMLParser.h */,
+				3FBFBA2BB98EFA036EB920FF /* Foundation_NSXPCConnection.h */,
+				8E666FE020FF9FF594FBA515 /* Foundation_NSZone.h */,
+				AD0C12F2609807E7F78766E7 /* NFISDKCommons.h */,
+				5A9874A640CB18D4C857985E /* NFISDKCommonsLoader.h */,
+				DC1F53496D49B833D57125EF /* NFISDKCommonsLoader.m */,
+				72B5060DF137B141C82AB82D /* SDKCommons_KNYClientCertificatesManager.h */,
+				A5819979F26D26D2AF65D687 /* SDKCommons_KNYClientCertificatesManager.m */,
+				85E411DBD01F25B7269B4668 /* SDKCommons_KNYGlobalRequestParams.h */,
+				6C6BE176E39F1D417406D31C /* SDKCommons_KNYGlobalRequestParams.m */,
+				27D10E39D28B0C805CAF7BE4 /* SDKCommons_KNYHTTPMessageIntegrityManager.h */,
+				5B59CAF0AAAC26D1F6D466A3 /* SDKCommons_KNYHTTPMessageIntegrityManager.m */,
+				BB0328E57982EE7131F947C5 /* Security_CipherSuite.h */,
+				D7356CE204036C39BBBC12EE /* Security_SecAccessControl.h */,
+				1AC1AA3DF1FF05A2FA4BAE3C /* Security_SecBase.h */,
+				8C39AFBB4E60955A9A8C2A57 /* Security_SecCertificate.h */,
+				0629B80825B8D664CD324DDA /* Security_SecIdentity.h */,
+				F32855F2A454AEC6E0804056 /* Security_SecImportExport.h */,
+				6069640FFBC9DCACCC61BD42 /* Security_SecItem.h */,
+				016925B132DDB41102463947 /* Security_SecKey.h */,
+				DE4FB1286E7B60A8E8FA1F49 /* Security_SecPolicy.h */,
+				F28C3DF61C9935A9A79F3121 /* Security_SecProtocolMetadata.h */,
+				26EE38926D1F6E1AF0A8175E /* Security_SecProtocolObject.h */,
+				4F534C8E158C96FB1A614B14 /* Security_SecProtocolOptions.h */,
+				DDEF8B475DA3AA72E0737176 /* Security_SecProtocolTypes.h */,
+				119E5015B368DC77287281ED /* Security_SecRandom.h */,
+				5E29E3F96A9E3CF154965309 /* Security_SecSharedCredential.h */,
+				31FD70DAF156CD620DBA29FB /* Security_SecTrust.h */,
+				47D8C239A02426C9C7344E18 /* Security_SecureTransport.h */,
+				456AA419BD82EFF8BD5117DF /* allheaders.h */,
+				3823E9602081CD24D01B9361 /* allincludes.h */,
+				7443465CD25878CEC65A2AE4 /* allprotos.h */,
+				F94C851DEE6FD1EC998CB151 /* classes */,
+				33566CE857A7BC8B955883B0 /* parts */,
+				B7C3889CE6B3C615E982CF90 /* parts_sa */,
+				1B75A47753C1B8BBCD1F5E4A /* parts_sr */,
+				007FDCB4B08F71044973C0B4 /* protocols */,
+			);
+			path = SDKCommons/simulator;
+			sourceTree = "<group>";
+		};
+		41E1766BBA852C898DB17C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */,
+				1F446AA112BB48E628CC6FA6 /* NFISDKCommons.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D34FEE11FDB3F5C4B9C96E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D29B1308CFCBB8CB2C71604 /* FMDB.framework */,
+				A52348073F2B58DB9D860798 /* SDKCommons.framework */,
+				35E05F993F8F8579C8E39F5F /* SQLCipher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		548AD8A190B8771B5049F872 = {
+			isa = PBXGroup;
+			children = (
+				E459EA9A49006EC861339ABE /* Source */,
+				4D34FEE11FDB3F5C4B9C96E5 /* Frameworks */,
+				41E1766BBA852C898DB17C6E /* Products */,
+				A161E65C41EEBF05DB6A2874 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		A161E65C41EEBF05DB6A2874 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				CB411B0CF16AF479C9B009F2 /* NFISimulator.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		DFF48FC583D3EA802FDD6893 /* ../src/NFIUtility */ = {
+			isa = PBXGroup;
+			children = (
+				D38231D0DE33EAFD8C574891 /* CallbackSupport.h */,
+				84F39AD2D3ADECCFD10225AC /* CallbackSupport.m */,
+				F9597E92125B418E78B2316A /* NFIUtility.h */,
+				AB9002AE8A95B090064245AC /* PointerSupport.h */,
+				5B10BB9C033D4338C717B2A0 /* PointerSupport.m */,
+			);
+			path = ../src/NFIUtility;
+			sourceTree = "<group>";
+		};
+		E459EA9A49006EC861339ABE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DFF48FC583D3EA802FDD6893 /* ../src/NFIUtility */,
+				1F7EE9EF533D97F6C7AF7A2B /* SDKCommons/simulator */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28DB18D2B7B8BA8983EE4863 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200B6FA697570675D341A86F /* CallbackSupport.h in Headers */,
+				8F08245158E77B627E15277B /* NFIUtility.h in Headers */,
+				AED06354BBF02F2E75F21374 /* PointerSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AED1833740222EABC39F399 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB87EB95AEA21EA4A01FEBD /* NFISDKCommonsLoader.h in Headers */,
+				4F88321D770781E1704EBD57 /* NFISDKCommons.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		758007C6F3FAAAF75F264AF4 /* NFISDKCommons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8590D452DE346FF525DF28B1 /* Build configuration list for PBXNativeTarget "NFISDKCommons" */;
+			buildPhases = (
+				5AED1833740222EABC39F399 /* Headers */,
+				F87C51EBDF688AFED551837D /* Sources */,
+				B511F7526BEA93EF6BF77419 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3667FA909E9B311E34FA4304 /* PBXTargetDependency */,
+			);
+			name = NFISDKCommons;
+			productName = NFISDKCommons;
+			productReference = 1F446AA112BB48E628CC6FA6 /* NFISDKCommons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C478656A382488D1EB6BD2F /* NFIUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C334771F0ADD50B757FAB8B /* Build configuration list for PBXNativeTarget "NFIUtility" */;
+			buildPhases = (
+				28DB18D2B7B8BA8983EE4863 /* Headers */,
+				1C841735A99CAE009CBE1BA9 /* Sources */,
+				BAD57A533763DFA1B0D4B878 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFIUtility;
+			productName = NFIUtility;
+			productReference = AEF7B5ABF9BB5CFEF01D4477 /* NFIUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78CF65CBBBB125367E89804F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 9F5564CAE6B92DD64C95FD91 /* Build configuration list for PBXProject "NFISimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 548AD8A190B8771B5049F872;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C764A808488C77627CCC822E /* All */,
+				7C478656A382488D1EB6BD2F /* NFIUtility */,
+				758007C6F3FAAAF75F264AF4 /* NFISDKCommons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C841735A99CAE009CBE1BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED1C89C59F387DB02DC6B5C /* CallbackSupport.m in Sources */,
+				EFAB7179AE2ADBFA5981AB90 /* PointerSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87C51EBDF688AFED551837D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12616C1B4E20CDC6C1AF2C9 /* NFISDKCommonsLoader.m in Sources */,
+				6A8249D3B200454B1018DD96 /* SDKCommons_KNYClientCertificatesManager.m in Sources */,
+				33751D5E1E577A1C3E9EA15B /* SDKCommons_KNYGlobalRequestParams.m in Sources */,
+				1F9162BCD77694E57FB11A1B /* SDKCommons_KNYHTTPMessageIntegrityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3667FA909E9B311E34FA4304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C478656A382488D1EB6BD2F /* NFIUtility */;
+			targetProxy = E2E6A7391993D3684540E20F /* PBXContainerItemProxy */;
+		};
+		E8F6AB74C6811CA6B7A4ABF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758007C6F3FAAAF75F264AF4 /* NFISDKCommons */;
+			targetProxy = 8DD254AF20506F21764C22B4 /* PBXContainerItemProxy */;
+		};
+		F17BCB2155F862E69F9125FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C478656A382488D1EB6BD2F /* NFIUtility */;
+			targetProxy = 3308388E460D9187C96B0622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		401EAB3DA3F11FC40896D06F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+		B2B90B89403B3513D44E4284 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Default;
+		};
+		C063BCF634847F4A2168AAEF /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = ../src/NFIUtility/Info.plist;
+				OTHER_LDFLAGS = "-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFIUtility;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		CE38B5690CD9985874DB9E14 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"../gen-src/SDKCommons/thirdparty/FMDB.xcframework/ios-arm64_x86_64-simulator",
+					"../gen-src/SDKCommons/thirdparty/SDKCommons.xcframework/ios-arm64_x86_64-simulator",
+					"../gen-src/SDKCommons/thirdparty/SQLCipher.xcframework/ios-arm64_x86_64-simulator",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"../gen-src/SDKCommons/thirdparty/FMDB.xcframework/ios-arm64_x86_64-simulator/FMDB.framework/Headers",
+					"../gen-src/SDKCommons/thirdparty/SDKCommons.xcframework/ios-arm64_x86_64-simulator/SDKCommons.framework/Headers",
+					"../gen-src/SDKCommons/thirdparty/SQLCipher.xcframework/ios-arm64_x86_64-simulator/SQLCipher.framework/Headers",
+				);
+				INFOPLIST_FILE = SDKCommons/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"../gen-src/SDKCommons/thirdparty/FMDB.xcframework/ios-arm64_x86_64-simulator",
+					"../gen-src/SDKCommons/thirdparty/SDKCommons.xcframework/ios-arm64_x86_64-simulator",
+					"../gen-src/SDKCommons/thirdparty/SQLCipher.xcframework/ios-arm64_x86_64-simulator",
+				);
+				OTHER_LDFLAGS = "-weak_framework Foundation -weak_framework CoreFoundation -weak_framework CFNetwork";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kony.$(PRODUCT_NAME)";
+				PRODUCT_NAME = NFISDKCommons;
+				SDKROOT = iphoneos;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C334771F0ADD50B757FAB8B /* Build configuration list for PBXNativeTarget "NFIUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C063BCF634847F4A2168AAEF /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		8590D452DE346FF525DF28B1 /* Build configuration list for PBXNativeTarget "NFISDKCommons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE38B5690CD9985874DB9E14 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		95DB00CE994EC607C5F2F4A5 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B90B89403B3513D44E4284 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		9F5564CAE6B92DD64C95FD91 /* Build configuration list for PBXProject "NFISimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401EAB3DA3F11FC40896D06F /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78CF65CBBBB125367E89804F /* Project object */;
+}

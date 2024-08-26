@@ -1,0 +1,1481 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreComponent",
+        "printedName": "CoreComponent",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KonyModelEntity",
+        "printedName": "KonyModelEntity",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KonyModelEntity",
+                "printedName": "AR.KonyModelEntity",
+                "usr": "c:@M@AR@objc(cs)KonyModelEntity"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AR@objc(cs)KonyModelEntity(im)init",
+            "mangledName": "$s2AR15KonyModelEntityCACycfc",
+            "moduleName": "AR",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AR@objc(cs)KonyModelEntity",
+        "mangledName": "$s2AR15KonyModelEntityC",
+        "moduleName": "AR",
+        "isOpen": true,
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "Available"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreComponent",
+        "printedName": "CoreComponent",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreComponent",
+        "printedName": "CoreComponent",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KonyARWidget",
+        "printedName": "KonyARWidget",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(model:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AR.KonyARWidget?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KonyARWidget",
+                    "printedName": "AR.KonyARWidget",
+                    "usr": "c:@M@AR@objc(cs)KonyARWidget"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreComponent.WidgetModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WidgetModel",
+                    "printedName": "CoreComponent.WidgetModel",
+                    "usr": "c:objc(cs)WidgetModel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)initWithModel:",
+            "mangledName": "$s2AR12KonyARWidgetC5modelACSgSo11WidgetModelCSg_tcfc",
+            "moduleName": "AR",
+            "overriding": true,
+            "objc_name": "initWithModel:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AR.KonyARWidget?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KonyARWidget",
+                    "printedName": "AR.KonyARWidget",
+                    "usr": "c:@M@AR@objc(cs)KonyARWidget"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)initWithCoder:",
+            "mangledName": "$s2AR12KonyARWidgetC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AR",
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "AccessControl",
+              "Dynamic",
+              "Required",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setupWidget",
+            "printedName": "setupWidget()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)setupWidget",
+            "mangledName": "$s2AR12KonyARWidgetC11setupWidgetyyF",
+            "moduleName": "AR",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "setupWidget",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setWidgetViewFrame",
+            "printedName": "setWidgetViewFrame(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)setWidgetViewFrame:",
+            "mangledName": "$s2AR12KonyARWidgetC18setWidgetViewFrameyySo6CGRectVF",
+            "moduleName": "AR",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "setWidgetViewFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "placeholderTextUpdated",
+            "printedName": "placeholderTextUpdated(withNewValue:oldValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)placeholderTextUpdatedWithNewValue:oldValue:",
+            "mangledName": "$s2AR12KonyARWidgetC22placeholderTextUpdated12withNewValue03oldI0yypSg_AGtF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "objc_name": "placeholderTextUpdatedWithNewValue:oldValue:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "placeholderSkinIDUpdated",
+            "printedName": "placeholderSkinIDUpdated(withNewValue:oldValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)placeholderSkinIDUpdatedWithNewValue:oldValue:",
+            "mangledName": "$s2AR12KonyARWidgetC24placeholderSkinIDUpdated12withNewValue03oldI0yypSg_AGtF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "objc_name": "placeholderSkinIDUpdatedWithNewValue:oldValue:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "placeholderSkin",
+            "printedName": "placeholderSkin()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreComponent.Skin?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Skin",
+                    "printedName": "CoreComponent.Skin",
+                    "usr": "c:objc(cs)Skin"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)placeholderSkin",
+            "mangledName": "$s2AR12KonyARWidgetC15placeholderSkinSo0E0CSgyF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applySkin",
+            "printedName": "applySkin()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)applySkin",
+            "mangledName": "$s2AR12KonyARWidgetC9applySkinyyF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reloadSkins",
+            "printedName": "reloadSkins()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)reloadSkins",
+            "mangledName": "$s2AR12KonyARWidgetC11reloadSkinsyyF",
+            "moduleName": "AR",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "reloadSkins",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshView",
+            "printedName": "refreshView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)refreshView",
+            "mangledName": "$s2AR12KonyARWidgetC11refreshViewyyF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reloadWidget",
+            "printedName": "reloadWidget()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)reloadWidget",
+            "mangledName": "$s2AR12KonyARWidgetC12reloadWidgetyyF",
+            "moduleName": "AR",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "reloadWidget",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KonyARWidget",
+                "printedName": "AR.KonyARWidget",
+                "usr": "c:@M@AR@objc(cs)KonyARWidget"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AR@objc(cs)KonyARWidget(im)init",
+            "mangledName": "$s2AR12KonyARWidgetCACycfc",
+            "moduleName": "AR",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startRendering",
+            "printedName": "startRendering()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)startRendering",
+            "mangledName": "$s2AR12KonyARWidgetC14startRenderingyyF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopRendering",
+            "printedName": "stopRendering()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)stopRendering",
+            "mangledName": "$s2AR12KonyARWidgetC13stopRenderingyyF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)addWithConfig:",
+            "mangledName": "$s2AR12KonyARWidgetC3add6configySo12NSDictionaryC_tF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "objc_name": "addWithConfig:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(modelID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)removeWithModelID:",
+            "mangledName": "$s2AR12KonyARWidgetC6remove7modelIDySS_tF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "objc_name": "removeWithModelID:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setARViewDebugOptions",
+            "printedName": "setARViewDebugOptions(option:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KonyARViewDebugOptions",
+                "printedName": "CoreComponent.KonyARViewDebugOptions",
+                "usr": "c:@E@KonyARViewDebugOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)setARViewDebugOptionsWithOption:",
+            "mangledName": "$s2AR12KonyARWidgetC21setARViewDebugOptions6optionySo0befG0V_tF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "objc_name": "setARViewDebugOptionsWithOption:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debugOptionsUpdated",
+            "printedName": "debugOptionsUpdated(withNewValue:oldValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)debugOptionsUpdatedWithNewValue:oldValue:",
+            "mangledName": "$s2AR12KonyARWidgetC19debugOptionsUpdated12withNewValue03oldI0yypSg_AGtF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "objc_name": "debugOptionsUpdatedWithNewValue:oldValue:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activatesCoachingOverlayAutomaticallyUpdated",
+            "printedName": "activatesCoachingOverlayAutomaticallyUpdated(withNewValue:oldValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)activatesCoachingOverlayAutomaticallyUpdatedWithNewValue:oldValue:",
+            "mangledName": "$s2AR12KonyARWidgetC44activatesCoachingOverlayAutomaticallyUpdated12withNewValue03oldK0yypSg_AGtF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "objc_name": "activatesCoachingOverlayAutomaticallyUpdatedWithNewValue:oldValue:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sceneConfigUpdated",
+            "printedName": "sceneConfigUpdated(withNewValue:oldValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)sceneConfigUpdatedWithNewValue:oldValue:",
+            "mangledName": "$s2AR12KonyARWidgetC18sceneConfigUpdated12withNewValue03oldI0yypSg_AGtF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "objc_name": "sceneConfigUpdatedWithNewValue:oldValue:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "overlayUpdated",
+            "printedName": "overlayUpdated(withNewValue:oldValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)overlayUpdatedWithNewValue:oldValue:",
+            "mangledName": "$s2AR12KonyARWidgetC14overlayUpdated12withNewValue03oldH0yypSg_AGtF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "objc_name": "overlayUpdatedWithNewValue:oldValue:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startARImageDetection",
+            "printedName": "startARImageDetection()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)startARImageDetection",
+            "mangledName": "$s2AR12KonyARWidgetC21startARImageDetectionyyF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopARImageDetection",
+            "printedName": "stopARImageDetection()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)stopARImageDetection",
+            "mangledName": "$s2AR12KonyARWidgetC20stopARImageDetectionyyF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "session",
+            "printedName": "session(_:didAdd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ARKit.ARAnchor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARAnchor",
+                    "printedName": "ARKit.ARAnchor",
+                    "usr": "c:objc(cs)ARAnchor"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)session:didAddAnchors:",
+            "mangledName": "$s2AR12KonyARWidgetC7session_6didAddySo9ARSessionC_SaySo8ARAnchorCGtF",
+            "moduleName": "AR",
+            "objc_name": "session:didAddAnchors:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "session",
+            "printedName": "session(_:didRemove:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ARKit.ARAnchor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARAnchor",
+                    "printedName": "ARKit.ARAnchor",
+                    "usr": "c:objc(cs)ARAnchor"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)session:didRemoveAnchors:",
+            "mangledName": "$s2AR12KonyARWidgetC7session_9didRemoveySo9ARSessionC_SaySo8ARAnchorCGtF",
+            "moduleName": "AR",
+            "intro_iOS": "11.0",
+            "objc_name": "session:didRemoveAnchors:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "session",
+            "printedName": "session(_:didUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ARKit.ARAnchor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARAnchor",
+                    "printedName": "ARKit.ARAnchor",
+                    "usr": "c:objc(cs)ARAnchor"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)session:didUpdateAnchors:",
+            "mangledName": "$s2AR12KonyARWidgetC7session_9didUpdateySo9ARSessionC_SaySo8ARAnchorCGtF",
+            "moduleName": "AR",
+            "intro_iOS": "11.0",
+            "objc_name": "session:didUpdateAnchors:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "session",
+            "printedName": "session(_:didUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARFrame",
+                "printedName": "ARKit.ARFrame",
+                "usr": "c:objc(cs)ARFrame"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)session:didUpdateFrame:",
+            "mangledName": "$s2AR12KonyARWidgetC7session_9didUpdateySo9ARSessionC_So7ARFrameCtF",
+            "moduleName": "AR",
+            "intro_iOS": "11.0",
+            "objc_name": "session:didUpdateFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveExperience",
+            "printedName": "saveExperience(identifier:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CallBack",
+                "printedName": "CoreComponent.CallBack",
+                "usr": "c:objc(cs)CallBack"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)saveExperienceWithIdentifier:completion:",
+            "mangledName": "$s2AR12KonyARWidgetC14saveExperience10identifier10completionySS_So8CallBackCtF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "intro_iOS": "13.0",
+            "objc_name": "saveExperienceWithIdentifier:completion:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadExperience",
+            "printedName": "loadExperience(identifier:completion:modelQueryCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CallBack",
+                "printedName": "CoreComponent.CallBack",
+                "usr": "c:objc(cs)CallBack"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CallBack",
+                "printedName": "CoreComponent.CallBack",
+                "usr": "c:objc(cs)CallBack"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)loadExperienceWithIdentifier:completion:modelQueryCallback:",
+            "mangledName": "$s2AR12KonyARWidgetC14loadExperience10identifier10completion18modelQueryCallbackySS_So8CallBackCAItF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "intro_iOS": "13.0",
+            "objc_name": "loadExperienceWithIdentifier:completion:modelQueryCallback:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearExperience",
+            "printedName": "clearExperience(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AR@objc(cs)KonyARWidget(im)clearExperienceWithIdentifier:",
+            "mangledName": "$s2AR12KonyARWidgetC15clearExperience10identifierySS_tF",
+            "moduleName": "AR",
+            "isOpen": true,
+            "intro_iOS": "13.0",
+            "objc_name": "clearExperienceWithIdentifier:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AR@objc(cs)KonyARWidget",
+        "mangledName": "$s2AR12KonyARWidgetC",
+        "moduleName": "AR",
+        "isOpen": true,
+        "intro_iOS": "11.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "Available"
+        ],
+        "superclassUsr": "c:objc(cs)Widget",
+        "superclassNames": [
+          "CoreComponent.Widget",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "APIComponent",
+        "printedName": "APIComponent",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreComponent",
+        "printedName": "CoreComponent",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreComponent",
+        "printedName": "CoreComponent",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "APIComponent",
+        "printedName": "APIComponent",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreComponent",
+        "printedName": "CoreComponent",
+        "declKind": "Import",
+        "moduleName": "AR"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "AR"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/WidgetComponents\/AR\/AR\/KonyModelEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 15,
+      "value": "\"AR.KonyModelEntity\""
+    },
+    {
+      "filePath": "\/Users\/buildslave\/test-workspace\/workspace\/IOSPlugin_Pipeline\/luavmiphone\/WidgetComponents\/AR\/AR\/KonyARWidget.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 12,
+      "value": "\"AR.KonyARWidget\""
+    }
+  ]
+}

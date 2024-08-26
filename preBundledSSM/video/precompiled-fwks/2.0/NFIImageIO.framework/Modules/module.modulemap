@@ -1,0 +1,6 @@
+framework module NFIImageIO {
+  umbrella header "NFIImageIO.h"
+
+  export *
+  module * { export * }
+}

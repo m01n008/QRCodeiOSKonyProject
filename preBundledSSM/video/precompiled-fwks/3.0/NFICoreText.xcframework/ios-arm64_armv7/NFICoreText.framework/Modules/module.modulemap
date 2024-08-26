@@ -1,0 +1,6 @@
+framework module NFICoreText {
+  umbrella header "NFICoreText.h"
+
+  export *
+  module * { export * }
+}

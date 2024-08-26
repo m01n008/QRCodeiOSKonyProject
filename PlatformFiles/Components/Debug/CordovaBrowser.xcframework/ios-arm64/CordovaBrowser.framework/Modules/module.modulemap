@@ -1,0 +1,6 @@
+framework module CordovaBrowser {
+  umbrella header "CordovaBrowser.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>showLoadingScreen</key>
+	<dict>
+		<key>ConfigKeyMappings</key>
+		<dict>
+			<key>shouldShowLabelInBottom</key>
+			<string>shouldShowLabelInBottom</string>
+			<key>separatorHeight</key>
+			<string>separatorHeight</string>
+			<key>accessibilityConfig</key>
+			<string>accessibilityConfig</string>
+			<key>progressIndicatorType</key>
+			<string>progressIndicatorType</string>
+			<key>progressIndicatorColor</key>
+			<string>progressIndicatorColor</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

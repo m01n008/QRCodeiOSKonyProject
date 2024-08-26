@@ -1,0 +1,97 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KonySwiftUISource
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreGraphics
+import Foundation
+@_exported import KonySwiftUISource
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FlexLayoutEngine : KonySwiftUISource.LayoutEngine {
+  public func calculateFrameForXAxix(for layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel?, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]?, in size: CoreFoundation.CGSize) -> (CoreFoundation.CGFloat, CoreFoundation.CGFloat)
+  public func calculateFrameForYAxix(for layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel?, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]?, in size: CoreFoundation.CGSize) -> (CoreFoundation.CGFloat, CoreFoundation.CGFloat)
+  @objc deinit
+}
+public struct ImageView : SwiftUI.View {
+  public init(name: Any, id: Swift.String, layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel? = nil, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]? = nil, visibility: Swift.Bool = true, contentMode: SwiftUI.ContentMode)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17KonySwiftUISource9ImageViewV4bodyQrvp", 0) __
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FlexDirectionalLayoutEngine : KonySwiftUISource.FlexLayoutEngine {
+  override public func calculateFrameForXAxix(for layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel?, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]?, in size: CoreFoundation.CGSize) -> (CoreFoundation.CGFloat, CoreFoundation.CGFloat)
+  override public func calculateFrameForYAxix(for layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel?, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]?, in size: CoreFoundation.CGSize) -> (CoreFoundation.CGFloat, CoreFoundation.CGFloat)
+  public func calculateHorizontalOffset(for layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel?, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]?, in size: CoreFoundation.CGSize) -> CoreFoundation.CGFloat
+  public func calculateVerticalOffset(for layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel?, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]?, in size: CoreFoundation.CGSize) -> CoreFoundation.CGFloat
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LayoutEngine {
+  @objc deinit
+}
+public struct LinkView : SwiftUI.View {
+  public init(link: Swift.String, layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel? = nil, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17KonySwiftUISource8LinkViewV4bodyQrvp", 0) __
+}
+public protocol LayoutModelProtocol {
+  func getFrame(size: CoreFoundation.CGSize, parentLayoutModel: KonySwiftUISource.LayoutModel?, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]?) -> CoreFoundation.CGRect
+}
+public class LayoutModel : KonySwiftUISource.LayoutModelProtocol, Swift.Equatable {
+  public init(id: Swift.String, frame: CoreFoundation.CGRect? = nil)
+  public func getFrame(size: CoreFoundation.CGSize, parentLayoutModel: KonySwiftUISource.LayoutModel?, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]?) -> CoreFoundation.CGRect
+  public static func == (lhs: KonySwiftUISource.LayoutModel, rhs: KonySwiftUISource.LayoutModel) -> Swift.Bool
+  @objc deinit
+}
+public enum DateDisplayStyle {
+  case time
+  case date
+  case relative
+  case offset
+  case timer
+  public static func == (a: KonySwiftUISource.DateDisplayStyle, b: KonySwiftUISource.DateDisplayStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TextView : SwiftUI.View {
+  public init(text: Any, id: Swift.String, dateStyle: KonySwiftUISource.DateDisplayStyle = .relative, layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel? = nil, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]? = nil, visibility: Swift.Bool = true, fontSize: CoreFoundation.CGFloat = 14, fontColor: Swift.String = "#00000000", textAlignment: SwiftUI.Alignment = .leading, backgroundColor: Swift.String = "#00000000")
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17KonySwiftUISource8TextViewV4bodyQrvp", 0) __
+}
+public enum FlexLayoutType {
+  case FlexHorizontal
+  case FlexVertical
+  case FlexFree
+  public static func == (a: KonySwiftUISource.FlexLayoutType, b: KonySwiftUISource.FlexLayoutType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class FlexLayoutModel : KonySwiftUISource.LayoutModel {
+  public init(id: Swift.String, layoutType: KonySwiftUISource.FlexLayoutType? = nil, reverseLayoutDirection: Swift.Bool? = false, leftValue: CoreFoundation.CGFloat? = nil, leftPercentage: CoreFoundation.CGFloat? = nil, centerXValue: CoreFoundation.CGFloat? = nil, centerXPercentage: CoreFoundation.CGFloat? = nil, rightValue: CoreFoundation.CGFloat? = nil, rightPercentage: CoreFoundation.CGFloat? = nil, topValue: CoreFoundation.CGFloat? = nil, topPercentage: CoreFoundation.CGFloat? = nil, centerYValue: CoreFoundation.CGFloat? = nil, centerYPercentage: CoreFoundation.CGFloat? = nil, bottomValue: CoreFoundation.CGFloat? = nil, bottomPercentage: CoreFoundation.CGFloat? = nil, widthValue: CoreFoundation.CGFloat? = nil, widthPercentage: CoreFoundation.CGFloat? = nil, heightValue: CoreFoundation.CGFloat? = nil, heightPercentage: CoreFoundation.CGFloat? = nil)
+  @objc deinit
+}
+public struct FlexView<Content> : SwiftUI.View where Content : SwiftUI.View {
+  public init(id: Swift.String, layoutModel: KonySwiftUISource.LayoutModel, parentLayoutModel: KonySwiftUISource.LayoutModel? = nil, siblingsLayoutModels: [KonySwiftUISource.LayoutModel]? = nil, visibility: Swift.Bool = true, backgroundColor: Any = "#ffffff00", isFlexConcentric: Swift.Bool = false, link: Swift.String? = nil, @SwiftUI.ViewBuilder contentView: (_ layoutModel: KonySwiftUISource.LayoutModel) -> Content)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17KonySwiftUISource8FlexViewV4bodyQrvp", 0) __<Content>
+}
+@_hasMissingDesignatedInitializers public class LayoutManager {
+  @objc deinit
+}
+extension KonySwiftUISource.DateDisplayStyle : Swift.Equatable {}
+extension KonySwiftUISource.DateDisplayStyle : Swift.Hashable {}
+extension KonySwiftUISource.FlexLayoutType : Swift.Equatable {}
+extension KonySwiftUISource.FlexLayoutType : Swift.Hashable {}

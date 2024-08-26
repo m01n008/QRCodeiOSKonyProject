@@ -1,0 +1,6 @@
+framework module CoreComponent {
+  umbrella header "CoreComponent.h"
+  export *
+
+  module * { export * }
+}

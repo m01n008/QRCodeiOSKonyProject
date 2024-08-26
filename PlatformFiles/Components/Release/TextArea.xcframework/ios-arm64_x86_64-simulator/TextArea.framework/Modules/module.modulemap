@@ -1,0 +1,6 @@
+framework module TextArea {
+  umbrella header "TextArea.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,7 @@
+//
+//  PDebug.xcconfig
+//
+//  Created by Aravind Macharla on 09/04/18.
+//  Copyright © 2018 Kony Labs. All rights reserved.
+//
+#include "../../../SharedConfig/PDebug.xcconfig"

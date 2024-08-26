@@ -1,0 +1,13 @@
+if (strcmp(type, @encode(CGVector)) == 0) {
+		CGVector argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithCGVector: argument inContext: context];
+	} else if (strcmp(type, @encode(CGAffineTransform)) == 0) {
+		CGAffineTransform argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithCGAffineTransform: argument inContext: context];
+	} else if (strcmp(type, @encode(CGAffineTransformComponents)) == 0) {
+		CGAffineTransformComponents argument;
+		[invocation getArgument: &argument atIndex: index];
+		return [JSValue valueWithCGAffineTransformComponents: argument inContext: context];
+	}

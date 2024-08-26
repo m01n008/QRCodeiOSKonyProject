@@ -1,0 +1,6 @@
+framework module Binary {
+  umbrella header "Binary.h"
+
+  export *
+  module * { export * }
+}

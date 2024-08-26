@@ -1,0 +1,6 @@
+framework module Switch {
+  umbrella header "Switch.h"
+  export *
+
+  module * { export * }
+}

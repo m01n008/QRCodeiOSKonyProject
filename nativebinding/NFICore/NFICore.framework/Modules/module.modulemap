@@ -1,0 +1,6 @@
+framework module NFICore {
+  umbrella header "NFICore.h"
+
+  export *
+  module * { export * }
+}

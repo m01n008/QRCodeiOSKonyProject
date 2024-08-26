@@ -1,0 +1,11 @@
+framework module APIComponent {
+  umbrella header "APIComponent.h"
+  export *
+
+  module * { export * }
+}
+
+module APIComponent.Swift {
+  header "APIComponent-Swift.h"
+  requires objc
+}
